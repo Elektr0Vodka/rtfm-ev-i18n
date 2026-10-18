@@ -3,6 +3,7 @@ name: i18n
 # The whole pipeline in one serialized job:
 #   mirror en.json from RTFM-EV main
 #   -> give every locale the en key set (new keys null, removed keys dropped)
+#   -> fill still-null keys from the app's own nl/de drafts (flagged _ai)
 #   -> validate (nothing lands if this fails)
 #   -> refresh the README status table
 #   -> one commit to main if anything changed
@@ -35,7 +36,7 @@ permissions:
   contents: write
 
 env:
-  EN_SOURCE_URL: https://raw.githubusercontent.com/Elektr0Vodka/RTFM-EV/main/frontend/src/i18n/locales/en.json
+  APP_LOCALES_URL: https://raw.githubusercontent.com/Elektr0Vodka/RTFM-EV/main/frontend/src/i18n/locales
 
 jobs:
   pipeline:
@@ -53,14 +54,31 @@ jobs:
 
       - run: pip install jsonschema
 
-      - name: Mirror en.json from RTFM-EV
+      # en.json is mirrored as-is. For the other languages the app ships,
+      # the app's own drafts only fill keys that are still null here.
+      - name: Fetch catalogs from RTFM-EV
+        id: fetch
         run: |
           mkdir -p "$RUNNER_TEMP/app"
-          curl -fsSL --retry 3 "$EN_SOURCE_URL" -o "$RUNNER_TEMP/app/en.json"
-          python tools/import_app.py --app-dir "$RUNNER_TEMP/app"
+          IN_APP=$(python -c "import json; print(' '.join(c for c, i in json.load(open('languages.json')).items() if i['in_app']))")
+          FILL=""
+          for code in $IN_APP; do
+            curl -fsSL --retry 3 "$APP_LOCALES_URL/$code.json" -o "$RUNNER_TEMP/app/$code.json"
+            if [ "$code" != en ]; then FILL="${FILL:+$FILL,}$code"; fi
+          done
+          echo "fill=$FILL" >> "$GITHUB_OUTPUT"
+
+      - name: Mirror en.json
+        run: python tools/import_app.py --app-dir "$RUNNER_TEMP/app"
 
       - name: Sync keys into every locale
         run: python tools/sync_keys.py
+
+      - name: Fill null keys from the app's drafts
+        if: steps.fetch.outputs.fill != ''
+        env:
+          FILL: ${{ steps.fetch.outputs.fill }}
+        run: python tools/import_app.py --app-dir "$RUNNER_TEMP/app" --skip-en --fill "$FILL"
 
       - name: Validate
         run: python tools/validate.py

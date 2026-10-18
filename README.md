@@ -96,8 +96,11 @@ locales/
   [i18n workflow](.github/workflows/i18n.yml) copies it here nightly, on
   every push to `main` and on manual dispatch.
 - The same run gives every language the new key set (new keys as `null`,
-  removed keys dropped), validates everything, updates the table above,
-  commits to `main` if anything changed, and cuts a dated release.
+  removed keys dropped). For languages already in the app, a key that is
+  still `null` here takes the draft the developer wrote in the app, flagged
+  `"_ai": true` for review; a value that is not `null` is never replaced.
+  Then it validates everything, updates the table above, commits to `main`
+  if anything changed, and cuts a dated release.
 - A release holds `rtfm-ev-i18n.tar.gz` (the `locales/` files plus `app/`,
   the same catalogs in the app's runtime format) and its SHA-256.
 - In RTFM-EV, `scripts/i18n/pull_translations.py` downloads the latest
