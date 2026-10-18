@@ -1,0 +1,22 @@
+node	Knoten
+repeater	Repeater
+channel	Kanal
+contact	Kontakt
+advert	Advert
+path	Pfad
+hop	Hop
+region	Region
+firmware	Firmware
+companion	Companion
+room server	Raumserver
+sensor	Sensor
+flood	Flood
+direct message	Direktnachricht
+telemetry	Telemetrie
+observer	Observer
+packet	Paket
+map	Karte
+favorite	Favorit
+public key	öffentlicher Schlüssel
+prefix	Präfix
+message	Nachricht

@@ -1,0 +1,8 @@
+# en.json is mirrored from RTFM-EV by the i18n workflow; the rest of the
+# tooling is maintainer-owned. Community locales need no owner review.
+/locales/en.json  @Elektr0Vodka
+/languages.json   @Elektr0Vodka
+/glossary/        @Elektr0Vodka
+/schema/          @Elektr0Vodka
+/tools/           @Elektr0Vodka
+/.github/         @Elektr0Vodka

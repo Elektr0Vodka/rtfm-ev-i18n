@@ -1,0 +1,33 @@
+name: validate
+
+on:
+  pull_request:
+    paths:
+      - 'locales/**'
+      - 'glossary/**'
+      - 'schema/**'
+      - 'tools/**'
+      - 'languages.json'
+      - '.github/workflows/validate.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      # The default pull_request checkout is the PR merged into its base,
+      # so comparing against origin/<base> shows only what the PR changes.
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: pip install jsonschema
+      - run: python tools/validate.py
+      - name: PR guard (en.json and _meta stay untouched)
+        env:
+          BASE_REF: origin/${{ github.base_ref }}
+        run: |
+          git fetch --no-tags --depth=1 origin "${{ github.base_ref }}"
+          python tools/pr_guard.py

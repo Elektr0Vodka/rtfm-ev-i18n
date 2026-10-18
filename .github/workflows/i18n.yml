@@ -1,0 +1,128 @@
+name: i18n
+
+# The whole pipeline in one serialized job:
+#   mirror en.json from RTFM-EV main
+#   -> give every locale the en key set (new keys null, removed keys dropped)
+#   -> validate (nothing lands if this fails)
+#   -> refresh the README status table
+#   -> one commit to main if anything changed
+#   -> one release cut from that final state
+#
+# A red run means validation failed: nothing was committed or released and
+# main keeps the last good state. Untranslated keys are not an error; they
+# stay null and the app shows English.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'locales/**'
+      - 'glossary/**'
+      - 'schema/**'
+      - 'tools/**'
+      - 'languages.json'
+      - '.github/workflows/i18n.yml'
+  schedule:
+    - cron: '17 3 * * *'
+  workflow_dispatch:
+
+# A second trigger waits for the running one instead of racing it.
+concurrency:
+  group: i18n-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+env:
+  EN_SOURCE_URL: https://raw.githubusercontent.com/Elektr0Vodka/RTFM-EV/main/frontend/src/i18n/locales/en.json
+
+jobs:
+  pipeline:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          # Always the current tip of main, so a queued run sees the
+          # previous run's commit.
+          ref: main
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - run: pip install jsonschema
+
+      - name: Mirror en.json from RTFM-EV
+        run: |
+          mkdir -p "$RUNNER_TEMP/app"
+          curl -fsSL --retry 3 "$EN_SOURCE_URL" -o "$RUNNER_TEMP/app/en.json"
+          python tools/import_app.py --app-dir "$RUNNER_TEMP/app"
+
+      - name: Sync keys into every locale
+        run: python tools/sync_keys.py
+
+      - name: Validate
+        run: python tools/validate.py
+
+      - name: Refresh README status table
+        run: python tools/update_readme.py
+
+      - name: Commit to main (only if something changed)
+        id: commit
+        run: |
+          if git diff --quiet -- locales/ README.md; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "nothing to commit"
+          else
+            git config user.name  "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add locales/ README.md
+            git commit -m "chore(i18n): mirror en.json, sync keys, refresh status"
+            git push origin HEAD:main
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Every push and manual run releases; the nightly run only when it
+      # changed something.
+      - name: Decide release tag
+        id: meta
+        if: github.event_name != 'schedule' || steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="v$(date -u +%Y.%m.%d)-$(git rev-parse --short HEAD)"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "release $TAG already exists"
+          else
+            echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Package
+        if: steps.meta.outputs.tag
+        run: |
+          python tools/export_app.py dist/app
+          tar -czf rtfm-ev-i18n.tar.gz locales -C dist app
+          sha256sum rtfm-ev-i18n.tar.gz > rtfm-ev-i18n.tar.gz.sha256
+          cat rtfm-ev-i18n.tar.gz.sha256
+
+      - name: Release
+        if: steps.meta.outputs.tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.meta.outputs.tag }}
+        run: |
+          gh release create "$TAG" rtfm-ev-i18n.tar.gz rtfm-ev-i18n.tar.gz.sha256 \
+            --target "$(git rev-parse HEAD)" --title "$TAG" \
+            --notes "Translation snapshot. locales/ is the repo format; app/ is the RTFM-EV runtime format. RTFM-EV's scripts/i18n/pull_translations.py uses the latest release."
+
+      - name: Prune releases (keep newest 5)
+        if: steps.meta.outputs.tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release list --limit 100 --json tagName,createdAt \
+            --jq 'sort_by(.createdAt) | reverse | .[5:][].tagName' |
+          while read -r tag; do
+            [ -n "$tag" ] && gh release delete "$tag" --cleanup-tag --yes
+          done

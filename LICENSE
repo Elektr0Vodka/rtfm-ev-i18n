@@ -1,0 +1,17 @@
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The translations in this repository (the files in locales/ and glossary/)
+are licensed under the Creative Commons Attribution 4.0 International
+License. The full legal text:
+
+    https://creativecommons.org/licenses/by/4.0/legalcode
+
+Contributors keep the copyright to their contributions. By opening a pull
+request you agree to license your contribution under CC BY 4.0.
+
+A credit in RTFM-EV that links to this repository is considered sufficient
+attribution for users of the RTFM-EV application.
+
+Parts of the Dutch and German strings are adapted from kiekr-i18n by
+Marcel Verdult (https://github.com/marcelverdult/kiekr-i18n), licensed
+under CC BY 4.0.

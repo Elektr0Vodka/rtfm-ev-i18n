@@ -1,0 +1,17 @@
+# Brand and protocol names that stay as-is in every language.
+# One term per line, case-sensitive, matched as a whole word (a compound like "OpenHop-beheer" is fine).
+RTFM-EV
+MeshCore
+Meshcomod
+meshcore-open
+OpenHop
+SpamGuard
+DMC
+MQTT
+SNMP
+LoRa
+BLE
+Home Assistant
+Apprise
+Docker
+Discord

@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "RTFM-EV locale file",
+  "type": "object",
+  "required": ["_meta"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["language", "name", "managed_by"],
+      "properties": {
+        "language": { "type": "string", "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$" },
+        "name": { "type": "string" },
+        "managed_by": { "type": "string", "enum": ["rtfm-ev-team", "community"] },
+        "notes": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "patternProperties": {
+    "^[a-z][a-z0-9_]*$": {
+      "oneOf": [
+        { "type": "string" },
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["value"],
+          "properties": {
+            "value": { "type": "string" },
+            "_ai": { "type": "boolean" },
+            "_human": { "type": "boolean" },
+            "_seeded": { "type": "string", "format": "date" }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": ["plural"],
+          "properties": {
+            "plural": {
+              "type": "object",
+              "required": ["other"],
+              "properties": {
+                "zero": { "type": "string" },
+                "one": { "type": "string" },
+                "two": { "type": "string" },
+                "few": { "type": "string" },
+                "many": { "type": "string" },
+                "other": { "type": "string" }
+              },
+              "additionalProperties": false
+            },
+            "_ai": { "type": "boolean" },
+            "_human": { "type": "boolean" },
+            "_seeded": { "type": "string", "format": "date" }
+          },
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "additionalProperties": false
+}
