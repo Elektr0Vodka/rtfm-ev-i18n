@@ -49,7 +49,7 @@
     "value": "Kanaal of contact toevoegen",
     "_ai": true
   },
-  "a11y_battery_percent": "Batterij {pc} procent",
+  "a11y_battery_percent": "Batterij {pct} procent",
   "a11y_channel_muted": {
     "value": "Kanaal gedempt",
     "_ai": true
