@@ -15,5 +15,13 @@ catalogs: only terms that a whole UI label translates the same way every
 time made the list. Those catalogs are machine-drafted, so treat the lists
 as a starting point and correct them if a native speaker disagrees.
 
+`es.tsv`, `fr.tsv`, `it.tsv`, `pl.tsv` and `pt-BR.tsv` are copied unchanged
+from the glossaries in
+[kiekr-i18n](https://github.com/marcelverdult/kiekr-i18n) by Marcel Verdult
+(CC BY 4.0). They were written for KiekR, a different MeshCore app, and
+nobody has reviewed them against RTFM-EV yet. They also make some choices
+that `nl` and `de` do not: for example `es` and `fr` translate "flood" and
+"advert" where `nl` and `de` keep the English word.
+
 Add a term when you notice it being translated two ways. Open a PR that
 changes the glossary and, in the same PR, the strings that use the term.
