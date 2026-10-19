@@ -7492,6 +7492,54 @@
     "value": "Synchronisieren der Analyzer-Knoten fehlgeschlagen",
     "_ai": true
   },
+  "settings_antennas_label": {
+    "value": "Antenneregister (Niederlande)",
+    "_ai": true
+  },
+  "settings_antennas_sync_button": {
+    "value": "Jetzt synchronisieren",
+    "_ai": true
+  },
+  "settings_antennas_sync_button_loading": {
+    "value": "Synchronisiere...",
+    "_ai": true
+  },
+  "settings_antennas_progress_antennas": {
+    "value": "Antennen werden abgerufen... bisher {count}",
+    "_ai": true
+  },
+  "settings_antennas_progress_sites": {
+    "value": "Antennenstandorte werden abgerufen... bisher {count}",
+    "_ai": true
+  },
+  "settings_antennas_status": {
+    "value": "{count} Masten gespeichert, zuletzt synchronisiert {when}",
+    "_ai": true
+  },
+  "settings_antennas_never_synced": {
+    "value": "Noch nicht synchronisiert. Mit Jetzt synchronisieren die Masten abrufen.",
+    "_ai": true
+  },
+  "settings_antennas_last_error": {
+    "value": "Letzte Synchronisierung fehlgeschlagen: {error}",
+    "_ai": true
+  },
+  "settings_antennas_synced": {
+    "value": "{count} Antennenmasten synchronisiert",
+    "_ai": true
+  },
+  "settings_antennas_sync_failed": {
+    "value": "Synchronisierung des Antenneregisters fehlgeschlagen: {error}",
+    "_ai": true
+  },
+  "settings_antennas_sync_failed_generic": {
+    "value": "Synchronisierung des Antenneregisters konnte nicht starten",
+    "_ai": true
+  },
+  "settings_antennas_desc": {
+    "value": "Ruft Mobilfunkmasten im 700-, 800- und 900-MHz-Band aus dem öffentlichen niederländischen Antenneregister (antenneregister.nl) für die Antennenebene der Karte ab. Läuft nur, wenn du auf Jetzt synchronisieren drückst, und dauert einige Minuten. Das Register ändert sich, also gelegentlich erneut synchronisieren.",
+    "_ai": true
+  },
   "partial_sync_settings_label": {
     "value": "Teilbekannte Knoten synchronisieren",
     "_ai": true
@@ -11584,6 +11632,50 @@
   },
   "map_guessed_locations_count": {
     "value": "{count} geschätzt auf der Karte.",
+    "_ai": true
+  },
+  "map_antennas_label": {
+    "value": "Antennenmasten (NL)",
+    "_ai": true
+  },
+  "map_antennas_enable": {
+    "value": "Mobilfunkmasten um 868 MHz anzeigen",
+    "_ai": true
+  },
+  "map_antennas_help": {
+    "value": "Mobilfunkmasten aus dem niederländischen Antenneregister mit Antennen im 700-, 800- oder 900-MHz-Band, den lizenzierten Bändern, die dem 868-MHz-Meshband am nächsten liegen. Ein starker Mast nahe einem Knoten kann dessen Empfänger übersteuern. Die Punktgröße folgt der stärksten Antenne. Nur Niederlande; Daten unter Einstellungen > Karte synchronisieren.",
+    "_ai": true
+  },
+  "map_antennas_count": {
+    "value": "{count} Masten auf der Karte.",
+    "_ai": true
+  },
+  "map_antennas_empty": {
+    "value": "Noch keine Antennendaten. Unter Einstellungen > Karte synchronisieren.",
+    "_ai": true
+  },
+  "map_antennas_site_title": {
+    "value": "Antennenstandort (Antenneregister)",
+    "_ai": true
+  },
+  "map_antennas_omni": {
+    "value": "rundstrahlend",
+    "_ai": true
+  },
+  "map_antennas_tx_detail": {
+    "value": "{sectors} Antenne(n), {directions}, bis {height} m, max. {power} dBW",
+    "_ai": true
+  },
+  "map_antennas_source": {
+    "value": "Quelle: Antenneregister (Antennebureau, RDI). Leistung in dBW wie registriert.",
+    "_ai": true
+  },
+  "map_antennas_loading": {
+    "value": "Antennendaten werden geladen...",
+    "_ai": true
+  },
+  "map_antennas_load_failed": {
+    "value": "Antennendaten konnten nicht geladen werden.",
     "_ai": true
   },
   "map_relay_signal_label": {

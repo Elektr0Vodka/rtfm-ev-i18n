@@ -7372,6 +7372,54 @@
     "value": "Synchroniseren van analyzer-nodes mislukt",
     "_ai": true
   },
+  "settings_antennas_label": {
+    "value": "Antenneregister (Nederland)",
+    "_ai": true
+  },
+  "settings_antennas_sync_button": {
+    "value": "Nu synchroniseren",
+    "_ai": true
+  },
+  "settings_antennas_sync_button_loading": {
+    "value": "Synchroniseren...",
+    "_ai": true
+  },
+  "settings_antennas_progress_antennas": {
+    "value": "Antennes ophalen... {count} tot nu toe",
+    "_ai": true
+  },
+  "settings_antennas_progress_sites": {
+    "value": "Antennelocaties ophalen... {count} tot nu toe",
+    "_ai": true
+  },
+  "settings_antennas_status": {
+    "value": "{count} masten opgeslagen, laatst gesynchroniseerd {when}",
+    "_ai": true
+  },
+  "settings_antennas_never_synced": {
+    "value": "Nog niet gesynchroniseerd. Gebruik Nu synchroniseren om de masten op te halen.",
+    "_ai": true
+  },
+  "settings_antennas_last_error": {
+    "value": "Laatste synchronisatie mislukt: {error}",
+    "_ai": true
+  },
+  "settings_antennas_synced": {
+    "value": "{count} antennemasten gesynchroniseerd",
+    "_ai": true
+  },
+  "settings_antennas_sync_failed": {
+    "value": "Synchronisatie antenneregister mislukt: {error}",
+    "_ai": true
+  },
+  "settings_antennas_sync_failed_generic": {
+    "value": "Synchronisatie van het antenneregister kon niet starten",
+    "_ai": true
+  },
+  "settings_antennas_desc": {
+    "value": "Haalt masten van mobiele netwerken in de 700, 800 en 900 MHz-band op uit het openbare Nederlandse Antenneregister (antenneregister.nl) voor de antennelaag op de kaart. Draait alleen als je op Nu synchroniseren drukt en duurt een paar minuten. Het register verandert, dus synchroniseer af en toe opnieuw.",
+    "_ai": true
+  },
   "partial_sync_settings_label": {
     "value": "Synchronisatie deels bekende nodes",
     "_ai": true
@@ -11407,6 +11455,50 @@
   },
   "map_guessed_locations_count": {
     "value": "{count} geraden op de kaart.",
+    "_ai": true
+  },
+  "map_antennas_label": {
+    "value": "Antennemasten (NL)",
+    "_ai": true
+  },
+  "map_antennas_enable": {
+    "value": "Toon mobiele masten rond 868 MHz",
+    "_ai": true
+  },
+  "map_antennas_help": {
+    "value": "Masten van mobiele netwerken uit het Nederlandse Antenneregister met antennes in de 700, 800 of 900 MHz-band, de vergunde banden die het dichtst bij de 868 MHz-meshband liggen. Een sterke mast vlak bij een node kan de ontvanger oversturen. De grootte van de stip volgt de sterkste antenne. Alleen Nederland; synchroniseer de gegevens via Instellingen > Kaart.",
+    "_ai": true
+  },
+  "map_antennas_count": {
+    "value": "{count} masten op de kaart.",
+    "_ai": true
+  },
+  "map_antennas_empty": {
+    "value": "Nog geen antennegegevens. Synchroniseer via Instellingen > Kaart.",
+    "_ai": true
+  },
+  "map_antennas_site_title": {
+    "value": "Antennelocatie (Antenneregister)",
+    "_ai": true
+  },
+  "map_antennas_omni": {
+    "value": "rondstralend",
+    "_ai": true
+  },
+  "map_antennas_tx_detail": {
+    "value": "{sectors} antenne(s), {directions}, tot {height} m, max {power} dBW",
+    "_ai": true
+  },
+  "map_antennas_source": {
+    "value": "Bron: Antenneregister (Antennebureau, RDI). Vermogen in dBW zoals geregistreerd.",
+    "_ai": true
+  },
+  "map_antennas_loading": {
+    "value": "Antennegegevens laden...",
+    "_ai": true
+  },
+  "map_antennas_load_failed": {
+    "value": "Antennegegevens konden niet worden geladen.",
     "_ai": true
   },
   "map_relay_signal_label": {
