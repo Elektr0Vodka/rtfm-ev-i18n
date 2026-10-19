@@ -4,10 +4,7 @@
     "name": "Nederlands",
     "managed_by": "community"
   },
-  "settings_language": {
-    "value": "Taal",
-    "_ai": true
-  },
+  "settings_language": "Taal",
   "a11y_settings_nav": {
     "value": "Instellingen",
     "_ai": true
