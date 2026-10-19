@@ -24,7 +24,7 @@ def main() -> int:
 
     for code, info in load_languages().items():
         catalog = entries(load_json(locale_path(code)))
-        stats = {"human": 0, "ai": 0, "missing": 0}
+        stats = {"human": 0, "ai": 0, "stale": 0, "missing": 0}
         out: dict = {}
         for key, value in catalog.items():
             stats[status(value)] += 1

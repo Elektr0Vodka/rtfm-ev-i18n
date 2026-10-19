@@ -1,9 +1,11 @@
 name: i18n
 
 # The whole pipeline in one serialized job:
-#   mirror en.json from RTFM-EV main
+#   mirror en.json from RTFM-EV main; translations of keys whose English
+#      text changed get _stale
 #   -> give every locale the en key set (new keys null, removed keys dropped)
-#   -> fill still-null keys from the app's own nl/de drafts (flagged _ai)
+#   -> take the app's own nl/de drafts (flagged _ai) for keys that are null,
+#      _stale or _ai here; a current human translation is never replaced
 #   -> validate (nothing lands if this fails)
 #   -> refresh the README status table
 #   -> one commit to main if anything changed
@@ -47,6 +49,10 @@ jobs:
           # Always the current tip of main, so a queued run sees the
           # previous run's commit.
           ref: main
+          # The commit step pushes with this token. GITHUB_TOKEN works while
+          # main is unprotected; with branch protection on, add a BOT_PAT
+          # secret (a token allowed to bypass it) and it is used instead.
+          token: ${{ secrets.BOT_PAT || github.token }}
 
       - uses: actions/setup-python@v7
         with:
@@ -55,7 +61,7 @@ jobs:
       - run: pip install jsonschema
 
       # en.json is mirrored as-is. For the other languages the app ships,
-      # the app's own drafts only fill keys that are still null here.
+      # the app's drafts only fill keys that are null, _stale or _ai here.
       - name: Fetch catalogs from RTFM-EV
         id: fetch
         run: |
@@ -68,17 +74,13 @@ jobs:
           done
           echo "fill=$FILL" >> "$GITHUB_OUTPUT"
 
-      - name: Mirror en.json
-        run: python tools/import_app.py --app-dir "$RUNNER_TEMP/app"
+      - name: Mirror en.json, take the app's drafts for null, _stale and _ai keys
+        env:
+          FILL: ${{ steps.fetch.outputs.fill }}
+        run: python tools/import_app.py --app-dir "$RUNNER_TEMP/app" --fill "$FILL"
 
       - name: Sync keys into every locale
         run: python tools/sync_keys.py
-
-      - name: Fill null keys from the app's drafts
-        if: steps.fetch.outputs.fill != ''
-        env:
-          FILL: ${{ steps.fetch.outputs.fill }}
-        run: python tools/import_app.py --app-dir "$RUNNER_TEMP/app" --skip-en --fill "$FILL"
 
       - name: Validate
         run: python tools/validate.py
@@ -89,13 +91,13 @@ jobs:
       - name: Commit to main (only if something changed)
         id: commit
         run: |
-          if git diff --quiet -- locales/ README.md; then
+          if git diff --quiet -- locales/ state/ README.md && [ -z "$(git ls-files --others --exclude-standard state/)" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
             echo "nothing to commit"
           else
             git config user.name  "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add locales/ README.md
+            git add locales/ state/ README.md
             git commit -m "chore(i18n): mirror en.json, sync keys, refresh status"
             git push origin HEAD:main
             echo "changed=true" >> "$GITHUB_OUTPUT"

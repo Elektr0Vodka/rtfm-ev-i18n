@@ -28,6 +28,7 @@
             "value": { "type": "string" },
             "_ai": { "type": "boolean" },
             "_human": { "type": "boolean" },
+            "_stale": { "type": "boolean" },
             "_seeded": { "type": "string", "format": "date" }
           },
           "additionalProperties": false
@@ -51,6 +52,7 @@
             },
             "_ai": { "type": "boolean" },
             "_human": { "type": "boolean" },
+            "_stale": { "type": "boolean" },
             "_seeded": { "type": "string", "format": "date" }
           },
           "additionalProperties": false

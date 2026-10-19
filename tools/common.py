@@ -4,6 +4,7 @@ Repo entry shapes (see CONTRIBUTING.md):
 
     "key": "text"                                  plain string, human-approved
     "key": {"value": "text", "_ai": true}          string with review flags
+    "key": {"value": "text", "_stale": true}       English changed since this was written
     "key": {"plural": {"one": .., "other": ..}}    plural, optional review flags
     "key": null                                    not translated yet
 
@@ -25,7 +26,7 @@ LANGUAGES_FILE = ROOT / "languages.json"
 SOURCE_LOCALE = "en"
 
 PLURAL_CATEGORIES = ("zero", "one", "two", "few", "many", "other")
-FLAG_FIELDS = ("_ai", "_human", "_seeded")
+FLAG_FIELDS = ("_ai", "_human", "_stale", "_seeded")
 PLACEHOLDER_RE = re.compile(r"\{(\w+)\}")
 
 
@@ -82,12 +83,23 @@ def placeholders(entry) -> set[str]:
 
 
 def status(entry) -> str:
-    """One of: missing, ai, human."""
+    """One of: missing, stale, ai, human."""
     if entry is None:
         return "missing"
+    if isinstance(entry, dict) and entry.get("_stale"):
+        return "stale"
     if isinstance(entry, dict) and entry.get("_ai") and not entry.get("_human"):
         return "ai"
     return "human"
+
+
+def mark_stale(entry):
+    """Flag a translated entry as written for older English text."""
+    if entry is None:
+        return None
+    if isinstance(entry, str):
+        return {"value": entry, "_stale": True}
+    return {**entry, "_stale": True}
 
 
 def from_app(entry):

@@ -39,10 +39,15 @@ Human-approved and ready to ship.
 |-----------|-------------------------------------------------|
 | `_human`  | A person reviewed and approved this value       |
 | `_ai`     | Machine-drafted, waiting for review             |
+| `_stale`  | The English text changed after this was written |
 | `_seeded` | Optional ISO date (YYYY-MM-DD) the draft was made |
 
-When you check an `_ai` value, either replace the whole object with a plain
-string or change `_ai` to `_human`. Fix the text first if it is wrong.
+When you check an `_ai` or `_stale` value, fix the text if needed, then
+either replace the whole object with a plain string or drop `_ai` / `_stale`
+and set `"_human": true`. If you change the text, CI requires this: an
+edited value still flagged `_ai` could be replaced by a developer's draft
+in the next nightly run. A `_stale` value that is still right only needs the
+flag removed.
 
 ### 3. Plural
 
@@ -104,6 +109,7 @@ glossary and the strings using it.
 - A key that does not exist in `en.json`
 - Any change to `locales/en.json`
 - Any change to a file's `_meta` block
+- Changed text that is still flagged `_ai` or `_stale`
 - A placeholder that is missing or not in the English text
 - A plural without `other`, or a plural where English has a plain string
   (or the other way round)

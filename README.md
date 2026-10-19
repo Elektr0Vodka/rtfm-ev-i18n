@@ -8,36 +8,36 @@ MeshCore).
 
 <!-- status:begin -->
 
-| Language | Code | Completion | Human | AI drafted | Missing | In app | Managed by |
-|----------|------|-----------:|------:|-----------:|--------:|:------:|------------|
-| English | `en` | 100% | 5893 | 0 | 0 | yes | rtfm-ev-team |
-| Nederlands | `nl` | 91% | 0 | 5412 | 481 | yes | community |
-| Deutsch | `de` | 93% | 0 | 5500 | 393 | yes | community |
-| Български | `bg` | 0% | 0 | 0 | 5893 | no | community |
-| Čeština | `cs` | 0% | 0 | 0 | 5893 | no | community |
-| Dansk | `da` | 0% | 0 | 0 | 5893 | no | community |
-| Ελληνικά | `el` | 0% | 0 | 0 | 5893 | no | community |
-| Español | `es` | 0% | 0 | 0 | 5893 | no | community |
-| Eesti | `et` | 0% | 0 | 0 | 5893 | no | community |
-| Suomi | `fi` | 0% | 0 | 0 | 5893 | no | community |
-| Français | `fr` | 0% | 0 | 0 | 5893 | no | community |
-| Gaeilge | `ga` | 0% | 0 | 0 | 5893 | no | community |
-| Hrvatski | `hr` | 0% | 0 | 0 | 5893 | no | community |
-| Magyar | `hu` | 0% | 0 | 0 | 5893 | no | community |
-| Italiano | `it` | 0% | 0 | 0 | 5893 | no | community |
-| Lietuvių | `lt` | 0% | 0 | 0 | 5893 | no | community |
-| Latviešu | `lv` | 0% | 0 | 0 | 5893 | no | community |
-| Malti | `mt` | 0% | 0 | 0 | 5893 | no | community |
-| Norsk bokmål | `nb` | 0% | 0 | 0 | 5893 | no | community |
-| Polski | `pl` | 0% | 0 | 0 | 5893 | no | community |
-| Português (Brasil) | `pt-BR` | 0% | 0 | 0 | 5893 | no | community |
-| Português (Portugal) | `pt-PT` | 0% | 0 | 0 | 5893 | no | community |
-| Română | `ro` | 0% | 0 | 0 | 5893 | no | community |
-| Русский | `ru` | 0% | 0 | 0 | 5893 | no | community |
-| Slovenčina | `sk` | 0% | 0 | 0 | 5893 | no | community |
-| Slovenščina | `sl` | 0% | 0 | 0 | 5893 | no | community |
-| Svenska | `sv` | 0% | 0 | 0 | 5893 | no | community |
-| Українська | `uk` | 0% | 0 | 0 | 5893 | no | community |
+| Language | Code | Completion | Human | AI drafted | Outdated | Missing | In app | Managed by |
+|----------|------|-----------:|------:|-----------:|---------:|--------:|:------:|------------|
+| English | `en` | 100% | 5893 | 0 | 0 | 0 | yes | rtfm-ev-team |
+| Nederlands | `nl` | 91% | 0 | 5412 | 0 | 481 | yes | community |
+| Deutsch | `de` | 93% | 0 | 5500 | 0 | 393 | yes | community |
+| Български | `bg` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Čeština | `cs` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Dansk | `da` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Ελληνικά | `el` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Español | `es` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Eesti | `et` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Suomi | `fi` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Français | `fr` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Gaeilge | `ga` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Hrvatski | `hr` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Magyar | `hu` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Italiano | `it` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Lietuvių | `lt` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Latviešu | `lv` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Malti | `mt` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Norsk bokmål | `nb` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Polski | `pl` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Português (Brasil) | `pt-BR` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Português (Portugal) | `pt-PT` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Română | `ro` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Русский | `ru` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Slovenčina | `sk` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Slovenščina | `sl` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Svenska | `sv` | 0% | 0 | 0 | 0 | 5893 | no | community |
+| Українська | `uk` | 0% | 0 | 0 | 0 | 5893 | no | community |
 
 <!-- status:end -->
 
@@ -45,6 +45,8 @@ MeshCore).
   approved it.
 - **AI drafted**: an entry with `"_ai": true`. Machine-drafted, waiting for a
   native speaker to check it.
+- **Outdated**: an entry with `"_stale": true`. The English text changed after
+  this translation was written; it still ships until someone updates it.
 - **Missing**: `null`. The app shows the English text.
 - **In app**: the language can be picked in RTFM-EV today. A language marked
   `no` still needs an app change before anyone sees it; see
@@ -95,12 +97,15 @@ locales/
   because developers add keys there together with the code. The
   [i18n workflow](.github/workflows/i18n.yml) copies it here nightly, on
   every push to `main` and on manual dispatch.
+- When the English text of a key changes, every translation of it gets
+  `"_stale": true`.
 - The same run gives every language the new key set (new keys as `null`,
   removed keys dropped). For languages already in the app, a key that is
-  still `null` here takes the draft the developer wrote in the app, flagged
-  `"_ai": true` for review; a value that is not `null` is never replaced.
-  Then it validates everything, updates the table above, commits to `main`
-  if anything changed, and cuts a dated release.
+  `null`, `_stale` or `_ai` here takes the draft the developer wrote in the
+  app, flagged `"_ai": true` for review, but only when that app value is new
+  or changed since the last run (tracked in [`state/`](state/README.md)). A current human translation is never
+  replaced. Then it validates everything, updates the table above, commits to
+  `main` if anything changed, and cuts a dated release.
 - A release holds `rtfm-ev-i18n.tar.gz` (the `locales/` files plus `app/`,
   the same catalogs in the app's runtime format) and its SHA-256.
 - In RTFM-EV, `scripts/i18n/pull_translations.py` downloads the latest
@@ -108,10 +113,19 @@ locales/
   `frontend/src/i18n/locales/`, which then goes in through a normal PR. A
   translation only reaches users in an RTFM-EV release made after that.
 
+## Maintainer notes
+
+- The workflow pushes to `main` with `GITHUB_TOKEN`, which works while `main`
+  has no branch protection. With protection on, add a repository secret
+  `BOT_PAT` holding a token that may bypass it; the workflow then uses that.
+- Run the pipeline by hand from the Actions tab (i18n, Run workflow), for
+  example right after adding keys in RTFM-EV.
+
 ## What you cannot change here
 
 - `locales/en.json`: change English in the RTFM-EV repo instead.
-- The `_meta` block of any file: the tools maintain it.
+- The `_meta` block of any file, and the `state/` folder: the tools maintain
+  them.
 - Brand and protocol names in
   [`glossary/do-not-translate.txt`](glossary/do-not-translate.txt), such as
   RTFM-EV, MeshCore and OpenHop.

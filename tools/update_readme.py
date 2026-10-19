@@ -13,17 +13,17 @@ def build_table() -> str:
     languages = load_languages()
     total = len(entries(load_json(locale_path(SOURCE_LOCALE))))
     rows = [
-        "| Language | Code | Completion | Human | AI drafted | Missing | In app | Managed by |",
-        "|----------|------|-----------:|------:|-----------:|--------:|:------:|------------|",
+        "| Language | Code | Completion | Human | AI drafted | Outdated | Missing | In app | Managed by |",
+        "|----------|------|-----------:|------:|-----------:|---------:|--------:|:------:|------------|",
     ]
     for code, info in languages.items():
-        counts = {"human": 0, "ai": 0, "missing": 0}
+        counts = {"human": 0, "ai": 0, "stale": 0, "missing": 0}
         for value in entries(load_json(locale_path(code))).values():
             counts[status(value)] += 1
-        done = counts["human"] + counts["ai"]
+        done = counts["human"] + counts["ai"] + counts["stale"]
         pct = done * 100 // total if total else 0
         rows.append(
-            f"| {info['name']} | `{code}` | {pct}% | {counts['human']} | {counts['ai']} "
+            f"| {info['name']} | `{code}` | {pct}% | {counts['human']} | {counts['ai']} | {counts['stale']} "
             f"| {counts['missing']} | {'yes' if info['in_app'] else 'no'} | {info['managed_by']} |"
         )
     return "\n".join(rows)
