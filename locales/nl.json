@@ -6,7 +6,7 @@
   },
   "settings_language": "Taal",
   "a11y_settings_nav": {
-    "value": "Instellingen",
+    "value": "Instellingen (bewerkt)",
     "_ai": true
   },
   "a11y_back_to_conversations": {
@@ -49,10 +49,7 @@
     "value": "Kanaal of contact toevoegen",
     "_ai": true
   },
-  "a11y_battery_percent": {
-    "value": "Batterij {pct} procent",
-    "_ai": true
-  },
+  "a11y_battery_percent": "Batterij {pc} procent",
   "a11y_channel_muted": {
     "value": "Kanaal gedempt",
     "_ai": true
