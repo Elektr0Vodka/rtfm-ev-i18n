@@ -183,6 +183,14 @@
     "value": "Scroll om te zoomen, sleep om te pannen, dubbelklik om te resetten",
     "_ai": true
   },
+  "chart_expand": {
+    "value": "Groter openen",
+    "_ai": true
+  },
+  "chart_panel_untitled": {
+    "value": "Grafiek",
+    "_ai": true
+  },
   "chat_add_favorite_contact_desc": {
     "value": "Toevoegen aan favorieten. Favoriete contacten blijven geladen op de radio voor ACK-ondersteuning.",
     "_ai": true
@@ -7361,7 +7369,23 @@
     "_ai": true
   },
   "settings_external_map_desc": {
-    "value": "Haalt een nodelijst op van een externe analyzer en toont gelokaliseerde nodes als aparte kaartlaag (schakel deze in op de kaart). Wordt server-side opgehaald; de lijst kan enkele MB zijn.",
+    "value": "Haalt een nodelijst op en toont gelokaliseerde nodes als aparte kaartlaag (schakel Analyzer-nodes in op de kaart). map.meshcore.io toont nodes wereldwijd (ongeveer 50 MB, de standaard); een analyzer-feed is enkele MB. Wordt server-side opgehaald.",
+    "_ai": true
+  },
+  "settings_external_map_source_label": {
+    "value": "Nodebron",
+    "_ai": true
+  },
+  "settings_external_map_source_meshcore_map": {
+    "value": "map.meshcore.io (standaard)",
+    "_ai": true
+  },
+  "settings_external_map_source_analyzer": {
+    "value": "Analyzer (URL hieronder)",
+    "_ai": true
+  },
+  "settings_external_map_url_label": {
+    "value": "Analyzer-URL (ook gebruikt voor routecontroles en pakketopzoekingen)",
     "_ai": true
   },
   "settings_external_map_synced": {
@@ -7417,7 +7441,7 @@
     "_ai": true
   },
   "settings_antennas_desc": {
-    "value": "Haalt masten van mobiele netwerken in de 700, 800 en 900 MHz-band op uit het openbare Nederlandse Antenneregister (antenneregister.nl) voor de antennelaag op de kaart. Draait alleen als je op Nu synchroniseren drukt en duurt een paar minuten. Het register verandert, dus synchroniseer af en toe opnieuw.",
+    "value": "Haalt geregistreerde zenders naast de meshbanden op uit het openbare Nederlandse Antenneregister (antenneregister.nl) voor de antennelaag op de kaart: masten van mobiele netwerken op 700, 800 en 900 MHz (weergave 868 MHz), en PAMR / basisstations op 400-470 MHz plus zendamateurs (weergave 433 MHz). Draait alleen als je op Nu synchroniseren drukt en duurt een paar minuten. Het register verandert, dus synchroniseer af en toe opnieuw.",
     "_ai": true
   },
   "partial_sync_settings_label": {
@@ -11462,11 +11486,65 @@
     "_ai": true
   },
   "map_antennas_enable": {
-    "value": "Toon mobiele masten rond 868 MHz",
+    "value": "Toon geregistreerde zenders rond de meshband",
     "_ai": true
   },
   "map_antennas_help": {
     "value": "Masten van mobiele netwerken uit het Nederlandse Antenneregister met antennes in de 700, 800 of 900 MHz-band, de vergunde banden die het dichtst bij de 868 MHz-meshband liggen. Een sterke mast vlak bij een node kan de ontvanger oversturen. De grootte van de stip volgt de sterkste antenne. Alleen Nederland; synchroniseer de gegevens via Instellingen > Kaart.",
+    "_ai": true
+  },
+  "map_antennas_band": {
+    "value": "Meshband",
+    "_ai": true
+  },
+  "map_antennas_band_mhz": null,
+  "map_antennas_help_433": {
+    "value": "Zenders uit het Nederlandse Antenneregister rond 433 MHz: PAMR en basisstations op 400-470 MHz (oranje, met frequentie en vermogen) en zendamateurs (paarse ring). Het register vermeldt bij zendamateurs geen band of vermogen; 70 cm (430-440 MHz) ligt direct naast 433 MHz, maar een station kan ook alleen andere banden gebruiken. Alleen Nederland; synchroniseer de gegevens via Instellingen > Kaart.",
+    "_ai": true
+  },
+  "map_antennas_3d_help": {
+    "value": "Met 3D-gebouwen aan staat elke mast tot zijn hoogste antenne (geregistreerde hoogte boven maaiveld).",
+    "_ai": true
+  },
+  "map_antennas_patterns_enable": {
+    "value": "Toon stralingspatronen (schatting)",
+    "_ai": true
+  },
+  "map_antennas_patterns_zoom": {
+    "value": "Vanaf zoom",
+    "_ai": true
+  },
+  "map_antennas_patterns_level": {
+    "value": "Rand bij",
+    "_ai": true
+  },
+  "map_antennas_level_dbm": null,
+  "map_antennas_patterns_help": {
+    "value": "Waar het signaal van elke antenne in vrije ruimte tot het gekozen niveau zakt. Gerichte antennes krijgen een wig van 65° (aangenomen: het register kent geen bundelbreedte), rondstralende een cirkel. Gebouwen, terrein en downtilt maken het echte bereik korter. In 3D liggen de patronen op antennehoogte.",
+    "_ai": true
+  },
+  "map_antennas_patterns_zoom_in": {
+    "value": "Zoom in tot niveau {zoom} om patronen te zien.",
+    "_ai": true
+  },
+  "map_antennas_patterns_count": {
+    "value": "{count} patronen getekend.",
+    "_ai": true
+  },
+  "map_antennas_patterns_truncated": {
+    "value": "(alleen de sterkste locaties in beeld)",
+    "_ai": true
+  },
+  "map_antennas_tx_reach": {
+    "value": "Bereikt {level} dBm op ongeveer {distance} (vrije ruimte)",
+    "_ai": true
+  },
+  "map_antennas_amateur": {
+    "value": "Zendamateur",
+    "_ai": true
+  },
+  "map_antennas_amateur_detail": {
+    "value": "Het register geeft geen band of vermogen voor zendamateurs. 70 cm (430-440 MHz) ligt naast 433 MHz; dit station kan ook alleen andere banden gebruiken.",
     "_ai": true
   },
   "map_antennas_count": {
@@ -22218,6 +22296,35 @@
   },
   "share_dialog_title": {
     "value": "Delen als afbeelding",
+    "_ai": true
+  },
+  "share_chart_title": {
+    "value": "Deze grafiek delen",
+    "_ai": true
+  },
+  "share_chart_kicker": {
+    "value": "Grafiek",
+    "_ai": true
+  },
+  "share_chart_kicker_range": {
+    "value": "{start} tot {end}",
+    "_ai": true
+  },
+  "share_chart_speed": {
+    "value": "{span} in {secs} seconden",
+    "_ai": true
+  },
+  "share_chart_span_minutes": null,
+  "share_chart_span_hours": {
+    "value": "{n} uur",
+    "_ai": true
+  },
+  "share_chart_span_days": {
+    "value": "{n} dagen",
+    "_ai": true
+  },
+  "share_chart_alt": {
+    "value": "Geanimeerde grafiek: {title}",
     "_ai": true
   },
   "share_dialog_description": {

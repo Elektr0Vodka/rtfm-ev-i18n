@@ -177,6 +177,14 @@
     "value": "Scrollen zum Zoomen, ziehen zum Verschieben, Doppelklick zum Zurücksetzen",
     "_ai": true
   },
+  "chart_expand": {
+    "value": "Größer öffnen",
+    "_ai": true
+  },
+  "chart_panel_untitled": {
+    "value": "Diagramm",
+    "_ai": true
+  },
   "chat_add_favorite_contact_desc": {
     "value": "Zu Favoriten hinzufügen. Favorisierte Kontakte bleiben für ACK-Unterstützung auf dem Funkgerät geladen.",
     "_ai": true
@@ -7481,7 +7489,23 @@
     "_ai": true
   },
   "settings_external_map_desc": {
-    "value": "Lädt ein Knotenverzeichnis von einem externen Analyzer und zeigt verortete Knoten als eigene Kartenebene (auf der Karte einschalten). Serverseitig geladen; das Verzeichnis kann mehrere MB groß sein.",
+    "value": "Lädt ein Knotenverzeichnis und zeigt verortete Knoten als eigene Kartenebene (Analyzer-Knoten auf der Karte einschalten). map.meshcore.io listet Knoten weltweit (etwa 50 MB, der Standard); ein Analyzer-Feed ist mehrere MB groß. Serverseitig geladen.",
+    "_ai": true
+  },
+  "settings_external_map_source_label": {
+    "value": "Knotenquelle",
+    "_ai": true
+  },
+  "settings_external_map_source_meshcore_map": {
+    "value": "map.meshcore.io (Standard)",
+    "_ai": true
+  },
+  "settings_external_map_source_analyzer": {
+    "value": "Analyzer (URL unten)",
+    "_ai": true
+  },
+  "settings_external_map_url_label": {
+    "value": "Analyzer-URL (auch für Routenprüfungen und Paketabfragen)",
     "_ai": true
   },
   "settings_external_map_synced": {
@@ -7537,7 +7561,7 @@
     "_ai": true
   },
   "settings_antennas_desc": {
-    "value": "Ruft Mobilfunkmasten im 700-, 800- und 900-MHz-Band aus dem öffentlichen niederländischen Antenneregister (antenneregister.nl) für die Antennenebene der Karte ab. Läuft nur, wenn du auf Jetzt synchronisieren drückst, und dauert einige Minuten. Das Register ändert sich, also gelegentlich erneut synchronisieren.",
+    "value": "Ruft registrierte Sender neben den Meshbändern aus dem öffentlichen niederländischen Antenneregister (antenneregister.nl) für die Antennenebene der Karte ab: Mobilfunkmasten bei 700, 800 und 900 MHz (Ansicht 868 MHz) sowie PAMR / Basisstationen bei 400-470 MHz und lizenzierte Funkamateure (Ansicht 433 MHz). Läuft nur, wenn du auf Jetzt synchronisieren drückst, und dauert einige Minuten. Das Register ändert sich, also gelegentlich erneut synchronisieren.",
     "_ai": true
   },
   "partial_sync_settings_label": {
@@ -11639,11 +11663,65 @@
     "_ai": true
   },
   "map_antennas_enable": {
-    "value": "Mobilfunkmasten um 868 MHz anzeigen",
+    "value": "Registrierte Sender nahe dem Meshband anzeigen",
     "_ai": true
   },
   "map_antennas_help": {
     "value": "Mobilfunkmasten aus dem niederländischen Antenneregister mit Antennen im 700-, 800- oder 900-MHz-Band, den lizenzierten Bändern, die dem 868-MHz-Meshband am nächsten liegen. Ein starker Mast nahe einem Knoten kann dessen Empfänger übersteuern. Die Punktgröße folgt der stärksten Antenne. Nur Niederlande; Daten unter Einstellungen > Karte synchronisieren.",
+    "_ai": true
+  },
+  "map_antennas_band": {
+    "value": "Meshband",
+    "_ai": true
+  },
+  "map_antennas_band_mhz": null,
+  "map_antennas_help_433": {
+    "value": "Sender aus dem niederländischen Antenneregister um 433 MHz: PAMR und Basisstationen bei 400-470 MHz (orange, mit Frequenz und Leistung) sowie lizenzierte Funkamateure (violetter Ring). Das Register nennt bei Funkamateuren weder Band noch Leistung; 70 cm (430-440 MHz) liegt direkt neben 433 MHz, eine Station kann aber auch nur andere Bänder nutzen. Nur Niederlande; Daten unter Einstellungen > Karte synchronisieren.",
+    "_ai": true
+  },
+  "map_antennas_3d_help": {
+    "value": "Mit 3D-Gebäuden steht jeder Mast bis zu seiner höchsten Antenne (registrierte Höhe über Grund).",
+    "_ai": true
+  },
+  "map_antennas_patterns_enable": {
+    "value": "Strahlungsmuster anzeigen (Schätzung)",
+    "_ai": true
+  },
+  "map_antennas_patterns_zoom": {
+    "value": "Ab Zoom",
+    "_ai": true
+  },
+  "map_antennas_patterns_level": {
+    "value": "Rand bei",
+    "_ai": true
+  },
+  "map_antennas_level_dbm": null,
+  "map_antennas_patterns_help": {
+    "value": "Wo das Signal jeder Antenne im freien Raum auf den gewählten Pegel fällt. Richtantennen bekommen einen 65°-Keil (angenommen: das Register kennt keine Keulenbreite), Rundstrahler einen Kreis. Gebäude, Gelände und Downtilt verkürzen die echte Reichweite. In 3D liegen die Muster auf Antennenhöhe.",
+    "_ai": true
+  },
+  "map_antennas_patterns_zoom_in": {
+    "value": "Bis Zoomstufe {zoom} hineinzoomen, um Muster zu sehen.",
+    "_ai": true
+  },
+  "map_antennas_patterns_count": {
+    "value": "{count} Muster gezeichnet.",
+    "_ai": true
+  },
+  "map_antennas_patterns_truncated": {
+    "value": "(nur die stärksten Standorte im Bild)",
+    "_ai": true
+  },
+  "map_antennas_tx_reach": {
+    "value": "Erreicht {level} dBm in etwa {distance} (freier Raum)",
+    "_ai": true
+  },
+  "map_antennas_amateur": {
+    "value": "Lizenzierter Funkamateur",
+    "_ai": true
+  },
+  "map_antennas_amateur_detail": {
+    "value": "Das Register nennt für Funkamateure weder Band noch Leistung. 70 cm (430-440 MHz) liegt neben 433 MHz; diese Station kann auch nur andere Bänder nutzen.",
     "_ai": true
   },
   "map_antennas_count": {
@@ -22506,6 +22584,38 @@
   },
   "share_dialog_title": {
     "value": "Als Bild teilen",
+    "_ai": true
+  },
+  "share_chart_title": {
+    "value": "Dieses Diagramm teilen",
+    "_ai": true
+  },
+  "share_chart_kicker": {
+    "value": "Diagramm",
+    "_ai": true
+  },
+  "share_chart_kicker_range": {
+    "value": "{start} bis {end}",
+    "_ai": true
+  },
+  "share_chart_speed": {
+    "value": "{span} in {secs} Sekunden",
+    "_ai": true
+  },
+  "share_chart_span_minutes": {
+    "value": "{n} Min.",
+    "_ai": true
+  },
+  "share_chart_span_hours": {
+    "value": "{n} Std.",
+    "_ai": true
+  },
+  "share_chart_span_days": {
+    "value": "{n} Tage",
+    "_ai": true
+  },
+  "share_chart_alt": {
+    "value": "Animiertes Diagramm: {title}",
     "_ai": true
   },
   "share_dialog_description": {
