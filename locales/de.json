@@ -3550,6 +3550,10 @@
     "value": "Daten (nicht unterstützt)",
     "_ai": true
   },
+  "chat_group_data_owner_placeholder": {
+    "value": "{owner}-Daten (nicht unterstützt)",
+    "_ai": true
+  },
   "chat_group_data_detail": {
     "value": "Kanal-Datagramm Typ 0x{type}, {len} Bytes. Von RTFM-EV nicht dekodiert.",
     "_ai": true
@@ -4006,6 +4010,83 @@
   },
   "map_beacons_trail_points": {
     "value": "{count} Positionen in diesem Zeitfenster",
+    "_ai": true
+  },
+  "map_trackers_label": {
+    "value": "Tracker",
+    "_ai": true
+  },
+  "map_trackers_enable": {
+    "value": "ATAK-Nutzer, MeshCore-SAR- und MeshCoreNG-Tracker anzeigen",
+    "_ai": true
+  },
+  "map_trackers_trails": {
+    "value": "Spuren (die Spur jedes Trackers im Zeitfenster)",
+    "_ai": true
+  },
+  "map_trackers_help": {
+    "value": "Positionen und Kartenobjekte aus dem ATAK-Plugin für MeshCore (TAK-MESHCORE), schnelle GPS-Baken von MeshCore SAR und MeshCoreNG-Tracker, auf Kanälen, die du hinzugefügt hast (für ATAK: der Kanal ATAK_DATA). Nur hier angezeigt, nie weitergeleitet.",
+    "_ai": true
+  },
+  "map_trackers_count": {
+    "value": "{trackers} Tracker und {objects} ATAK-Kartenobjekte auf der Karte.",
+    "_ai": true
+  },
+  "map_trackers_truncated": {
+    "value": "Nur die neuesten 5.000 Positionen werden angezeigt; verkleinere das Zeitfenster, um ältere zu sehen.",
+    "_ai": true
+  },
+  "map_trackers_encrypted": {
+    "plural": {
+      "one": "{count} ATAK-Nachricht seit dem Serverstart konnte nicht gelesen werden, wahrscheinlich weil die ATAK-Nutzer im Plugin ein Verschlüsselungspasswort gesetzt haben.",
+      "other": "{count} ATAK-Nachrichten seit dem Serverstart konnten nicht gelesen werden, wahrscheinlich weil die ATAK-Nutzer im Plugin ein Verschlüsselungspasswort gesetzt haben."
+    },
+    "_ai": true
+  },
+  "tracker_popup_source_atak": {
+    "value": "ATAK-Nutzer (über MeshCore)",
+    "_ai": true
+  },
+  "tracker_popup_source_sar": {
+    "value": "MeshCore-SAR-Bake",
+    "_ai": true
+  },
+  "tracker_popup_source_meshcoreng": {
+    "value": "MeshCoreNG-Tracker",
+    "_ai": true
+  },
+  "tracker_popup_team": null,
+  "tracker_popup_speed": {
+    "value": "Geschwindigkeit: {kmh} km/h",
+    "_ai": true
+  },
+  "tracker_popup_battery": {
+    "value": "Akku: {pct}%",
+    "_ai": true
+  },
+  "tracker_popup_heard": {
+    "value": "Gehört {time}",
+    "_ai": true
+  },
+  "tracker_popup_object": {
+    "value": "ATAK-Kartenobjekt ({type})",
+    "_ai": true
+  },
+  "tracker_popup_shared_by": {
+    "value": "Geteilt von {sender}",
+    "_ai": true
+  },
+  "tak_stream_title": null,
+  "tak_stream_running": {
+    "value": "Läuft auf Port {port}, {clients} ATAK- / WinTAK-Clients verbunden. Unverschlüsselt und ohne Passwort: nur in einem vertrauenswürdigen Netz verwenden.",
+    "_ai": true
+  },
+  "tak_stream_off_hint": {
+    "value": "Aus. Setze MESHCORE_TAK_STREAM_ENABLED=true (und gib Port 8088 frei), damit ATAK / WinTAK die Knoten und Tracker dieser Karte anzeigt.",
+    "_ai": true
+  },
+  "tak_stream_help": {
+    "value": "In ATAK / WinTAK einen Netzwerkeingang (TCP) mit Adresse und Port dieses Servers hinzufügen.",
     "_ai": true
   },
   "chat_no_repeats_heard_yet": {
@@ -5891,6 +5972,14 @@
     "value": "MeshCore-TEAM-Positionsbaken, die dieser Knoten in Kanälen gesendet hat, denen du folgst, neueste zuerst. Die Baken-Ebene der Karte kann sie als Spur zeichnen.",
     "_ai": true
   },
+  "contact_tracker_fixes_heading": {
+    "value": "MeshCore-SAR-Positionen",
+    "_ai": true
+  },
+  "contact_tracker_fixes_note": {
+    "value": "Schnelle GPS-Baken, die dieser Knoten mit MeshCore SAR gesendet hat, neueste zuerst. Die Tracker-Ebene der Karte kann sie als Spur zeichnen.",
+    "_ai": true
+  },
   "contact_beacons_show_all": {
     "value": "Alle {count} anzeigen",
     "_ai": true
@@ -7072,6 +7161,31 @@
   },
   "settings_meshcomod_gps_interval_label": {
     "value": "Intervall (Sekunden)",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_title": null,
+  "settings_meshcomod_full_capture_hint": {
+    "value": "Frames, die das Funkgerät sonst verwirft, an RTFM-EV weitergeben. Über Funk wird nichts zusätzlich gesendet.",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_long": {
+    "value": "Überlange Frames (174-255 Bytes)",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_bad": {
+    "value": "Beschädigte Frames (CRC- oder Header-Fehler)",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_drops": {
+    "value": "Frames zählen, die durch eine volle Empfangswarteschlange verloren gehen",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_drops_value": {
+    "value": "Verloren seit dem Verbinden: {count}",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_unsupported": {
+    "value": "Diese Firmware unterstützt Full capture nicht",
     "_ai": true
   },
   "cfilter_heading": {
@@ -10645,6 +10759,14 @@
     "value": "Kanalnachrichten aus zufälligen Zeichen oder von einem Absender mit nie gestellter Uhr ausblenden. Wird in diesem Browser gemerkt.",
     "_ai": true
   },
+  "packet_show_damaged_label": {
+    "value": "Beschädigte Frames anzeigen",
+    "_ai": true
+  },
+  "packet_show_damaged_description": {
+    "value": "Frames, die das Funkgerät mit einem CRC- oder Header-Fehler empfangen hat (Full capture auf einem meshcomod-Funkgerät). Die Bytes werden angezeigt, nie dekodiert.",
+    "_ai": true
+  },
   "packet_policy_only_label": {
     "value": "Nur Pakete, über die eine Richtlinienregel entschied",
     "_ai": true
@@ -11020,6 +11142,14 @@
   },
   "packet_status_encrypted": {
     "value": "Verschlüsselt",
+    "_ai": true
+  },
+  "packet_status_damaged": {
+    "value": "Beschädigt",
+    "_ai": true
+  },
+  "packet_status_not_encrypted": {
+    "value": "Nicht verschlüsselt",
     "_ai": true
   },
   "packet_storage_number": {
@@ -11620,6 +11750,10 @@
   "map_shared_locations_format_mgrs": null,
   "map_shared_locations_format_decimal": {
     "value": "Format: Dezimalkoordinaten",
+    "_ai": true
+  },
+  "map_shared_locations_format_sar": {
+    "value": "Format: MeshCore-SAR-Marker",
     "_ai": true
   },
   "map_shared_locations_distance": {
@@ -17931,6 +18065,87 @@
   },
   "mesh_health_tab_spam_bots": {
     "value": "Spam und Bots",
+    "_ai": true
+  },
+  "mesh_health_tab_fuota": {
+    "value": "Firmware-Updates",
+    "_ai": true
+  },
+  "fuota_caption": {
+    "value": "Firmware-Updates über Funk (meshcore_fuota), die dieses Funkgerät hört, nach Update-Kampagne gruppiert. Es wird nichts gesendet.",
+    "_ai": true
+  },
+  "fuota_tile_offers": {
+    "value": "Angebote",
+    "_ai": true
+  },
+  "fuota_tile_requests": {
+    "value": "Anfragen",
+    "_ai": true
+  },
+  "fuota_tile_data": {
+    "value": "Datenfragmente",
+    "_ai": true
+  },
+  "fuota_tile_retracts": {
+    "value": "Widerrufe",
+    "_ai": true
+  },
+  "fuota_tile_senders": {
+    "value": "Sendende Nachbarn",
+    "_ai": true
+  },
+  "fuota_tile_airtime": {
+    "value": "Geschätzte Sendezeit",
+    "_ai": true
+  },
+  "fuota_col_campaign": {
+    "value": "Kampagne",
+    "_ai": true
+  },
+  "fuota_col_build": null,
+  "fuota_col_target": {
+    "value": "Ziel",
+    "_ai": true
+  },
+  "fuota_col_patch_size": {
+    "value": "Patchgröße",
+    "_ai": true
+  },
+  "fuota_col_seen": {
+    "value": "Zuerst / zuletzt gehört",
+    "_ai": true
+  },
+  "fuota_col_senders": {
+    "value": "Absender",
+    "_ai": true
+  },
+  "fuota_col_fragments": {
+    "value": "Fragmente",
+    "_ai": true
+  },
+  "fuota_col_providers": {
+    "value": "Angefragte Anbieter",
+    "_ai": true
+  },
+  "fuota_fragments_heard": {
+    "value": "{count} gehört",
+    "_ai": true
+  },
+  "fuota_retracts_title": {
+    "value": "Widerrufe (signiert, nicht geprüft)",
+    "_ai": true
+  },
+  "fuota_empty": {
+    "value": "In diesem Zeitraum kein Firmware-Update-Verkehr gehört.",
+    "_ai": true
+  },
+  "fuota_visibility_note": {
+    "value": "FUOTA-Pakete werden nie weitergeleitet, daher erscheinen hier nur direkte Nachbarn. Ein Standard-Companion gibt dieser App Pakete von höchstens {bytes} Bytes weiter, volle Datenfragmente (186 Bytes) erscheinen daher nicht.",
+    "_ai": true
+  },
+  "fuota_unique_note": {
+    "value": "Die Zahlen sind eindeutige Pakete: identische Wiederholungen werden einmal gespeichert, Zahlen und geschätzte Sendezeit sind daher Untergrenzen.",
     "_ai": true
   },
   "mesh_filter_caption": {

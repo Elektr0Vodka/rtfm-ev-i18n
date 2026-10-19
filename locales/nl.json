@@ -3487,6 +3487,10 @@
     "value": "Data (niet ondersteund)",
     "_ai": true
   },
+  "chat_group_data_owner_placeholder": {
+    "value": "{owner}-gegevens (niet ondersteund)",
+    "_ai": true
+  },
   "chat_group_data_detail": {
     "value": "Kanaaldatagram type 0x{type}, {len} bytes. Niet gedecodeerd door RTFM-EV.",
     "_ai": true
@@ -3916,6 +3920,80 @@
   },
   "map_beacons_trail_points": {
     "value": "{count} posities in dit tijdvenster",
+    "_ai": true
+  },
+  "map_trackers_label": null,
+  "map_trackers_enable": {
+    "value": "ATAK-gebruikers, MeshCore SAR- en MeshCoreNG-trackers tonen",
+    "_ai": true
+  },
+  "map_trackers_trails": {
+    "value": "Sporen (het spoor van elke tracker in het tijdvenster)",
+    "_ai": true
+  },
+  "map_trackers_help": {
+    "value": "Posities en kaartobjecten van de ATAK-plugin voor MeshCore (TAK-MESHCORE), snelle GPS-bakens van MeshCore SAR en MeshCoreNG-trackers, op kanalen die je hebt toegevoegd (voor ATAK: het kanaal ATAK_DATA). Alleen hier getoond, nooit doorgestuurd.",
+    "_ai": true
+  },
+  "map_trackers_count": {
+    "value": "{trackers} trackers en {objects} ATAK-kaartobjecten op de kaart.",
+    "_ai": true
+  },
+  "map_trackers_truncated": {
+    "value": "Alleen de nieuwste 5.000 posities worden getoond; maak het tijdvenster kleiner om oudere te zien.",
+    "_ai": true
+  },
+  "map_trackers_encrypted": {
+    "plural": {
+      "one": "{count} ATAK-bericht sinds de start van de server kon niet gelezen worden, waarschijnlijk omdat de ATAK-gebruikers in de plugin een versleutelingswachtwoord hebben ingesteld.",
+      "other": "{count} ATAK-berichten sinds de start van de server konden niet gelezen worden, waarschijnlijk omdat de ATAK-gebruikers in de plugin een versleutelingswachtwoord hebben ingesteld."
+    },
+    "_ai": true
+  },
+  "tracker_popup_source_atak": {
+    "value": "ATAK-gebruiker (via MeshCore)",
+    "_ai": true
+  },
+  "tracker_popup_source_sar": {
+    "value": "MeshCore SAR-baken",
+    "_ai": true
+  },
+  "tracker_popup_source_meshcoreng": {
+    "value": "MeshCoreNG-tracker",
+    "_ai": true
+  },
+  "tracker_popup_team": null,
+  "tracker_popup_speed": {
+    "value": "Snelheid: {kmh} km/u",
+    "_ai": true
+  },
+  "tracker_popup_battery": {
+    "value": "Batterij: {pct}%",
+    "_ai": true
+  },
+  "tracker_popup_heard": {
+    "value": "Gehoord {time}",
+    "_ai": true
+  },
+  "tracker_popup_object": {
+    "value": "ATAK-kaartobject ({type})",
+    "_ai": true
+  },
+  "tracker_popup_shared_by": {
+    "value": "Gedeeld door {sender}",
+    "_ai": true
+  },
+  "tak_stream_title": null,
+  "tak_stream_running": {
+    "value": "Actief op poort {port}, {clients} ATAK / WinTAK-clients verbonden. Onversleuteld en zonder wachtwoord: houd het op een vertrouwd netwerk.",
+    "_ai": true
+  },
+  "tak_stream_off_hint": {
+    "value": "Uit. Zet MESHCORE_TAK_STREAM_ENABLED=true (en publiceer poort 8088) zodat ATAK / WinTAK de nodes en trackers van deze kaart toont.",
+    "_ai": true
+  },
+  "tak_stream_help": {
+    "value": "Voeg in ATAK / WinTAK een netwerkinvoer (TCP) toe met het adres en de poort van deze server.",
     "_ai": true
   },
   "chat_no_repeats_heard_yet": {
@@ -5780,6 +5858,14 @@
     "value": "MeshCore TEAM-positiebakens die deze node stuurde in kanalen die je volgt, nieuwste eerst. De Bakens-laag op de kaart kan ze als spoor tekenen.",
     "_ai": true
   },
+  "contact_tracker_fixes_heading": {
+    "value": "MeshCore SAR-posities",
+    "_ai": true
+  },
+  "contact_tracker_fixes_note": {
+    "value": "Snelle GPS-bakens die deze node met MeshCore SAR verstuurde, nieuwste eerst. De Trackers-laag op de kaart kan ze als spoor tekenen.",
+    "_ai": true
+  },
   "contact_beacons_show_all": {
     "value": "Toon alle {count}",
     "_ai": true
@@ -6952,6 +7038,31 @@
   },
   "settings_meshcomod_gps_interval_label": {
     "value": "Interval (seconden)",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_title": null,
+  "settings_meshcomod_full_capture_hint": {
+    "value": "Geef frames die de radio normaal weggooit door aan RTFM-EV. Er wordt niets extra via de radio verzonden.",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_long": {
+    "value": "Te lange frames (174-255 bytes)",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_bad": {
+    "value": "Beschadigde frames (CRC- of headerfout)",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_drops": {
+    "value": "Tel frames die verloren gaan door een volle ontvangstwachtrij",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_drops_value": {
+    "value": "Verloren sinds verbinden: {count}",
+    "_ai": true
+  },
+  "settings_meshcomod_full_capture_unsupported": {
+    "value": "Deze firmware ondersteunt Full capture niet",
     "_ai": true
   },
   "cfilter_heading": {
@@ -10492,6 +10603,14 @@
     "value": "Verberg kanaalberichten met willekeurige tekens of van een afzender met een nooit ingestelde klok. Wordt in deze browser onthouden.",
     "_ai": true
   },
+  "packet_show_damaged_label": {
+    "value": "Beschadigde frames tonen",
+    "_ai": true
+  },
+  "packet_show_damaged_description": {
+    "value": "Frames die de radio ontving met een CRC- of headerfout (Full capture op een meshcomod-radio). De bytes worden getoond, nooit gedecodeerd.",
+    "_ai": true
+  },
   "packet_policy_only_label": {
     "value": "Alleen pakketten waarover een beleidsregel besliste",
     "_ai": true
@@ -10843,6 +10962,14 @@
   "packet_bytes_status": null,
   "packet_status_encrypted": {
     "value": "Versleuteld",
+    "_ai": true
+  },
+  "packet_status_damaged": {
+    "value": "Beschadigd",
+    "_ai": true
+  },
+  "packet_status_not_encrypted": {
+    "value": "Niet versleuteld",
     "_ai": true
   },
   "packet_storage_number": {
@@ -11443,6 +11570,10 @@
   },
   "map_shared_locations_format_decimal": {
     "value": "Formaat: decimale coördinaten",
+    "_ai": true
+  },
+  "map_shared_locations_format_sar": {
+    "value": "Formaat: MeshCore SAR-marker",
     "_ai": true
   },
   "map_shared_locations_distance": {
@@ -17685,6 +17816,87 @@
   },
   "mesh_health_tab_spam_bots": {
     "value": "Spam en bots",
+    "_ai": true
+  },
+  "mesh_health_tab_fuota": {
+    "value": "Firmware-updates",
+    "_ai": true
+  },
+  "fuota_caption": {
+    "value": "Firmware-updates via de lucht (meshcore_fuota) die deze radio hoort, per updatecampagne. Er wordt niets verzonden.",
+    "_ai": true
+  },
+  "fuota_tile_offers": {
+    "value": "Aanbiedingen",
+    "_ai": true
+  },
+  "fuota_tile_requests": {
+    "value": "Verzoeken",
+    "_ai": true
+  },
+  "fuota_tile_data": {
+    "value": "Datafragmenten",
+    "_ai": true
+  },
+  "fuota_tile_retracts": {
+    "value": "Intrekkingen",
+    "_ai": true
+  },
+  "fuota_tile_senders": {
+    "value": "Zendende buren",
+    "_ai": true
+  },
+  "fuota_tile_airtime": {
+    "value": "Geschatte zendtijd",
+    "_ai": true
+  },
+  "fuota_col_campaign": {
+    "value": "Campagne",
+    "_ai": true
+  },
+  "fuota_col_build": null,
+  "fuota_col_target": {
+    "value": "Doel",
+    "_ai": true
+  },
+  "fuota_col_patch_size": {
+    "value": "Patchgrootte",
+    "_ai": true
+  },
+  "fuota_col_seen": {
+    "value": "Eerst / laatst gehoord",
+    "_ai": true
+  },
+  "fuota_col_senders": {
+    "value": "Afzenders",
+    "_ai": true
+  },
+  "fuota_col_fragments": {
+    "value": "Fragmenten",
+    "_ai": true
+  },
+  "fuota_col_providers": {
+    "value": "Gevraagde leveranciers",
+    "_ai": true
+  },
+  "fuota_fragments_heard": {
+    "value": "{count} gehoord",
+    "_ai": true
+  },
+  "fuota_retracts_title": {
+    "value": "Intrekkingen (ondertekend, niet gecontroleerd)",
+    "_ai": true
+  },
+  "fuota_empty": {
+    "value": "Geen firmware-updateverkeer gehoord in deze periode.",
+    "_ai": true
+  },
+  "fuota_visibility_note": {
+    "value": "FUOTA-pakketten worden nooit doorgestuurd, dus alleen directe buren verschijnen hier. Een standaard companion geeft deze app pakketten van hoogstens {bytes} bytes, dus volledige datafragmenten (186 bytes) verschijnen niet.",
+    "_ai": true
+  },
+  "fuota_unique_note": {
+    "value": "Aantallen zijn unieke pakketten: identieke herhalingen worden één keer opgeslagen, dus de aantallen en de geschatte zendtijd zijn ondergrenzen.",
     "_ai": true
   },
   "mesh_filter_caption": {
