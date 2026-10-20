@@ -141,10 +141,8 @@ contribution under CC BY 4.0. See [LICENSE](LICENSE).
 
 The setup of this repository follows
 [kiekr-i18n](https://github.com/marcelverdult/kiekr-i18n) by Marcel Verdult
-([@marcelverdult](https://github.com/marcelverdult)). Parts of the Dutch and
-German strings are adapted from kiekr-i18n, and the Spanish, French,
-Italian, Polish and Brazilian Portuguese glossaries are copied from it
-unchanged; kiekr-i18n is also licensed under CC BY 4.0.
+([@marcelverdult](https://github.com/marcelverdult)). Parts of the strings and
+glossaries are taken or adapted from kiekr-i18n, also licensed under CC BY 4.0.
 
 ## Contact
 

@@ -4,12 +4,24 @@
     "name": "Español",
     "managed_by": "community"
   },
-  "settings_language": null,
-  "a11y_settings_nav": null,
+  "settings_language": {
+    "value": "Idioma",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "a11y_settings_nav": {
+    "value": "Ajustes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "a11y_back_to_conversations": null,
   "a11y_navigation": null,
   "a11y_sidebar_navigation": null,
-  "nav_settings_heading": null,
+  "nav_settings_heading": {
+    "value": "Ajustes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_back_to_chat": null,
   "nav_skip_to_content": null,
   "common_loading_search": null,
@@ -18,22 +30,42 @@
   "a11y_add_channel_or_contact": null,
   "a11y_battery_percent": null,
   "a11y_channel_muted": null,
-  "a11y_clear_search": null,
+  "a11y_clear_search": {
+    "value": "Borrar la búsqueda",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "a11y_click_to_copy": null,
   "a11y_click_to_copy_public_key": null,
   "a11y_conversations_nav": null,
-  "a11y_copy_channel_key": null,
+  "a11y_copy_channel_key": {
+    "value": "Copiar clave del canal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "a11y_copy_contact_key": null,
-  "a11y_copy_public_key": null,
+  "a11y_copy_public_key": {
+    "value": "Copiar clave pública",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "a11y_direct_trace": null,
   "a11y_direct_trace_unavailable": null,
   "a11y_notification_settings": null,
   "a11y_notifications_enabled": null,
   "a11y_open_menu": null,
-  "a11y_path_discovery": null,
+  "a11y_path_discovery": {
+    "value": "Detección de rutas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "a11y_path_discovery_unavailable": null,
   "a11y_reveal_channel_key": null,
-  "a11y_search_conversations": null,
+  "a11y_search_conversations": {
+    "value": "Buscar conversaciones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "a11y_set_path_hop_width_override": null,
   "a11y_set_regional_override": null,
   "a11y_switch_to_classic_theme": null,
@@ -65,7 +97,11 @@
   "chat_emoji_search": null,
   "chat_emoji_skin_tone": null,
   "chat_manage_web_push_devices_in": null,
-  "chat_mark_all_read": null,
+  "chat_mark_all_read": {
+    "value": "Marcar todo como leído",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_mute_channel": null,
   "chat_mute_channel_description": null,
   "chat_notification_https_requirement": null,
@@ -80,31 +116,71 @@
   "chat_sort_by_type_then_alphabetically": null,
   "chat_sort_by_type_then_recent": null,
   "chat_sort_title": null,
-  "chat_sort_type_label": null,
+  "chat_sort_type_label": {
+    "value": "Tipo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_web_push_alerts_closed": null,
   "chat_web_push_alerts_closed_https": null,
   "chat_web_push_beta": null,
-  "common_add_to_favorites": null,
-  "common_connect": null,
-  "common_delete": null,
-  "common_no_conversations_yet": null,
+  "common_add_to_favorites": {
+    "value": "Añadir a favoritos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "common_connect": {
+    "value": "Conectar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "common_delete": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "common_no_conversations_yet": {
+    "value": "Aún no hay conversaciones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_no_matches_found": null,
   "common_reconnect": null,
-  "common_remove_from_favorites": null,
+  "common_remove_from_favorites": {
+    "value": "Quitar de favoritos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_search_channels_contacts": null,
   "common_unnamed": null,
   "nav_add_channel_contact": null,
   "nav_back_to_top": null,
-  "nav_channels_heading": null,
+  "nav_channels_heading": {
+    "value": "Canales",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_collapse_section": null,
   "nav_collapse_sidebar": null,
   "nav_contact_groups_heading": null,
   "nav_contact_groups_empty": null,
   "nav_customize_sidebar": null,
   "nav_search_anything": null,
-  "nav_tab_chats": null,
-  "nav_tab_map": null,
-  "nav_tab_more": null,
+  "nav_tab_chats": {
+    "value": "Chats",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "nav_tab_map": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "nav_tab_more": {
+    "value": "Más",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_expand_sidebar": null,
   "nav_favorite_channels": null,
   "nav_favorite_companions": null,
@@ -120,18 +196,46 @@
   "nav_group_rename_label": null,
   "nav_hide_entry": null,
   "nav_show_entry": null,
-  "nav_move_down": null,
-  "nav_move_up": null,
-  "nav_reset_to_defaults": null,
+  "nav_move_down": {
+    "value": "Bajar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "nav_move_up": {
+    "value": "Subir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "nav_reset_to_defaults": {
+    "value": "Restablecer valores predeterminados",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_section_order": null,
   "nav_tool_order": null,
-  "nav_contacts_heading": null,
-  "nav_contacts_pill_all": null,
+  "nav_contacts_heading": {
+    "value": "Contactos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "nav_contacts_pill_all": {
+    "value": "Todas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_contacts_pill_companions": null,
-  "nav_contacts_pill_sensors": null,
+  "nav_contacts_pill_sensors": {
+    "value": "Sensores",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "a11y_contacts_filter": null,
   "nav_expand_section": null,
-  "nav_favorites_heading": null,
+  "nav_favorites_heading": {
+    "value": "Las favoritas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_owned_heading": null,
   "nav_hide_channel_finder": null,
   "nav_mesh_visualizer": null,
@@ -149,7 +253,11 @@
   "node_radar_zoom_in": null,
   "node_radar_zoom_out": null,
   "node_radar_zoom_level": null,
-  "node_apply": null,
+  "node_apply": {
+    "value": "Aplicar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_avg_prefix": null,
   "node_battery_voltage_percent": null,
   "node_best_rssi": null,
@@ -166,11 +274,23 @@
   "node_custom_from": null,
   "node_custom_to": null,
   "node_detail_bandwidth": null,
-  "node_detail_frequency": null,
-  "node_detail_id": null,
+  "node_detail_frequency": {
+    "value": "Frecuencia",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_detail_id": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_detail_model": null,
   "node_detail_platform": null,
-  "node_details_heading": null,
+  "node_details_heading": {
+    "value": "Detalles",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_direct_neighbors_count_desc": null,
   "node_direct_neighbors_rssi_desc": null,
   "node_distinct_paths": null,
@@ -209,23 +329,39 @@
   "node_platform_openhop": null,
   "node_radio_summary": null,
   "node_refreshed_suffix": null,
-  "node_retry": null,
+  "node_retry": {
+    "value": "Reintentar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_session_breakdown_heading": null,
   "node_session_packets_suffix": null,
   "node_stat_db_avg": null,
   "node_stat_dbm_avg": null,
   "node_stats_db_tab": null,
-  "node_stats_heading": null,
+  "node_stats_heading": {
+    "value": "Estadísticas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_strongest_advert_desc": null,
   "node_this_device": null,
   "node_this_session": null,
-  "node_time_never": null,
+  "node_time_never": {
+    "value": "Nunca",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_time_seconds_ago": null,
   "node_tooltip_battery": null,
   "node_tooltip_bytes": null,
   "node_tooltip_noise_floor": null,
   "node_tooltip_packets": null,
-  "node_tooltip_rssi": null,
+  "node_tooltip_rssi": {
+    "value": "RSSI",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_tooltip_noise_est": null,
   "node_chart_rssi_noise_legend": null,
   "node_tooltip_time_suffix": null,
@@ -233,7 +369,11 @@
   "node_total_suffix": null,
   "node_tx_power_value": null,
   "node_type_breakdown_live_only": null,
-  "node_type_companion": null,
+  "node_type_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_unnamed_node": null,
   "node_value_bytes_compact": null,
   "node_value_cr": null,
@@ -268,18 +408,34 @@
   "time_range_14d": null,
   "time_range_30d": null,
   "time_range_1y": null,
-  "time_range_all": null,
+  "time_range_all": {
+    "value": "Todas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "time_range_session": null,
-  "time_range_custom": null,
+  "time_range_custom": {
+    "value": "Personalizado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "time_range_from": null,
   "time_range_to": null,
-  "time_range_apply": null,
+  "time_range_apply": {
+    "value": "Aplicar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_chart_airtime_title": null,
   "node_chart_airtime_stat": null,
   "node_chart_airtime_rx": null,
   "node_chart_airtime_tx": null,
   "node_chart_airtime_note": null,
-  "node_chart_rx_errors_title": null,
+  "node_chart_rx_errors_title": {
+    "value": "Errores de recepción",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_chart_rx_errors_stat": null,
   "node_chart_rx_errors_tooltip": null,
   "node_chart_rx_errors_note": null,
@@ -295,9 +451,21 @@
   "nav_fleet": null,
   "common_loading_fleet": null,
   "fleet_intro": null,
-  "fleet_refresh": null,
-  "fleet_export_csv": null,
-  "fleet_export_json": null,
+  "fleet_refresh": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_export_csv": {
+    "value": "Exportar CSV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_export_json": {
+    "value": "Exportar JSON",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_add": null,
   "fleet_add_owned": null,
   "fleet_add_owned_title": null,
@@ -308,7 +476,11 @@
   "fleet_filter_all": null,
   "fleet_count": null,
   "fleet_no_match": null,
-  "fleet_col_name": null,
+  "fleet_col_name": {
+    "value": "Nombre",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_col_last_seen": null,
   "fleet_not_heard": null,
   "fleet_open_asset": null,
@@ -320,25 +492,45 @@
   "fleet_status_stolen": null,
   "fleet_status_retired": null,
   "fleet_field_label": null,
-  "fleet_field_public_key": null,
+  "fleet_field_public_key": {
+    "value": "Clave pública",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_field_public_key_hint": null,
   "fleet_field_org_serial": null,
   "fleet_field_hw_serial": null,
   "fleet_field_model": null,
-  "fleet_field_role": null,
+  "fleet_field_role": {
+    "value": "Rol",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_field_wifi_mac": null,
   "fleet_field_ble_mac": null,
   "fleet_field_assigned_to": null,
   "fleet_field_site_name": null,
-  "fleet_field_status": null,
+  "fleet_field_status": {
+    "value": "Estado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_field_notes": null,
-  "fleet_section_identity": null,
+  "fleet_section_identity": {
+    "value": "Identidad",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_section_hardware": null,
   "fleet_section_placement": null,
   "fleet_asset_new_title": null,
   "fleet_asset_back": null,
   "fleet_asset_load_failed": null,
-  "fleet_save": null,
+  "fleet_save": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_saving": null,
   "fleet_saved": null,
   "fleet_save_failed": null,
@@ -349,16 +541,36 @@
   "fleet_mesh_title": null,
   "fleet_mesh_none": null,
   "fleet_mesh_no_key": null,
-  "fleet_mesh_type": null,
-  "fleet_mesh_position": null,
+  "fleet_mesh_type": {
+    "value": "Tipo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_mesh_position": {
+    "value": "Puesto",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_contact_none": null,
   "fleet_contact_add": null,
   "fleet_contact_in": null,
   "fleet_contact_open": null,
   "fleet_contact_failed": null,
-  "fleet_csv_id": null,
-  "fleet_csv_contact_name": null,
-  "fleet_csv_created_at": null,
+  "fleet_csv_id": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_csv_contact_name": {
+    "value": "Nombre del nodo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_csv_created_at": {
+    "value": "Añadido",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_csv_updated_at": null,
   "fleet_field_target_firmware": null,
   "fleet_col_last_maintenance": null,
@@ -377,17 +589,37 @@
   "fleet_log_kind_maintenance": null,
   "fleet_log_kind_failure": null,
   "fleet_log_kind_custody": null,
-  "fleet_log_kind_firmware": null,
+  "fleet_log_kind_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_log_kind_note": null,
-  "fleet_log_kind_status": null,
+  "fleet_log_kind_status": {
+    "value": "Estado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_log_kind_config_applied": null,
-  "fleet_health_battery": null,
+  "fleet_health_battery": {
+    "value": "Batería",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_health_volts": null,
   "fleet_health_volts_at": null,
   "fleet_health_no_telemetry": null,
-  "fleet_health_temperature": null,
+  "fleet_health_temperature": {
+    "value": "Temperatura",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_health_celsius": null,
-  "fleet_health_firmware": null,
+  "fleet_health_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_health_firmware_from": null,
   "fleet_health_no_firmware": null,
   "fleet_health_source_radio": null,
@@ -412,7 +644,11 @@
   "fleet_vault_locked": null,
   "fleet_vault_no_recovery": null,
   "fleet_vault_insecure": null,
-  "fleet_vault_passphrase": null,
+  "fleet_vault_passphrase": {
+    "value": "Frase de contraseña",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_vault_passphrase_repeat": null,
   "fleet_vault_passphrase_rule": null,
   "fleet_vault_working": null,
@@ -422,7 +658,11 @@
   "fleet_vault_lock": null,
   "fleet_vault_empty": null,
   "fleet_vault_reveal": null,
-  "fleet_vault_hide": null,
+  "fleet_vault_hide": {
+    "value": "Ocultar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_vault_kind": null,
   "fleet_vault_value": null,
   "fleet_vault_add": null,
@@ -430,7 +670,11 @@
   "fleet_secret_kind_admin_password": null,
   "fleet_secret_kind_guest_password": null,
   "fleet_secret_kind_wifi": null,
-  "fleet_secret_kind_other": null,
+  "fleet_secret_kind_other": {
+    "value": "Otros",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_keygen_title": null,
   "fleet_keygen_intro": null,
   "fleet_keygen_prefix": null,
@@ -442,15 +686,27 @@
   "fleet_vault_change_title": null,
   "fleet_vault_current": null,
   "fleet_vault_new": null,
-  "fleet_vault_change": null,
+  "fleet_vault_change": {
+    "value": "Cambiar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_vault_passphrase_changed": null,
   "fleet_vault_export_title": null,
   "fleet_vault_export_hint": null,
   "fleet_vault_export_passphrase": null,
-  "fleet_vault_export": null,
+  "fleet_vault_export": {
+    "value": "Exportar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_vault_exported": null,
   "fleet_vault_import_file": null,
-  "fleet_vault_import": null,
+  "fleet_vault_import": {
+    "value": "Importar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_vault_import_not_json": null,
   "fleet_vault_imported": null,
   "fleet_vault_audit_title": null,
@@ -482,7 +738,11 @@
   "fleet_config_value_empty": null,
   "fleet_config_section_general": null,
   "fleet_config_open": null,
-  "fleet_config_export": null,
+  "fleet_config_export": {
+    "value": "Exportar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_config_export_hint": null,
   "fleet_config_export_secrets": null,
   "fleet_config_export_secrets_hint": null,
@@ -496,7 +756,11 @@
   "fleet_config_import_hint": null,
   "fleet_config_file": null,
   "fleet_config_firmware": null,
-  "fleet_config_import": null,
+  "fleet_config_import": {
+    "value": "Importar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_config_not_json": null,
   "fleet_config_imported": null,
   "fleet_config_imported_secrets": null,
@@ -510,14 +774,38 @@
   "fleet_usb_unsupported_insecure": null,
   "fleet_usb_connect": null,
   "fleet_usb_read": null,
-  "fleet_usb_disconnect": null,
+  "fleet_usb_disconnect": {
+    "value": "Desconectar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_usb_not_connected": null,
   "fleet_usb_reading": null,
-  "fleet_usb_name": null,
-  "fleet_usb_role": null,
-  "fleet_usb_firmware": null,
-  "fleet_usb_board": null,
-  "fleet_usb_public_key": null,
+  "fleet_usb_name": {
+    "value": "Nombre",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_usb_role": {
+    "value": "Rol",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_usb_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_usb_board": {
+    "value": "Consejo de Administración",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_usb_public_key": {
+    "value": "Clave pública",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_usb_match_same": null,
   "fleet_usb_match_no_key": null,
   "fleet_usb_match_other": null,
@@ -578,14 +866,22 @@
   "fleet_onboard_use_asset": null,
   "fleet_onboard_asset_chosen": null,
   "fleet_onboard_no_match": null,
-  "fleet_onboard_key_title": null,
+  "fleet_onboard_key_title": {
+    "value": "Identidad",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_onboard_key_device": null,
   "fleet_onboard_key_new": null,
   "fleet_onboard_key_new_needs_vault": null,
   "fleet_onboard_create": null,
   "fleet_onboard_before_hint": null,
   "fleet_onboard_store_before": null,
-  "fleet_onboard_skip": null,
+  "fleet_onboard_skip": {
+    "value": "Omitir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_onboard_before_new_key": null,
   "fleet_onboard_continue": null,
   "fleet_onboard_before_done": null,
@@ -643,7 +939,11 @@
   "fleet_config_create": null,
   "fleet_config_created": null,
   "fleet_config_open_templates": null,
-  "fleet_config_bool_unset": null,
+  "fleet_config_bool_unset": {
+    "value": "Predeterminada",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_config_bool_true": null,
   "fleet_config_bool_false": null,
   "fleet_templates_title": null,
@@ -651,7 +951,11 @@
   "fleet_templates_empty": null,
   "fleet_templates_load_failed": null,
   "fleet_template_new": null,
-  "fleet_template_name": null,
+  "fleet_template_name": {
+    "value": "Nombre",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_template_description": null,
   "fleet_template_document": null,
   "fleet_template_document_hint": null,
@@ -659,19 +963,35 @@
   "fleet_template_no_variables": null,
   "fleet_template_variables_count": null,
   "fleet_template_var_name": null,
-  "fleet_template_var_type": null,
+  "fleet_template_var_type": {
+    "value": "Tipo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_template_var_default": null,
-  "fleet_template_var_remove": null,
+  "fleet_template_var_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_template_var_add": null,
   "fleet_template_var_type_text": null,
   "fleet_template_var_type_number": null,
   "fleet_template_var_type_boolean": null,
   "fleet_template_delete": null,
   "fleet_template_not_json": null,
-  "mesh_discovery_advert_label": null,
+  "mesh_discovery_advert_label": {
+    "value": "Anuncio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_discovery_advert_desc": null,
   "mesh_discovery_advert_direct_button": null,
-  "mesh_discovery_advert_flood_button": null,
+  "mesh_discovery_advert_flood_button": {
+    "value": "Advert flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_user_guide": null,
   "manual_contents_heading": null,
   "manual_tour_start": null,
@@ -690,7 +1010,11 @@
   "nav_analyze_packet": null,
   "nav_packet_history": null,
   "packet_history_load_older": null,
-  "packet_history_live": null,
+  "packet_history_live": {
+    "value": "En directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_history_historical": null,
   "packet_history_empty": null,
   "packet_history_pick_range": null,
@@ -706,7 +1030,11 @@
   "mesh_health_req_tooltip_responses": null,
   "mesh_health_auto_refresh_label": null,
   "mesh_health_manual_refresh_label": null,
-  "mesh_health_time_never": null,
+  "mesh_health_time_never": {
+    "value": "Nunca",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_time_seconds_ago": null,
   "mesh_health_axis_rssi_dbm": null,
   "mesh_health_axis_snr_db": null,
@@ -730,7 +1058,11 @@
   "mesh_health_stat_window_hours": null,
   "mesh_health_hop_distance_heading": null,
   "mesh_health_hash_mode_heading": null,
-  "mesh_health_hop_direct": null,
+  "mesh_health_hop_direct": {
+    "value": "Directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_hop_three_plus": null,
   "mesh_health_stat_sub_unique_nodes": null,
   "mesh_health_scatter_heading": null,
@@ -746,16 +1078,40 @@
   "mesh_health_contacts_summary": null,
   "mesh_health_page_indicator": null,
   "mesh_health_page_size_label": null,
-  "mesh_health_page_size_all": null,
-  "mesh_health_col_id": null,
-  "mesh_health_col_adverts": null,
-  "mesh_health_col_direct": null,
-  "mesh_health_col_flood": null,
+  "mesh_health_page_size_all": {
+    "value": "Todas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_col_id": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_col_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_col_direct": {
+    "value": "Directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_col_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_col_total": null,
   "mesh_health_direct_flood_heading": null,
   "mesh_health_col_last_heard": null,
   "mesh_health_col_first_heard": null,
-  "mesh_health_col_hops": null,
+  "mesh_health_col_hops": {
+    "value": "Saltos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_col_mode": null,
   "mesh_health_col_mode_title": null,
   "mesh_health_hop_address_width_title": null,
@@ -769,12 +1125,24 @@
   "mesh_health_no_contacts_message": null,
   "mesh_health_alert_advert_count": null,
   "mesh_health_alert_adverts_per_hour": null,
-  "mesh_health_show_on_map_title": null,
-  "mesh_health_map_button_label": null,
+  "mesh_health_show_on_map_title": {
+    "value": "Mostrar en el mapa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_map_button_label": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_level_high": null,
   "mesh_health_level_medium": null,
   "mesh_health_error_failed_to_load": null,
-  "mesh_health_tab_adverts": null,
+  "mesh_health_tab_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_tab_requests": null,
   "mesh_health_tab_relay_reception": null,
   "mesh_health_tab_prefix_collisions": null,
@@ -786,13 +1154,21 @@
   "relay_reception_direct": null,
   "relay_reception_collision": null,
   "relay_reception_more_relays": null,
-  "relay_reception_col_packet": null,
+  "relay_reception_col_packet": {
+    "value": "Paquete",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "relay_reception_col_copies": null,
   "relay_reception_col_relay": null,
   "relay_reception_col_receptions": null,
   "relay_reception_col_best_snr": null,
   "relay_reception_col_avg_snr": null,
-  "relay_reception_col_last_seen": null,
+  "relay_reception_col_last_seen": {
+    "value": "Última vez oído",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "relay_reception_col_packets": null,
   "relay_reception_summary_heading": null,
   "relay_reception_tile_packets": null,
@@ -824,13 +1200,37 @@
   "relay_detail_series_snr": null,
   "relay_detail_series_rssi": null,
   "relay_detail_types_title": null,
-  "relay_detail_hops_title": null,
+  "relay_detail_hops_title": {
+    "value": "Número de saltos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "relay_detail_recent_title": null,
-  "relay_detail_col_time": null,
-  "relay_detail_col_type": null,
-  "relay_detail_col_hops": null,
-  "relay_detail_col_snr": null,
-  "relay_detail_col_rssi": null,
+  "relay_detail_col_time": {
+    "value": "Hora",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_type": {
+    "value": "Tipo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_hops": {
+    "value": "Saltos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_snr": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_rssi": {
+    "value": "RSSI",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "relay_detail_col_relays": null,
   "relay_detail_first_badge": null,
   "relay_detail_first_badge_title": null,
@@ -855,7 +1255,11 @@
   "mesh_health_pc_legend_possible": null,
   "mesh_health_pc_legend_collision": null,
   "mesh_health_pc_filter_label": null,
-  "mesh_health_pc_clear_filter": null,
+  "mesh_health_pc_clear_filter": {
+    "value": "Borrar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_pc_assess_local": null,
   "mesh_health_pc_assess_regional": null,
   "mesh_health_pc_distance_km": null,
@@ -879,11 +1283,19 @@
   "mesh_health_req_no_pairs": null,
   "nav_packet_feed": null,
   "nav_raw_packet_feed_name": null,
-  "nav_repeaters_heading": null,
+  "nav_repeaters_heading": {
+    "value": "Repetidores",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_room_servers_heading": null,
   "nav_settings_local_link": null,
   "nav_show_channel_finder": null,
-  "nav_tools_heading": null,
+  "nav_tools_heading": {
+    "value": "Herramientas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_live_packets_rate": null,
   "nav_live_packets_title": null,
   "nav_live_packets_aria": null,
@@ -944,7 +1356,11 @@
   "chat_could_not_load_archival_packet": null,
   "chat_create_and_add_another": null,
   "chat_enter_valid_channel_name": null,
-  "chat_generate_random_key": null,
+  "chat_generate_random_key": {
+    "value": "Generar clave aleatoria",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_gif_alt": null,
   "chat_group_data_image_placeholder": null,
   "chat_group_data_image_detail": null,
@@ -968,7 +1384,11 @@
   "chat_new_conversation": null,
   "chat_new_hashtag_description": null,
   "chat_no_archival_packet": null,
-  "chat_no_messages_yet": null,
+  "chat_no_messages_yet": {
+    "value": "Aún no hay mensajes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_hashtag_add_to_registry_aria": null,
   "chat_hashtag_followed_title": null,
   "chat_hashtag_known_title": null,
@@ -984,16 +1404,28 @@
   "chat_filter_unscoped_hint": null,
   "chat_filter_hide_malformed": null,
   "chat_filter_malformed_hint": null,
-  "chat_scope_direct": null,
+  "chat_scope_direct": {
+    "value": "Directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_scope_direct_title": null,
   "chat_scope_unscoped": null,
   "chat_scope_unscoped_title": null,
   "chat_scope_unknown": null,
   "chat_scope_unknown_title": null,
-  "chat_location_show_on_map": null,
+  "chat_location_show_on_map": {
+    "value": "Mostrar en el mapa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_pubkey_open_contact": null,
   "chat_pubkey_lookup_analyzer": null,
-  "chat_pubkey_lookup_action": null,
+  "chat_pubkey_lookup_action": {
+    "value": "Buscar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_mention_sound_group_title": null,
   "settings_mention_sound_enable_label": null,
   "settings_mention_sound_enable_desc": null,
@@ -1003,7 +1435,11 @@
   "settings_mention_sound_custom_label": null,
   "settings_mention_sound_custom_upload": null,
   "settings_mention_sound_custom_replace": null,
-  "settings_mention_sound_custom_remove": null,
+  "settings_mention_sound_custom_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_mention_sound_custom_none": null,
   "settings_mention_sound_upload_error": null,
   "settings_mention_sound_too_large": null,
@@ -1045,14 +1481,22 @@
   "team_waypoint_type_water": null,
   "team_waypoint_type_vehicle": null,
   "team_waypoint_type_route": null,
-  "team_waypoint_type_custom": null,
+  "team_waypoint_type_custom": {
+    "value": "Personalizado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "team_route_part": null,
   "team_route_points": null,
   "team_route_incomplete": null,
   "team_capabilities": null,
   "team_cap_alias": null,
   "team_cap_custom_firmware": null,
-  "team_cap_forwarding": null,
+  "team_cap_forwarding": {
+    "value": "Reenvío",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "team_cap_autonomous_capable": null,
   "team_cap_autonomous_enabled": null,
   "team_cap_smart_forwarding": null,
@@ -1105,12 +1549,28 @@
   "chat_reaction_jump_title": null,
   "chat_reaction_target_missing": null,
   "chat_reaction_send_failed": null,
-  "chat_react_action": null,
-  "chat_reply_action": null,
-  "chat_delete_message_action": null,
+  "chat_react_action": {
+    "value": "Reaccionar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "chat_reply_action": {
+    "value": "Responder",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "chat_delete_message_action": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_delete_message_confirm": null,
   "chat_delete_message_failed": null,
-  "chat_retry_action": null,
+  "chat_retry_action": {
+    "value": "Reintentar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_retry_sent": null,
   "chat_retry_failed": null,
   "chat_message_failed": null,
@@ -1133,9 +1593,17 @@
   "chat_view_message_path": null,
   "chat_view_message_path_per_hop": null,
   "common_adding": null,
-  "common_cancel": null,
+  "common_cancel": {
+    "value": "Cancelar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_client": null,
-  "common_contact": null,
+  "common_contact": {
+    "value": "Contacto",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_create": null,
   "common_creating": null,
   "common_loading_dashboard": null,
@@ -1149,15 +1617,39 @@
   "common_loading_analyze_packet": null,
   "common_loading_packet_history": null,
   "common_loading_link_detail": null,
-  "common_name": null,
+  "common_name": {
+    "value": "Nombre",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_public_key": null,
-  "common_repeater": null,
+  "common_repeater": {
+    "value": "Repetidor",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_room_server": null,
-  "common_send": null,
+  "common_send": {
+    "value": "Enviar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_sending": null,
-  "common_type": null,
-  "common_unknown": null,
-  "common_you": null,
+  "common_type": {
+    "value": "Tipo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "common_unknown": {
+    "value": "Desconocido",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "common_you": {
+    "value": "Tú",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "error_check_radio_connection": null,
   "error_failed_to_create": null,
   "error_unknown": null,
@@ -1166,14 +1658,30 @@
   "toast_failed_send_message": null,
   "toast_radio_no_confirm_send": null,
   "common_loading": null,
-  "common_room": null,
-  "common_sensor": null,
-  "common_close": null,
+  "common_room": {
+    "value": "Sala",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "common_sensor": {
+    "value": "Sensor",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "common_close": {
+    "value": "Cerrar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_last_24h": null,
   "common_msg_count": null,
   "contact_info_title": null,
   "contact_info_description": null,
-  "common_back": null,
+  "common_back": {
+    "value": "Atrás",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_region_identity": null,
   "contact_region_data": null,
   "contact_region_network": null,
@@ -1214,25 +1722,45 @@
   "contact_last_seen": null,
   "contact_first_heard": null,
   "contact_last_contacted": null,
-  "contact_distance": null,
+  "contact_distance": {
+    "value": "Distancia",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_routing": null,
   "contact_forced_suffix": null,
   "contact_learned_route": null,
   "contact_hop_width": null,
-  "contact_clock": null,
+  "contact_clock": {
+    "value": "Reloj",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_clock_in_sync": null,
   "contact_clock_ahead": null,
   "contact_clock_behind": null,
   "contact_clock_title": null,
   "contact_hop_width_byte_ids": null,
-  "contact_location": null,
+  "contact_location": {
+    "value": "Ubicación",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_annotations_saved": null,
   "contact_annotations_save_failed": null,
   "contact_notes_label": null,
   "contact_notes_save": null,
-  "contact_owner_info_label": null,
+  "contact_owner_info_label": {
+    "value": "Datos del propietario",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_owner_info_save": null,
-  "contact_owner_label": null,
+  "contact_owner_label": {
+    "value": "Propietario",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_owner_placeholder": null,
   "contact_owner_unknown": null,
   "contact_owner_open_dm": null,
@@ -1242,18 +1770,38 @@
   "contact_owner_use_own_radio_hint": null,
   "contact_owned_nodes": null,
   "contact_manual_location_label": null,
-  "contact_manual_lat": null,
-  "contact_manual_lon": null,
+  "contact_manual_lat": {
+    "value": "Latitud",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "contact_manual_lon": {
+    "value": "Longitud",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_manual_location_save": null,
   "contact_battery_chemistry_label": null,
   "contact_battery_chemistry_global_default": null,
   "contact_battery_chemistry_description": null,
-  "contact_power_source_label": null,
+  "contact_power_source_label": {
+    "value": "Fuente de energía",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_power_source_auto": null,
   "contact_power_source_description": null,
-  "common_clear": null,
+  "common_clear": {
+    "value": "Borrar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_owner_link": null,
-  "map_node_details": null,
+  "map_node_details": {
+    "value": "Detalles",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_owner_info_autofilled": null,
   "repeater_owner_info_conflict": null,
   "repeater_owner_info_override": null,
@@ -1267,7 +1815,11 @@
   "snmp_setup": null,
   "snmp_host": null,
   "snmp_host_placeholder": null,
-  "snmp_port": null,
+  "snmp_port": {
+    "value": "Puerto",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_community": null,
   "snmp_community_keep": null,
   "snmp_community_default_placeholder": null,
@@ -1281,10 +1833,22 @@
   "snmp_ask_unsupported": null,
   "snmp_ask_no_reply": null,
   "snmp_ask_failed": null,
-  "snmp_save": null,
+  "snmp_save": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_saving": null,
-  "snmp_edit": null,
-  "snmp_remove": null,
+  "snmp_edit": {
+    "value": "Editar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_remove_confirm": null,
   "snmp_poll_now": null,
   "snmp_polling": null,
@@ -1293,7 +1857,11 @@
   "snmp_last_error": null,
   "snmp_community_is_default": null,
   "snmp_err_host": null,
-  "snmp_err_port": null,
+  "snmp_err_port": {
+    "value": "El puerto debe estar entre 1 y 65535",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_err_community": null,
   "snmp_err_invalid": null,
   "snmp_err_save": null,
@@ -1309,14 +1877,30 @@
   "snmp_clock_sync_paused": null,
   "snmp_schedule_on": null,
   "snmp_schedule_off": null,
-  "snmp_history": null,
+  "snmp_history": {
+    "value": "Historial",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_history_value": null,
   "snmp_history_range": null,
   "snmp_history_empty": null,
   "snmp_history_chart_label": null,
-  "snmp_range_24h": null,
-  "snmp_range_7d": null,
-  "snmp_range_30d": null,
+  "snmp_range_24h": {
+    "value": "24 horas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_range_7d": {
+    "value": "7 días",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_range_30d": {
+    "value": "30 días",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_agent_heading": null,
   "snmp_agent_desc": null,
   "snmp_agent_enable": null,
@@ -1326,18 +1910,46 @@
   "snmp_agent_failed": null,
   "snmp_agent_off": null,
   "snmp_agent_err_community": null,
-  "snmp_group_system": null,
-  "snmp_group_radio": null,
+  "snmp_group_system": {
+    "value": "Sistema",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_group_mqtt": null,
   "snmp_group_memory": null,
-  "snmp_group_network": null,
-  "snmp_field_node_name": null,
+  "snmp_group_network": {
+    "value": "Red",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_field_node_name": {
+    "value": "Nombre del nodo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_field_firmware_version": null,
-  "snmp_field_uptime_secs": null,
+  "snmp_field_uptime_secs": {
+    "value": "Tiempo activo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_field_packets_recv": null,
   "snmp_field_packets_sent": null,
-  "snmp_field_recv_errors": null,
-  "snmp_field_noise_floor": null,
+  "snmp_field_recv_errors": {
+    "value": "Errores de recepción",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_field_noise_floor": {
+    "value": "Ruido de fondo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_field_last_rssi": null,
   "snmp_field_last_snr": null,
   "snmp_field_sent_flood": null,
@@ -1355,8 +1967,16 @@
   "snmp_field_wifi_rssi": null,
   "snmp_group_duty_gate": null,
   "snmp_group_filter": null,
-  "snmp_group_neighbours": null,
-  "snmp_field_battery_mv": null,
+  "snmp_group_neighbours": {
+    "value": "Vecinos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_field_battery_mv": {
+    "value": "Batería",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_field_mcu_temp_c": null,
   "snmp_field_reset_reason": null,
   "snmp_field_reset_reason_code": null,
@@ -1386,14 +2006,26 @@
   "snmp_field_filter_text_drops": null,
   "snmp_field_filter_age_drops": null,
   "snmp_field_filter_air_saved_ms": null,
-  "snmp_field_neighbour_count": null,
+  "snmp_field_neighbour_count": {
+    "value": "Vecinos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_intro_companion": null,
   "snmp_companion_host_note": null,
-  "snmp_group_companion": null,
+  "snmp_group_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_group_companion_filter": null,
   "snmp_field_companion_tcp_clients": null,
   "snmp_field_companion_ws_clients": null,
-  "snmp_field_companion_contacts": null,
+  "snmp_field_companion_contacts": {
+    "value": "Contactos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_field_companion_channels": null,
   "snmp_field_cfilter_enabled": null,
   "snmp_field_cfilter_malformed_drops": null,
@@ -1407,7 +2039,11 @@
   "snmp_value_na": null,
   "snmp_value_yes": null,
   "snmp_value_no": null,
-  "snmp_error_flags_none": null,
+  "snmp_error_flags_none": {
+    "value": "Ninguno",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_error_flag_1": null,
   "snmp_error_flag_2": null,
   "snmp_error_flag_4": null,
@@ -1415,7 +2051,11 @@
   "snmp_error_flag_other": null,
   "snmp_reset_reason_named": null,
   "snmp_reset_reason_other": null,
-  "snmp_reset_reason_0": null,
+  "snmp_reset_reason_0": {
+    "value": "Desconocido",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_reset_reason_1": null,
   "snmp_reset_reason_2": null,
   "snmp_reset_reason_3": null,
@@ -1432,9 +2072,17 @@
   "snmp_node_reboot_reason_unknown": null,
   "snmp_page_intro": null,
   "snmp_page_auto_refresh": null,
-  "snmp_page_auto_refresh_off": null,
+  "snmp_page_auto_refresh_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_auto_refresh_seconds": null,
-  "snmp_page_refresh": null,
+  "snmp_page_refresh": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_poll_all": null,
   "snmp_page_poll_all_progress": null,
   "snmp_page_load_failed": null,
@@ -1442,19 +2090,43 @@
   "snmp_page_empty_title": null,
   "snmp_page_empty_body": null,
   "snmp_page_empty_schedule": null,
-  "snmp_page_col_details": null,
-  "snmp_page_col_actions": null,
-  "snmp_page_col_status": null,
-  "snmp_page_col_node": null,
+  "snmp_page_col_details": {
+    "value": "Detalles",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_page_col_actions": {
+    "value": "Acciones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_page_col_status": {
+    "value": "Estado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_page_col_node": {
+    "value": "Nodo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_col_address": null,
   "snmp_page_col_schedule": null,
   "snmp_page_col_last_ok": null,
   "snmp_page_col_last_error": null,
-  "snmp_page_status_ok": null,
+  "snmp_page_status_ok": {
+    "value": "OK",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_status_failing": null,
   "snmp_page_status_never": null,
   "snmp_page_schedule_minutes": null,
-  "snmp_page_schedule_off": null,
+  "snmp_page_schedule_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_open_contact": null,
   "snmp_page_values_from": null,
   "snmp_page_no_values": null,
@@ -1465,7 +2137,11 @@
   "snmp_node_missing": null,
   "snmp_node_counters": null,
   "snmp_node_counters_rates": null,
-  "snmp_node_counters_totals": null,
+  "snmp_node_counters_totals": {
+    "value": "Totales",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_node_counters_hint": null,
   "snmp_node_title_per_minute": null,
   "snmp_node_title_percent": null,
@@ -1478,14 +2154,38 @@
   "snmp_node_tile_reboots": null,
   "snmp_node_tile_reboots_sub": null,
   "snmp_node_latest": null,
-  "snmp_latest_radio_traffic": null,
+  "snmp_latest_radio_traffic": {
+    "value": "Tráfico de radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_latest_signal": null,
-  "snmp_latest_col_flood": null,
-  "snmp_latest_col_direct": null,
+  "snmp_latest_col_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_latest_col_direct": {
+    "value": "Directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_latest_col_total": null,
-  "snmp_latest_row_received": null,
-  "snmp_latest_row_sent": null,
-  "snmp_latest_row_duplicates": null,
+  "snmp_latest_row_received": {
+    "value": "Recibido",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_latest_row_sent": {
+    "value": "Enviado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_latest_row_duplicates": {
+    "value": "Duplicados",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_latest_tx_air_time": null,
   "snmp_latest_zero_show": null,
   "snmp_latest_zero_hide": null,
@@ -1498,19 +2198,43 @@
   "contact_radio_policy_pinned_hint": null,
   "contact_radio_policy_excluded_hint": null,
   "contact_radio_policy_error": null,
-  "contact_telemetry_perms_label": null,
+  "contact_telemetry_perms_label": {
+    "value": "Compartir telemetría",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_telemetry_perms_hint": null,
-  "contact_telemetry_perms_base": null,
-  "contact_telemetry_perms_location": null,
-  "contact_telemetry_perms_environment": null,
+  "contact_telemetry_perms_base": {
+    "value": "Batería",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "contact_telemetry_perms_location": {
+    "value": "Ubicación",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "contact_telemetry_perms_environment": {
+    "value": "Entorno",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_telemetry_perms_pending": null,
   "contact_telemetry_perms_error": null,
   "contact_link_label": null,
   "contact_link_show": null,
-  "contact_link_copy": null,
+  "contact_link_copy": {
+    "value": "Copiar enlace",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_link_copied": null,
   "contact_link_error": null,
-  "chat_contact_share_add": null,
+  "chat_contact_share_add": {
+    "value": "Añadir contacto",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_contact_share_add_title": null,
   "chat_contact_share_open": null,
   "contact_share_tag_copy": null,
@@ -1521,7 +2245,11 @@
   "chat_import_contact_link_placeholder": null,
   "chat_import_contact_link_help": null,
   "chat_import_contact_link_invalid": null,
-  "common_import": null,
+  "common_import": {
+    "value": "Importar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_importing": null,
   "contact_radio_on_via": null,
   "contact_radio_off": null,
@@ -1537,12 +2265,20 @@
   "contact_nearest_repeaters_hops": null,
   "contact_nearest_repeaters_geo": null,
   "contact_hop_count": null,
-  "contact_direct": null,
+  "contact_direct": {
+    "value": "directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_recent_advert_paths": null,
   "contact_direct_path": null,
   "contact_path_scores": null,
   "contact_path_scores_hint": null,
-  "contact_path_score_flood": null,
+  "contact_path_score_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_path_score_detail": null,
   "contact_route_suggestions": null,
   "contact_route_suggestions_hint": null,
@@ -1579,7 +2315,11 @@
   "contact_beacons_show_all": null,
   "contact_beacons_show_fewer": null,
   "contact_vessel_type_label": null,
-  "contact_vessel_type_none": null,
+  "contact_vessel_type_none": {
+    "value": "Ninguno",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_vessel_type_description": null,
   "vessel_type_sailing": null,
   "vessel_type_motor": null,
@@ -1597,7 +2337,11 @@
   "settings_team_beacon_heading": null,
   "settings_team_beacon_desc": null,
   "settings_team_beacon_enable": null,
-  "settings_team_beacon_channel": null,
+  "settings_team_beacon_channel": {
+    "value": "Canal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_team_beacon_channel_none": null,
   "settings_team_beacon_interval": null,
   "settings_team_beacon_interval_help": null,
@@ -1618,7 +2362,11 @@
   "contact_attribution_warning_keyed": null,
   "contact_attribution_alias_note": null,
   "contact_not_found": null,
-  "contact_telemetry": null,
+  "contact_telemetry": {
+    "value": "Telemetría",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_fetching": null,
   "contact_request": null,
   "contact_no_sensor_data": null,
@@ -1647,7 +2395,11 @@
   "channel_first_message": null,
   "channel_hop_byte_widths_24h": null,
   "channel_top_senders_24h": null,
-  "channel_not_found": null,
+  "channel_not_found": {
+    "value": "Canal no encontrado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_hop_width_1byte": null,
   "channel_hop_width_2byte": null,
   "channel_hop_width_3byte": null,
@@ -1699,11 +2451,19 @@
   "settings_push_subscribing": null,
   "settings_push_subscribe_browser": null,
   "settings_push_enabled_conversations": null,
-  "settings_push_remove_title": null,
+  "settings_push_remove_title": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_push_remove_aria": null,
   "settings_push_registered_devices": null,
   "settings_push_unknown_device": null,
-  "settings_push_current_device": null,
+  "settings_push_current_device": {
+    "value": "Dispositivo actual",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_push_last_push": null,
   "settings_push_never_pushed": null,
   "settings_push_failure_count": null,
@@ -1717,7 +2477,11 @@
   "settings_crt_effect_glow": null,
   "settings_crt_effect_curvature": null,
   "settings_crt_effect_flicker": null,
-  "settings_crt_map_legend": null,
+  "settings_crt_map_legend": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_crt_map_tint": null,
   "settings_crt_map_tint_hint": null,
   "settings_branding_heading": null,
@@ -1788,11 +2552,19 @@
   "settings_font_size_label": null,
   "settings_font_size_slider_aria": null,
   "settings_font_size_percentage_aria": null,
-  "settings_reset": null,
+  "settings_reset": {
+    "value": "Restablecer",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_font_size_description": null,
   "settings_accessibility_heading": null,
   "settings_cvd_mode_label": null,
-  "settings_cvd_mode_off": null,
+  "settings_cvd_mode_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_cvd_mode_protan": null,
   "settings_cvd_mode_deutan": null,
   "settings_cvd_mode_tritan": null,
@@ -1810,7 +2582,11 @@
   "settings_db_size_label": null,
   "settings_db_oldest_undecrypted_label": null,
   "settings_db_days_ago": null,
-  "settings_db_none": null,
+  "settings_db_none": {
+    "value": "Ninguno",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_cleanup_heading": null,
   "settings_retention_heading": null,
   "settings_retention_desc": null,
@@ -1873,7 +2649,11 @@
   "settings_meshcomod_cad_label": null,
   "settings_meshcomod_cad_supported_desc": null,
   "settings_meshcomod_cad_unsupported_desc": null,
-  "settings_meshcomod_gps_label": null,
+  "settings_meshcomod_gps_label": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_meshcomod_gps_supported_desc": null,
   "settings_meshcomod_gps_unsupported_desc": null,
   "settings_meshcomod_gps_interval_label": null,
@@ -1886,7 +2666,11 @@
   "settings_meshcomod_full_capture_unsupported": null,
   "cfilter_heading": null,
   "cfilter_desc": null,
-  "cfilter_refresh": null,
+  "cfilter_refresh": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cfilter_load_failed": null,
   "cfilter_change_failed": null,
   "cfilter_enabled_label": null,
@@ -1899,8 +2683,16 @@
   "cfilter_counters_heading": null,
   "cfilter_counter_malformed": null,
   "cfilter_counter_age": null,
-  "cfilter_counter_path": null,
-  "cfilter_counter_sender": null,
+  "cfilter_counter_path": {
+    "value": "Ruta",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "cfilter_counter_sender": {
+    "value": "Remitente",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cfilter_counter_text": null,
   "cfilter_malformed_reasons": null,
   "cfilter_history_heading": null,
@@ -1922,19 +2714,39 @@
   "cfilter_rule_throttle": null,
   "cfilter_rule_hidden": null,
   "cfilter_rule_passes": null,
-  "cfilter_list_empty": null,
+  "cfilter_list_empty": {
+    "value": "Ninguno",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cfilter_list_truncated": null,
-  "cfilter_add": null,
-  "cfilter_remove": null,
+  "cfilter_add": {
+    "value": "Añadir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "cfilter_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cfilter_remove_aria": null,
-  "cfilter_backup_heading": null,
+  "cfilter_backup_heading": {
+    "value": "Copia de seguridad",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cfilter_backup_saved": null,
   "cfilter_backup_none": null,
   "cfilter_backup_incomplete": null,
   "cfilter_backup_save": null,
   "cfilter_backup_restore": null,
   "cfilter_restore_confirm": null,
-  "settings_gps_heading": null,
+  "settings_gps_heading": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_gps_enabled_label": null,
   "settings_gps_enabled_desc": null,
   "settings_gps_interval_label": null,
@@ -1946,13 +2758,25 @@
   "settings_openhop_token_desc": null,
   "settings_openhop_status_configured": null,
   "settings_openhop_status_unconfigured": null,
-  "settings_openhop_save": null,
+  "settings_openhop_save": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_openhop_save_failed": null,
   "settings_radio_details_heading": null,
   "settings_radio_updated_just_now": null,
   "settings_radio_updated_seconds_ago": null,
-  "settings_radio_stat_uptime": null,
-  "settings_radio_stat_battery": null,
+  "settings_radio_stat_uptime": {
+    "value": "Tiempo activo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radio_stat_battery": {
+    "value": "Batería",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_stat_tx_queue": null,
   "settings_radio_stat_errors": null,
   "settings_radio_stat_noise_floor": null,
@@ -2068,28 +2892,52 @@
   "settings_radio_failed_import_config": null,
   "settings_radio_toast_import_with_key": null,
   "settings_radio_toast_import_config": null,
-  "settings_radio_disconnect": null,
+  "settings_radio_disconnect": {
+    "value": "Desconectar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_stop_trying": null,
-  "settings_radio_status_connected": null,
+  "settings_radio_status_connected": {
+    "value": "Conectado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_status_radio_fallback": null,
   "settings_radio_status_initializing": null,
   "settings_radio_status_connecting": null,
   "settings_radio_status_connecting_to": null,
   "settings_radio_status_paused": null,
   "settings_radio_status_paused_with_info": null,
-  "settings_radio_status_not_connected": null,
+  "settings_radio_status_not_connected": {
+    "value": "Sin conexión",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_contacts_suffix": null,
   "settings_radio_channels_suffix": null,
-  "settings_radio_device_label_fallback": null,
+  "settings_radio_device_label_fallback": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_device_running": null,
   "settings_radio_device_capacity_suffix": null,
   "settings_radio_toast_reconnect_requested": null,
   "settings_radio_toast_connection_paused": null,
   "settings_radio_toast_connection_change_failed": null,
   "settings_radio_toast_check_connection_retry": null,
-  "settings_radio_connection_heading": null,
+  "settings_radio_connection_heading": {
+    "value": "Conexión",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_disconnect_note": null,
-  "settings_radio_identity_heading": null,
+  "settings_radio_identity_heading": {
+    "value": "Identidad",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_name_label": null,
   "settings_radio_private_key_label": null,
   "settings_radio_private_key_placeholder": null,
@@ -2097,7 +2945,11 @@
   "settings_radio_set_private_key_reboot": null,
   "settings_radio_parameters_heading": null,
   "settings_radio_preset_label": null,
-  "settings_radio_preset_custom": null,
+  "settings_radio_preset_custom": {
+    "value": "Personalizado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_frequency_label": null,
   "settings_radio_bandwidth_label": null,
   "settings_radio_spreading_factor_label": null,
@@ -2110,13 +2962,29 @@
   "settings_radio_path_hash_3byte": null,
   "settings_radio_compat_warning_heading": null,
   "settings_radio_compat_warning_desc": null,
-  "settings_radio_location_heading": null,
+  "settings_radio_location_heading": {
+    "value": "Ubicación",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_getting_location": null,
   "settings_radio_use_my_location": null,
-  "settings_radio_latitude_label": null,
-  "settings_radio_longitude_label": null,
+  "settings_radio_latitude_label": {
+    "value": "Latitud",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radio_longitude_label": {
+    "value": "Longitud",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_advert_location_source_label": null,
-  "settings_radio_location_off": null,
+  "settings_radio_location_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_location_include": null,
   "settings_radio_advert_location_desc": null,
   "settings_radio_telemetry_heading": null,
@@ -2125,7 +2993,11 @@
   "settings_radio_telemetry_allow_all": null,
   "settings_radio_telemetry_desc": null,
   "settings_radio_telemetry_base_label": null,
-  "settings_radio_telemetry_location_label": null,
+  "settings_radio_telemetry_location_label": {
+    "value": "Ubicación",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_telemetry_env_label": null,
   "settings_radio_saving": null,
   "settings_radio_save_config_button": null,
@@ -2147,7 +3019,11 @@
   "settings_radio_default_scope_none": null,
   "settings_radio_default_scope_unsupported": null,
   "settings_radio_default_scope_error": null,
-  "settings_radio_default_scope_refresh": null,
+  "settings_radio_default_scope_refresh": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_default_scope_desc": null,
   "settings_radio_default_scope_differs": null,
   "settings_radio_known_regions_label": null,
@@ -2206,15 +3082,35 @@
   "settings_radioapp_next_run_at": null,
   "settings_radioapp_utc_hours_suffix": null,
   "settings_radioapp_schedule_minute_label": null,
-  "settings_radioapp_schedule_minute_auto": null,
+  "settings_radioapp_schedule_minute_auto": {
+    "value": "Automático",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radioapp_schedule_minute_auto_at": null,
   "settings_radioapp_schedule_minute_desc": null,
   "settings_radioapp_next_routed_run_at": null,
   "settings_radioapp_no_tracked_repeaters": null,
-  "settings_radioapp_route_flood": null,
-  "settings_radioapp_route_routed": null,
-  "settings_radioapp_route_direct": null,
-  "settings_radioapp_remove_button": null,
+  "settings_radioapp_route_flood": {
+    "value": "flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radioapp_route_routed": {
+    "value": "enrutado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radioapp_route_direct": {
+    "value": "directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radioapp_remove_button": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radioapp_checked_at": null,
   "settings_radioapp_no_telemetry_yet": null,
   "settings_radioapp_tracked_contact_heading": null,
@@ -2236,7 +3132,11 @@
   "settings_radioapp_blocked_contacts_desc": null,
   "settings_radioapp_no_blocked_contacts": null,
   "settings_radioapp_blocked_keys_label": null,
-  "settings_radioapp_unblock_button": null,
+  "settings_radioapp_unblock_button": {
+    "value": "Desbloquear",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radioapp_blocked_names_label": null,
   "settings_radioapp_bulk_delete_heading": null,
   "settings_radioapp_bulk_delete_desc": null,
@@ -2274,7 +3174,11 @@
   "settings_fanout_preset_region_europe": null,
   "settings_fanout_preset_region_north_america": null,
   "settings_fanout_preset_region_oceania": null,
-  "settings_fanout_preset_region_other": null,
+  "settings_fanout_preset_region_other": {
+    "value": "Otros",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_preset_note_embedded_creds": null,
   "settings_fanout_preset_note_pubkey_username": null,
   "settings_fanout_preset_note_topic_required": null,
@@ -2282,20 +3186,44 @@
   "settings_fanout_no_integration_types": null,
   "settings_fanout_no_targets_configured": null,
   "settings_fanout_no_queue_configured": null,
-  "settings_fanout_status_active": null,
-  "settings_fanout_status_connected": null,
+  "settings_fanout_status_active": {
+    "value": "Activa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_status_connected": {
+    "value": "Conectado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_status_error": null,
-  "settings_fanout_status_disconnected": null,
-  "settings_fanout_status_inactive": null,
+  "settings_fanout_status_disconnected": {
+    "value": "Desconectado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_status_inactive": {
+    "value": "Inactiva",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_status_disabled": null,
   "settings_fanout_mqtt_private_desc": null,
   "settings_fanout_mqtt_private_plaintext_warning": null,
   "settings_fanout_broker_host_label": null,
   "settings_fanout_broker_host_placeholder": null,
   "settings_fanout_broker_port_label": null,
-  "settings_fanout_username_label": null,
+  "settings_fanout_username_label": {
+    "value": "Nombre de usuario",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_optional_placeholder": null,
-  "settings_fanout_password_label": null,
+  "settings_fanout_password_label": {
+    "value": "Contraseña",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_use_tls_label": null,
   "settings_fanout_skip_cert_verification_label": null,
   "settings_fanout_topic_prefix_label": null,
@@ -2358,12 +3286,28 @@
   "settings_fanout_ha_message_events_fire_prefix": null,
   "settings_fanout_ha_message_events_fire_suffix": null,
   "settings_fanout_mqtt_community_desc": null,
-  "settings_fanout_transport_label": null,
+  "settings_fanout_transport_label": {
+    "value": "Transporte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_transport_websockets": null,
-  "settings_fanout_transport_tcp": null,
-  "settings_fanout_authentication_label": null,
+  "settings_fanout_transport_tcp": {
+    "value": "TCP",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_authentication_label": {
+    "value": "Autenticación",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_auth_token": null,
-  "settings_fanout_auth_none": null,
+  "settings_fanout_auth_none": {
+    "value": "Ninguno",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_auth_username_password": null,
   "settings_fanout_auth_hint_letsmesh": null,
   "settings_fanout_auth_hint_meshrank": null,
@@ -2405,15 +3349,27 @@
   "settings_fanout_map_radius_km_label": null,
   "settings_fanout_map_radius_hint": null,
   "settings_fanout_map_radius_placeholder": null,
-  "settings_fanout_all_label": null,
-  "settings_fanout_none_label": null,
+  "settings_fanout_all_label": {
+    "value": "Todas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_none_label": {
+    "value": "Ninguno",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_over_pill_limit": null,
   "settings_fanout_no_items_match": null,
   "settings_fanout_scope_heading": null,
   "settings_fanout_forward_raw_packets_label": null,
   "settings_fanout_forward_data_placeholders_label": null,
   "settings_fanout_forward_data_placeholders_hint": null,
-  "settings_fanout_scope_mode_all": null,
+  "settings_fanout_scope_mode_all": {
+    "value": "Todos los mensajes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_scope_mode_none": null,
   "settings_fanout_scope_mode_only": null,
   "settings_fanout_scope_mode_except": null,
@@ -2422,12 +3378,24 @@
   "settings_fanout_scope_hint_except": null,
   "settings_fanout_scope_checkbox_exclude": null,
   "settings_fanout_scope_checkbox_include": null,
-  "settings_fanout_channels_label": null,
+  "settings_fanout_channels_label": {
+    "value": "Canales",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_no_channels_available": null,
-  "settings_fanout_contacts_label": null,
+  "settings_fanout_contacts_label": {
+    "value": "Contactos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_apprise_rendered_label": null,
   "settings_fanout_apprise_raw_label": null,
-  "settings_fanout_apprise_preview_label": null,
+  "settings_fanout_apprise_preview_label": {
+    "value": "Vista previa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_apprise_intro_prefix": null,
   "settings_fanout_apprise_intro_middle": null,
   "settings_fanout_apprise_intro_other_services": null,
@@ -2456,13 +3424,21 @@
   "settings_fanout_apprise_empty_textareas_hint": null,
   "settings_fanout_apprise_dm_format_label": null,
   "settings_fanout_apprise_reset_dm_format_aria": null,
-  "settings_fanout_reset_to_default": null,
+  "settings_fanout_reset_to_default": {
+    "value": "Restablecer a predeterminada",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_apprise_channel_format_label": null,
   "settings_fanout_apprise_reset_channel_format_aria": null,
   "settings_fanout_webhook_headers_must_be_object": null,
   "settings_fanout_webhook_headers_invalid_json": null,
   "settings_fanout_webhook_desc": null,
-  "settings_fanout_url_label": null,
+  "settings_fanout_url_label": {
+    "value": "URL",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_http_method_label": null,
   "settings_fanout_hmac_signing_heading": null,
   "settings_fanout_hmac_signing_desc_prefix": null,
@@ -2511,12 +3487,20 @@
   "settings_fanout_edit_name_for_aria": null,
   "settings_fanout_view_error_details_aria": null,
   "settings_fanout_view_latest_error_title": null,
-  "settings_fanout_edit_button": null,
+  "settings_fanout_edit_button": {
+    "value": "Editar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_broker_label": null,
   "settings_fanout_topic_label": null,
   "settings_fanout_topics_label": null,
   "settings_fanout_url_summary_label": null,
-  "settings_fanout_not_set": null,
+  "settings_fanout_not_set": {
+    "value": "Sin definir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_targets_label": null,
   "settings_fanout_queue_label": null,
   "settings_fanout_mqtt_broker_heading": null,
@@ -2526,10 +3510,26 @@
   "settings_radio_preset_syncing": null,
   "settings_radio_preset_sync": null,
   "settings_statistics_loading": null,
-  "settings_statistics_network_heading": null,
-  "settings_statistics_contacts_label": null,
-  "settings_statistics_repeaters_label": null,
-  "settings_statistics_channels_label": null,
+  "settings_statistics_network_heading": {
+    "value": "Red",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_contacts_label": {
+    "value": "Contactos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_repeaters_label": {
+    "value": "Repetidores",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_channels_label": {
+    "value": "Canales",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_statistics_messages_heading": null,
   "settings_statistics_direct_messages_label": null,
   "settings_statistics_channel_messages_label": null,
@@ -2547,13 +3547,25 @@
   "settings_statistics_undecrypted_label": null,
   "settings_statistics_mqtt_title": null,
   "settings_statistics_mqtt_broker": null,
-  "settings_statistics_mqtt_status": null,
+  "settings_statistics_mqtt_status": {
+    "value": "Estado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_statistics_mqtt_published": null,
   "settings_statistics_mqtt_failures": null,
   "settings_statistics_mqtt_reconnects": null,
   "settings_statistics_mqtt_last_error": null,
-  "settings_statistics_mqtt_status_connected": null,
-  "settings_statistics_mqtt_status_disconnected": null,
+  "settings_statistics_mqtt_status_connected": {
+    "value": "Conectado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_mqtt_status_disconnected": {
+    "value": "Desconectado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_statistics_mqtt_status_error": null,
   "settings_statistics_packets_per_hour_heading": null,
   "settings_statistics_path_hash_width_heading": null,
@@ -2584,11 +3596,19 @@
   "settings_statistics_region_scope_sender_unaffected": null,
   "settings_statistics_region_scope_no_messages": null,
   "repeater_acl_no_entries": null,
-  "repeater_actions_title": null,
+  "repeater_actions_title": {
+    "value": "Acciones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_advert_disabled": null,
   "repeater_advert_intervals_title": null,
   "repeater_airtime_factor_label": null,
-  "repeater_battery_label": null,
+  "repeater_battery_label": {
+    "value": "Batería",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_clock_drift_label": null,
   "repeater_clock_utc_label": null,
   "repeater_confirm_reboot": null,
@@ -2596,7 +3616,11 @@
   "repeater_console_input_aria": null,
   "repeater_console_input_placeholder": null,
   "repeater_console_placeholder_text": null,
-  "repeater_console_title": null,
+  "repeater_console_title": {
+    "value": "Consola",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_console_suggestions_aria": null,
   "repeater_console_cli_docs": null,
   "repeater_csv_header_packets_received": null,
@@ -2607,12 +3631,20 @@
   "repeater_csv_header_timestamp_iso": null,
   "repeater_csv_header_timestamp_unix": null,
   "repeater_debug_flags_label": null,
-  "repeater_direct_label": null,
+  "repeater_direct_label": {
+    "value": "Directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_disable_tracking_hint": null,
   "repeater_dist_header": null,
   "repeater_download_csv_button": null,
   "repeater_download_csv_title": null,
-  "repeater_duplicates_label": null,
+  "repeater_duplicates_label": {
+    "value": "Duplicados",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_duty_cycle_limit_label": null,
   "repeater_fetched_at": null,
   "repeater_fetched_hours_ago": null,
@@ -2620,10 +3652,18 @@
   "repeater_fetched_minutes_ago": null,
   "repeater_fetching": null,
   "repeater_fetching_attempt": null,
-  "repeater_firmware_label": null,
+  "repeater_firmware_label": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_flood_advert": null,
   "repeater_flood_direct_dups": null,
-  "repeater_flood_label": null,
+  "repeater_flood_label": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_guest_password_label": null,
   "repeater_history_explanation_after_endpoint": null,
   "repeater_history_explanation_after_link": null,
@@ -2643,14 +3683,22 @@
   "repeater_lpp_no_sensor_data": null,
   "repeater_lpp_sensors_title": null,
   "repeater_max_flood_hops_label": null,
-  "repeater_metric_voltage": null,
+  "repeater_metric_voltage": {
+    "value": "Voltaje",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_metric_neighbor_count": null,
   "repeater_metric_region_count": null,
   "repeater_neighbors_map_unavailable": null,
   "repeater_neighbors_no_position": null,
   "repeater_neighbors_none_reported": null,
   "repeater_neighbors_from_stored": null,
-  "repeater_neighbors_trend_header": null,
+  "repeater_neighbors_trend_header": {
+    "value": "Tendencia",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "neighbor_signal_history_title": null,
   "neighbor_signal_series_repeater": null,
   "neighbor_signal_series_self": null,
@@ -2681,10 +3729,22 @@
   "repeater_password_aria": null,
   "repeater_password_placeholder": null,
   "repeater_permission_header": null,
-  "repeater_radio_label": null,
+  "repeater_radio_label": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_radio_settings_title": null,
-  "repeater_reboot": null,
-  "repeater_refresh": null,
+  "repeater_reboot": {
+    "value": "Reiniciar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "repeater_refresh": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_refresh_advert_intervals": null,
   "repeater_refresh_title": null,
   "repeater_regions_all_regions": null,
@@ -2701,7 +3761,11 @@
   "repeater_regions_seed_added": null,
   "repeater_regions_seed_none_new": null,
   "repeater_regions_seed_failed": null,
-  "repeater_regions_title": null,
+  "repeater_regions_title": {
+    "value": "Regiones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_regions_truncated": null,
   "repeater_remember_password": null,
   "repeater_remember_password_warning": null,
@@ -2714,13 +3778,25 @@
   "repeater_rx_tx_counts": null,
   "repeater_samples_count": null,
   "repeater_series_error_rate": null,
-  "repeater_series_received": null,
+  "repeater_series_received": {
+    "value": "Recibido",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_series_received_delta": null,
-  "repeater_series_sent": null,
+  "repeater_series_sent": {
+    "value": "Enviado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_series_sent_delta": null,
   "repeater_sync_clock": null,
   "repeater_telemetry_history_title": null,
-  "repeater_config_history_title": null,
+  "repeater_config_history_title": {
+    "value": "Historial",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_config_history_note": null,
   "room_config_history_note": null,
   "repeater_config_history_kind_acl": null,
@@ -2729,14 +3805,22 @@
   "repeater_config_history_no_changes": null,
   "repeater_config_history_show_all": null,
   "repeater_config_history_show_less": null,
-  "repeater_telemetry_title": null,
+  "repeater_telemetry_title": {
+    "value": "Telemetría",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_time_ago": null,
   "repeater_tracking_full": null,
   "repeater_tx_airtime_label": null,
   "repeater_tx_power_label": null,
   "repeater_tx_queue_label": null,
   "repeater_updating": null,
-  "repeater_uptime_label": null,
+  "repeater_uptime_label": {
+    "value": "Tiempo activo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_view_info_aria": null,
   "repeater_zero_hop_advert": null,
   "room_hide_tools": null,
@@ -2767,36 +3851,64 @@
   "packet_hex_filter_invalid": null,
   "packet_search_placeholder": null,
   "packet_search_aria": null,
-  "packet_clear_search_aria": null,
+  "packet_clear_search_aria": {
+    "value": "Borrar la búsqueda",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_scroll_top_aria": null,
   "packet_scroll_bottom_aria": null,
   "packet_select_all": null,
   "packet_deselect_all": null,
   "packet_selected_count": null,
-  "packet_export_csv": null,
+  "packet_export_csv": {
+    "value": "Exportar CSV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_select_row_aria": null,
   "packet_csv_timestamp_iso": null,
   "packet_csv_timestamp_unix": null,
-  "packet_csv_payload_type": null,
+  "packet_csv_payload_type": {
+    "value": "Tipo de carga útil",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_csv_route_type": null,
   "packet_csv_snr": null,
   "packet_csv_rssi": null,
   "packet_csv_decrypted": null,
   "packet_csv_summary": null,
-  "packet_csv_path": null,
+  "packet_csv_path": {
+    "value": "Ruta",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_csv_policy_action": null,
   "packet_csv_policy_rule": null,
   "packet_csv_data_hex": null,
-  "packet_filter_all_label": null,
+  "packet_filter_all_label": {
+    "value": "Todas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_filter_only_button": null,
-  "packet_filters_button": null,
+  "packet_filters_button": {
+    "value": "Filtros",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_filters_active_count": null,
   "packet_filters_modal_title": null,
   "packet_filters_modal_description": null,
   "packet_filter_types_section": null,
   "packet_filter_widths_section": null,
   "packet_filter_reset_all": null,
-  "packet_filter_done": null,
+  "packet_filter_done": {
+    "value": "Hecho",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_filter_select_none": null,
   "packet_group_by_hash_label": null,
   "packet_group_by_hash_description": null,
@@ -2812,14 +3924,30 @@
   "packet_policy_log_only": null,
   "packet_policy_default_drop": null,
   "packet_policy_title": null,
-  "packet_pause": null,
-  "packet_resume": null,
+  "packet_pause": {
+    "value": "Pausar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_resume": {
+    "value": "Reanudar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_paused_new": null,
   "packet_filter_all_widths_label": null,
   "packet_autoscroll_label": null,
   "packet_sort_label": null,
-  "packet_sort_oldest": null,
-  "packet_sort_newest": null,
+  "packet_sort_oldest": {
+    "value": "Más antiguos primero",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_sort_newest": {
+    "value": "Más recientes primero",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_collecting_stats_since": null,
   "packet_show_filters_button": null,
   "packet_show_stats_button": null,
@@ -2840,7 +3968,11 @@
   "packet_window_5m": null,
   "packet_window_10m": null,
   "packet_window_30m": null,
-  "packet_window_session": null,
+  "packet_window_session": {
+    "value": "Sesión",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_stats_summary": null,
   "packet_stat_packets_per_min": null,
   "packet_stat_unique_sources": null,
@@ -2887,19 +4019,31 @@
   "packet_loading_message": null,
   "packet_analyze_description": null,
   "packet_signal_label_last_hop": null,
-  "packet_signal_label": null,
+  "packet_signal_label": {
+    "value": "Señal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_signal_none": null,
   "packet_byte_single": null,
   "packet_byte_range": null,
   "packet_no_path_hops": null,
   "packet_hop_count": null,
   "packet_hash_size": null,
-  "packet_context_title_channel": null,
+  "packet_context_title_channel": {
+    "value": "Canal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_context_title_context": null,
   "packet_sender_metadata_available": null,
   "packet_sender_prefix": null,
   "packet_channel_hash_prefix": null,
-  "packet_meta_label_packet": null,
+  "packet_meta_label_packet": {
+    "value": "Paquete",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_meta_label_scope": null,
   "packet_bytes_status": null,
   "packet_status_encrypted": null,
@@ -2911,7 +4055,11 @@
   "packet_region_unknown_suffix": null,
   "packet_validation_notes_heading": null,
   "packet_full_hex_heading": null,
-  "packet_copy_button": null,
+  "packet_copy_button": {
+    "value": "Copiar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_who_heard_heading": null,
   "packet_who_heard_ask": null,
   "packet_who_heard_asking": null,
@@ -2922,8 +4070,16 @@
   "packet_who_heard_summary": null,
   "packet_who_heard_truncated": null,
   "packet_who_heard_failed": null,
-  "packet_who_heard_col_observer": null,
-  "packet_who_heard_col_region": null,
+  "packet_who_heard_col_observer": {
+    "value": "Observador",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_who_heard_col_region": {
+    "value": "Región",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_who_heard_col_heard": null,
   "packet_who_heard_unknown_observer": null,
   "packet_fields_heading": null,
@@ -2945,33 +4101,65 @@
   "map_lt_1h": null,
   "map_lt_1d": null,
   "map_lt_3d": null,
-  "map_recency_older": null,
+  "map_recency_older": {
+    "value": "más antiguo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_packet_legend_ad": null,
   "map_packet_legend_ch": null,
-  "map_packet_legend_dm": null,
+  "map_packet_legend_dm": {
+    "value": "MD",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_packet_legend_ack": null,
   "map_repeater_legend": null,
   "map_since_group_aria": null,
   "map_since_label": null,
   "map_preset_7d": null,
-  "map_preset_all": null,
-  "map_custom_button": null,
+  "map_preset_all": {
+    "value": "Todas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_custom_button": {
+    "value": "Personalizado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_since_custom_input_aria": null,
   "map_since_custom_until_input_aria": null,
-  "map_clear_button": null,
+  "map_clear_button": {
+    "value": "Borrar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_visualize_packets_label": null,
   "map_playback_group_aria": null,
   "map_playback_play": null,
-  "map_playback_pause": null,
+  "map_playback_pause": {
+    "value": "Pausar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_playback_timeline_aria": null,
   "map_playback_speed_aria": null,
   "map_playback_speed": null,
-  "map_playback_live": null,
+  "map_playback_live": {
+    "value": "En directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_playback_lookback_label": null,
   "map_lookback_15m": null,
   "map_lookback_1h": null,
   "map_lookback_6h": null,
-  "map_lookback_all": null,
+  "map_lookback_all": {
+    "value": "Todas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_packets_pulses_label": null,
   "map_packets_glow_label": null,
   "map_packets_buffer_label": null,
@@ -2988,7 +4176,11 @@
   "map_external_nodes_label": null,
   "map_hide_wrong_location_label": null,
   "map_hide_wrong_location_help": null,
-  "map_external_node": null,
+  "map_external_node": {
+    "value": "Nodo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_external_node_source": null,
   "map_discover_nodes_help": null,
   "map_aria_label": null,
@@ -3004,30 +4196,82 @@
   "map_telemetry_history_none": null,
   "map_telemetry_history_error": null,
   "map_popup_heard": null,
-  "map_popup_age_now": null,
+  "map_popup_age_now": {
+    "value": "justo ahora",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_age_min": null,
   "map_popup_age_hour": null,
   "map_popup_age_day": null,
-  "map_popup_never": null,
-  "map_popup_favorite": null,
+  "map_popup_never": {
+    "value": "Nunca",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_favorite": {
+    "value": "Favorito",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_route_flood": null,
   "map_popup_route_direct": null,
   "map_popup_route_hops": null,
   "map_popup_distance": null,
-  "map_popup_dir_n": null,
-  "map_popup_dir_ne": null,
-  "map_popup_dir_e": null,
-  "map_popup_dir_se": null,
-  "map_popup_dir_s": null,
-  "map_popup_dir_sw": null,
-  "map_popup_dir_w": null,
-  "map_popup_dir_nw": null,
+  "map_popup_dir_n": {
+    "value": "N",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_ne": {
+    "value": "NE",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_e": {
+    "value": "E",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_se": {
+    "value": "SE",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_s": {
+    "value": "S",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_sw": {
+    "value": "SO",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_w": {
+    "value": "O",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_nw": {
+    "value": "NO",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_location_reported": null,
   "map_popup_location_manual": null,
-  "map_popup_battery": null,
+  "map_popup_battery": {
+    "value": "Batería",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_battery_value": null,
   "map_popup_no_battery": null,
-  "map_popup_temperature": null,
+  "map_popup_temperature": {
+    "value": "Temperatura",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_temperature_value": null,
   "map_popup_chip_temperature": null,
   "map_popup_source_snmp": null,
@@ -3037,7 +4281,11 @@
   "map_popup_no_readings": null,
   "map_popup_links": null,
   "map_popup_links_value": null,
-  "map_popup_adverts": null,
+  "map_popup_adverts": {
+    "value": "Adverts oídos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_adverts_value": null,
   "map_popup_adverts_value_day": null,
   "map_popup_adverts_title": null,
@@ -3046,10 +4294,18 @@
   "map_popup_route": null,
   "map_popup_route_source_override": null,
   "map_popup_route_source_direct": null,
-  "map_popup_message": null,
+  "map_popup_message": {
+    "value": "Mensaje",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_open_room": null,
   "map_heard_label": null,
-  "map_heard_all": null,
+  "map_heard_all": {
+    "value": "Todas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_heard_hide": null,
   "map_heard_only": null,
   "map_heard_help": null,
@@ -3126,10 +4382,22 @@
   "map_since_any_time": null,
   "map_since_absolute": null,
   "map_since_relative": null,
-  "map_since_window_1h": null,
-  "map_since_window_1d": null,
+  "map_since_window_1h": {
+    "value": "1 hora",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_since_window_1d": {
+    "value": "24 horas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_since_window_3d": null,
-  "map_since_window_7d": null,
+  "map_since_window_7d": {
+    "value": "7 días",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_tile_layer_light": null,
   "map_tile_layer_darkgray": null,
   "map_tile_layer_lightgray": null,
@@ -3139,7 +4407,11 @@
   "map_layers": null,
   "map_basemap_label": null,
   "map_legend": null,
-  "map_search": null,
+  "map_search": {
+    "value": "Buscar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_2d": null,
   "map_3d": null,
   "map_tilt_label": null,
@@ -3157,17 +4429,37 @@
   "map_arc_width_label": null,
   "map_link_width_label": null,
   "map_labels_label": null,
-  "map_labels_off": null,
-  "map_labels_name": null,
+  "map_labels_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_labels_name": {
+    "value": "Nombre",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_labels_tag": null,
   "map_telemetry_label": null,
   "map_telemetry_enable": null,
   "map_node_colors_label": null,
-  "map_node_colors_reset": null,
+  "map_node_colors_reset": {
+    "value": "Restablecer",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_node_color_for": null,
   "map_controls_title": null,
-  "map_group_display": null,
-  "map_group_filters": null,
+  "map_group_display": {
+    "value": "Pantalla",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_group_filters": {
+    "value": "Filtros",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_group_overlays": null,
   "map_group_style": null,
   "map_arc_fade_label": null,
@@ -3198,13 +4490,25 @@
   "map_link_popup_packets": null,
   "map_link_popup_last_seen": null,
   "map_link_popup_distance": null,
-  "map_link_popup_details": null,
+  "map_link_popup_details": {
+    "value": "Detalles",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "link_detail_title": null,
-  "link_detail_back": null,
+  "link_detail_back": {
+    "value": "Atrás",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "link_detail_total_packets": null,
   "link_detail_first_seen": null,
   "link_detail_last_seen": null,
-  "link_detail_distance": null,
+  "link_detail_distance": {
+    "value": "Distancia",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "link_detail_hop_widths": null,
   "link_detail_confidence": null,
   "link_detail_confidence_unique": null,
@@ -3221,23 +4525,55 @@
   "link_detail_load_more": null,
   "link_detail_empty": null,
   "link_detail_error": null,
-  "link_detail_col_time": null,
-  "link_detail_col_type": null,
+  "link_detail_col_time": {
+    "value": "Hora",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "link_detail_col_type": {
+    "value": "Tipo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "link_detail_col_route": null,
   "link_detail_col_hop": null,
   "link_detail_col_confidence": null,
-  "link_detail_col_snr": null,
-  "link_detail_col_rssi": null,
+  "link_detail_col_snr": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "link_detail_col_rssi": {
+    "value": "RSSI",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_fullscreen_enter": null,
   "map_fullscreen_exit": null,
   "map_gpx_export": null,
   "map_gpx_manual_location": null,
   "map_type_client": null,
-  "map_type_repeater": null,
-  "map_type_room": null,
-  "map_type_sensor": null,
+  "map_type_repeater": {
+    "value": "Repetidor",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_type_room": {
+    "value": "Sala",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_type_sensor": {
+    "value": "Sensor",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_legend_node_types": null,
-  "map_legend_recency": null,
+  "map_legend_recency": {
+    "value": "Antigüedad",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_node_type_legend_aria": null,
   "map_legend_pin": null,
   "map_legend_unpin": null,
@@ -3252,7 +4588,11 @@
   "visualizer_packet_details_title": null,
   "visualizer_packet_details_description": null,
   "visualizer_controls_packets_heading": null,
-  "visualizer_controls_nodes_heading": null,
+  "visualizer_controls_nodes_heading": {
+    "value": "Nodos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_controls_toggle_title": null,
   "visualizer_controls_show_controls": null,
   "visualizer_controls_packet_feed_sidebar_title": null,
@@ -3261,7 +4601,11 @@
   "visualizer_controls_show_ambiguous_repeaters": null,
   "visualizer_controls_ambiguous_sender_title": null,
   "visualizer_controls_show_ambiguous_sender": null,
-  "visualizer_controls_advanced": null,
+  "visualizer_controls_advanced": {
+    "value": "Avanzado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_controls_advert_hints_title": null,
   "visualizer_controls_advert_hints_label": null,
   "visualizer_controls_collapse_siblings_title": null,
@@ -3295,8 +4639,16 @@
   "visualizer_legend_packet_acknowledgment": null,
   "visualizer_legend_packet_request": null,
   "visualizer_legend_packet_response": null,
-  "visualizer_legend_packet_other": null,
-  "visualizer_legend_node_node": null,
+  "visualizer_legend_packet_other": {
+    "value": "Otros",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "visualizer_legend_node_node": {
+    "value": "Nodo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_legend_node_ambiguous": null,
   "visualizer_tooltip_self_label": null,
   "visualizer_tooltip_id": null,
@@ -3311,7 +4663,11 @@
   "visualizer_tooltip_hidden": null,
   "visualizer_tooltip_paren_names": null,
   "visualizer_3d_aria_label": null,
-  "settings_section_radio": null,
+  "settings_section_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_section_local": null,
   "settings_section_radio_app": null,
   "settings_section_database": null,
@@ -3342,7 +4698,11 @@
   "openhop_config_radio_sf": null,
   "openhop_config_radio_cr": null,
   "openhop_config_radio_tx_power": null,
-  "openhop_config_radio_node_name": null,
+  "openhop_config_radio_node_name": {
+    "value": "Nombre del nodo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_config_radio_save": null,
   "openhop_config_radio_confirm": null,
   "openhop_config_radio_saved": null,
@@ -3368,15 +4728,35 @@
   "openhop_plugins_tab_catalogue": null,
   "openhop_plugins_load_failed": null,
   "openhop_plugins_empty": null,
-  "openhop_plugins_refresh": null,
-  "openhop_plugin_enable": null,
+  "openhop_plugins_refresh": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "openhop_plugin_enable": {
+    "value": "Activar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_plugin_disable": null,
   "openhop_plugin_start": null,
-  "openhop_plugin_stop": null,
+  "openhop_plugin_stop": {
+    "value": "Detener",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_plugin_restart": null,
-  "openhop_plugin_update": null,
+  "openhop_plugin_update": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_plugin_logs": null,
-  "openhop_plugin_settings": null,
+  "openhop_plugin_settings": {
+    "value": "Ajustes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_plugin_uninstall": null,
   "openhop_plugin_uninstall_confirm": null,
   "openhop_plugin_uninstall_delete_data": null,
@@ -3385,15 +4765,27 @@
   "openhop_plugin_state_disabled": null,
   "openhop_plugin_update_available": null,
   "openhop_plugin_logs_tail": null,
-  "openhop_plugin_logs_refresh": null,
+  "openhop_plugin_logs_refresh": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_plugin_logs_empty": null,
-  "openhop_plugin_settings_save": null,
+  "openhop_plugin_settings_save": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_plugin_settings_save_restart": null,
   "openhop_plugin_settings_saved": null,
   "openhop_plugin_settings_invalid_json": null,
   "openhop_plugin_settings_load_failed": null,
   "openhop_catalogue_empty": null,
-  "openhop_catalogue_install": null,
+  "openhop_catalogue_install": {
+    "value": "Instalar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_catalogue_installed": null,
   "openhop_catalogue_category": null,
   "openhop_catalogue_repo": null,
@@ -3402,45 +4794,89 @@
   "openhop_progress_done": null,
   "openhop_progress_error": null,
   "openhop_progress_stream_ended": null,
-  "openhop_tab_update": null,
+  "openhop_tab_update": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_update_installed": null,
   "openhop_update_latest": null,
   "openhop_update_available": null,
-  "openhop_update_channel": null,
-  "openhop_update_check": null,
+  "openhop_update_channel": {
+    "value": "Canal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "openhop_update_check": {
+    "value": "Buscar actualizaciones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_update_install": null,
   "openhop_update_installing": null,
   "openhop_update_confirm_prompt": null,
   "openhop_update_confirm": null,
-  "openhop_tab_cad": null,
+  "openhop_tab_cad": {
+    "value": "En el caso de las empresas de telecomunicaciones:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_cad_hw_note": null,
-  "openhop_cad_samples": null,
+  "openhop_cad_samples": {
+    "value": "Muestras",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_cad_peak": null,
-  "openhop_cad_min": null,
+  "openhop_cad_min": {
+    "value": "Mín",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_cad_symbols": null,
   "openhop_cad_apply_live": null,
   "openhop_cad_manual_check": null,
   "openhop_cad_start": null,
-  "openhop_cad_stop": null,
+  "openhop_cad_stop": {
+    "value": "Detener",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_cad_streaming": null,
   "openhop_cad_detections": null,
   "openhop_cad_rate": null,
   "openhop_cad_detected": null,
   "openhop_cad_save": null,
   "openhop_cad_save_confirm": null,
-  "openhop_tab_system": null,
+  "openhop_tab_system": {
+    "value": "Sistema",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_sys_cpu": null,
   "openhop_sys_memory": null,
   "openhop_sys_disk": null,
   "openhop_sys_free": null,
-  "openhop_sys_uptime": null,
+  "openhop_sys_uptime": {
+    "value": "Tiempo activo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_sys_analytics": null,
   "openhop_sys_no_psutil": null,
-  "openhop_tab_transport": null,
+  "openhop_tab_transport": {
+    "value": "Transporte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_tk_title": null,
   "openhop_tk_name": null,
   "openhop_tk_create": null,
-  "openhop_tk_delete": null,
+  "openhop_tk_delete": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_scopes_title": null,
   "openhop_scopes_served": null,
   "openhop_scopes_pubkey": null,
@@ -3457,8 +4893,16 @@
   "openhop_mqtt_saved": null,
   "openhop_mqtt_publish": null,
   "openhop_mqtt_publish_note": null,
-  "openhop_group_node": null,
-  "openhop_group_mesh": null,
+  "openhop_group_node": {
+    "value": "Nodo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "openhop_group_mesh": {
+    "value": "Malla",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_policy_heading": null,
   "openhop_policy_configure_first": null,
   "openhop_policy_load_failed": null,
@@ -3472,20 +4916,44 @@
   "openhop_pubkeys": null,
   "openhop_group_new": null,
   "openhop_group_id": null,
-  "openhop_group_name": null,
+  "openhop_group_name": {
+    "value": "Nombre",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_group_create": null,
   "openhop_group_delete": null,
   "openhop_no_groups": null,
-  "openhop_entry_add": null,
+  "openhop_entry_add": {
+    "value": "Añadir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_entry_value": null,
   "openhop_entry_value_hint": null,
   "openhop_rules_heading": null,
   "openhop_no_rules": null,
   "openhop_rule_add": null,
-  "openhop_rule_edit": null,
-  "openhop_rule_delete": null,
-  "openhop_rule_up": null,
-  "openhop_rule_down": null,
+  "openhop_rule_edit": {
+    "value": "Editar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "openhop_rule_delete": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "openhop_rule_up": {
+    "value": "Subir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "openhop_rule_down": {
+    "value": "Bajar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_rule_name": null,
   "openhop_rule_enabled": null,
   "openhop_rule_action": null,
@@ -3504,7 +4972,11 @@
   "openhop_rule_body_order_hint": null,
   "openhop_rule_use_group": null,
   "openhop_rule_save": null,
-  "openhop_rule_cancel": null,
+  "openhop_rule_cancel": {
+    "value": "Cancelar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_rule_prob": null,
   "openhop_rule_prob_hint": null,
   "openhop_rule_throttle": null,
@@ -3515,9 +4987,17 @@
   "openhop_rule_throttle_key_channel": null,
   "openhop_rule_throttle_key_path_first": null,
   "openhop_rule_stats": null,
-  "settings_section_about": null,
+  "settings_section_about": {
+    "value": "Acerca de",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_section_handy_info": null,
-  "settings_section_map": null,
+  "settings_section_map": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_map_home_heading": null,
   "settings_map_home_description": null,
   "settings_map_mode_label": null,
@@ -3528,8 +5008,16 @@
   "settings_map_mode_home_desc": null,
   "settings_map_mode_last_desc": null,
   "settings_map_home_pick_hint": null,
-  "settings_map_lat_label": null,
-  "settings_map_lon_label": null,
+  "settings_map_lat_label": {
+    "value": "Latitud",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_map_lon_label": {
+    "value": "Longitud",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_map_zoom_label": null,
   "settings_map_home_save": null,
   "settings_map_home_unset": null,
@@ -3549,7 +5037,11 @@
   "settings_tiles_source_cached": null,
   "settings_tiles_source_direct": null,
   "settings_tiles_source_no_download": null,
-  "settings_tiles_refresh_stats": null,
+  "settings_tiles_refresh_stats": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_tiles_clear": null,
   "settings_tiles_clear_confirm": null,
   "settings_tiles_cleared": null,
@@ -3562,8 +5054,16 @@
   "settings_tiles_download_min_zoom": null,
   "settings_tiles_download_max_zoom": null,
   "settings_tiles_download_estimate": null,
-  "settings_tiles_download_start": null,
-  "settings_tiles_download_cancel": null,
+  "settings_tiles_download_start": {
+    "value": "Descargar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_tiles_download_cancel": {
+    "value": "Cancelar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_tiles_download_failed": null,
   "settings_tiles_download_progress": null,
   "settings_tiles_download_state_idle": null,
@@ -3583,10 +5083,26 @@
   "settings_handy_link_dutch_settings_label": null,
   "settings_handy_link_channel_browser_label": null,
   "settings_handy_link_meshwiki_label": null,
-  "settings_handy_open": null,
-  "settings_handy_copy": null,
-  "settings_handy_apply": null,
-  "settings_handy_added": null,
+  "settings_handy_open": {
+    "value": "Abrir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_handy_copy": {
+    "value": "Copiar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_handy_apply": {
+    "value": "Aplicar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_handy_added": {
+    "value": "Añadido",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_open_aria": null,
   "settings_handy_copy_aria": null,
   "settings_handy_apply_aria": null,
@@ -3606,8 +5122,16 @@
   "settings_handy_tab_links": null,
   "settings_handy_links_desc": null,
   "settings_handy_empty": null,
-  "settings_handy_add": null,
-  "settings_handy_reset": null,
+  "settings_handy_add": {
+    "value": "Añadir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_handy_reset": {
+    "value": "Restablecer valores predeterminados",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_edit_aria": null,
   "settings_handy_hide_aria": null,
   "settings_handy_delete_aria": null,
@@ -3618,24 +5142,48 @@
   "settings_handy_toast_saved": null,
   "settings_handy_cat_community": null,
   "settings_handy_cat_monitoring": null,
-  "settings_handy_cat_tools": null,
+  "settings_handy_cat_tools": {
+    "value": "Herramientas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_cat_technical": null,
   "settings_handy_cat_fun": null,
   "settings_handy_dialog_add": null,
-  "settings_handy_dialog_edit": null,
-  "settings_handy_field_type": null,
+  "settings_handy_dialog_edit": {
+    "value": "Editar entrada",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_handy_field_type": {
+    "value": "Tipo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_type_analyzer": null,
   "settings_handy_type_region_sync": null,
   "settings_handy_type_registry_sync": null,
   "settings_handy_field_label": null,
-  "settings_handy_field_url": null,
+  "settings_handy_field_url": {
+    "value": "URL",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_field_category": null,
   "settings_handy_field_node_tpl": null,
   "settings_handy_field_packet_tpl": null,
   "settings_handy_field_channel_tpl": null,
   "settings_handy_field_api_tpl": null,
-  "settings_handy_cancel": null,
-  "settings_handy_save": null,
+  "settings_handy_cancel": {
+    "value": "Cancelar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_handy_save": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_err_label": null,
   "settings_handy_err_url": null,
   "settings_handy_err_category": null,
@@ -3653,7 +5201,11 @@
   "command_group_favorite_contacts": null,
   "command_group_favorite_repeaters": null,
   "command_group_favorite_channels": null,
-  "command_group_rooms": null,
+  "command_group_rooms": {
+    "value": "Salas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "command_repeater_acl_login_suffix": null,
   "search_input_placeholder": null,
   "search_input_aria_label": null,
@@ -3684,9 +5236,17 @@
   "cracker_wordlist_known_channels": null,
   "cracker_wordlist_known_channels_note": null,
   "cracker_wordlist_entries": null,
-  "cracker_wordlist_delete": null,
+  "cracker_wordlist_delete": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cracker_wordlist_upload_label": null,
-  "cracker_wordlist_upload_name_placeholder": null,
+  "cracker_wordlist_upload_name_placeholder": {
+    "value": "Nombre",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cracker_wordlist_custom_load_failed": null,
   "toast_wordlist_uploaded": null,
   "toast_wordlist_upload_failed": null,
@@ -3758,9 +5318,17 @@
   "trace_key_prefix_combined": null,
   "trace_local_radio_default": null,
   "trace_map_aria_label": null,
-  "trace_map_heading": null,
+  "trace_map_heading": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_meta_origin": null,
-  "trace_meta_terminal": null,
+  "trace_meta_terminal": {
+    "value": "Terminal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_move_down_aria": null,
   "trace_move_up_aria": null,
   "trace_no_hops_selected": null,
@@ -3772,13 +5340,21 @@
   "trace_repeater_hops_heading": null,
   "trace_repeater_prefix_label": null,
   "trace_results_duration_suffix": null,
-  "trace_results_heading": null,
+  "trace_results_heading": {
+    "value": "Resultados",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_reverse_link_button": null,
   "trace_reverse_link_title": null,
   "trace_search_aria": null,
   "trace_search_placeholder": null,
   "trace_showing_first": null,
-  "trace_snr_label": null,
+  "trace_snr_label": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_sort_alpha_desc": null,
   "trace_sort_alpha_label": null,
   "trace_sort_distance_desc": null,
@@ -3787,12 +5363,32 @@
   "trace_sort_recent_label": null,
   "trace_sort_traced_desc": null,
   "trace_sort_traced_label": null,
-  "trace_unknown_key": null,
-  "channel_import": null,
-  "channel_export": null,
-  "mention_label": null,
+  "trace_unknown_key": {
+    "value": "desconocida",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_import": {
+    "value": "Importar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_export": {
+    "value": "Exportar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mention_label": {
+    "value": "Menciones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mention_dismiss_title": null,
-  "channel_registry_just_now": null,
+  "channel_registry_just_now": {
+    "value": "justo ahora",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_minutes_ago": null,
   "channel_registry_hours_ago": null,
   "channel_registry_days_ago": null,
@@ -3805,15 +5401,31 @@
   "channel_registry_source_imported_lc": null,
   "channel_registry_source_mention_lc": null,
   "channel_registry_source_radio_lc": null,
-  "channel_registry_status_active": null,
-  "channel_registry_status_inactive": null,
+  "channel_registry_status_active": {
+    "value": "Activa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_registry_status_inactive": {
+    "value": "Inactiva",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_status_dormant": null,
   "channel_registry_status_experimental": null,
   "channel_registry_source_finder": null,
-  "channel_registry_source_radio": null,
+  "channel_registry_source_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_source_imported": null,
   "channel_registry_source_mention": null,
-  "channel_registry_source_manual": null,
+  "channel_registry_source_manual": {
+    "value": "Manual",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_source_manual_user": null,
   "channel_registry_category": null,
   "channel_registry_category_placeholder": null,
@@ -3821,14 +5433,30 @@
   "channel_registry_subcategory_placeholder": null,
   "channel_registry_country": null,
   "channel_registry_country_placeholder": null,
-  "channel_registry_region": null,
+  "channel_registry_region": {
+    "value": "Región",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_region_placeholder_edit": null,
   "channel_registry_region_placeholder_add": null,
-  "channel_registry_language": null,
+  "channel_registry_language": {
+    "value": "Idioma",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_language_placeholder": null,
   "channel_registry_comma_separated": null,
-  "channel_registry_status_label": null,
-  "channel_registry_source_label": null,
+  "channel_registry_status_label": {
+    "value": "Estado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_registry_source_label": {
+    "value": "Origen",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_scopes": null,
   "channel_registry_scopes_placeholder": null,
   "channel_registry_scopes_helper_prefix": null,
@@ -3841,19 +5469,31 @@
   "channel_registry_notes_placeholder": null,
   "channel_registry_notes_placeholder_add": null,
   "channel_registry_last_heard_label": null,
-  "channel_registry_added_label": null,
+  "channel_registry_added_label": {
+    "value": "Añadido",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_verified": null,
   "channel_registry_recommended": null,
   "channel_registry_private_title": null,
   "channel_registry_private_label": null,
-  "channel_registry_save": null,
+  "channel_registry_save": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_geo_detected": null,
   "channel_registry_geo_vr_label": null,
   "channel_registry_auto_fill": null,
   "channel_registry_add_channel_title": null,
   "channel_registry_channel_name_required": null,
   "channel_registry_channel_name_placeholder": null,
-  "channel_registry_channel_name_required_error": null,
+  "channel_registry_channel_name_required_error": {
+    "value": "El nombre del canal es obligatorio.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_add_channel_button": null,
   "channel_registry_title": null,
   "channel_registry_explainer": null,
@@ -3886,7 +5526,11 @@
   "channel_registry_delete_confirm_description": null,
   "channel_registry_delete_confirm_button": null,
   "channel_registry_delete_result": null,
-  "channel_registry_add_button": null,
+  "channel_registry_add_button": {
+    "value": "Añadir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_import_result": null,
   "channel_registry_import_invalid_json": null,
   "channel_registry_sync_result": null,
@@ -3908,18 +5552,38 @@
   "channel_registry_empty_title": null,
   "channel_registry_empty_description": null,
   "channel_registry_no_results": null,
-  "channel_registry_col_channel": null,
+  "channel_registry_col_channel": {
+    "value": "Canal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_col_lang": null,
-  "channel_registry_col_last_heard": null,
+  "channel_registry_col_last_heard": {
+    "value": "Última vez oído",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_col_packets": null,
-  "channel_registry_col_actions": null,
+  "channel_registry_col_actions": {
+    "value": "Acciones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_deselect_all": null,
   "channel_registry_select_all_visible": null,
   "channel_registry_footer_count_all": null,
   "channel_registry_footer_count_filtered": null,
   "channel_registry_private_badge_aria": null,
-  "channel_registry_edit_title": null,
-  "channel_registry_remove_title": null,
+  "channel_registry_edit_title": {
+    "value": "Editar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_registry_remove_title": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_io_title": null,
   "channel_io_description": null,
   "channel_io_choose_channels": null,
@@ -3930,7 +5594,11 @@
   "channel_io_option_finder_label": null,
   "channel_io_no_channels_found_yet": null,
   "channel_io_discovered_count": null,
-  "channel_io_channels_label": null,
+  "channel_io_channels_label": {
+    "value": "Canales",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_io_deselect_all": null,
   "channel_io_select_all": null,
   "channel_io_format_prefix": null,
@@ -3985,12 +5653,20 @@
   "community_short_id": null,
   "community_channels_heading": null,
   "community_no_channels": null,
-  "community_kind_public": null,
+  "community_kind_public": {
+    "value": "Público",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "community_kind_hashtag": null,
   "community_add_hashtag_heading": null,
   "community_hashtag_placeholder": null,
   "community_hashtag_aria": null,
-  "community_add_hashtag_button": null,
+  "community_add_hashtag_button": {
+    "value": "Añadir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "community_hashtag_help": null,
   "community_toast_hashtag_added": null,
   "community_toast_hashtag_exists": null,
@@ -4004,7 +5680,11 @@
   "community_export_copied": null,
   "community_export_png": null,
   "community_export_json": null,
-  "community_export_hide": null,
+  "community_export_hide": {
+    "value": "Ocultar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "community_toast_export_failed": null,
   "community_forget_button": null,
   "community_confirm_forget": null,
@@ -4031,11 +5711,19 @@
   "path_modal_route_map_dialog_description": null,
   "path_modal_route_map_all_description": null,
   "path_map_route_legend": null,
-  "path_modal_resend_button": null,
+  "path_modal_resend_button": {
+    "value": "Reenviar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "path_modal_resend_hint": null,
   "path_modal_resend_as_new_button": null,
   "path_modal_resend_as_new_hint": null,
-  "path_modal_sender_label": null,
+  "path_modal_sender_label": {
+    "value": "Remitente",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "path_modal_receiver_label": null,
   "path_modal_presumed_distance": null,
   "path_modal_hop_label": null,
@@ -4124,9 +5812,17 @@
   "bulkdelete_confirm_deletion_title": null,
   "bulkdelete_select_description": null,
   "bulkdelete_confirm_description": null,
-  "bulkdelete_filter_show_label": null,
+  "bulkdelete_filter_show_label": {
+    "value": "Mostrar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bulkdelete_type_clients": null,
-  "bulkdelete_type_sensors": null,
+  "bulkdelete_type_sensors": {
+    "value": "Sensores",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bulkdelete_filter_created_after": null,
   "bulkdelete_filter_created_before": null,
   "bulkdelete_filter_last_heard_after": null,
@@ -4136,9 +5832,17 @@
   "bulkdelete_filtered_suffix": null,
   "bulkdelete_selected_count": null,
   "bulkdelete_no_contacts_match": null,
-  "bulkdelete_col_key": null,
+  "bulkdelete_col_key": {
+    "value": "Clave",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bulkdelete_proceed_button": null,
-  "bulkdelete_back_button": null,
+  "bulkdelete_back_button": {
+    "value": "Atrás",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bulkdelete_confirm_button": null,
   "bulkdelete_summary_contacts": null,
   "bulkdelete_summary_repeaters": null,
@@ -4157,8 +5861,16 @@
   "bulkdelete_channels_no_match": null,
   "bulkdelete_channels_confirm_button": null,
   "bulkdelete_toast_channels_deleted": null,
-  "bulkdelete_col_channel": null,
-  "bulkdelete_col_type": null,
+  "bulkdelete_col_channel": {
+    "value": "Canal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "bulkdelete_col_type": {
+    "value": "Tipo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_registry_heading": null,
   "settings_db_registry_url_label": null,
   "settings_db_registry_url_hint_prefix": null,
@@ -4181,10 +5893,22 @@
   "settings_db_analyzer_privacy": null,
   "settings_db_analyzer_empty": null,
   "settings_db_analyzer_remove_aria": null,
-  "settings_db_analyzer_remove_button": null,
-  "settings_db_analyzer_edit_button": null,
+  "settings_db_analyzer_remove_button": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_db_analyzer_edit_button": {
+    "value": "Editar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_analyzer_edit_aria": null,
-  "settings_db_analyzer_save_button": null,
+  "settings_db_analyzer_save_button": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_analyzer_save_aria": null,
   "settings_db_analyzer_cancel_aria": null,
   "settings_db_analyzer_edit_name_aria": null,
@@ -4199,7 +5923,11 @@
   "settings_db_analyzer_toast_bad_node_url": null,
   "settings_db_analyzer_toast_bad_packet_url": null,
   "settings_db_analyzer_toast_bad_channel_url": null,
-  "settings_db_backup_heading": null,
+  "settings_db_backup_heading": {
+    "value": "Copia de seguridad",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_backup_desc": null,
   "settings_db_backup_download": null,
   "settings_db_backup_server_toggle": null,
@@ -4213,7 +5941,11 @@
   "settings_db_schedule_interval_label": null,
   "settings_db_schedule_keep_label": null,
   "settings_db_schedule_desc": null,
-  "settings_db_restore_heading": null,
+  "settings_db_restore_heading": {
+    "value": "Restaurar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_restore_desc": null,
   "settings_db_restore_upload": null,
   "settings_db_restore_confirm": null,
@@ -4226,11 +5958,23 @@
   "settings_db_restore_result_ok": null,
   "settings_db_restore_result_ok_no_snapshot": null,
   "settings_db_restore_result_failed": null,
-  "settings_db_restore_dismiss": null,
+  "settings_db_restore_dismiss": {
+    "value": "Descartar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_restore_server_heading": null,
   "settings_db_restore_server_empty": null,
-  "settings_db_restore_server_refresh": null,
-  "settings_db_restore_server_restore": null,
+  "settings_db_restore_server_refresh": {
+    "value": "Actualizar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_db_restore_server_restore": {
+    "value": "Restaurar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_restore_size_mb": null,
   "settings_db_restore_file_meta": null,
   "settings_db_restore_kind_auto": null,
@@ -4256,43 +6000,91 @@
   "repeater_settings_read_all": null,
   "repeater_settings_reading": null,
   "repeater_settings_read_first": null,
-  "repeater_settings_edit": null,
+  "repeater_settings_edit": {
+    "value": "Editar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_edit_label": null,
   "repeater_settings_not_read": null,
-  "repeater_settings_group_identity": null,
-  "repeater_settings_group_radio": null,
+  "repeater_settings_group_identity": {
+    "value": "Identidad",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "repeater_settings_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_group_routing": null,
-  "repeater_settings_group_adverts": null,
+  "repeater_settings_group_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_group_observer": null,
   "repeater_settings_group_observer_note": null,
-  "repeater_settings_read_group": null,
+  "repeater_settings_read_group": {
+    "value": "Leer",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_read_group_label": null,
   "repeater_settings_group_read_first": null,
-  "repeater_settings_name": null,
-  "repeater_settings_lat": null,
-  "repeater_settings_lon": null,
-  "repeater_settings_owner_info": null,
+  "repeater_settings_name": {
+    "value": "Nombre",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "repeater_settings_lat": {
+    "value": "Latitud",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "repeater_settings_lon": {
+    "value": "Longitud",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "repeater_settings_owner_info": {
+    "value": "Datos del propietario",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_guest_password": null,
   "repeater_settings_radio": null,
   "repeater_settings_radio_display": null,
   "repeater_settings_tx": null,
   "repeater_settings_dutycycle": null,
   "repeater_settings_rxgain": null,
-  "repeater_settings_int_thresh": null,
+  "repeater_settings_int_thresh": {
+    "value": "Umbral de interferencia",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_agc_reset": null,
   "repeater_settings_repeat": null,
   "repeater_settings_allow_read_only": null,
   "repeater_settings_flood_max": null,
   "repeater_settings_multi_acks": null,
   "repeater_settings_loop_detect": null,
-  "repeater_settings_path_hash_mode": null,
+  "repeater_settings_path_hash_mode": {
+    "value": "Modo de hash de ruta",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_txdelay": null,
   "repeater_settings_direct_txdelay": null,
   "repeater_settings_advert_interval": null,
   "repeater_settings_flood_advert_interval": null,
   "repeater_settings_snmp": null,
   "repeater_settings_on": null,
-  "repeater_settings_off": null,
+  "repeater_settings_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_loop_minimal": null,
   "repeater_settings_loop_moderate": null,
   "repeater_settings_loop_strict": null,
@@ -4317,9 +6109,17 @@
   "repeater_settings_setting": null,
   "repeater_settings_old_value": null,
   "repeater_settings_new_value": null,
-  "repeater_settings_command": null,
+  "repeater_settings_command": {
+    "value": "Comando",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_review": null,
-  "repeater_settings_back": null,
+  "repeater_settings_back": {
+    "value": "Atrás",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_send": null,
   "repeater_settings_sending": null,
   "repeater_settings_radio_freq": null,
@@ -4346,12 +6146,20 @@
   "settings_host_repeater_openhop_disabled": null,
   "settings_host_repeater_load_error": null,
   "settings_host_repeater_state_label": null,
-  "settings_host_repeater_state_off": null,
+  "settings_host_repeater_state_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_state_shadow": null,
   "settings_host_repeater_no_transmit": null,
   "settings_host_repeater_firmware_repeat_on": null,
   "settings_host_repeater_frequency": null,
-  "settings_host_repeater_unknown": null,
+  "settings_host_repeater_unknown": {
+    "value": "desconocida",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_env_on": null,
   "settings_host_repeater_env_off": null,
   "settings_host_repeater_blockers": null,
@@ -4382,7 +6190,11 @@
   "settings_host_repeater_flood_max_unscoped": null,
   "settings_host_repeater_flood_max_advert": null,
   "settings_host_repeater_loop_detect": null,
-  "settings_host_repeater_loop_off": null,
+  "settings_host_repeater_loop_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_loop_minimal": null,
   "settings_host_repeater_loop_moderate": null,
   "settings_host_repeater_loop_strict": null,
@@ -4392,25 +6204,57 @@
   "settings_host_repeater_regions_desc": null,
   "settings_host_repeater_regions_empty": null,
   "settings_host_repeater_region_rule": null,
-  "settings_host_repeater_region_allow": null,
+  "settings_host_repeater_region_allow": {
+    "value": "Permitir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_region_deny": null,
-  "settings_host_repeater_region_add_placeholder": null,
-  "settings_host_repeater_region_add": null,
+  "settings_host_repeater_region_add_placeholder": {
+    "value": "Nombre de la región",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_host_repeater_region_add": {
+    "value": "Añadir región",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_regions_prefilled": null,
-  "settings_host_repeater_region_col_name": null,
+  "settings_host_repeater_region_col_name": {
+    "value": "Región",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_region_col_parent": null,
-  "settings_host_repeater_region_col_flood": null,
+  "settings_host_repeater_region_col_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_region_parent_root": null,
   "settings_host_repeater_region_parent_label": null,
-  "settings_host_repeater_region_remove": null,
+  "settings_host_repeater_region_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_region_remove_label": null,
   "settings_host_repeater_home_badge": null,
   "settings_host_repeater_home_label": null,
-  "settings_host_repeater_home_none": null,
+  "settings_host_repeater_home_none": {
+    "value": "Ninguno",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_home_desc": null,
   "settings_host_repeater_import_label": null,
   "settings_host_repeater_import_choose": null,
-  "settings_host_repeater_import_button": null,
+  "settings_host_repeater_import_button": {
+    "value": "Importar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_import_running": null,
   "settings_host_repeater_import_desc": null,
   "settings_host_repeater_import_confirm": null,
@@ -4438,20 +6282,40 @@
   "settings_host_repeater_min_hash": null,
   "settings_host_repeater_malformed": null,
   "settings_host_repeater_malformed_desc": null,
-  "settings_host_repeater_col_type": null,
-  "settings_host_repeater_col_hops_max": null,
+  "settings_host_repeater_col_type": {
+    "value": "Tipo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_host_repeater_col_hops_max": {
+    "value": "Saltos máximos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_col_rate_limit": null,
   "settings_host_repeater_col_rate_secs": null,
   "settings_host_repeater_col_soft": null,
-  "settings_host_repeater_col_time": null,
+  "settings_host_repeater_col_time": {
+    "value": "Hora",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_col_decision": null,
   "settings_host_repeater_col_delay": null,
   "settings_host_repeater_col_latency": null,
   "settings_host_repeater_channels_heading": null,
   "settings_host_repeater_channel_hash_placeholder": null,
   "settings_host_repeater_channel_label_placeholder": null,
-  "settings_host_repeater_channel_add": null,
-  "settings_host_repeater_channel_remove": null,
+  "settings_host_repeater_channel_add": {
+    "value": "Bloqueo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_host_repeater_channel_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_policy_heading": null,
   "settings_host_repeater_policy_desc": null,
   "settings_host_repeater_remote_changed": null,
@@ -4466,7 +6330,11 @@
   "settings_host_repeater_stats_loading": null,
   "settings_host_repeater_stats_heading": null,
   "settings_host_repeater_stats_since": null,
-  "settings_host_repeater_stats_reset": null,
+  "settings_host_repeater_stats_reset": {
+    "value": "Restablecer",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_stats_desc": null,
   "settings_host_repeater_stats_observed": null,
   "settings_host_repeater_stats_would_forward": null,
@@ -4486,7 +6354,11 @@
   "settings_host_repeater_stats_gate": null,
   "settings_host_repeater_stats_gate_off": null,
   "settings_host_repeater_stats_gate_closed": null,
-  "settings_host_repeater_stats_gate_unknown": null,
+  "settings_host_repeater_stats_gate_unknown": {
+    "value": "desconocida",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_stats_reasons": null,
   "settings_host_repeater_stats_recent": null,
   "settings_host_repeater_advert_heading": null,
@@ -4579,7 +6451,11 @@
   "settings_host_repeater_arm_ack": null,
   "settings_host_repeater_arm_confirm_button": null,
   "settings_host_repeater_arming": null,
-  "settings_host_repeater_arm_cancel": null,
+  "settings_host_repeater_arm_cancel": {
+    "value": "Cancelar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_armed_toast": null,
   "settings_host_repeater_arm_failed": null,
   "settings_host_repeater_disarmed_toast": null,
@@ -4598,18 +6474,42 @@
   "settings_host_repeater_arm_min_sub_band_hint": null,
   "status_host_repeater_armed": null,
   "status_host_repeater_armed_title": null,
-  "settings_host_repeater_col_hops": null,
+  "settings_host_repeater_col_hops": {
+    "value": "Saltos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_sets_heading": null,
   "channel_sets_desc": null,
   "channel_sets_empty": null,
   "channel_sets_new": null,
-  "channel_sets_name_label": null,
+  "channel_sets_name_label": {
+    "value": "Nombre",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_sets_channels_label": null,
   "channel_sets_filter_placeholder": null,
-  "channel_sets_save": null,
-  "channel_sets_cancel": null,
-  "channel_sets_edit": null,
-  "channel_sets_delete": null,
+  "channel_sets_save": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_sets_cancel": {
+    "value": "Cancelar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_sets_edit": {
+    "value": "Editar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_sets_delete": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_sets_apply": null,
   "channel_sets_applying": null,
   "channel_sets_channel_count": null,
@@ -4653,7 +6553,11 @@
   "radio_identity_legacy_question": null,
   "radio_identity_legacy_yes": null,
   "radio_identity_legacy_no": null,
-  "radio_identity_later": null,
+  "radio_identity_later": {
+    "value": "Decidir más tarde",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "radio_identity_choice_new": null,
   "radio_identity_choice_replace": null,
   "radio_identity_replaces_label": null,
@@ -4662,12 +6566,20 @@
   "radio_identity_carry_owned": null,
   "radio_identity_carry_note": null,
   "radio_identity_carry_help": null,
-  "radio_identity_confirm": null,
+  "radio_identity_confirm": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "radio_identity_loading": null,
   "radio_identity_heading": null,
   "radio_identity_settings_desc": null,
   "radio_identity_none": null,
-  "radio_identity_badge_active": null,
+  "radio_identity_badge_active": {
+    "value": "Actual",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "radio_identity_badge_pending": null,
   "radio_identity_connected_range": null,
   "radio_identity_replaced_by": null,
@@ -4684,16 +6596,32 @@
   "radio_identity_remove_stats_help": null,
   "radio_identity_removed": null,
   "radio_identity_remove_failed": null,
-  "node_radio_picker_label": null,
+  "node_radio_picker_label": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_radio_picker_current": null,
   "node_radio_picker_unassigned": null,
-  "map_power_label": null,
+  "map_power_label": {
+    "value": "Fuente de energía",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_power_help": null,
   "power_source_mains": null,
-  "power_source_battery": null,
+  "power_source_battery": {
+    "value": "Batería",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "power_source_solar": null,
   "power_source_solar_battery": null,
-  "power_source_unknown": null,
+  "power_source_unknown": {
+    "value": "Desconocido",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_tab_power_outage": null,
   "mesh_health_tab_spam_bots": null,
   "mesh_health_tab_fuota": null,
@@ -4718,7 +6646,11 @@
   "fuota_visibility_note": null,
   "fuota_unique_note": null,
   "mesh_filter_caption": null,
-  "mesh_filter_channel_label": null,
+  "mesh_filter_channel_label": {
+    "value": "Canal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_channel_all": null,
   "mesh_filter_channel_unknown": null,
   "mesh_filter_scramble": null,
@@ -4731,7 +6663,11 @@
   "mesh_filter_tile_messages": null,
   "mesh_filter_tile_spam": null,
   "mesh_filter_tile_malformed": null,
-  "mesh_filter_tile_duplicates": null,
+  "mesh_filter_tile_duplicates": {
+    "value": "Duplicados",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_tile_bots": null,
   "mesh_filter_share_of_traffic": null,
   "mesh_filter_bots_none_enabled": null,
@@ -4739,25 +6675,53 @@
   "mesh_filter_bots_difference": null,
   "mesh_filter_trend_heading": null,
   "mesh_filter_trend_counts": null,
-  "mesh_filter_trend_share": null,
+  "mesh_filter_trend_share": {
+    "value": "Compartir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_offenders_heading": null,
   "mesh_filter_table_senders": null,
-  "mesh_filter_table_channels": null,
+  "mesh_filter_table_channels": {
+    "value": "Canales",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_table_sources": null,
   "mesh_filter_truncated": null,
-  "mesh_filter_col_sender": null,
-  "mesh_filter_col_channel": null,
+  "mesh_filter_col_sender": {
+    "value": "Remitente",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_filter_col_channel": {
+    "value": "Canal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_col_source": null,
   "mesh_filter_col_messages": null,
   "mesh_filter_col_flagged": null,
   "mesh_filter_col_spam": null,
   "mesh_filter_col_malformed": null,
-  "mesh_filter_col_duplicates": null,
+  "mesh_filter_col_duplicates": {
+    "value": "Duplicados",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_col_bots": null,
   "mesh_filter_col_flagged_arrival": null,
   "mesh_filter_col_bot_lists": null,
-  "mesh_filter_col_channels": null,
-  "mesh_filter_col_public_key": null,
+  "mesh_filter_col_channels": {
+    "value": "Canales",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_filter_col_public_key": {
+    "value": "Clave pública",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_col_first_seen": null,
   "mesh_filter_col_last_seen": null,
   "mesh_filter_col_rule": null,
@@ -4767,13 +6731,21 @@
   "mesh_filter_source_direct": null,
   "mesh_filter_bot_badge": null,
   "mesh_filter_add_to_bot_list": null,
-  "mesh_filter_show_on_map": null,
+  "mesh_filter_show_on_map": {
+    "value": "Mostrar en el mapa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_no_rows": null,
   "mesh_filter_empty": null,
   "mesh_filter_page_prev": null,
   "mesh_filter_page_next": null,
   "mesh_filter_page_of": null,
-  "mesh_filter_filters_heading": null,
+  "mesh_filter_filters_heading": {
+    "value": "Filtros",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_sg_off": null,
   "mesh_filter_open_spam_guard": null,
   "mesh_filter_outcome_heading": null,
@@ -4802,12 +6774,20 @@
   "mesh_filter_label_false_positive": null,
   "mesh_filter_cause_heading": null,
   "mesh_filter_cause_text": null,
-  "mesh_filter_cause_clock": null,
+  "mesh_filter_cause_clock": {
+    "value": "Reloj",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_cause_both": null,
   "mesh_filter_cause_unknown": null,
   "mesh_filter_policy_heading": null,
   "mesh_filter_policy_default": null,
-  "mesh_filter_action_allow": null,
+  "mesh_filter_action_allow": {
+    "value": "Permitir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_action_drop": null,
   "mesh_filter_action_log_only": null,
   "mesh_filter_policy_all_channels": null,
@@ -4823,15 +6803,31 @@
   "mesh_filter_summary_top_sources": null,
   "mesh_filter_summary_item": null,
   "mesh_health_po_caption": null,
-  "mesh_health_po_scope_label": null,
+  "mesh_health_po_scope_label": {
+    "value": "Nodos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_scope_infra": null,
-  "mesh_health_po_scope_all": null,
+  "mesh_health_po_scope_all": {
+    "value": "Todos los nodos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_heard_label": null,
   "mesh_health_po_heard_24h": null,
   "mesh_health_po_heard_7d": null,
   "mesh_health_po_heard_30d": null,
-  "mesh_health_po_heard_all": null,
-  "mesh_health_po_stat_nodes": null,
+  "mesh_health_po_heard_all": {
+    "value": "Todas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_po_stat_nodes": {
+    "value": "Nodos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_stat_online": null,
   "mesh_health_po_stat_of": null,
   "mesh_health_po_stat_dark": null,
@@ -4842,21 +6838,53 @@
   "mesh_health_po_stat_largest_island_sub": null,
   "mesh_health_po_stat_islands": null,
   "mesh_health_po_stat_isolated": null,
-  "mesh_health_po_dist_heading": null,
+  "mesh_health_po_dist_heading": {
+    "value": "Fuente de energía",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_note": null,
-  "mesh_health_po_status_label": null,
-  "mesh_health_po_filter_all": null,
+  "mesh_health_po_status_label": {
+    "value": "Estado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_po_filter_all": {
+    "value": "Todas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_status_online": null,
   "mesh_health_po_status_dark": null,
   "mesh_health_po_empty": null,
-  "mesh_health_po_col_node": null,
-  "mesh_health_po_col_role": null,
-  "mesh_health_po_col_power": null,
+  "mesh_health_po_col_node": {
+    "value": "Nodo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_po_col_role": {
+    "value": "Rol",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_po_col_power": {
+    "value": "Energía",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_col_status": null,
   "mesh_health_po_col_island": null,
-  "mesh_health_po_col_heard": null,
+  "mesh_health_po_col_heard": {
+    "value": "Última vez oído",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_island_title": null,
-  "mesh_health_po_show_on_map": null,
+  "mesh_health_po_show_on_map": {
+    "value": "Mostrar en el mapa",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_rows_summary": null,
   "mesh_health_scroll_top": null,
   "settings_host_repeater_filter_dryrun": null,
@@ -4871,7 +6899,11 @@
   "settings_host_repeater_filter_drops": null,
   "settings_host_repeater_filter_sender_heading": null,
   "settings_host_repeater_filter_sender_desc": null,
-  "settings_host_repeater_filter_sender_placeholder": null,
+  "settings_host_repeater_filter_sender_placeholder": {
+    "value": "Nombre del remitente",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_filter_text_heading": null,
   "settings_host_repeater_filter_text_desc": null,
   "settings_host_repeater_filter_text_placeholder": null,
@@ -4907,16 +6939,36 @@
   "settings_host_repeater_neighbors_stats": null,
   "settings_host_repeater_neighbors_polling": null,
   "settings_host_repeater_neighbors_poll_summary": null,
-  "settings_host_repeater_neighbors_col_key": null,
-  "settings_host_repeater_neighbors_col_snr": null,
+  "settings_host_repeater_neighbors_col_key": {
+    "value": "Clave",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_host_repeater_neighbors_col_snr": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_neighbors_col_heard": null,
-  "settings_host_repeater_neighbors_col_scopes": null,
-  "settings_host_repeater_neighbors_col_status": null,
+  "settings_host_repeater_neighbors_col_scopes": {
+    "value": "Regiones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_host_repeater_neighbors_col_status": {
+    "value": "Estado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_neighbors_ago": null,
   "settings_host_repeater_neighbors_status_unsent": null,
   "settings_host_repeater_neighbors_status_responded": null,
   "settings_host_repeater_neighbors_status_timeout": null,
-  "settings_host_repeater_neighbors_status_send_failed": null,
+  "settings_host_repeater_neighbors_status_send_failed": {
+    "value": "fallo al enviar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_publish_filter": null,
   "settings_fanout_publish_filter_desc": null,
   "settings_fanout_filter_interval_sec": null,
@@ -4924,7 +6976,11 @@
   "settings_fanout_publish_own_neighbors_desc": null,
   "settings_fanout_publish_snmp_telemetry": null,
   "settings_fanout_publish_snmp_telemetry_desc": null,
-  "settings_host_repeater_filter_add": null,
+  "settings_host_repeater_filter_add": {
+    "value": "Añadir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_no_forward_poll": null,
   "nav_knowledge_base": null,
   "knowledge_base_desc": null,
@@ -4936,7 +6992,11 @@
   "settings_handy_toast_kb_removed": null,
   "channel_edit_in_registry": null,
   "settings_buddy_label": null,
-  "settings_buddy_off": null,
+  "settings_buddy_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_buddy_description": null,
   "settings_buddy_battery_threshold_label": null,
   "settings_buddy_battery_threshold_description": null,
@@ -4992,7 +7052,11 @@
   "buddy_tour_label": null,
   "buddy_tour_next": null,
   "buddy_tour_finish": null,
-  "buddy_tour_pause": null,
+  "buddy_tour_pause": {
+    "value": "Pausar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "buddy_tour_pause_title": null,
   "buddy_tour_end": null,
   "buddy_tour_end_title": null,
@@ -5000,7 +7064,11 @@
   "buddy_tour_offer_title": null,
   "buddy_tour_offer_text": null,
   "buddy_tour_offer_start": null,
-  "buddy_tour_offer_later": null,
+  "buddy_tour_offer_later": {
+    "value": "Ahora no",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "buddy_tour_offer_never": null,
   "buddy_tour_welcome_title": null,
   "buddy_tour_welcome_text": null,
@@ -5016,11 +7084,19 @@
   "buddy_tour_chat_header_text": null,
   "buddy_tour_map_title": null,
   "buddy_tour_map_text": null,
-  "buddy_tour_tools_title": null,
+  "buddy_tour_tools_title": {
+    "value": "Herramientas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "buddy_tour_tools_text": null,
   "buddy_tour_my_node_title": null,
   "buddy_tour_my_node_text": null,
-  "buddy_tour_settings_title": null,
+  "buddy_tour_settings_title": {
+    "value": "Ajustes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "buddy_tour_settings_text": null,
   "buddy_tour_appearance_title": null,
   "buddy_tour_appearance_text": null,
@@ -5040,7 +7116,11 @@
   "buddy_tour_mc118_dm_cli_text": null,
   "buddy_tour_mc118_remote_cli_title": null,
   "buddy_tour_mc118_remote_cli_text": null,
-  "buddy_tour_mc118_sensor_title": null,
+  "buddy_tour_mc118_sensor_title": {
+    "value": "Sensores",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "buddy_tour_mc118_sensor_text": null,
   "buddy_tour_mc118_done_title": null,
   "buddy_tour_mc118_done_text": null,
@@ -5084,13 +7164,21 @@
   "settings_buddy_group_tips": null,
   "settings_buddy_mute_label": null,
   "settings_buddy_mute_15m": null,
-  "settings_buddy_mute_1h": null,
+  "settings_buddy_mute_1h": {
+    "value": "1 hora",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_buddy_mute_reload": null,
   "settings_buddy_mute_end": null,
   "settings_buddy_mute_until": null,
   "settings_buddy_mute_until_reload": null,
   "settings_buddy_mute_description": null,
-  "settings_buddy_quiet_hours_label": null,
+  "settings_buddy_quiet_hours_label": {
+    "value": "Horas de silencio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_buddy_quiet_hours_from": null,
   "settings_buddy_quiet_hours_to": null,
   "settings_buddy_quiet_hours_description": null,
@@ -5100,7 +7188,11 @@
   "popout_toolbar": null,
   "popout_new": null,
   "popout_new_title": null,
-  "popout_search": null,
+  "popout_search": {
+    "value": "Buscar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_mark_all_read": null,
   "popout_layout_label": null,
   "popout_layout_lines": null,
@@ -5115,10 +7207,26 @@
   "popout_main_app_title": null,
   "popout_conversations": null,
   "popout_filter_placeholder": null,
-  "popout_section_channels": null,
-  "popout_section_direct": null,
-  "popout_section_rooms": null,
-  "popout_no_matches": null,
+  "popout_section_channels": {
+    "value": "Canales",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "popout_section_direct": {
+    "value": "Directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "popout_section_rooms": {
+    "value": "Salas",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "popout_no_matches": {
+    "value": "Sin coincidencias",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_unread_count": null,
   "popout_senders": null,
   "popout_senders_heading": null,
@@ -5128,7 +7236,11 @@
   "popout_not_chat_view": null,
   "popout_open_in_main": null,
   "popout_list_filters": null,
-  "popout_favorites_only": null,
+  "popout_favorites_only": {
+    "value": "Solo favoritos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_unread_only": null,
   "popout_hide_muted": null,
   "popout_sort_section": null,
@@ -5165,8 +7277,16 @@
   "bot_lists_add_new_list": null,
   "bot_lists_add_new_list_name": null,
   "bot_lists_list_off_suffix": null,
-  "bot_lists_add_save": null,
-  "bot_lists_cancel": null,
+  "bot_lists_add_save": {
+    "value": "Añadir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "bot_lists_cancel": {
+    "value": "Cancelar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bot_lists_added_toast": null,
   "bot_lists_not_a_bot_toast": null,
   "settings_bot_lists_heading": null,
@@ -5194,7 +7314,11 @@
   "bot_review_desc": null,
   "bot_review_none": null,
   "bot_review_load_failed": null,
-  "bot_review_confirm": null,
+  "bot_review_confirm": {
+    "value": "Confirmar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bot_review_confirm_aria": null,
   "bot_review_confirm_all": null,
   "bot_review_not_a_bot": null,
@@ -5211,8 +7335,16 @@
   "settings_bot_lists_entry_count": null,
   "settings_bot_lists_error": null,
   "settings_bot_lists_entries_button": null,
-  "settings_bot_lists_export_button": null,
-  "settings_bot_lists_delete_button": null,
+  "settings_bot_lists_export_button": {
+    "value": "Exportar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_bot_lists_delete_button": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_bot_lists_delete_confirm": null,
   "settings_bot_lists_new_placeholder": null,
   "settings_bot_lists_new_button": null,
@@ -5244,19 +7376,43 @@
   "bot_list_error_invalid_file": null,
   "settings_bot_lists_exceptions_heading": null,
   "settings_bot_lists_exceptions_desc": null,
-  "settings_bot_lists_exception_placeholder": null,
-  "settings_bot_lists_exception_add": null,
+  "settings_bot_lists_exception_placeholder": {
+    "value": "Nombre del remitente",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_bot_lists_exception_add": {
+    "value": "Añadir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_bot_lists_exception_remove": null,
   "bot_list_dialog_title": null,
   "bot_list_dialog_read_only": null,
   "bot_list_dialog_empty": null,
-  "bot_list_dialog_name": null,
+  "bot_list_dialog_name": {
+    "value": "Nombre del remitente",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bot_list_dialog_key": null,
   "bot_list_dialog_note": null,
-  "bot_list_dialog_add": null,
+  "bot_list_dialog_add": {
+    "value": "Añadir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bot_list_dialog_remove": null,
-  "bot_list_dialog_save": null,
-  "bot_list_dialog_close": null,
+  "bot_list_dialog_save": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "bot_list_dialog_close": {
+    "value": "Cerrar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_duplicate_badge": null,
   "chat_duplicate_badge_title": null,
   "settings_spam_guard_heading": null,
@@ -5269,7 +7425,11 @@
   "spam_tab_protection": null,
   "spam_tab_messages": null,
   "spam_tab_sources": null,
-  "spam_tab_settings": null,
+  "spam_tab_settings": {
+    "value": "Ajustes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_tab_policy": null,
   "spam_policy_desc": null,
   "spam_load_failed": null,
@@ -5286,8 +7446,16 @@
   "spam_auto_protect_watch_again": null,
   "spam_auto_protect_stay": null,
   "spam_mode_paused_desc": null,
-  "spam_pause": null,
-  "spam_resume": null,
+  "spam_pause": {
+    "value": "Pausar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_resume": {
+    "value": "Reanudar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_sensitivity_label": null,
   "spam_sensitivity_relaxed": null,
   "spam_sensitivity_balanced": null,
@@ -5296,7 +7464,11 @@
   "spam_sensitivity_balanced_desc": null,
   "spam_sensitivity_strict_desc": null,
   "spam_health_title": null,
-  "spam_health_off": null,
+  "spam_health_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_health_ok": null,
   "spam_health_warn": null,
   "spam_health_bad": null,
@@ -5366,10 +7538,18 @@
   "spam_block_gated": null,
   "spam_block_observing": null,
   "spam_block_extend": null,
-  "spam_block_keep": null,
+  "spam_block_keep": {
+    "value": "Mantener",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_block_observe": null,
   "spam_block_enforce": null,
-  "spam_block_remove": null,
+  "spam_block_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_block_forget_path": null,
   "spam_block_allowed_origins": null,
   "spam_hop_mode_default": null,
@@ -5408,14 +7588,22 @@
   "spam_held_title": null,
   "spam_held_desc": null,
   "spam_held_meta": null,
-  "spam_path_direct": null,
+  "spam_path_direct": {
+    "value": "directo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_let_through": null,
   "spam_manual_title": null,
   "spam_manual_desc": null,
   "spam_manual_hop_label": null,
   "spam_manual_block_hop": null,
   "spam_manual_text_label": null,
-  "spam_manual_channel_label": null,
+  "spam_manual_channel_label": {
+    "value": "Canal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_manual_block_text": null,
   "spam_messages_title": null,
   "spam_messages_desc": null,
@@ -5452,12 +7640,28 @@
   "spam_sources_col_hop": null,
   "spam_sources_col_candidates": null,
   "spam_sources_col_d1": null,
-  "spam_sources_col_d7": null,
+  "spam_sources_col_d7": {
+    "value": "7 días",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_sources_col_last": null,
-  "spam_sources_col_actions": null,
+  "spam_sources_col_actions": {
+    "value": "Acciones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_sources_unknown": null,
-  "spam_sources_block": null,
-  "spam_sources_unblock": null,
+  "spam_sources_block": {
+    "value": "Bloqueo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_sources_unblock": {
+    "value": "Desbloquear",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_sources_allow": null,
   "spam_sources_unallow": null,
   "spam_channels_title": null,
@@ -5472,7 +7676,11 @@
   "spam_group_names": null,
   "spam_group_timing": null,
   "spam_group_evidence": null,
-  "spam_unit_seconds": null,
+  "spam_unit_seconds": {
+    "value": "s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_unit_days": null,
   "spam_unit_percent": null,
   "spam_setting_reset": null,
@@ -5489,14 +7697,38 @@
   "spam_profiles_revert": null,
   "spam_profiles_empty": null,
   "spam_profiles_summary": null,
-  "spam_profiles_apply": null,
+  "spam_profiles_apply": {
+    "value": "Aplicar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_profiles_apply_label": null,
-  "spam_profiles_export": null,
-  "spam_profiles_rename": null,
+  "spam_profiles_export": {
+    "value": "Exportar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_profiles_rename": {
+    "value": "Renombrar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_profiles_rename_label": null,
-  "spam_profiles_rename_save": null,
-  "spam_profiles_rename_cancel": null,
-  "spam_profiles_delete": null,
+  "spam_profiles_rename_save": {
+    "value": "Guardar nombre",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_profiles_rename_cancel": {
+    "value": "Cancelar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_profiles_delete": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_profiles_delete_label": null,
   "spam_profiles_delete_confirm": null,
   "spam_profiles_new_placeholder": null,
@@ -5507,11 +7739,23 @@
   "spam_profile_apply_desc": null,
   "spam_profile_apply_none": null,
   "spam_profile_apply_protect_warning": null,
-  "spam_profile_apply_confirm": null,
-  "spam_profile_apply_cancel": null,
+  "spam_profile_apply_confirm": {
+    "value": "Aplicar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_profile_apply_cancel": {
+    "value": "Cancelar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_profile_change_values": null,
   "spam_profile_value_on": null,
-  "spam_profile_value_off": null,
+  "spam_profile_value_off": {
+    "value": "Desactivado",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_profile_value_none": null,
   "filter_profile_error_too_large": null,
   "filter_profile_error_not_json": null,
@@ -5534,7 +7778,11 @@
   "spam_exceptions_texts": null,
   "spam_exceptions_texts_help": null,
   "spam_exceptions_none": null,
-  "spam_exceptions_add": null,
+  "spam_exceptions_add": {
+    "value": "Añadir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_exceptions_remove": null,
   "spam_suppressed_count": null,
   "spam_suppressed_clear": null,
@@ -5543,7 +7791,11 @@
   "spam_evidence_days": null,
   "spam_evidence_days_one": null,
   "spam_evidence_days_many": null,
-  "spam_evidence_download": null,
+  "spam_evidence_download": {
+    "value": "Descargar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_evidence_download_scrambled": null,
   "spam_evidence_scrambled_help": null,
   "spam_replay_title": null,
@@ -5583,10 +7835,18 @@
   "spam_choice_hop_match_mode_starts_at": null,
   "spam_choice_hold_links_campaign": null,
   "spam_choice_hold_links_always": null,
-  "spam_choice_hold_links_off": null,
+  "spam_choice_hold_links_off": {
+    "value": "Nunca",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_choice_dedupe_scope_others": null,
   "spam_choice_dedupe_scope_same": null,
-  "spam_choice_dedupe_scope_everyone": null,
+  "spam_choice_dedupe_scope_everyone": {
+    "value": "Todos",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_set_enable_hop_rules_label": null,
   "spam_set_enable_hop_rules_help": null,
   "spam_set_enable_hop_rules_risk": null,
@@ -5716,7 +7976,11 @@
   "spam_channels_no_match": null,
   "spam_channels_add": null,
   "spam_channels_add_label": null,
-  "spam_channels_remove": null,
+  "spam_channels_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_channels_remove_label": null,
   "spam_channels_more": null,
   "spam_manual_hop_channel_label": null,
@@ -5724,7 +7988,11 @@
   "spam_manual_all_channels": null,
   "spam_list_clear": null,
   "spam_messages_clear_hint": null,
-  "spam_sources_remove": null,
+  "spam_sources_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_sources_remove_hint": null,
   "spam_reset_title": null,
   "spam_reset_desc": null,
@@ -5747,7 +8015,11 @@
   "spam_known_learning": null,
   "spam_known_last": null,
   "spam_known_trust": null,
-  "spam_known_forget": null,
+  "spam_known_forget": {
+    "value": "Olvidar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_known_more": null,
   "spam_activity_known_forgotten": null,
   "spam_activity_auto_protect": null,
@@ -5764,29 +8036,73 @@
   "gateway_radios_intro": null,
   "gateway_no_radios": null,
   "gateway_load_failed": null,
-  "gateway_radio_open": null,
+  "gateway_radio_open": {
+    "value": "Abrir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_radio_start": null,
-  "gateway_radio_stop": null,
+  "gateway_radio_stop": {
+    "value": "Detener",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_radio_restart": null,
-  "gateway_radio_edit": null,
-  "gateway_radio_remove": null,
+  "gateway_radio_edit": {
+    "value": "Editar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "gateway_radio_remove": {
+    "value": "Eliminar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_radio_log": null,
   "gateway_radio_log_empty": null,
-  "gateway_radio_status": null,
+  "gateway_radio_status": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_radio_connected": null,
-  "gateway_radio_not_connected": null,
+  "gateway_radio_not_connected": {
+    "value": "Sin conexión",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_radio_restarts": null,
   "gateway_radio_waiting_first_connect": null,
   "gateway_add_radio": null,
-  "gateway_save_radio": null,
-  "gateway_field_connection": null,
+  "gateway_save_radio": {
+    "value": "Guardar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "gateway_field_connection": {
+    "value": "Conexión",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_transport_serial": null,
-  "gateway_transport_tcp": null,
+  "gateway_transport_tcp": {
+    "value": "TCP",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_transport_ble": null,
   "gateway_field_serial_port": null,
   "gateway_field_baudrate": null,
-  "gateway_field_host": null,
-  "gateway_field_tcp_port": null,
+  "gateway_field_host": {
+    "value": "Host",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "gateway_field_tcp_port": {
+    "value": "Puerto",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_field_ble_address": null,
   "gateway_field_ble_pin": null,
   "gateway_remove_confirm": null,
@@ -5806,7 +8122,11 @@
   "companion_cli_toggle_open": null,
   "companion_cli_toggle_close": null,
   "settings_radio_cli_heading": null,
-  "contact_remote_cli_label": null,
+  "contact_remote_cli_label": {
+    "value": "CLI remota",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_remote_cli_hint": null,
   "contact_remote_cli_confirm": null,
   "contact_remote_cli_pending": null,
@@ -5818,9 +8138,21 @@
   "chat_remote_cli_ignored": null,
   "sensor_dashboard_login": null,
   "sensor_mma_title": null,
-  "sensor_mma_min": null,
-  "sensor_mma_max": null,
-  "sensor_mma_avg": null,
+  "sensor_mma_min": {
+    "value": "Mín",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "sensor_mma_max": {
+    "value": "Máx",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "sensor_mma_avg": {
+    "value": "Prom.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "sensor_mma_empty": null,
   "sensor_push_title": null,
   "sensor_push_hint": null,
@@ -5835,7 +8167,11 @@
   "sensor_push_error_refused": null,
   "sensor_push_error_no_reply": null,
   "sensor_push_unsupported": null,
-  "repeater_power_label": null,
+  "repeater_power_label": {
+    "value": "Energía",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_power_value": null,
   "nav_lan_scan": null,
   "common_loading_lan_scan": null,
@@ -5845,14 +8181,22 @@
   "lan_scan_targets_help": null,
   "lan_scan_suggestions": null,
   "lan_scan_snmp_label": null,
-  "lan_scan_port": null,
+  "lan_scan_port": {
+    "value": "Puerto",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_community": null,
   "lan_scan_snmp_help": null,
   "lan_scan_companion_label": null,
   "lan_scan_companion_warning": null,
   "lan_scan_start": null,
   "lan_scan_starting": null,
-  "lan_scan_stop": null,
+  "lan_scan_stop": {
+    "value": "Detener",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_progress": null,
   "lan_scan_cancelled": null,
   "lan_scan_finished": null,
@@ -5863,11 +8207,27 @@
   "lan_scan_none_yet": null,
   "lan_scan_none": null,
   "lan_scan_col_address": null,
-  "lan_scan_col_device": null,
+  "lan_scan_col_device": {
+    "value": "Dispositivo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_col_found_by": null,
-  "lan_scan_col_firmware": null,
-  "lan_scan_col_contact": null,
-  "lan_scan_col_actions": null,
+  "lan_scan_col_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "lan_scan_col_contact": {
+    "value": "Contacto",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "lan_scan_col_actions": {
+    "value": "Acciones",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_found_snmp": null,
   "lan_scan_found_snmp_other": null,
   "lan_scan_found_companion": null,
@@ -5887,7 +8247,11 @@
   "node_signal_window_minutes_ago": null,
   "node_signal_now": null,
   "node_signal_last": null,
-  "node_signal_floor": null,
+  "node_signal_floor": {
+    "value": "Ruido de fondo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_signal_peak": null,
   "node_signal_margin": null,
   "node_signal_margin_title": null,
@@ -5899,14 +8263,22 @@
   "node_signal_empty": null,
   "node_signal_chart_label": null,
   "node_signal_point_title": null,
-  "node_signal_noise_legend": null,
+  "node_signal_noise_legend": {
+    "value": "Ruido de fondo",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_webconfig_label": null,
   "lan_scan_webconfig_help": null,
   "lan_scan_found_webconfig": null,
   "lan_scan_found_webconfig_setup": null,
   "lan_scan_matched_by_node_id": null,
   "lan_scan_open_webconfig": null,
-  "share_action": null,
+  "share_action": {
+    "value": "Compartir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_dialog_title": null,
   "share_chart_title": null,
   "share_chart_kicker": null,
@@ -5923,7 +8295,11 @@
   "share_map_failed": null,
   "share_without_map": null,
   "share_error": null,
-  "share_btn_share": null,
+  "share_btn_share": {
+    "value": "Compartir",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_btn_copy": null,
   "share_btn_download_png": null,
   "share_btn_download_gif": null,
