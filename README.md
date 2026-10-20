@@ -17,14 +17,14 @@ MeshCore).
 | Čeština | `cs` | 0% | 0 | 0 | 0 | 6001 | no | community |
 | Dansk | `da` | 0% | 0 | 0 | 0 | 6001 | no | community |
 | Ελληνικά | `el` | 0% | 0 | 0 | 0 | 6001 | no | community |
-| Español | `es` | 0% | 0 | 0 | 0 | 6001 | no | community |
+| Español | `es` | 9% | 0 | 594 | 0 | 5407 | no | community |
 | Eesti | `et` | 0% | 0 | 0 | 0 | 6001 | no | community |
 | Suomi | `fi` | 0% | 0 | 0 | 0 | 6001 | no | community |
-| Français | `fr` | 0% | 0 | 0 | 0 | 6001 | no | community |
+| Français | `fr` | 9% | 0 | 594 | 0 | 5407 | no | community |
 | Gaeilge | `ga` | 0% | 0 | 0 | 0 | 6001 | no | community |
 | Hrvatski | `hr` | 0% | 0 | 0 | 0 | 6001 | no | community |
 | Magyar | `hu` | 0% | 0 | 0 | 0 | 6001 | no | community |
-| Italiano | `it` | 0% | 0 | 0 | 0 | 6001 | no | community |
+| Italiano | `it` | 9% | 0 | 594 | 0 | 5407 | no | community |
 | Lietuvių | `lt` | 0% | 0 | 0 | 0 | 6001 | no | community |
 | Latviešu | `lv` | 0% | 0 | 0 | 0 | 6001 | no | community |
 | Malti | `mt` | 0% | 0 | 0 | 0 | 6001 | no | community |
