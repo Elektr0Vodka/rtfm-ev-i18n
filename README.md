@@ -11,7 +11,7 @@ MeshCore).
 | Language | Code | Completion | Human | AI drafted | Outdated | Missing | In app | Managed by |
 |----------|------|-----------:|------:|-----------:|---------:|--------:|:------:|------------|
 | English | `en` | 100% | 6001 | 0 | 0 | 0 | yes | rtfm-ev-team |
-| Nederlands | `nl` | 91% | 0 | 5512 | 0 | 489 | yes | community |
+| Nederlands | `nl` | 100% | 0 | 6001 | 0 | 0 | yes | community |
 | Deutsch | `de` | 100% | 0 | 6001 | 0 | 0 | yes | community |
 | Български | `bg` | 0% | 0 | 0 | 0 | 6001 | no | community |
 | Čeština | `cs` | 0% | 0 | 0 | 0 | 6001 | no | community |
