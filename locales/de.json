@@ -16,7 +16,11 @@
     "value": "Zurück zu den Unterhaltungen",
     "_ai": true
   },
-  "a11y_navigation": null,
+  "a11y_navigation": {
+    "value": "Navigation",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "a11y_sidebar_navigation": {
     "value": "Seitenleisten-Navigation",
     "_ai": true
@@ -85,7 +89,11 @@
     "value": "Öffentlichen Schlüssel kopieren",
     "_ai": true
   },
-  "a11y_direct_trace": null,
+  "a11y_direct_trace": {
+    "value": "Direct Trace",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "a11y_direct_trace_unavailable": {
     "value": "Direct Trace nicht verfügbar, bis der vollständige Kontaktschlüssel bekannt ist",
     "_ai": true
@@ -396,7 +404,11 @@
     "value": "Alles durchsuchen",
     "_ai": true
   },
-  "nav_tab_chats": null,
+  "nav_tab_chats": {
+    "value": "Chats",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_tab_map": {
     "value": "Karte",
     "_ai": true
@@ -493,7 +505,11 @@
     "value": "Alle",
     "_ai": true
   },
-  "nav_contacts_pill_companions": null,
+  "nav_contacts_pill_companions": {
+    "value": "Companions",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_contacts_pill_sensors": {
     "value": "Sensoren",
     "_ai": true
@@ -574,7 +590,11 @@
     "value": "Verkleinern",
     "_ai": true
   },
-  "node_radar_zoom_level": null,
+  "node_radar_zoom_level": {
+    "value": "{current}x / {max}x",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_apply": {
     "value": "Anwenden",
     "_ai": true
@@ -583,7 +603,11 @@
     "value": "Ø {value}",
     "_ai": true
   },
-  "node_battery_voltage_percent": null,
+  "node_battery_voltage_percent": {
+    "value": "{voltage}V · {percent}%",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_best_rssi": {
     "value": "Bester RSSI",
     "_ai": true
@@ -596,7 +620,11 @@
     "value": "Aktivste Kanäle (letzte 24h)",
     "_ai": true
   },
-  "node_bytes_label": null,
+  "node_bytes_label": {
+    "value": "Bytes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_chart_bytes_received": {
     "value": "Empfangene Bytes",
     "_ai": true
@@ -621,7 +649,11 @@
     "value": "SNR (Signal-Rausch-Verhältnis)",
     "_ai": true
   },
-  "node_count_percent": null,
+  "node_count_percent": {
+    "value": "{count} ({percent}%)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_custom_from": {
     "value": "Von",
     "_ai": true
@@ -638,7 +670,11 @@
     "value": "Frequenz",
     "_ai": true
   },
-  "node_detail_id": null,
+  "node_detail_id": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_detail_model": {
     "value": "Modell",
     "_ai": true
@@ -647,7 +683,11 @@
     "value": "Plattform",
     "_ai": true
   },
-  "node_details_heading": null,
+  "node_details_heading": {
+    "value": "Details",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_direct_neighbors_count_desc": {
     "value": "In dieser Sitzung direkt (0-Hop) gehörte Nodes, nach Paketanzahl.",
     "_ai": true
@@ -672,7 +712,11 @@
     "value": "Node-Daten konnten nicht geladen werden.",
     "_ai": true
   },
-  "node_firmware_prefix": null,
+  "node_firmware_prefix": {
+    "value": "fw {version}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_historical_data_note": {
     "value": "Historische Daten aus der Datenbank",
     "_ai": true
@@ -721,7 +765,11 @@
     "value": "{count} Pakete · {type}",
     "_ai": true
   },
-  "node_neighbor_relseen_type_suffix": null,
+  "node_neighbor_relseen_type_suffix": {
+    "value": "{time} · {type}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_neighbors_most_active": {
     "value": "Nachbarn - Am Aktivsten",
     "_ai": true
@@ -782,8 +830,16 @@
     "value": "{count} Pkt. · {time}",
     "_ai": true
   },
-  "node_platform_openhop": null,
-  "node_radio_summary": null,
+  "node_platform_openhop": {
+    "value": "OpenHop",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_radio_summary": {
+    "value": "{freq} MHz / SF{sf} / BW{bw} / CR{cr}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_refreshed_suffix": {
     "value": "Aktualisiert {time}",
     "_ai": true
@@ -808,7 +864,11 @@
     "value": "{value} dBm Ø",
     "_ai": true
   },
-  "node_stats_db_tab": null,
+  "node_stats_db_tab": {
+    "value": "DB - {window}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_stats_heading": {
     "value": "Statistiken",
     "_ai": true
@@ -833,17 +893,29 @@
     "value": "vor {count}s",
     "_ai": true
   },
-  "node_tooltip_battery": null,
+  "node_tooltip_battery": {
+    "value": "AKKU",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_tooltip_bytes": {
     "value": "Bytes",
     "_ai": true
   },
-  "node_tooltip_noise_floor": null,
+  "node_tooltip_noise_floor": {
+    "value": "NF",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_tooltip_packets": {
     "value": "Pkt.",
     "_ai": true
   },
-  "node_tooltip_rssi": null,
+  "node_tooltip_rssi": {
+    "value": "RSSI",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_tooltip_noise_est": {
     "value": "gesch. NF",
     "_ai": true
@@ -852,7 +924,11 @@
     "value": "Gestrichelte Linie: vom Funkgerät abgefragter Noise Floor (eine Messung pro Minute). Schraffiert: geschätzter Noise Floor (RSSI minus SNR); der Abstand zur RSSI-Linie ist die SNR-Marge.",
     "_ai": true
   },
-  "node_tooltip_time_suffix": null,
+  "node_tooltip_time_suffix": {
+    "value": "{label} · {time}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_total_packets_label": {
     "value": "Pakete gesamt",
     "_ai": true
@@ -869,47 +945,179 @@
     "value": "Typaufschlüsselung nur in der Live-Sitzung verfügbar",
     "_ai": true
   },
-  "node_type_companion": null,
+  "node_type_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_unnamed_node": {
     "value": "Unbenannter Node",
     "_ai": true
   },
-  "node_value_bytes_compact": null,
-  "node_value_cr": null,
-  "node_value_db_compact": null,
-  "node_value_dbm": null,
-  "node_value_dbm_compact": null,
-  "node_value_k_compact": null,
-  "node_value_kb_compact": null,
-  "node_value_khz": null,
-  "node_value_mb_compact": null,
-  "node_value_mhz": null,
-  "node_value_sf": null,
-  "node_value_v_compact": null,
-  "node_window_1d": null,
-  "node_window_1h": null,
-  "node_window_1y": null,
-  "node_window_20m": null,
-  "time_range_1m": null,
-  "time_range_5m": null,
-  "time_range_10m": null,
-  "time_range_30m": null,
-  "time_range_20m": null,
+  "node_value_bytes_compact": {
+    "value": "{value} B",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_cr": {
+    "value": "CR{value}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_db_compact": {
+    "value": "{value}dB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_dbm": {
+    "value": "{value} dBm",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_dbm_compact": {
+    "value": "{value}dBm",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_k_compact": {
+    "value": "{value}k",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_kb_compact": {
+    "value": "{value} KB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_khz": {
+    "value": "{value} kHz",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_mb_compact": {
+    "value": "{value} MB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_mhz": {
+    "value": "{value} MHz",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_sf": {
+    "value": "SF{value}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_v_compact": {
+    "value": "{value}V",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_1d": {
+    "value": "1T",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_1h": {
+    "value": "1h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_1y": {
+    "value": "1J",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_20m": {
+    "value": "20min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_1m": {
+    "value": "1min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_5m": {
+    "value": "5min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_10m": {
+    "value": "10min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_30m": {
+    "value": "30min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_20m": {
+    "value": "20min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_stats_historical_note": {
     "value": "Historische Ansicht: aus gespeicherten Paketen gezählt, jedes Paket einmal. Die Live- und Sitzungsfenster zählen jedes Mal, wenn ein Paket empfangen wird.",
     "_ai": true
   },
-  "time_range_1h": null,
-  "time_range_3h": null,
-  "time_range_6h": null,
-  "time_range_12h": null,
-  "time_range_24h": null,
-  "time_range_48h": null,
-  "time_range_3d": null,
-  "time_range_7d": null,
-  "time_range_14d": null,
-  "time_range_30d": null,
-  "time_range_1y": null,
+  "time_range_1h": {
+    "value": "1h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_3h": {
+    "value": "3h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_6h": {
+    "value": "6h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_12h": {
+    "value": "12h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_24h": {
+    "value": "24h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_48h": {
+    "value": "48h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_3d": {
+    "value": "3T",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_7d": {
+    "value": "7T",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_14d": {
+    "value": "14T",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_30d": {
+    "value": "30T",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_1y": {
+    "value": "1J",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "time_range_all": {
     "value": "Alle",
     "_ai": true
@@ -938,9 +1146,21 @@
     "value": "Sendezeitauslastung",
     "_ai": true
   },
-  "node_chart_airtime_stat": null,
-  "node_chart_airtime_rx": null,
-  "node_chart_airtime_tx": null,
+  "node_chart_airtime_stat": {
+    "value": "RX {rx}% / TX {tx}%",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_chart_airtime_rx": {
+    "value": "RX %",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_chart_airtime_tx": {
+    "value": "TX %",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_chart_airtime_note": {
     "value": "Sendezeit wird vom Funkgerät gemeldet (Time-on-Air pro Paket), nicht Carrier-Sense.",
     "_ai": true
@@ -961,9 +1181,21 @@
     "value": "Pakete, deren Empfang das Funkgerät begonnen hat, aber nicht dekodieren konnte (CRC- oder Header-Fehler), aus den Paketstatistiken des Companions. Benötigt Firmware v1.12 oder neuer. Auf OpenHop-Knoten stammt dies stattdessen aus dem CRC-Fehlerverlauf des Funkgeräts über die OpenHop-API, die dafür konfiguriert sein muss.",
     "_ai": true
   },
-  "node_window_30d": null,
-  "node_window_6h": null,
-  "node_window_7d": null,
+  "node_window_30d": {
+    "value": "30T",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_6h": {
+    "value": "6h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_7d": {
+    "value": "7T",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_window_custom_range": {
     "value": "Benutzerdefinierter Zeitraum",
     "_ai": true
@@ -984,7 +1216,11 @@
     "value": "Mesh-Erkennung",
     "_ai": true
   },
-  "nav_snmp": null,
+  "nav_snmp": {
+    "value": "SNMP",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_fleet": {
     "value": "Flotte",
     "_ai": true
@@ -1052,7 +1288,11 @@
     "value": "Kein Gerät passt zur Suche.",
     "_ai": true
   },
-  "fleet_col_name": null,
+  "fleet_col_name": {
+    "value": "Name",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_col_last_seen": {
     "value": "Zuletzt gesehen",
     "_ai": true
@@ -1137,7 +1377,11 @@
     "value": "Standort",
     "_ai": true
   },
-  "fleet_field_status": null,
+  "fleet_field_status": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_field_notes": {
     "value": "Notizen",
     "_ai": true
@@ -1146,7 +1390,11 @@
     "value": "Identität",
     "_ai": true
   },
-  "fleet_section_hardware": null,
+  "fleet_section_hardware": {
+    "value": "Hardware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_section_placement": {
     "value": "Platzierung",
     "_ai": true
@@ -1211,7 +1459,11 @@
     "value": "Typ",
     "_ai": true
   },
-  "fleet_mesh_position": null,
+  "fleet_mesh_position": {
+    "value": "Position",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_contact_none": {
     "value": "Nicht im Flottenregister.",
     "_ai": true
@@ -1232,7 +1484,11 @@
     "value": "Flottenregister: {error}",
     "_ai": true
   },
-  "fleet_csv_id": null,
+  "fleet_csv_id": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_csv_contact_name": {
     "value": "Node-Name",
     "_ai": true
@@ -1277,7 +1533,11 @@
     "value": "Wer (optional)",
     "_ai": true
   },
-  "fleet_log_detail": null,
+  "fleet_log_detail": {
+    "value": "Details (optional)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_log_add": {
     "value": "Eintrag hinzufügen",
     "_ai": true
@@ -1286,7 +1546,11 @@
     "value": "Noch nichts protokolliert.",
     "_ai": true
   },
-  "fleet_log_change": null,
+  "fleet_log_change": {
+    "value": "{from} → {to}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_log_by": {
     "value": "von {actor}",
     "_ai": true
@@ -1307,12 +1571,20 @@
     "value": "Inhaber",
     "_ai": true
   },
-  "fleet_log_kind_firmware": null,
+  "fleet_log_kind_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_log_kind_note": {
     "value": "Notiz",
     "_ai": true
   },
-  "fleet_log_kind_status": null,
+  "fleet_log_kind_status": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_log_kind_config_applied": {
     "value": "Konfiguration angewendet",
     "_ai": true
@@ -1321,8 +1593,16 @@
     "value": "Akku",
     "_ai": true
   },
-  "fleet_health_volts": null,
-  "fleet_health_volts_at": null,
+  "fleet_health_volts": {
+    "value": "{volts} V",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_health_volts_at": {
+    "value": "{volts} V ({when})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_health_no_telemetry": {
     "value": "Keine Telemetrie gespeichert. Sie wird nur für Nodes auf den Listen der verfolgten Telemetrie gesammelt.",
     "_ai": true
@@ -1331,9 +1611,21 @@
     "value": "Temperatur",
     "_ai": true
   },
-  "fleet_health_celsius": null,
-  "fleet_health_firmware": null,
-  "fleet_health_firmware_from": null,
+  "fleet_health_celsius": {
+    "value": "{value} °C",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_health_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_health_firmware_from": {
+    "value": "{version} ({source})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_health_no_firmware": {
     "value": "Noch nicht gemeldet. Sie kommt aus dem Besitzer-Bereich des Repeaters und aus SNMP-Abfragen.",
     "_ai": true
@@ -1426,7 +1718,11 @@
     "value": "Diese Seite wird nicht über HTTPS geladen. Die Passphrase und jedes angezeigte Geheimnis gehen unverschlüsselt über das Netzwerk.",
     "_ai": true
   },
-  "fleet_vault_passphrase": null,
+  "fleet_vault_passphrase": {
+    "value": "Passphrase",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_vault_passphrase_repeat": {
     "value": "Passphrase wiederholen",
     "_ai": true
@@ -1848,13 +2144,25 @@
     },
     "_ai": true
   },
-  "fleet_usb_name": null,
+  "fleet_usb_name": {
+    "value": "Name",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_usb_role": {
     "value": "Rolle",
     "_ai": true
   },
-  "fleet_usb_firmware": null,
-  "fleet_usb_board": null,
+  "fleet_usb_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_usb_board": {
+    "value": "Board",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_usb_public_key": {
     "value": "Öffentlicher Schlüssel",
     "_ai": true
@@ -2415,7 +2723,11 @@
     "value": "Neue Vorlage",
     "_ai": true
   },
-  "fleet_template_name": null,
+  "fleet_template_name": {
+    "value": "Name",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_template_description": {
     "value": "Beschreibung",
     "_ai": true
@@ -2463,7 +2775,11 @@
     "value": "Variable hinzufügen",
     "_ai": true
   },
-  "fleet_template_var_type_text": null,
+  "fleet_template_var_type_text": {
+    "value": "Text",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_template_var_type_number": {
     "value": "Zahl",
     "_ai": true
@@ -2480,7 +2796,11 @@
     "value": "Das Dokument ist kein gültiges JSON.",
     "_ai": true
   },
-  "mesh_discovery_advert_label": null,
+  "mesh_discovery_advert_label": {
+    "value": "Advert",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_discovery_advert_desc": {
     "value": "Macht deinen Node bekannt. Direkt (0 Hop) erreicht nur Nodes in direkter Funkreichweite und verbraucht weniger Sendezeit. Flood-Advert wird von Repeatern durch das Mesh weitergeleitet.",
     "_ai": true
@@ -2565,7 +2885,11 @@
     "value": "Ältere laden",
     "_ai": true
   },
-  "packet_history_live": null,
+  "packet_history_live": {
+    "value": "Live",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_history_historical": {
     "value": "Historisch",
     "_ai": true
@@ -2602,8 +2926,16 @@
     "value": "SNR-RSSI-Streudiagramm",
     "_ai": true
   },
-  "mesh_health_scatter_tooltip": null,
-  "mesh_health_req_tooltip_flood": null,
+  "mesh_health_scatter_tooltip": {
+    "value": "RSSI {rssi} / SNR {snr}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_req_tooltip_flood": {
+    "value": "Flood {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_req_tooltip_direct": {
     "value": "Direkt {count}",
     "_ai": true
@@ -2631,8 +2963,16 @@
     },
     "_ai": true
   },
-  "mesh_health_axis_rssi_dbm": null,
-  "mesh_health_axis_snr_db": null,
+  "mesh_health_axis_rssi_dbm": {
+    "value": "RSSI (dBm)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_axis_snr_db": {
+    "value": "SNR (dB)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_heatmap_cell_title": {
     "plural": {
       "one": "{day} {hour}:00 - {count} Paket",
@@ -2676,7 +3016,11 @@
     "value": "Hoch",
     "_ai": true
   },
-  "mesh_health_heatmap_hour_label": null,
+  "mesh_health_heatmap_hour_label": {
+    "value": "{hour}h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_heatmap_total_packets": {
     "plural": {
       "one": "{n} Paket insgesamt",
@@ -2704,7 +3048,11 @@
     "value": "MITTLERE Warnungen",
     "_ai": true
   },
-  "mesh_health_stat_window_hours": null,
+  "mesh_health_stat_window_hours": {
+    "value": "{hours}h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_hop_distance_heading": {
     "value": "Hop-Entfernung",
     "_ai": true
@@ -2790,13 +3138,25 @@
     "value": "Alle",
     "_ai": true
   },
-  "mesh_health_col_id": null,
-  "mesh_health_col_adverts": null,
+  "mesh_health_col_id": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_col_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_col_direct": {
     "value": "Direkt",
     "_ai": true
   },
-  "mesh_health_col_flood": null,
+  "mesh_health_col_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_col_total": {
     "value": "Gesamt",
     "_ai": true
@@ -2813,7 +3173,11 @@
     "value": "Zuerst gehört",
     "_ai": true
   },
-  "mesh_health_col_hops": null,
+  "mesh_health_col_hops": {
+    "value": "Hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_col_mode": {
     "value": "Modus",
     "_ai": true
@@ -2830,7 +3194,11 @@
     "value": "Adressbreite unbekannt (noch keine Daten)",
     "_ai": true
   },
-  "mesh_health_distance_km": null,
+  "mesh_health_distance_km": {
+    "value": "{km} km",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_status_active": {
     "value": "AKTIV",
     "_ai": true
@@ -2886,7 +3254,11 @@
     "value": "Laden fehlgeschlagen",
     "_ai": true
   },
-  "mesh_health_tab_adverts": null,
+  "mesh_health_tab_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_tab_requests": {
     "value": "Anfragen",
     "_ai": true
@@ -2939,7 +3311,11 @@
     "value": "Kopien",
     "_ai": true
   },
-  "relay_reception_col_relay": null,
+  "relay_reception_col_relay": {
+    "value": "Relay",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "relay_reception_col_receptions": {
     "value": "Kopien",
     "_ai": true
@@ -3096,10 +3472,26 @@
     "value": "Typ",
     "_ai": true
   },
-  "relay_detail_col_hops": null,
-  "relay_detail_col_snr": null,
-  "relay_detail_col_rssi": null,
-  "relay_detail_col_relays": null,
+  "relay_detail_col_hops": {
+    "value": "Hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_snr": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_rssi": {
+    "value": "RSSI",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_relays": {
+    "value": "Relays",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "relay_detail_first_badge": {
     "value": "zuerst",
     "_ai": true
@@ -3200,7 +3592,11 @@
     "value": "Lokal",
     "_ai": true
   },
-  "mesh_health_pc_assess_regional": null,
+  "mesh_health_pc_assess_regional": {
+    "value": "Regional",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_pc_distance_km": {
     "value": "{km} km entfernt",
     "_ai": true
@@ -3213,7 +3609,11 @@
     "value": "Anfragen",
     "_ai": true
   },
-  "mesh_health_req_stat_total_sub": null,
+  "mesh_health_req_stat_total_sub": {
+    "value": "REQUEST + anon",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_req_stat_flood": {
     "value": "Flood-Anfragen",
     "_ai": true
@@ -3302,7 +3702,11 @@
     "value": "Werkzeuge",
     "_ai": true
   },
-  "nav_live_packets_rate": null,
+  "nav_live_packets_rate": {
+    "value": "{rate}/min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_live_packets_title": {
     "value": "Live-Paket-Feed: {count} Pakete in den letzten 5 Minuten.",
     "_ai": true
@@ -3311,10 +3715,26 @@
     "value": "Live-Pakete: {rate} pro Minute",
     "_ai": true
   },
-  "nav_trace": null,
-  "status_battery_mv": null,
-  "status_battery_percent": null,
-  "status_battery_percent_and_mv": null,
+  "nav_trace": {
+    "value": "Trace",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "status_battery_mv": {
+    "value": "{mv}mV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "status_battery_percent": {
+    "value": "{pct}%",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "status_battery_percent_and_mv": {
+    "value": "{pct}% ({mv}mV)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "status_battery_title": {
     "value": "Akku: {pct}% ({voltage}V)",
     "_ai": true
@@ -3537,7 +3957,11 @@
     "value": "Zufälligen Schlüssel generieren",
     "_ai": true
   },
-  "chat_gif_alt": null,
+  "chat_gif_alt": {
+    "value": "GIF",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_group_data_image_placeholder": {
     "value": "Bild (nicht unterstützt)",
     "_ai": true
@@ -3930,7 +4354,11 @@
     "value": "Fahrzeug",
     "_ai": true
   },
-  "team_waypoint_type_route": null,
+  "team_waypoint_type_route": {
+    "value": "Route",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "team_waypoint_type_custom": {
     "value": "Benutzerdefiniert",
     "_ai": true
@@ -3951,7 +4379,11 @@
     "value": "TEAM-Fähigkeiten",
     "_ai": true
   },
-  "team_cap_alias": null,
+  "team_cap_alias": {
+    "value": "Alias {alias}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "team_cap_custom_firmware": {
     "value": "Angepasste Firmware",
     "_ai": true
@@ -4055,7 +4487,11 @@
     "value": "MeshCoreNG-Tracker",
     "_ai": true
   },
-  "tracker_popup_team": null,
+  "tracker_popup_team": {
+    "value": "Team: {team}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "tracker_popup_speed": {
     "value": "Geschwindigkeit: {kmh} km/h",
     "_ai": true
@@ -4076,7 +4512,11 @@
     "value": "Geteilt von {sender}",
     "_ai": true
   },
-  "tak_stream_title": null,
+  "tak_stream_title": {
+    "value": "TAK-Stream",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "tak_stream_running": {
     "value": "Läuft auf Port {port}, {clients} ATAK- / WinTAK-Clients verbunden. Unverschlüsselt und ohne Passwort: nur in einem vertrauenswürdigen Netz verwenden.",
     "_ai": true
@@ -4284,7 +4724,11 @@
     "value": "Abbrechen",
     "_ai": true
   },
-  "common_client": null,
+  "common_client": {
+    "value": "Client",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_contact": {
     "value": "Kontakt",
     "_ai": true
@@ -4341,12 +4785,20 @@
     "value": "Link wird geladen...",
     "_ai": true
   },
-  "common_name": null,
+  "common_name": {
+    "value": "Name",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_public_key": {
     "value": "Öffentlicher Schlüssel",
     "_ai": true
   },
-  "common_repeater": null,
+  "common_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_room_server": {
     "value": "Raumserver",
     "_ai": true
@@ -4407,7 +4859,11 @@
     "value": "Raum",
     "_ai": true
   },
-  "common_sensor": null,
+  "common_sensor": {
+    "value": "Sensor",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_close": {
     "value": "Schließen",
     "_ai": true
@@ -4599,7 +5055,11 @@
     "value": "Entfernung",
     "_ai": true
   },
-  "contact_routing": null,
+  "contact_routing": {
+    "value": "Routing",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_forced_suffix": {
     "value": "(erzwungen)",
     "_ai": true
@@ -4748,7 +5208,11 @@
     "value": "Besitzer anschreiben",
     "_ai": true
   },
-  "map_node_details": null,
+  "map_node_details": {
+    "value": "Details",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_owner_info_autofilled": {
     "value": "Beim Kontakt gespeichert",
     "_ai": true
@@ -4781,7 +5245,11 @@
     "value": "Funk-Belegung",
     "_ai": true
   },
-  "snmp_title": null,
+  "snmp_title": {
+    "value": "SNMP (LAN)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_intro": {
     "value": "Frage einen Node mit Observer-Firmware über dein Netzwerk ab. SNMP muss auf dem Node eingeschaltet sein, und dieser Server muss ihn per UDP erreichen können.",
     "_ai": true
@@ -4794,9 +5262,21 @@
     "value": "Host oder IP-Adresse",
     "_ai": true
   },
-  "snmp_host_placeholder": null,
-  "snmp_port": null,
-  "snmp_community": null,
+  "snmp_host_placeholder": {
+    "value": "192.168.1.20",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_port": {
+    "value": "Port",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_community": {
+    "value": "Community",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_community_keep": {
     "value": "Leer lassen, um die gespeicherte zu behalten",
     "_ai": true
@@ -5025,12 +5505,20 @@
     "value": "Community: 1 bis 64 druckbare ASCII-Zeichen",
     "_ai": true
   },
-  "snmp_group_system": null,
+  "snmp_group_system": {
+    "value": "System",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_group_radio": {
     "value": "Funk",
     "_ai": true
   },
-  "snmp_group_mqtt": null,
+  "snmp_group_mqtt": {
+    "value": "MQTT",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_group_memory": {
     "value": "Speicher",
     "_ai": true
@@ -5271,7 +5759,11 @@
     "value": "Ein Companion kann nicht per Funk nach seiner Adresse gefragt werden. Seine eigene Kommandozeile zeigt sie mit get wifi.ip.",
     "_ai": true
   },
-  "snmp_group_companion": null,
+  "snmp_group_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_group_companion_filter": {
     "value": "Empfangsfilter",
     "_ai": true
@@ -5360,9 +5852,21 @@
     "value": "Funk-Watchdog ausgelöst",
     "_ai": true
   },
-  "snmp_error_flag_other": null,
-  "snmp_reset_reason_named": null,
-  "snmp_reset_reason_other": null,
+  "snmp_error_flag_other": {
+    "value": "Bit {bit}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_reset_reason_named": {
+    "value": "{name} ({code})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_reset_reason_other": {
+    "value": "Code {code}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_reset_reason_0": {
     "value": "Unbekannt",
     "_ai": true
@@ -5379,7 +5883,11 @@
     "value": "Software-Reset",
     "_ai": true
   },
-  "snmp_reset_reason_4": null,
+  "snmp_reset_reason_4": {
+    "value": "Panic",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_reset_reason_5": {
     "value": "Interrupt-Watchdog",
     "_ai": true
@@ -5468,13 +5976,25 @@
     "value": "Schalte dort \"{option}\" ein, damit der Server den Node selbst abfragt und das Verlaufsdiagramm füllt.",
     "_ai": true
   },
-  "snmp_page_col_details": null,
+  "snmp_page_col_details": {
+    "value": "Details",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_col_actions": {
     "value": "Aktionen",
     "_ai": true
   },
-  "snmp_page_col_status": null,
-  "snmp_page_col_node": null,
+  "snmp_page_col_status": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_page_col_node": {
+    "value": "Knoten",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_col_address": {
     "value": "Adresse",
     "_ai": true
@@ -5491,7 +6011,11 @@
     "value": "Letzter Fehler",
     "_ai": true
   },
-  "snmp_page_status_ok": null,
+  "snmp_page_status_ok": {
+    "value": "OK",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_status_failing": {
     "value": "Fehlgeschlagen",
     "_ai": true
@@ -5564,8 +6088,16 @@
     "value": "{title}, % der Zeit",
     "_ai": true
   },
-  "snmp_node_value_per_minute": null,
-  "snmp_node_value_percent": null,
+  "snmp_node_value_per_minute": {
+    "value": "{value} /min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_node_value_percent": {
+    "value": "{value} %",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_node_chart_packets": {
     "value": "Pakete",
     "_ai": true
@@ -5602,7 +6134,11 @@
     "value": "Signal & Sendezeit",
     "_ai": true
   },
-  "snmp_latest_col_flood": null,
+  "snmp_latest_col_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_latest_col_direct": {
     "value": "Direkt",
     "_ai": true
@@ -5643,7 +6179,11 @@
     "value": "Wähle Beginn und Ende und drücke dann auf Anwenden.",
     "_ai": true
   },
-  "contact_radio_policy_auto": null,
+  "contact_radio_policy_auto": {
+    "value": "Auto",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_radio_policy_pinned": {
     "value": "Anheften",
     "_ai": true
@@ -5748,7 +6288,11 @@
     "value": "Ein meshcore://-Link, den andere MeshCore-Clients importieren können. Funktioniert nur, wenn das Funkgerät ein Advert dieses Kontakts gespeichert hat. Es wird nichts gesendet.",
     "_ai": true
   },
-  "chat_import_contact_link_placeholder": null,
+  "chat_import_contact_link_placeholder": {
+    "value": "meshcore://...",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_import_contact_link_help": {
     "value": "Füge einen meshcore://-Link aus einem anderen MeshCore-Client ein. Die Signatur des Adverts wird geprüft, bevor der Kontakt ins Funkgerät importiert wird. Es wird nichts gesendet.",
     "_ai": true
@@ -5844,7 +6388,11 @@
     "value": "Routen, über die deine Direktnachrichten an diesen Kontakt gesendet wurden, gereiht wie meshcore-open sie bewertet (Zustellrate, Laufzeit, Aktualität, Gewicht). Nur Anzeige; das Routing bleibt unverändert.",
     "_ai": true
   },
-  "contact_path_score_flood": null,
+  "contact_path_score_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_path_score_detail": {
     "value": "Score {score} · {ok}/{attempts} zugestellt · {trip}",
     "_ai": true
@@ -6032,7 +6580,11 @@
     "value": "Anderes Schiff",
     "_ai": true
   },
-  "location_picker_format_field": null,
+  "location_picker_format_field": {
+    "value": "Format",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "location_picker_format_marker": {
     "value": "Standortmarkierung (meshcore-open)",
     "_ai": true
@@ -6165,7 +6717,11 @@
     "value": "Noch nicht abgerufen",
     "_ai": true
   },
-  "contact_gps_position": null,
+  "contact_gps_position": {
+    "value": "GPS: {position}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_fetched_at": {
     "value": "Abgerufen {time}",
     "_ai": true
@@ -6205,7 +6761,11 @@
     "value": "Kanaldetails und Statistiken",
     "_ai": true
   },
-  "channel_type_hashtag": null,
+  "channel_type_hashtag": {
+    "value": "Hashtag",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_type_private_key": {
     "value": "Privater Schlüssel",
     "_ai": true
@@ -6373,7 +6933,11 @@
     "value": "Änderungsprotokoll",
     "_ai": true
   },
-  "settings_about_changelog_ev": null,
+  "settings_about_changelog_ev": {
+    "value": "Changelog-EV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_about_acknowledgements": {
     "value": "Mit großer Wertschätzung an alle, die die Werkzeuge geschaffen haben, auf denen dies aufbaut:",
     "_ai": true
@@ -6504,7 +7068,11 @@
     },
     "_ai": true
   },
-  "settings_push_test": null,
+  "settings_push_test": {
+    "value": "Test",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_push_unsubscribe_device": {
     "value": "Dieses Gerät abmelden",
     "_ai": true
@@ -6553,7 +7121,11 @@
     "value": "Faerbt die Nova-Dark-Kartenebene passend zur gewaehlten Phosphorfarbe. Gilt nur, solange Nova Dark die gewaehlte Kartenebene ist.",
     "_ai": true
   },
-  "settings_branding_heading": null,
+  "settings_branding_heading": {
+    "value": "Branding",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_branding_description": {
     "value": "Passe den App-Namen und das Symbol in der oberen Leiste und im Browser-Tab an. Fuer alle mit dieser Instanz verbundenen Geraete gemeinsam.",
     "_ai": true
@@ -6562,7 +7134,11 @@
     "value": "App-Name",
     "_ai": true
   },
-  "settings_branding_name_placeholder": null,
+  "settings_branding_name_placeholder": {
+    "value": "RTFM-EV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_branding_hide_label": {
     "value": "Namen in der oberen Leiste ausblenden",
     "_ai": true
@@ -6655,7 +7231,11 @@
     "value": "Grad, Minuten, Sekunden (52°05'26.5\"N)",
     "_ai": true
   },
-  "settings_coordinate_format_mgrs": null,
+  "settings_coordinate_format_mgrs": {
+    "value": "MGRS (31U FT 45332 73249)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "date_field_open_calendar": {
     "value": "Kalender öffnen",
     "_ai": true
@@ -6728,9 +7308,21 @@
     "value": "LiPo (Standard)",
     "_ai": true
   },
-  "settings_battery_chemistry_lifepo4": null,
-  "settings_battery_chemistry_lipo_hv": null,
-  "settings_battery_chemistry_nmc": null,
+  "settings_battery_chemistry_lifepo4": {
+    "value": "LiFePO4",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_battery_chemistry_lipo_hv": {
+    "value": "LiPo HV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_battery_chemistry_nmc": {
+    "value": "NMC",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_status_dot_label": {
     "value": "Statuspunkt-Glitzern",
     "_ai": true
@@ -6851,9 +7443,21 @@
     "value": "Standard des Themes",
     "_ai": true
   },
-  "settings_reading_font_opendyslexic": null,
-  "settings_reading_font_atkinson": null,
-  "settings_reading_font_lexend": null,
+  "settings_reading_font_opendyslexic": {
+    "value": "OpenDyslexic",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_reading_font_atkinson": {
+    "value": "Atkinson Hyperlegible",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_reading_font_lexend": {
+    "value": "Lexend",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_reading_font_help": {
     "value": "Eine Schrift, die leichter zu lesen ist, zum Beispiel bei Legasthenie. Ersetzt die Textschrift des Themes in diesem Browser; Code und Paketdaten behalten ihre Festbreitenschrift.",
     "_ai": true
@@ -6960,7 +7564,11 @@
     },
     "_ai": true
   },
-  "settings_retention_input_label": null,
+  "settings_retention_input_label": {
+    "value": "{name} ({unit})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_retention_class_raw_packets": {
     "value": "Rohpakete",
     "_ai": true
@@ -7137,7 +7745,11 @@
     "value": "Einstellung konnte nicht gespeichert werden",
     "_ai": true
   },
-  "settings_meshcomod_heading": null,
+  "settings_meshcomod_heading": {
+    "value": "Meshcomod (DMC-EV)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_meshcomod_cad_label": {
     "value": "CAD (Kanalaktivitätserkennung)",
     "_ai": true
@@ -7150,7 +7762,11 @@
     "value": "Erfordert CAD-fähige Meshcomod-Firmware.",
     "_ai": true
   },
-  "settings_meshcomod_gps_label": null,
+  "settings_meshcomod_gps_label": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_meshcomod_gps_supported_desc": {
     "value": "Aktiviert den eingebauten GPS-Empfänger.",
     "_ai": true
@@ -7163,7 +7779,11 @@
     "value": "Intervall (Sekunden)",
     "_ai": true
   },
-  "settings_meshcomod_full_capture_title": null,
+  "settings_meshcomod_full_capture_title": {
+    "value": "Vollständige Erfassung",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_meshcomod_full_capture_hint": {
     "value": "Frames, die das Funkgerät sonst verwirft, an RTFM-EV weitergeben. Über Funk wird nichts zusätzlich gesendet.",
     "_ai": true
@@ -7256,7 +7876,11 @@
     "value": "Absender",
     "_ai": true
   },
-  "cfilter_counter_text": null,
+  "cfilter_counter_text": {
+    "value": "Text",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cfilter_malformed_reasons": {
     "value": "Fehlerhaft nach Grund: kurz {short}, Zeit {time}, leer {empty}, UTF-8 {utf8}",
     "_ai": true
@@ -7385,7 +8009,11 @@
     "value": "Die Filtereinstellungen auf dem Funkgerät durch die Sicherung ersetzen? Die Einstellungen auf dem Funkgerät werden zuerst zurückgesetzt.",
     "_ai": true
   },
-  "settings_gps_heading": null,
+  "settings_gps_heading": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_gps_enabled_label": {
     "value": "GPS aktivieren",
     "_ai": true
@@ -7494,10 +8122,26 @@
     "value": "Gesendete Pakete",
     "_ai": true
   },
-  "settings_radio_stat_flood_tx": null,
-  "settings_radio_stat_flood_rx": null,
-  "settings_radio_stat_direct_tx": null,
-  "settings_radio_stat_direct_rx": null,
+  "settings_radio_stat_flood_tx": {
+    "value": "Flood TX",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radio_stat_flood_rx": {
+    "value": "Flood RX",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radio_stat_direct_tx": {
+    "value": "Direkt TX",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radio_stat_direct_rx": {
+    "value": "Direkt RX",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_toast_geo_not_supported_title": {
     "value": "Geolokalisierung nicht unterstützt",
     "_ai": true
@@ -7965,7 +8609,11 @@
     "value": "{label} läuft mit {firmware}",
     "_ai": true
   },
-  "settings_radio_device_capacity_suffix": null,
+  "settings_radio_device_capacity_suffix": {
+    "value": "{label} (max.: {capacity})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_toast_reconnect_requested": {
     "value": "Erneute Verbindung angefordert",
     "_ai": true
@@ -8502,9 +9150,21 @@
     "value": "Es werden keine Repeater verfolgt. Aktiviere die Verfolgung über das Dashboard eines Repeaters.",
     "_ai": true
   },
-  "settings_radioapp_route_flood": null,
-  "settings_radioapp_route_routed": null,
-  "settings_radioapp_route_direct": null,
+  "settings_radioapp_route_flood": {
+    "value": "flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radioapp_route_routed": {
+    "value": "geroutet",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radioapp_route_direct": {
+    "value": "direkt",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radioapp_remove_button": {
     "value": "Entfernen",
     "_ai": true
@@ -8633,16 +9293,40 @@
     "value": "Community-Sharing",
     "_ai": true
   },
-  "settings_fanout_type_home_assistant": null,
-  "settings_fanout_type_webhook": null,
-  "settings_fanout_type_apprise": null,
-  "settings_fanout_type_amazon_sqs": null,
+  "settings_fanout_type_home_assistant": {
+    "value": "Home Assistant",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_type_webhook": {
+    "value": "Webhook",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_type_apprise": {
+    "value": "Apprise",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_type_amazon_sqs": {
+    "value": "Amazon SQS",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_type_map_upload": {
     "value": "Karten-Upload",
     "_ai": true
   },
-  "settings_fanout_type_mqtt_ha_discovery": null,
-  "settings_fanout_type_community_mqtt_generic": null,
+  "settings_fanout_type_mqtt_ha_discovery": {
+    "value": "Home Assistant MQTT Discovery",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_type_community_mqtt_generic": {
+    "value": "Community MQTT/meshcoretomqtt",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_section_private_forwarding": {
     "value": "Private Weiterleitung",
     "_ai": true
@@ -8807,7 +9491,11 @@
     "value": "Benutzername",
     "_ai": true
   },
-  "settings_fanout_optional_placeholder": null,
+  "settings_fanout_optional_placeholder": {
+    "value": "Optional",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_password_label": {
     "value": "Passwort",
     "_ai": true
@@ -8912,8 +9600,16 @@
     "value": "- aktualisiert im Telemetrie-Erfassungszyklus (~8 Std.) oder beim manuellen Abruf über das Dashboard. Die gezeigten Entitäts-IDs verwenden beispielhaft einen Repeater; diese Sensoren werden für jeden ausgewählten Repeater erstellt.",
     "_ai": true
   },
-  "settings_fanout_ha_unit_volts": null,
-  "settings_fanout_ha_unit_dbm_db": null,
+  "settings_fanout_ha_unit_volts": {
+    "value": "(V)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_ha_unit_dbm_db": {
+    "value": "(dBm/dB)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_ha_unit_seconds": {
     "value": "(Sekunden)",
     "_ai": true
@@ -9054,14 +9750,30 @@
     "value": "Erweiterter Community-MQTT-Editor. Verwenden Sie dies für manuelle meshcoretomqtt-kompatible Einrichtungen oder um eine gespeicherte Voreinstellung nach der Erstellung zu ändern. Es werden nur rohe HF-Pakete geteilt - niemals entschlüsselte Nachrichten.",
     "_ai": true
   },
-  "settings_fanout_transport_label": null,
-  "settings_fanout_transport_websockets": null,
-  "settings_fanout_transport_tcp": null,
+  "settings_fanout_transport_label": {
+    "value": "Transport",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_transport_websockets": {
+    "value": "WebSockets",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_transport_tcp": {
+    "value": "TCP",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_authentication_label": {
     "value": "Authentifizierung",
     "_ai": true
   },
-  "settings_fanout_auth_token": null,
+  "settings_fanout_auth_token": {
+    "value": "Token",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_auth_none": {
     "value": "Keine",
     "_ai": true
@@ -9206,7 +9918,11 @@
     "value": "Für Ihr Funkgerät ist derzeit kein Breiten-/Längengrad konfiguriert. Geofencing wird stillschweigend übersprungen, bis Koordinaten festgelegt sind unter",
     "_ai": true
   },
-  "settings_fanout_map_settings_radio_location_path": null,
+  "settings_fanout_map_settings_radio_location_path": {
+    "value": "Einstellungen → Funkgerät → Standort",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_map_using_radio_position": {
     "value": "Verwendet Funkgeräteposition",
     "_ai": true
@@ -9215,7 +9931,11 @@
     "value": "als Geofence-Mittelpunkt. Aktualisieren Sie die Koordinaten in den Funkgeräteeinstellungen, um den Mittelpunkt zu verschieben.",
     "_ai": true
   },
-  "settings_fanout_map_radius_km_label": null,
+  "settings_fanout_map_radius_km_label": {
+    "value": "Radius (km)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_map_radius_hint": {
     "value": "Knoten, die weiter als diese Entfernung von der Position Ihres Funkgeräts entfernt sind, werden nicht hochgeladen.",
     "_ai": true
@@ -9452,7 +10172,11 @@
     "value": "Sendet Nachrichtendaten als JSON an einen HTTP-Endpunkt, wenn Nachrichten empfangen werden.",
     "_ai": true
   },
-  "settings_fanout_url_label": null,
+  "settings_fanout_url_label": {
+    "value": "URL",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_http_method_label": {
     "value": "HTTP-Methode",
     "_ai": true
@@ -9465,7 +10189,11 @@
     "value": "Wenn ein Geheimnis festgelegt ist, enthält jede Anfrage eine HMAC-SHA256-Signatur des JSON-Bodys im angegebenen Header (z. B.",
     "_ai": true
   },
-  "settings_fanout_hmac_signing_desc_suffix": null,
+  "settings_fanout_hmac_signing_desc_suffix": {
+    "value": ").",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_hmac_secret_label": {
     "value": "HMAC-Geheimnis",
     "_ai": true
@@ -9494,7 +10222,11 @@
     "value": "Warteschlangen-URL",
     "_ai": true
   },
-  "settings_fanout_sqs_region_label": null,
+  "settings_fanout_sqs_region_label": {
+    "value": "Region (optional)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_sqs_endpoint_url_label": {
     "value": "Endpunkt-URL (optional)",
     "_ai": true
@@ -9619,7 +10351,11 @@
     "value": "{label}-Integrationen",
     "_ai": true
   },
-  "settings_fanout_integration_group_aria": null,
+  "settings_fanout_integration_group_aria": {
+    "value": "Integration {name}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_enable_item_aria": {
     "value": "{name} aktivieren",
     "_ai": true
@@ -9640,10 +10376,26 @@
     "value": "Bearbeiten",
     "_ai": true
   },
-  "settings_fanout_broker_label": null,
-  "settings_fanout_topic_label": null,
-  "settings_fanout_topics_label": null,
-  "settings_fanout_url_summary_label": null,
+  "settings_fanout_broker_label": {
+    "value": "Broker:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_topic_label": {
+    "value": "Topic:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_topics_label": {
+    "value": "Topics:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_url_summary_label": {
+    "value": "URL:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_not_set": {
     "value": "Nicht festgelegt",
     "_ai": true
@@ -9726,8 +10478,16 @@
     "value": "Aktivität",
     "_ai": true
   },
-  "settings_statistics_col_1h": null,
-  "settings_statistics_col_24h": null,
+  "settings_statistics_col_1h": {
+    "value": "1h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_col_24h": {
+    "value": "24h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_statistics_col_7d": {
     "value": "7T",
     "_ai": true
@@ -9764,8 +10524,16 @@
     "value": "MQTT-Broker",
     "_ai": true
   },
-  "settings_statistics_mqtt_broker": null,
-  "settings_statistics_mqtt_status": null,
+  "settings_statistics_mqtt_broker": {
+    "value": "Broker",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_mqtt_status": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_statistics_mqtt_published": {
     "value": "Gesendet",
     "_ai": true
@@ -9806,9 +10574,21 @@
     "value": "Geparste gespeicherte Rohpakete der letzten 24 Stunden: {count}",
     "_ai": true
   },
-  "settings_statistics_path_hash_1byte": null,
-  "settings_statistics_path_hash_2byte": null,
-  "settings_statistics_path_hash_3byte": null,
+  "settings_statistics_path_hash_1byte": {
+    "value": "1 Byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_path_hash_2byte": {
+    "value": "2 Byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_path_hash_3byte": {
+    "value": "3 Byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_statistics_count_label": {
     "value": "Anzahl",
     "_ai": true
@@ -10051,7 +10831,11 @@
     "value": "Wird abgerufen (Versuch {attempt}/{total})...",
     "_ai": true
   },
-  "repeater_firmware_label": null,
+  "repeater_firmware_label": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_flood_advert": {
     "value": "Flood-Advert",
     "_ai": true
@@ -10060,7 +10844,11 @@
     "value": "{flood} Flood / {direct} Direkt",
     "_ai": true
   },
-  "repeater_flood_label": null,
+  "repeater_flood_label": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_guest_password_label": {
     "value": "Gastpasswort",
     "_ai": true
@@ -10097,7 +10885,11 @@
     "value": "Letzter SNR",
     "_ai": true
   },
-  "repeater_lat_lon_label": null,
+  "repeater_lat_lon_label": {
+    "value": "Breite / Länge",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_load_all": {
     "value": "Alles laden",
     "_ai": true
@@ -10286,7 +11078,11 @@
     "value": "Berechtigung",
     "_ai": true
   },
-  "repeater_radio_label": null,
+  "repeater_radio_label": {
+    "value": "Funk",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_radio_settings_title": {
     "value": "Radioeinstellungen",
     "_ai": true
@@ -10403,7 +11199,11 @@
     "value": "RX-Fehler",
     "_ai": true
   },
-  "repeater_rx_tx_counts": null,
+  "repeater_rx_tx_counts": {
+    "value": "{rx} rx / {tx} tx",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_samples_count": {
     "value": "{count} Samples",
     "_ai": true
@@ -10448,7 +11248,11 @@
     "value": "Gespeicherte Momentaufnahmen der Bereiche, behalten wenn ein abgerufener Bereich von der letzten abweicht. Von diesem Server gelesen; an den Room-Server wird nichts gesendet.",
     "_ai": true
   },
-  "repeater_config_history_kind_acl": null,
+  "repeater_config_history_kind_acl": {
+    "value": "ACL",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_config_history_empty": {
     "value": "Noch keine Momentaufnahmen gespeichert. Eine wird behalten, wenn ein Bereich oben abgerufen wird und von der letzten abweicht.",
     "_ai": true
@@ -10669,8 +11473,16 @@
     "value": "Routentyp",
     "_ai": true
   },
-  "packet_csv_snr": null,
-  "packet_csv_rssi": null,
+  "packet_csv_snr": {
+    "value": "SNR (dB)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_csv_rssi": {
+    "value": "RSSI (dBm)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_csv_decrypted": {
     "value": "Entschlüsselt",
     "_ai": true
@@ -10859,8 +11671,16 @@
     "value": "Ton-Thema",
     "_ai": true
   },
-  "packet_sound_theme_geiger": null,
-  "packet_sound_theme_sonar": null,
+  "packet_sound_theme_geiger": {
+    "value": "Geiger",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_sound_theme_sonar": {
+    "value": "Sonar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_sound_theme_waterdrip": {
     "value": "Wassertropfen",
     "_ai": true
@@ -10984,10 +11804,26 @@
     "value": "{count} Sek.",
     "_ai": true
   },
-  "packet_duration_minutes": null,
-  "packet_duration_minutes_seconds": null,
-  "packet_duration_hours": null,
-  "packet_duration_hours_minutes": null,
+  "packet_duration_minutes": {
+    "value": "{minutes} Min.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_duration_minutes_seconds": {
+    "value": "{minutes} Min. {seconds} Sek.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_duration_hours": {
+    "value": "{hours} Std.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_duration_hours_minutes": {
+    "value": "{hours} Std. {minutes} Min.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_traffic_timeline": {
     "value": "Verkehrszeitachse",
     "_ai": true
@@ -11083,13 +11919,25 @@
     "value": "Signal letzter Hop",
     "_ai": true
   },
-  "packet_signal_label": null,
+  "packet_signal_label": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_signal_none": {
     "value": "Keine Signalmessung",
     "_ai": true
   },
-  "packet_byte_single": null,
-  "packet_byte_range": null,
+  "packet_byte_single": {
+    "value": "Byte {n}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_byte_range": {
+    "value": "Bytes {start}-{end}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_no_path_hops": {
     "value": "Keine Pfad-Hops",
     "_ai": true
@@ -11160,7 +12008,11 @@
     "value": " · Beobachtung #{id}",
     "_ai": true
   },
-  "packet_region_regional_fallback": null,
+  "packet_region_regional_fallback": {
+    "value": "Regional",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_region_unknown_suffix": {
     "value": " · unbekannte Region",
     "_ai": true
@@ -11217,8 +12069,16 @@
     "value": "Der Analyzer konnte nicht befragt werden: {error}",
     "_ai": true
   },
-  "packet_who_heard_col_observer": null,
-  "packet_who_heard_col_region": null,
+  "packet_who_heard_col_observer": {
+    "value": "Observer",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_who_heard_col_region": {
+    "value": "Region",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_who_heard_col_heard": {
     "value": "Gehört",
     "_ai": true
@@ -11247,7 +12107,11 @@
     "value": "Dekodierter Wert",
     "_ai": true
   },
-  "packet_bits_label": null,
+  "packet_bits_label": {
+    "value": "Bits {bits}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_hex_input_label": {
     "value": "Paket-Hex",
     "_ai": true
@@ -11288,18 +12152,50 @@
     "value": "Legende Markierungsaktualität",
     "_ai": true
   },
-  "map_lt_1h": null,
-  "map_lt_1d": null,
-  "map_lt_3d": null,
+  "map_lt_1h": {
+    "value": "<1 Std",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_lt_1d": {
+    "value": "<1 T",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_lt_3d": {
+    "value": "<3 T",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_recency_older": {
     "value": "älter",
     "_ai": true
   },
-  "map_packet_legend_ad": null,
-  "map_packet_legend_ch": null,
-  "map_packet_legend_dm": null,
-  "map_packet_legend_ack": null,
-  "map_repeater_legend": null,
+  "map_packet_legend_ad": {
+    "value": "Ad",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_packet_legend_ch": {
+    "value": "Ch",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_packet_legend_dm": {
+    "value": "DM",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_packet_legend_ack": {
+    "value": "ACK",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_repeater_legend": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_since_group_aria": {
     "value": "Knoten anzeigen, gehört seit",
     "_ai": true
@@ -11308,7 +12204,11 @@
     "value": "Seit",
     "_ai": true
   },
-  "map_preset_7d": null,
+  "map_preset_7d": {
+    "value": "7 T",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_preset_all": {
     "value": "Alle",
     "_ai": true
@@ -11353,13 +12253,25 @@
     "value": "Wiedergabegeschwindigkeit",
     "_ai": true
   },
-  "map_playback_speed": null,
-  "map_playback_live": null,
+  "map_playback_speed": {
+    "value": "{rate}x",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_playback_live": {
+    "value": "Live",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_playback_lookback_label": {
     "value": "Rückblickfenster",
     "_ai": true
   },
-  "map_lookback_15m": null,
+  "map_lookback_15m": {
+    "value": "15 Min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_lookback_1h": {
     "value": "1 Std",
     "_ai": true
@@ -11384,8 +12296,16 @@
     "value": "Glättung",
     "_ai": true
   },
-  "map_packets_buffer_value": null,
-  "map_legend_snr": null,
+  "map_packets_buffer_value": {
+    "value": "{seconds} s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_legend_snr": {
+    "value": "Signal (SNR)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_legend_snr_low": {
     "value": "niedrig",
     "_ai": true
@@ -11542,8 +12462,16 @@
     },
     "_ai": true
   },
-  "map_popup_distance": null,
-  "map_popup_dir_n": null,
+  "map_popup_distance": {
+    "value": "{distance} {direction}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_n": {
+    "value": "N",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_dir_ne": {
     "value": "NO",
     "_ai": true
@@ -11556,10 +12484,26 @@
     "value": "SO",
     "_ai": true
   },
-  "map_popup_dir_s": null,
-  "map_popup_dir_sw": null,
-  "map_popup_dir_w": null,
-  "map_popup_dir_nw": null,
+  "map_popup_dir_s": {
+    "value": "S",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_sw": {
+    "value": "SW",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_w": {
+    "value": "W",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_nw": {
+    "value": "NW",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_location_reported": {
     "value": "Gemeldeter Standort",
     "_ai": true
@@ -11572,7 +12516,11 @@
     "value": "Akku",
     "_ai": true
   },
-  "map_popup_battery_value": null,
+  "map_popup_battery_value": {
+    "value": "{pct}% · {volts} V",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_no_battery": {
     "value": "keine Akkudaten",
     "_ai": true
@@ -11581,12 +12529,20 @@
     "value": "Temperatur",
     "_ai": true
   },
-  "map_popup_temperature_value": null,
+  "map_popup_temperature_value": {
+    "value": "{value} °C",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_chip_temperature": {
     "value": "Chiptemp.",
     "_ai": true
   },
-  "map_popup_source_snmp": null,
+  "map_popup_source_snmp": {
+    "value": "SNMP",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_source_snmp_title": {
     "value": "Per SNMP im LAN gelesen",
     "_ai": true
@@ -11638,7 +12594,11 @@
     "value": "Zuletzt besucht",
     "_ai": true
   },
-  "map_popup_route": null,
+  "map_popup_route": {
+    "value": "Route",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_route_source_override": {
     "value": "Von dir gesetzt",
     "_ai": true
@@ -11747,7 +12707,11 @@
     "value": "Format: meshcore-open-Marker",
     "_ai": true
   },
-  "map_shared_locations_format_mgrs": null,
+  "map_shared_locations_format_mgrs": {
+    "value": "Format: MGRS",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_shared_locations_format_decimal": {
     "value": "Format: Dezimalkoordinaten",
     "_ai": true
@@ -11808,7 +12772,11 @@
     "value": "Meshband",
     "_ai": true
   },
-  "map_antennas_band_mhz": null,
+  "map_antennas_band_mhz": {
+    "value": "{mhz} MHz",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_antennas_help_433": {
     "value": "Sender aus dem niederländischen Antenneregister um 433 MHz: PAMR und Basisstationen bei 400-470 MHz (orange, mit Frequenz und Leistung) sowie lizenzierte Funkamateure (violetter Ring). Das Register nennt bei Funkamateuren weder Band noch Leistung; 70 cm (430-440 MHz) liegt direkt neben 433 MHz, eine Station kann aber auch nur andere Bänder nutzen. Nur Niederlande; Daten unter Einstellungen > Karte synchronisieren.",
     "_ai": true
@@ -11829,7 +12797,11 @@
     "value": "Rand bei",
     "_ai": true
   },
-  "map_antennas_level_dbm": null,
+  "map_antennas_level_dbm": {
+    "value": "{level} dBm",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_antennas_patterns_help": {
     "value": "Wo das Signal jeder Antenne im freien Raum auf den gewählten Pegel fällt. Richtantennen bekommen einen 65°-Keil (angenommen: das Register kennt keine Keulenbreite), Rundstrahler einen Kreis. Gebäude, Gelände und Downtilt verkürzen die echte Reichweite. In 3D liegen die Muster auf Antennenhöhe.",
     "_ai": true
@@ -11996,7 +12968,11 @@
     "value": "Topografisch (OpenTopoMap)",
     "_ai": true
   },
-  "map_tile_layer_natgeo": null,
+  "map_tile_layer_natgeo": {
+    "value": "NatGeo (Esri)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_tile_layer_satellite": {
     "value": "Satellit (Esri)",
     "_ai": true
@@ -12017,8 +12993,16 @@
     "value": "Suche",
     "_ai": true
   },
-  "map_2d": null,
-  "map_3d": null,
+  "map_2d": {
+    "value": "2D",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_3d": {
+    "value": "3D",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_tilt_label": {
     "value": "Neigung (3D)",
     "_ai": true
@@ -12083,7 +13067,11 @@
     "value": "Aus",
     "_ai": true
   },
-  "map_labels_name": null,
+  "map_labels_name": {
+    "value": "Name",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_labels_tag": {
     "value": "ID-Tag",
     "_ai": true
@@ -12120,7 +13108,11 @@
     "value": "Filter",
     "_ai": true
   },
-  "map_group_overlays": null,
+  "map_group_overlays": {
+    "value": "Overlays",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_group_style": {
     "value": "Größe & Farben",
     "_ai": true
@@ -12129,7 +13121,11 @@
     "value": "Spur ausblenden nach",
     "_ai": true
   },
-  "map_arc_fade_value_s": null,
+  "map_arc_fade_value_s": {
+    "value": "{seconds} s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_arc_fade_value_min": {
     "value": "{minutes} Min.",
     "_ai": true
@@ -12138,10 +13134,26 @@
     "value": "Nova (dunkel)",
     "_ai": true
   },
-  "map_layer_ofm_positron": null,
-  "map_layer_ofm_liberty": null,
-  "map_layer_ofm_dark": null,
-  "map_layer_ofm_fiord": null,
+  "map_layer_ofm_positron": {
+    "value": "OpenFreeMap Positron",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_layer_ofm_liberty": {
+    "value": "OpenFreeMap Liberty",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_layer_ofm_dark": {
+    "value": "OpenFreeMap Dark",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_layer_ofm_fiord": {
+    "value": "OpenFreeMap Fiord",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_links_label": {
     "value": "Verbindungen",
     "_ai": true
@@ -12170,7 +13182,11 @@
     "value": "1b+ (niedrig)",
     "_ai": true
   },
-  "map_links_confidence_medium": null,
+  "map_links_confidence_medium": {
+    "value": "2b+",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_links_confidence_high": {
     "value": "3b (hoch)",
     "_ai": true
@@ -12215,9 +13231,21 @@
     "value": "Zuletzt gesehen {time}",
     "_ai": true
   },
-  "map_link_popup_distance": null,
-  "map_link_popup_details": null,
-  "link_detail_title": null,
+  "map_link_popup_distance": {
+    "value": "{km} km",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_link_popup_details": {
+    "value": "Details",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "link_detail_title": {
+    "value": "Verbindung {a} ↔ {b}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "link_detail_back": {
     "value": "Zurück",
     "_ai": true
@@ -12310,14 +13338,30 @@
     "value": "Typ",
     "_ai": true
   },
-  "link_detail_col_route": null,
-  "link_detail_col_hop": null,
+  "link_detail_col_route": {
+    "value": "Route",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "link_detail_col_hop": {
+    "value": "Hop",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "link_detail_col_confidence": {
     "value": "Auflösung",
     "_ai": true
   },
-  "link_detail_col_snr": null,
-  "link_detail_col_rssi": null,
+  "link_detail_col_snr": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "link_detail_col_rssi": {
+    "value": "RSSI",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_fullscreen_enter": {
     "value": "Vollbild",
     "_ai": true
@@ -12334,13 +13378,25 @@
     "value": "manueller Standort",
     "_ai": true
   },
-  "map_type_client": null,
-  "map_type_repeater": null,
+  "map_type_client": {
+    "value": "Client",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_type_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_type_room": {
     "value": "Raum",
     "_ai": true
   },
-  "map_type_sensor": null,
+  "map_type_sensor": {
+    "value": "Sensor",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_legend_node_types": {
     "value": "Knotentypen",
     "_ai": true
@@ -12593,7 +13649,11 @@
     "value": "Ich",
     "_ai": true
   },
-  "visualizer_tooltip_id": null,
+  "visualizer_tooltip_id": {
+    "value": "ID: {id}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_tooltip_type": {
     "value": "Typ: {type}",
     "_ai": true
@@ -12630,12 +13690,20 @@
     "value": "(ausgeblendet)",
     "_ai": true
   },
-  "visualizer_tooltip_paren_names": null,
+  "visualizer_tooltip_paren_names": {
+    "value": "({names})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_3d_aria_label": {
     "value": "3D-Mesh-Netzwerkvisualisierung mit Funkknoten als farbige Kugeln und Paketübertragungen als animierte Bögen dazwischen",
     "_ai": true
   },
-  "settings_section_radio": null,
+  "settings_section_radio": {
+    "value": "Funkgerät",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_section_local": {
     "value": "Lokale Konfiguration",
     "_ai": true
@@ -12652,7 +13720,11 @@
     "value": "MQTT & Automatisierung",
     "_ai": true
   },
-  "settings_section_openhop": null,
+  "settings_section_openhop": {
+    "value": "OpenHop",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_tab_policy": {
     "value": "Richtlinie",
     "_ai": true
@@ -12661,7 +13733,11 @@
     "value": "Die Richtlinienregeln stehen auf der Seite Spam Guard unter Richtlinie, solange Spam Guard eingeschaltet ist.",
     "_ai": true
   },
-  "openhop_tab_plugins": null,
+  "openhop_tab_plugins": {
+    "value": "Plugins",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_tab_config": {
     "value": "Konfiguration",
     "_ai": true
@@ -12966,7 +14042,11 @@
     "value": "Kategorie",
     "_ai": true
   },
-  "openhop_catalogue_repo": null,
+  "openhop_catalogue_repo": {
+    "value": "Repository",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_catalogue_refresh": {
     "value": "Katalog aktualisieren",
     "_ai": true
@@ -12987,7 +14067,11 @@
     "value": "Stream beendet.",
     "_ai": true
   },
-  "openhop_tab_update": null,
+  "openhop_tab_update": {
+    "value": "Update",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_update_installed": {
     "value": "Installiert",
     "_ai": true
@@ -13024,7 +14108,11 @@
     "value": "Installation bestätigen",
     "_ai": true
   },
-  "openhop_tab_cad": null,
+  "openhop_tab_cad": {
+    "value": "CAD",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_cad_hw_note": {
     "value": "Aussagekräftige CAD-Erkennungswerte erfordern echte LoRa-RF-Hardware.",
     "_ai": true
@@ -13033,8 +14121,16 @@
     "value": "Abtastungen",
     "_ai": true
   },
-  "openhop_cad_peak": null,
-  "openhop_cad_min": null,
+  "openhop_cad_peak": {
+    "value": "Spitze",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "openhop_cad_min": {
+    "value": "Min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_cad_symbols": {
     "value": "Symbole",
     "_ai": true
@@ -13079,8 +14175,16 @@
     "value": "Diese CAD-Schwellenwerte in der Node-Konfiguration speichern?",
     "_ai": true
   },
-  "openhop_tab_system": null,
-  "openhop_sys_cpu": null,
+  "openhop_tab_system": {
+    "value": "System",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "openhop_sys_cpu": {
+    "value": "CPU",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_sys_memory": {
     "value": "Speicher",
     "_ai": true
@@ -13105,7 +14209,11 @@
     "value": "Hardware-Statistiken auf dem Knoten nicht verfügbar.",
     "_ai": true
   },
-  "openhop_tab_transport": null,
+  "openhop_tab_transport": {
+    "value": "Transport",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_tk_title": {
     "value": "Transportschlüssel",
     "_ai": true
@@ -13138,7 +14246,11 @@
     "value": "Scopes abfragen",
     "_ai": true
   },
-  "openhop_tab_mqtt": null,
+  "openhop_tab_mqtt": {
+    "value": "MQTT",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_mqtt_status": {
     "value": "MQTT-Status",
     "_ai": true
@@ -13187,7 +14299,11 @@
     "value": "Knoten",
     "_ai": true
   },
-  "openhop_group_mesh": null,
+  "openhop_group_mesh": {
+    "value": "Mesh",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_policy_heading": {
     "value": "Richtlinien-Engine",
     "_ai": true
@@ -13240,7 +14356,11 @@
     "value": "Gruppen-ID",
     "_ai": true
   },
-  "openhop_group_name": null,
+  "openhop_group_name": {
+    "value": "Name",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_group_create": {
     "value": "Gruppe erstellen",
     "_ai": true
@@ -13309,7 +14429,11 @@
     "value": "Feld",
     "_ai": true
   },
-  "openhop_rule_op": null,
+  "openhop_rule_op": {
+    "value": "Operator",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_rule_value": {
     "value": "Wert",
     "_ai": true
@@ -13466,7 +14590,11 @@
     "value": "Längengrad",
     "_ai": true
   },
-  "settings_map_zoom_label": null,
+  "settings_map_zoom_label": {
+    "value": "Zoom",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_map_home_save": {
     "value": "Heimatort speichern",
     "_ai": true
@@ -13755,7 +14883,11 @@
     "value": "Einrichten",
     "_ai": true
   },
-  "settings_handy_tab_links": null,
+  "settings_handy_tab_links": {
+    "value": "Links",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_links_desc": {
     "value": "Referenzseiten, Monitoring, Tools und mehr. Link öffnen oder kopieren.",
     "_ai": true
@@ -13812,7 +14944,11 @@
     "value": "Monitoring & Daten",
     "_ai": true
   },
-  "settings_handy_cat_tools": null,
+  "settings_handy_cat_tools": {
+    "value": "Werkzeuge",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_cat_technical": {
     "value": "Technisch",
     "_ai": true
@@ -13849,7 +14985,11 @@
     "value": "Bezeichnung",
     "_ai": true
   },
-  "settings_handy_field_url": null,
+  "settings_handy_field_url": {
+    "value": "URL",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_field_category": {
     "value": "Kategorie",
     "_ai": true
@@ -14081,7 +15221,11 @@
     "value": "Hochladen",
     "_ai": true
   },
-  "cracker_wordlist_upload_name_placeholder": null,
+  "cracker_wordlist_upload_name_placeholder": {
+    "value": "Name",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cracker_wordlist_custom_load_failed": {
     "value": "Eine ausgewaehlte Wortliste konnte nicht geladen werden",
     "_ai": true
@@ -14150,7 +15294,11 @@
     "value": " - Länge {length}",
     "_ai": true
   },
-  "cracker_eta_label": null,
+  "cracker_eta_label": {
+    "value": "Restzeit:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cracker_progress_aria": {
     "value": "Fortschritt der Kanalsuche",
     "_ai": true
@@ -14254,7 +15402,11 @@
     },
     "_ai": true
   },
-  "trace_badge_hop": null,
+  "trace_badge_hop": {
+    "value": "Hop",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_badge_self": {
     "value": "Ich",
     "_ai": true
@@ -14418,7 +15570,11 @@
     "value": "Repeater-Präfix",
     "_ai": true
   },
-  "trace_results_duration_suffix": null,
+  "trace_results_duration_suffix": {
+    "value": " ({seconds} s)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_results_heading": {
     "value": "Ergebnisse",
     "_ai": true
@@ -14443,12 +15599,20 @@
     "value": "Zeigt die ersten {shown} von {total} Repeatern. Suche, um die Liste einzugrenzen.",
     "_ai": true
   },
-  "trace_snr_label": null,
+  "trace_snr_label": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_sort_alpha_desc": {
     "value": "Alphabetisch sortieren",
     "_ai": true
   },
-  "trace_sort_alpha_label": null,
+  "trace_sort_alpha_label": {
+    "value": "A/Z",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_sort_distance_desc": {
     "value": "Nächste zuerst",
     "_ai": true
@@ -14525,7 +15689,11 @@
     "value": "experimentell",
     "_ai": true
   },
-  "channel_registry_source_finder_lc": null,
+  "channel_registry_source_finder_lc": {
+    "value": "Finder",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_source_manual_lc": {
     "value": "manuell",
     "_ai": true
@@ -14558,7 +15726,11 @@
     "value": "Experimentell",
     "_ai": true
   },
-  "channel_registry_source_finder": null,
+  "channel_registry_source_finder": {
+    "value": "Finder",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_source_radio": {
     "value": "Funkgerät",
     "_ai": true
@@ -14603,7 +15775,11 @@
     "value": "z. B. Niederlande",
     "_ai": true
   },
-  "channel_registry_region": null,
+  "channel_registry_region": {
+    "value": "Region",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_region_placeholder_edit": {
     "value": "z. B. Noord-Holland",
     "_ai": true
@@ -14616,12 +15792,20 @@
     "value": "Sprache",
     "_ai": true
   },
-  "channel_registry_language_placeholder": null,
+  "channel_registry_language_placeholder": {
+    "value": "NL, EN",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_comma_separated": {
     "value": "Kommagetrennt",
     "_ai": true
   },
-  "channel_registry_status_label": null,
+  "channel_registry_status_label": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_source_label": {
     "value": "Quelle",
     "_ai": true
@@ -14642,7 +15826,11 @@
     "value": "MeshWiki-Regionsleitfaden",
     "_ai": true
   },
-  "channel_registry_tags": null,
+  "channel_registry_tags": {
+    "value": "Tags",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_tags_placeholder": {
     "value": "z. B. Notfall, Repeater",
     "_ai": true
@@ -14699,7 +15887,11 @@
     "value": "Erkannt",
     "_ai": true
   },
-  "channel_registry_geo_vr_label": null,
+  "channel_registry_geo_vr_label": {
+    "value": "VR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_auto_fill": {
     "value": "Automatisch ausfüllen",
     "_ai": true
@@ -15054,7 +16246,11 @@
     "value": "Alle auswählen",
     "_ai": true
   },
-  "channel_io_format_prefix": null,
+  "channel_io_format_prefix": {
+    "value": "Format:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_io_format_suffix": {
     "value": "- ein Kanal pro Zeile.",
     "_ai": true
@@ -15153,7 +16349,11 @@
     },
     "_ai": true
   },
-  "community_tab": null,
+  "community_tab": {
+    "value": "Communities",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "community_intro": {
     "value": "Eine Community (meshcore-open) teilt ein Geheimnis. Jedes Mitglied leitet daraus dieselben Kanalschlüssel ab, sodass Außenstehende diese Kanäle weder lesen noch finden können.",
     "_ai": true
@@ -15250,7 +16450,11 @@
     "value": "Laden…",
     "_ai": true
   },
-  "community_short_id": null,
+  "community_short_id": {
+    "value": "ID {id}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "community_channels_heading": {
     "plural": {
       "one": "{count} Kanal",
@@ -15262,13 +16466,25 @@
     "value": "Noch keine Kanäle dieser Community.",
     "_ai": true
   },
-  "community_kind_public": null,
-  "community_kind_hashtag": null,
+  "community_kind_public": {
+    "value": "Öffentlich",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "community_kind_hashtag": {
+    "value": "Hashtag",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "community_add_hashtag_heading": {
     "value": "Hashtag-Kanal hinzufügen",
     "_ai": true
   },
-  "community_hashtag_placeholder": null,
+  "community_hashtag_placeholder": {
+    "value": "#tag",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "community_hashtag_aria": {
     "value": "Community-Hashtag",
     "_ai": true
@@ -15471,7 +16687,11 @@
     "value": "Vermutlich eindeutig zurückgelegte Strecke:",
     "_ai": true
   },
-  "path_modal_hop_label": null,
+  "path_modal_hop_label": {
+    "value": "Hop {n}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "path_modal_ambiguous_suffix": {
     "value": "mehrdeutig",
     "_ai": true
@@ -15682,7 +16902,11 @@
     "value": "Aktuelle Einstellung:",
     "_ai": true
   },
-  "region_override_placeholder_example": null,
+  "region_override_placeholder_example": {
+    "value": "Esperance",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "region_override_scope_to_region_button": {
     "value": "{room} auf {region} beschränken",
     "_ai": true
@@ -15783,7 +17007,11 @@
     "value": "Klicke auf die Karte, um eine Nadel zu setzen, oder klicke auf eine Knotenmarkierung, um deren Standort zu verwenden.",
     "_ai": true
   },
-  "location_picker_label_field": null,
+  "location_picker_label_field": {
+    "value": "Beschriftung (optional)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "location_picker_label_placeholder": {
     "value": "z. B. Treffpunkt",
     "_ai": true
@@ -15816,7 +17044,11 @@
     "value": "Anzeigen",
     "_ai": true
   },
-  "bulkdelete_type_clients": null,
+  "bulkdelete_type_clients": {
+    "value": "Clients",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bulkdelete_type_sensors": {
     "value": "Sensoren",
     "_ai": true
@@ -16273,8 +17505,16 @@
     "value": "Wiederherstellen",
     "_ai": true
   },
-  "settings_db_restore_size_mb": null,
-  "settings_db_restore_file_meta": null,
+  "settings_db_restore_size_mb": {
+    "value": "{size} MB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_db_restore_file_meta": {
+    "value": "{kind} · {size} · {time}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_restore_kind_auto": {
     "value": "automatisch",
     "_ai": true
@@ -16342,8 +17582,16 @@
     "value": "Rauschen {value} dBm",
     "_ai": true
   },
-  "settings_radioapp_rx_count": null,
-  "settings_radioapp_tx_count": null,
+  "settings_radioapp_rx_count": {
+    "value": "rx {value}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radioapp_tx_count": {
+    "value": "tx {value}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_editor_title": {
     "value": "Einstellungen bearbeiten",
     "_ai": true
@@ -16384,8 +17632,16 @@
     "value": "Funk",
     "_ai": true
   },
-  "repeater_settings_group_routing": null,
-  "repeater_settings_group_adverts": null,
+  "repeater_settings_group_routing": {
+    "value": "Routing",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "repeater_settings_group_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_group_observer": {
     "value": "Observer-Firmware",
     "_ai": true
@@ -16406,7 +17662,11 @@
     "value": "Lies zuerst diese Gruppe. Bearbeiten bleibt gesperrt, solange der Repeater die Einstellung nicht gemeldet hat.",
     "_ai": true
   },
-  "repeater_settings_name": null,
+  "repeater_settings_name": {
+    "value": "Name",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_lat": {
     "value": "Breitengrad",
     "_ai": true
@@ -16427,7 +17687,11 @@
     "value": "Funk (Freq, BW, SF, CR)",
     "_ai": true
   },
-  "repeater_settings_radio_display": null,
+  "repeater_settings_radio_display": {
+    "value": "{freq} MHz, BW {bw} kHz, SF{sf}, CR{cr}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_tx": {
     "value": "Sendeleistung (dBm)",
     "_ai": true
@@ -16500,7 +17764,11 @@
     "value": "Aus",
     "_ai": true
   },
-  "repeater_settings_loop_minimal": null,
+  "repeater_settings_loop_minimal": {
+    "value": "Minimal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_loop_moderate": {
     "value": "Mittel",
     "_ai": true
@@ -16769,7 +18037,11 @@
     "value": "Verliert das Funkgerät im scharfen Zustand die Verbindung, automatisch wieder scharfschalten, sobald es wieder verbunden ist und alle Prüfungen bestehen. Aus: entschärft bleiben, bis du erneut scharfschaltest.",
     "_ai": true
   },
-  "settings_host_repeater_timing_heading": null,
+  "settings_host_repeater_timing_heading": {
+    "value": "Timing",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_tx_delay_factor": {
     "value": "Flood-Verzögerungsfaktor (txdelay)",
     "_ai": true
@@ -16834,9 +18106,21 @@
     "value": "Repeater-Regeln",
     "_ai": true
   },
-  "settings_host_repeater_flood_max": null,
-  "settings_host_repeater_flood_max_unscoped": null,
-  "settings_host_repeater_flood_max_advert": null,
+  "settings_host_repeater_flood_max": {
+    "value": "flood.max",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_host_repeater_flood_max_unscoped": {
+    "value": "flood.max.unscoped",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_host_repeater_flood_max_advert": {
+    "value": "flood.max.advert",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_loop_detect": {
     "value": "Schleifenerkennung",
     "_ai": true
@@ -16845,7 +18129,11 @@
     "value": "Aus",
     "_ai": true
   },
-  "settings_host_repeater_loop_minimal": null,
+  "settings_host_repeater_loop_minimal": {
+    "value": "Minimal",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_loop_moderate": {
     "value": "Mittel",
     "_ai": true
@@ -16898,12 +18186,20 @@
     "value": "Mit den Flood-Scopes des Funkgeräts vorausgefüllt. Zum Übernehmen speichern.",
     "_ai": true
   },
-  "settings_host_repeater_region_col_name": null,
+  "settings_host_repeater_region_col_name": {
+    "value": "Region",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_region_col_parent": {
     "value": "Eltern",
     "_ai": true
   },
-  "settings_host_repeater_region_col_flood": null,
+  "settings_host_repeater_region_col_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_region_parent_root": {
     "value": "* (oberste Ebene)",
     "_ai": true
@@ -17096,7 +18392,11 @@
     "value": "Blockierte Kanäle",
     "_ai": true
   },
-  "settings_host_repeater_channel_hash_placeholder": null,
+  "settings_host_repeater_channel_hash_placeholder": {
+    "value": "Hash (hex)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_channel_label_placeholder": {
     "value": "Bezeichnung",
     "_ai": true
@@ -17693,8 +18993,16 @@
     "value": "Host-Repeater scharf: RTFM-EV leitet Pakete über Funk weiter",
     "_ai": true
   },
-  "settings_host_repeater_col_hops": null,
-  "channel_sets_heading": null,
+  "settings_host_repeater_col_hops": {
+    "value": "Hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_sets_heading": {
+    "value": "Loadouts",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_sets_desc": {
     "value": "Speichere eine Gruppe von Kanälen und Kontakten und lade sie mit einem Klick aufs Funkgerät, zum Beispiel bevor du das Funkgerät außer Reichweite des Servers mitnimmst. Laden fügt nur hinzu: Kanäle und Kontakte, die schon auf dem Funkgerät sind, bleiben, und nichts wird entfernt. Geladene Kontakte bleiben bis zum nächsten Neuverbinden auf dem Funkgerät. RTFM-EV leert die Kanalplätze beim nächsten Neuverbinden oder vollständigen Abgleich wieder, lade das Loadout also kurz vor dem Trennen. Es wird nichts gesendet.",
     "_ai": true
@@ -17707,7 +19015,11 @@
     "value": "Neues Loadout",
     "_ai": true
   },
-  "channel_sets_name_label": null,
+  "channel_sets_name_label": {
+    "value": "Name",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_sets_channels_label": {
     "value": "Kanäle ({count} ausgewählt)",
     "_ai": true
@@ -17836,7 +19148,11 @@
     "value": "Laden legt die Kanäle und Kontakte des Loadouts aufs Funkgerät, damit es ohne den Server weiter funktioniert. Es wird nichts gesendet.",
     "_ai": true
   },
-  "loadout_disconnect_select_label": null,
+  "loadout_disconnect_select_label": {
+    "value": "Loadout",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "loadout_disconnect_load_and_disconnect": {
     "value": "Laden und trennen",
     "_ai": true
@@ -17857,7 +19173,11 @@
     "value": "Trotzdem trennen",
     "_ai": true
   },
-  "radio_identity_label": null,
+  "radio_identity_label": {
+    "value": "{name} ({key})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "radio_identity_unnamed": {
     "value": "Unbenanntes Funkgerät",
     "_ai": true
@@ -18050,7 +19370,11 @@
     "value": "Akku",
     "_ai": true
   },
-  "power_source_solar": null,
+  "power_source_solar": {
+    "value": "Solar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "power_source_solar_battery": {
     "value": "Solar + Akku",
     "_ai": true
@@ -18103,7 +19427,11 @@
     "value": "Kampagne",
     "_ai": true
   },
-  "fuota_col_build": null,
+  "fuota_col_build": {
+    "value": "Build",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fuota_col_target": {
     "value": "Ziel",
     "_ai": true
@@ -18184,13 +19512,25 @@
     "value": "Zusammenfassung konnte nicht kopiert werden",
     "_ai": true
   },
-  "mesh_filter_download_json": null,
-  "mesh_filter_download_csv": null,
+  "mesh_filter_download_json": {
+    "value": "JSON",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_filter_download_csv": {
+    "value": "CSV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_tile_messages": {
     "value": "Kanalnachrichten",
     "_ai": true
   },
-  "mesh_filter_tile_spam": null,
+  "mesh_filter_tile_spam": {
+    "value": "Spam",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_tile_malformed": {
     "value": "Fehlerhaft",
     "_ai": true
@@ -18199,7 +19539,11 @@
     "value": "Duplikate",
     "_ai": true
   },
-  "mesh_filter_tile_bots": null,
+  "mesh_filter_tile_bots": {
+    "value": "Bots",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_share_of_traffic": {
     "value": "{percent}% des Verkehrs",
     "_ai": true
@@ -18268,7 +19612,11 @@
     "value": "Markiert",
     "_ai": true
   },
-  "mesh_filter_col_spam": null,
+  "mesh_filter_col_spam": {
+    "value": "Spam",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_col_malformed": {
     "value": "Fehlerhaft",
     "_ai": true
@@ -18277,7 +19625,11 @@
     "value": "Duplikate",
     "_ai": true
   },
-  "mesh_filter_col_bots": null,
+  "mesh_filter_col_bots": {
+    "value": "Bot",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_col_flagged_arrival": {
     "value": "Bot bei Ankunft",
     "_ai": true
@@ -18440,7 +19792,11 @@
     "value": "Links zurückgehalten",
     "_ai": true
   },
-  "mesh_filter_block_lockdown": null,
+  "mesh_filter_block_lockdown": {
+    "value": "Lockdown",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_block_auto_lockdown": {
     "value": "Automatischer Lockdown",
     "_ai": true
@@ -18469,7 +19825,11 @@
     "value": "Fehlerhaft nach Ursache",
     "_ai": true
   },
-  "mesh_filter_cause_text": null,
+  "mesh_filter_cause_text": {
+    "value": "Text",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_cause_clock": {
     "value": "Uhr",
     "_ai": true
@@ -18490,9 +19850,21 @@
     "value": "Standardaktion",
     "_ai": true
   },
-  "mesh_filter_action_allow": null,
-  "mesh_filter_action_drop": null,
-  "mesh_filter_action_log_only": null,
+  "mesh_filter_action_allow": {
+    "value": "Erlauben",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_filter_action_drop": {
+    "value": "Verwerfen",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_filter_action_log_only": {
+    "value": "Nur protokollieren",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_policy_all_channels": {
     "value": "Über alle Kanäle gezählt, unabhängig vom Kanalfilter: eine Regel gehört hier nicht zu einem Kanal.",
     "_ai": true
@@ -18509,7 +19881,11 @@
     "value": "RTFM-EV OpenHop-Regeln, letzte {window}, alle Kanäle",
     "_ai": true
   },
-  "mesh_filter_policy_summary_item": null,
+  "mesh_filter_policy_summary_item": {
+    "value": "- {rule}: {action}, {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_summary_title": {
     "value": "RTFM-EV Spam und Bots, letzte {window}, {channel}",
     "_ai": true
@@ -18518,7 +19894,11 @@
     "value": "Kanalnachrichten: {count}",
     "_ai": true
   },
-  "mesh_filter_summary_line_cat": null,
+  "mesh_filter_summary_line_cat": {
+    "value": "{label}: {count} ({percent} %)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_summary_line_outcome": {
     "value": "Spam Guard: {stopped} gestoppt, {would} wären gestoppt worden, {let_through} durchgelassen, {held} zurückgehalten",
     "_ai": true
@@ -18531,7 +19911,11 @@
     "value": "Häufigste Quell-Repeater:",
     "_ai": true
   },
-  "mesh_filter_summary_item": null,
+  "mesh_filter_summary_item": {
+    "value": "- {name}: {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_caption": {
     "value": "Welche Knoten bei einem Stromausfall online bleiben, basierend auf der Stromquelle jedes Knotens (die Einstellung am Kontakt, sonst das Strom-Symbol im Namen; DTIS-Knoten sind Solar + Akku). Akku- und Solarknoten laufen weiter; Netz- und unbekannte Knoten fallen aus. Überlebende Knoten werden zu Inseln gruppiert, die sich über gehörte Advert-Pfadlinks noch erreichen.",
     "_ai": true
@@ -18552,7 +19936,11 @@
     "value": "Gehört innerhalb",
     "_ai": true
   },
-  "mesh_health_po_heard_24h": null,
+  "mesh_health_po_heard_24h": {
+    "value": "24 h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_heard_7d": {
     "value": "7T",
     "_ai": true
@@ -18617,7 +20005,11 @@
     "value": "Unbekannt (keine Einstellung und kein Hinweis im Namen) zählt wie Netz als ausfallend, und Solar wird mit Akku angenommen. Links stammen aus Advert-Pfaden, die im gewählten Zeitraum zwischen Knoten mit Standort gehört wurden, daher erscheint ein Überlebender ohne Nachbarn mit Standort als isoliert.",
     "_ai": true
   },
-  "mesh_health_po_status_label": null,
+  "mesh_health_po_status_label": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_filter_all": {
     "value": "Alle",
     "_ai": true
@@ -18873,7 +20265,11 @@
     "value": "Schlüssel",
     "_ai": true
   },
-  "settings_host_repeater_neighbors_col_snr": null,
+  "settings_host_repeater_neighbors_col_snr": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_neighbors_col_heard": {
     "value": "Gehört",
     "_ai": true
@@ -18882,7 +20278,11 @@
     "value": "Regionen",
     "_ai": true
   },
-  "settings_host_repeater_neighbors_col_status": null,
+  "settings_host_repeater_neighbors_col_status": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_neighbors_ago": {
     "value": "vor {minutes} Min.",
     "_ai": true
@@ -19361,7 +20761,11 @@
     "value": "Ein Assistent kann dir in ein paar Schritten zeigen, was die meshcomod-Firmware dieser App hinzufügt. Du kannst die Tour auch später über das Benutzerhandbuch starten.",
     "_ai": true
   },
-  "buddy_tour_mc118_welcome_title": null,
+  "buddy_tour_mc118_welcome_title": {
+    "value": "MeshCore 1.18",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "buddy_tour_mc118_welcome_text": {
     "value": "Companion-Firmware 1.18 hat eine Befehlszeile. Ich zeige dir, wo du sie auf deinem eigenen Funkgerät und auf einem anderen Companion nutzt, und was Sensoren dazubekommen. Ich zeige nur: Ich führe nie einen Befehl für dich aus.",
     "_ai": true
@@ -19414,7 +20818,11 @@
     "value": "Repeater mit 1.18 zeigen im Feld Node-Info auch ihre Stromquelle. Du kannst diese Tour über das Benutzerhandbuch oder mein Menü erneut starten.",
     "_ai": true
   },
-  "buddy_tour_mcm_welcome_title": null,
+  "buddy_tour_mcm_welcome_title": {
+    "value": "meshcomod",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "buddy_tour_mcm_welcome_text": {
     "value": "meshcomod ist eine Companion-Firmware, die USB, Bluetooth und TCP (Port 5000) gleichzeitig bedient, damit diese App das Funkgerät mit der Handy-App oder Home Assistant teilen kann. Ich zeige dir, was sie hier hinzufügt. Ich zeige nur: Ich sende nie etwas.",
     "_ai": true
@@ -19579,7 +20987,11 @@
     "value": "Schwache Akkus",
     "_ai": true
   },
-  "settings_buddy_group_updates": null,
+  "settings_buddy_group_updates": {
+    "value": "Updates",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_buddy_group_tips": {
     "value": "Seitentipps",
     "_ai": true
@@ -19676,8 +21088,16 @@
     "value": "Blasen",
     "_ai": true
   },
-  "popout_skin_label": null,
-  "popout_skin_mirc": null,
+  "popout_skin_label": {
+    "value": "Skin",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "popout_skin_mirc": {
+    "value": "mIRC",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_skin_mirc_dark": {
     "value": "mIRC dunkel",
     "_ai": true
@@ -19706,7 +21126,11 @@
     "value": "Unterhaltungen",
     "_ai": true
   },
-  "popout_filter_placeholder": null,
+  "popout_filter_placeholder": {
+    "value": "Filtern...",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_section_channels": {
     "value": "Kanäle",
     "_ai": true
@@ -19783,8 +21207,16 @@
     "value": "Älteste",
     "_ai": true
   },
-  "popout_sort_alpha": null,
-  "popout_sort_alpha_desc": null,
+  "popout_sort_alpha": {
+    "value": "A-Z",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "popout_sort_alpha_desc": {
+    "value": "Z-A",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_sort_unread": {
     "value": "Meiste ungelesen",
     "_ai": true
@@ -19821,7 +21253,11 @@
     "value": "Letzte Absender anzeigen",
     "_ai": true
   },
-  "nav_spam_guard": null,
+  "nav_spam_guard": {
+    "value": "Spam Guard",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_loading_spam_guard": {
     "value": "Spam Guard wird geladen...",
     "_ai": true
@@ -19842,12 +21278,20 @@
     "value": "Kein Spam",
     "_ai": true
   },
-  "chat_spam_badge": null,
+  "chat_spam_badge": {
+    "value": "Spam",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_spam_badge_title": {
     "value": "Spam Guard hat diese Nachricht als Spam markiert",
     "_ai": true
   },
-  "chat_bot_badge": null,
+  "chat_bot_badge": {
+    "value": "Bot",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_bot_badge_title": {
     "value": "Dieser Absender steht auf einer deiner aktivierten Botlisten",
     "_ai": true
@@ -20446,7 +21890,11 @@
     "value": "Prüfen",
     "_ai": true
   },
-  "spam_health_bad": null,
+  "spam_health_bad": {
+    "value": "Problem",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_backend_host": {
     "value": "Weiterleitung: Host-Repeater ({state})",
     "_ai": true
@@ -20623,15 +22071,35 @@
     "value": "{label}: {stopped} gestoppt, {through} durchgelassen",
     "_ai": true
   },
-  "spam_chart_single_title": null,
-  "spam_duration_seconds": null,
-  "spam_duration_minutes": null,
-  "spam_duration_hours": null,
+  "spam_chart_single_title": {
+    "value": "{label}: {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_duration_seconds": {
+    "value": "{count} s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_duration_minutes": {
+    "value": "{count} Min.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_duration_hours": {
+    "value": "{count} Std.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_duration_days": {
     "value": "{count} T",
     "_ai": true
   },
-  "spam_airtime_seconds": null,
+  "spam_airtime_seconds": {
+    "value": "{value} s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_expiry_in": {
     "value": "endet in {time}",
     "_ai": true
@@ -20676,7 +22144,11 @@
     "value": "Nachrichten mit all diesen Wörtern: {words}",
     "_ai": true
   },
-  "spam_block_text": null,
+  "spam_block_text": {
+    "value": "Text „{text}“",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_block_meta": {
     "value": "Treffer: {hits} | {expiry}",
     "_ai": true
@@ -20689,7 +22161,11 @@
     "value": "nur beobachten",
     "_ai": true
   },
-  "spam_block_extend": null,
+  "spam_block_extend": {
+    "value": "+1 Std.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_block_keep": {
     "value": "Behalten",
     "_ai": true
@@ -20814,7 +22290,11 @@
     "value": "Von dir als Spam markiert",
     "_ai": true
   },
-  "spam_lockdown_title": null,
+  "spam_lockdown_title": {
+    "value": "Lockdown",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_lockdown_desc": {
     "value": "Für einen starken Angriff: Eine Zeit lang kommen in den geschützten Kanälen nur Namen durch, die Spam Guard schon kennt. Auch neue Personen werden zurückgehalten. Es endet von selbst.",
     "_ai": true
@@ -21027,7 +22507,11 @@
     "value": "Passende Repeater",
     "_ai": true
   },
-  "spam_sources_col_d1": null,
+  "spam_sources_col_d1": {
+    "value": "24 h",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_sources_col_d7": {
     "value": "7 Tage",
     "_ai": true
@@ -21108,12 +22592,20 @@
     "value": "Beweisprotokoll",
     "_ai": true
   },
-  "spam_unit_seconds": null,
+  "spam_unit_seconds": {
+    "value": "s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_unit_days": {
     "value": "Tage",
     "_ai": true
   },
-  "spam_unit_percent": null,
+  "spam_unit_percent": {
+    "value": "%",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_setting_reset": {
     "value": "zurücksetzen",
     "_ai": true
@@ -21166,7 +22658,11 @@
     "value": "Noch keine Profile gespeichert.",
     "_ai": true
   },
-  "spam_profiles_summary": null,
+  "spam_profiles_summary": {
+    "value": "{mode}, {sensitivity}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_profiles_apply": {
     "value": "Anwenden",
     "_ai": true
@@ -21247,7 +22743,11 @@
     "value": "Abbrechen",
     "_ai": true
   },
-  "spam_profile_change_values": null,
+  "spam_profile_change_values": {
+    "value": "{from} → {to}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_profile_value_on": {
     "value": "An",
     "_ai": true
@@ -22335,8 +23835,16 @@
     "value": "Seriell (USB)",
     "_ai": true
   },
-  "gateway_transport_tcp": null,
-  "gateway_transport_ble": null,
+  "gateway_transport_tcp": {
+    "value": "TCP",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "gateway_transport_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_field_serial_port": {
     "value": "Serieller Port",
     "_ai": true
@@ -22345,8 +23853,16 @@
     "value": "Baudrate",
     "_ai": true
   },
-  "gateway_field_host": null,
-  "gateway_field_tcp_port": null,
+  "gateway_field_host": {
+    "value": "Host",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "gateway_field_tcp_port": {
+    "value": "Port",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_field_ble_address": {
     "value": "BLE-Adresse",
     "_ai": true
@@ -22477,8 +23993,16 @@
     "value": "Min / Max / Durchschnitt (24 h)",
     "_ai": true
   },
-  "sensor_mma_min": null,
-  "sensor_mma_max": null,
+  "sensor_mma_min": {
+    "value": "Min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "sensor_mma_max": {
+    "value": "Max",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "sensor_mma_avg": {
     "value": "Mittel",
     "_ai": true
@@ -22507,7 +24031,11 @@
     "value": "Min. Änderung",
     "_ai": true
   },
-  "sensor_push_switch": null,
+  "sensor_push_switch": {
+    "value": "Push",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "sensor_push_save": {
     "value": "Schwellen speichern",
     "_ai": true
@@ -22516,7 +24044,11 @@
     "value": "Gewährt bis {time}",
     "_ai": true
   },
-  "sensor_push_scope": null,
+  "sensor_push_scope": {
+    "value": "Scope: {scope}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "sensor_push_last": {
     "value": "Letzter Push: {time}",
     "_ai": true
@@ -22573,8 +24105,16 @@
     "value": "SNMP abfragen",
     "_ai": true
   },
-  "lan_scan_port": null,
-  "lan_scan_community": null,
+  "lan_scan_port": {
+    "value": "Port",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "lan_scan_community": {
+    "value": "Community",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_snmp_help": {
     "value": "Findet Observer-Repeater, Room-Server und Companions mit eingeschaltetem SNMP. Ein Gerät mit einer anderen Community antwortet nicht. Lesen über SNMP ändert nichts am Gerät.",
     "_ai": true
@@ -22647,7 +24187,11 @@
     "value": "Antwort auf",
     "_ai": true
   },
-  "lan_scan_col_firmware": null,
+  "lan_scan_col_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_col_contact": {
     "value": "Kontakt",
     "_ai": true
@@ -22656,7 +24200,11 @@
     "value": "Aktionen",
     "_ai": true
   },
-  "lan_scan_found_snmp": null,
+  "lan_scan_found_snmp": {
+    "value": "SNMP (UDP {port})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_found_snmp_other": {
     "value": "SNMP (UDP {port}), kein MeshCore",
     "_ai": true
@@ -22745,9 +24293,21 @@
     "value": "RSSI des letzten Pakets minus Rauschpegel. LoRa kann Pakete unter dem Rauschpegel noch dekodieren; die SNR sagt mehr über ein einzelnes Paket.",
     "_ai": true
   },
-  "node_signal_dbm": null,
-  "node_signal_db": null,
-  "node_signal_last_sub": null,
+  "node_signal_dbm": {
+    "value": "{value} dBm",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_signal_db": {
+    "value": "{value} dB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_signal_last_sub": {
+    "value": "SNR {snr} dB, {age}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_signal_age_seconds": {
     "value": "vor {seconds} s",
     "_ai": true
@@ -22764,7 +24324,11 @@
     "value": "RSSI von {count} Paketen gegen den Rauschpegel",
     "_ai": true
   },
-  "node_signal_point_title": null,
+  "node_signal_point_title": {
+    "value": "{type}: RSSI {rssi} dBm, SNR {snr} dB, {age}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_signal_noise_legend": {
     "value": "Rauschpegel",
     "_ai": true
@@ -22897,7 +24461,11 @@
     "value": "Teilen, wie diese Nachricht gereist ist",
     "_ai": true
   },
-  "share_msg_kicker_channel": null,
+  "share_msg_kicker_channel": {
+    "value": "{channel}, {time}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_msg_kicker_dm": {
     "value": "Direktnachricht mit {name}, {time}",
     "_ai": true
@@ -22944,7 +24512,11 @@
     "value": "bestes SNR an meinem Funkgerät",
     "_ai": true
   },
-  "share_fig_snr_value": null,
+  "share_fig_snr_value": {
+    "value": "{snr} dB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_trace_kicker": {
     "value": "Traceroute, {time}",
     "_ai": true
@@ -22985,7 +24557,11 @@
     "value": "Als Bild teilen, wen mein Knoten direkt hört",
     "_ai": true
   },
-  "share_fig_count_capped": null,
+  "share_fig_count_capped": {
+    "value": "{n}+",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_fig_heard_direct": {
     "value": "direkt gehörte Knoten",
     "_ai": true
@@ -23033,14 +24609,30 @@
     "value": "genutzte Sendezeit",
     "_ai": true
   },
-  "share_fig_percent": null,
+  "share_fig_percent": {
+    "value": "{n} %",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_fig_flood_adverts": {
     "value": "Flood-Adverts",
     "_ai": true
   },
-  "share_duration_s": null,
-  "share_duration_min": null,
-  "share_duration_h": null,
+  "share_duration_s": {
+    "value": "{n} s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "share_duration_min": {
+    "value": "{n} Min.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "share_duration_h": {
+    "value": "{n} Std.",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_fig_airtime_saved": {
     "value": "Sendezeit gespart",
     "_ai": true
@@ -23097,7 +24689,11 @@
     "value": "Spam, Bots und Müll in meinem Mesh",
     "_ai": true
   },
-  "share_filter_rtfm_kicker": null,
+  "share_filter_rtfm_kicker": {
+    "value": "{channels}, {window}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_filter_top_sources": {
     "value": "Häufigste Quellen: {names}",
     "_ai": true
