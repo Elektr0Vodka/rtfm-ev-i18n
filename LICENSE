@@ -12,8 +12,6 @@ request you agree to license your contribution under CC BY 4.0.
 A credit in RTFM-EV that links to this repository is considered sufficient
 attribution for users of the RTFM-EV application.
 
-Parts of the Dutch and German strings are adapted from kiekr-i18n by
-Marcel Verdult (https://github.com/marcelverdult/kiekr-i18n), licensed
-under CC BY 4.0. The Spanish, French, Italian, Polish and Brazilian
-Portuguese glossaries (glossary/es.tsv, fr.tsv, it.tsv, pl.tsv, pt-BR.tsv)
-are copied unchanged from kiekr-i18n under the same license.
+Parts of the strings and glossaries are taken or adapted from kiekr-i18n
+by Marcel Verdult (https://github.com/marcelverdult/kiekr-i18n), licensed
+under CC BY 4.0. The git history shows which ones and what was changed.
