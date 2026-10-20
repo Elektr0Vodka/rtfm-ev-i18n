@@ -24769,5 +24769,625 @@
   "share_filter_host_mode_off": {
     "value": "aus",
     "_ai": true
-  }
+  },
+  "nav_performance": {
+    "value": "Leistung",
+    "_ai": true
+  },
+  "common_loading_performance": {
+    "value": "Leistung wird geladen...",
+    "_ai": true
+  },
+  "buddy_tip_performance": {
+    "value": "Leistung zeigt, was RTFM-EV selbst tut: CPU, Speicher, die Event-Loop, Hintergrundaufgaben und mehr.",
+    "_ai": true
+  },
+  "perf_page_title": {
+    "value": "Leistung",
+    "_ai": true
+  },
+  "perf_tab_overview": {
+    "value": "Übersicht",
+    "_ai": true
+  },
+  "perf_tab_loop": {
+    "value": "Event-Loop",
+    "_ai": true
+  },
+  "perf_tab_tasks": {
+    "value": "Hintergrundaufgaben",
+    "_ai": true
+  },
+  "perf_tab_pipeline": {
+    "value": "Paketverarbeitung",
+    "_ai": true
+  },
+  "perf_tab_database": {
+    "value": "Datenbank",
+    "_ai": true
+  },
+  "perf_tab_radio": {
+    "value": "Funkverbindung",
+    "_ai": true
+  },
+  "perf_tab_outputs": {
+    "value": "Ausgaben",
+    "_ai": true
+  },
+  "perf_tab_requests": {
+    "value": "Anfragen",
+    "_ai": true
+  },
+  "perf_tab_logs": null,
+  "perf_auto_refresh": {
+    "value": "Aktualisierung alle 5 s",
+    "_ai": true
+  },
+  "perf_range_label": {
+    "value": "Zeitraum",
+    "_ai": true
+  },
+  "perf_range_live": null,
+  "perf_range_15m": null,
+  "perf_sampling_note": {
+    "value": "alle 10 s gemessen, 30 Tage als Minutenwerte gespeichert",
+    "_ai": true
+  },
+  "perf_load_error": {
+    "value": "Leistungsdaten konnten nicht geladen werden: {error}",
+    "_ai": true
+  },
+  "perf_loading": {
+    "value": "Leistungsdaten werden geladen...",
+    "_ai": true
+  },
+  "perf_state_ok": {
+    "value": "In Ordnung",
+    "_ai": true
+  },
+  "perf_state_degraded": {
+    "value": "Beeinträchtigt",
+    "_ai": true
+  },
+  "perf_state_critical": {
+    "value": "Kritisch",
+    "_ai": true
+  },
+  "perf_more_reasons": {
+    "plural": {
+      "one": "+{count} weitere",
+      "other": "+{count} weitere"
+    },
+    "_ai": true
+  },
+  "perf_reason_loop_overdue": {
+    "value": "{detail} ist überfällig",
+    "_ai": true
+  },
+  "perf_reason_loop_failing": {
+    "value": "{detail} ist beim letzten Lauf fehlgeschlagen",
+    "_ai": true
+  },
+  "perf_reason_stall": {
+    "value": "Event-Loop {detail} blockiert",
+    "_ai": true
+  },
+  "perf_reason_lag_high": {
+    "value": "Event-Loop-Verzögerung {detail}",
+    "_ai": true
+  },
+  "perf_reason_output_error": {
+    "value": "Ausgabe {detail} schlägt fehl",
+    "_ai": true
+  },
+  "perf_reason_radio_disconnected": {
+    "value": "Funkgerät getrennt",
+    "_ai": true
+  },
+  "perf_reason_memory_high": {
+    "value": "Speicher nahe am Limit ({detail})",
+    "_ai": true
+  },
+  "perf_uptime": {
+    "value": "Laufzeit",
+    "_ai": true
+  },
+  "perf_started": {
+    "value": "Gestartet",
+    "_ai": true
+  },
+  "perf_process": {
+    "value": "Prozess",
+    "_ai": true
+  },
+  "perf_process_value": {
+    "value": "PID {pid} · {threads} Threads · {fds} FDs",
+    "_ai": true
+  },
+  "perf_host": null,
+  "perf_host_value": {
+    "value": "{cores} Kerne · {mem} · Last {load}",
+    "_ai": true
+  },
+  "perf_memory_limit": {
+    "value": "Speicherlimit",
+    "_ai": true
+  },
+  "perf_python": null,
+  "perf_per_min": null,
+  "perf_tile_cpu": {
+    "value": "Prozess-CPU",
+    "_ai": true
+  },
+  "perf_tile_cpu_foot": {
+    "value": "{seconds} s CPU-Zeit seit Start",
+    "_ai": true
+  },
+  "perf_tile_memory": {
+    "value": "Speicher (RSS)",
+    "_ai": true
+  },
+  "perf_tile_mem_of_limit": {
+    "value": "{pct}% des Container-Limits",
+    "_ai": true
+  },
+  "perf_tile_mem_no_limit": {
+    "value": "kein Container-Limit",
+    "_ai": true
+  },
+  "perf_tile_lag": {
+    "value": "Event-Loop-Verzögerung p95",
+    "_ai": true
+  },
+  "perf_tile_lag_foot": {
+    "plural": {
+      "one": "max {max} · {count} Blockade in der letzten Stunde",
+      "other": "max {max} · {count} Blockaden in der letzten Stunde"
+    },
+    "_ai": true
+  },
+  "perf_tile_tasks": {
+    "value": "Asyncio-Tasks",
+    "_ai": true
+  },
+  "perf_tile_tasks_foot": {
+    "plural": {
+      "one": "{loops} Hintergrundschleife überwacht",
+      "other": "{loops} Hintergrundschleifen überwacht"
+    },
+    "_ai": true
+  },
+  "perf_tile_packets": {
+    "value": "Pakete empfangen",
+    "_ai": true
+  },
+  "perf_tile_packets_foot": {
+    "value": "Gesamtverarbeitung p95 {ms}",
+    "_ai": true
+  },
+  "perf_tile_db": {
+    "value": "DB-Schreiben p95",
+    "_ai": true
+  },
+  "perf_tile_db_foot": {
+    "value": "{calls} Aufrufe/min · {busy}/{readers} Leser belegt",
+    "_ai": true
+  },
+  "perf_tile_radio": {
+    "value": "Funkoperation p95",
+    "_ai": true
+  },
+  "perf_tile_radio_foot": {
+    "value": "{errors} Fehler · {reconnects} Neuverbindungen",
+    "_ai": true
+  },
+  "perf_tile_overdue": {
+    "value": "Überfällige Aufgaben",
+    "_ai": true
+  },
+  "perf_tile_overdue_none": {
+    "value": "alle Hintergrundschleifen pünktlich",
+    "_ai": true
+  },
+  "perf_chart_cpu": null,
+  "perf_chart_memory": {
+    "value": "Speicher",
+    "_ai": true
+  },
+  "perf_chart_lag": {
+    "value": "Event-Loop-Verzögerung",
+    "_ai": true
+  },
+  "perf_chart_lag_hint": {
+    "value": "wie lange eine bereite Aufgabe wartet; gestrichelt = 100 ms Blockade",
+    "_ai": true
+  },
+  "perf_chart_latency": {
+    "value": "Latenz p95",
+    "_ai": true
+  },
+  "perf_chart_packets": {
+    "value": "Pakete pro Minute",
+    "_ai": true
+  },
+  "perf_chart_warnings": {
+    "value": "Warnungen und Blockaden",
+    "_ai": true
+  },
+  "perf_series_cpu": {
+    "value": "CPU % eines Kerns",
+    "_ai": true
+  },
+  "perf_series_rss": null,
+  "perf_series_max": null,
+  "perf_series_db": {
+    "value": "Datenbank",
+    "_ai": true
+  },
+  "perf_series_radio": {
+    "value": "Funk",
+    "_ai": true
+  },
+  "perf_series_http": null,
+  "perf_series_packets": {
+    "value": "Pakete/min",
+    "_ai": true
+  },
+  "perf_series_warnings": {
+    "value": "Log-Warnungen",
+    "_ai": true
+  },
+  "perf_series_stalls": {
+    "value": "Event-Loop-Blockaden",
+    "_ai": true
+  },
+  "perf_pipeline_title": {
+    "value": "Paketverarbeitung",
+    "_ai": true
+  },
+  "perf_pipeline_hint": {
+    "value": "pro Minute, Zeit pro Schritt",
+    "_ai": true
+  },
+  "perf_pipeline_oldest_undecrypted": {
+    "value": "ältestes unentschlüsseltes Paket: {age}",
+    "_ai": true
+  },
+  "perf_pipeline_p95_note": {
+    "value": "Schrittwerte sind p95 der letzten Stunde; der langsamste Schritt ist umrandet.",
+    "_ai": true
+  },
+  "perf_stage_rx": {
+    "value": "Funk RX",
+    "_ai": true
+  },
+  "perf_stage_parse": {
+    "value": "Parsen",
+    "_ai": true
+  },
+  "perf_stage_store": {
+    "value": "Speichern",
+    "_ai": true
+  },
+  "perf_stage_process": {
+    "value": "Verarbeiten",
+    "_ai": true
+  },
+  "perf_stage_broadcast": {
+    "value": "Verteilen",
+    "_ai": true
+  },
+  "perf_stage_fanout": null,
+  "perf_stage_detail": {
+    "value": "Ø {avg} · p95 {p95}",
+    "_ai": true
+  },
+  "perf_stage_duplicates": {
+    "plural": {
+      "one": "{count} Duplikat",
+      "other": "{count} Duplikate"
+    },
+    "_ai": true
+  },
+  "perf_stage_decrypted": {
+    "value": "{count} entschlüsselt",
+    "_ai": true
+  },
+  "perf_stage_process_note": {
+    "value": "{decrypted} entschlüsselt · {undecrypted} ohne Schlüssel · {malformed} fehlerhaft",
+    "_ai": true
+  },
+  "perf_stage_clients": {
+    "plural": {
+      "one": "{count} WebSocket-Client",
+      "other": "{count} WebSocket-Clients"
+    },
+    "_ai": true
+  },
+  "perf_stage_modules": {
+    "value": "Module",
+    "_ai": true
+  },
+  "perf_stage_fanout_ok": {
+    "value": "keine Fehler",
+    "_ai": true
+  },
+  "perf_stage_fanout_failing": {
+    "plural": {
+      "one": "{count} fehlerhaft",
+      "other": "{count} fehlerhaft"
+    },
+    "_ai": true
+  },
+  "perf_types_title": {
+    "value": "Pakete nach Typ",
+    "_ai": true
+  },
+  "perf_since_start": {
+    "value": "seit Start",
+    "_ai": true
+  },
+  "perf_last_hour": {
+    "value": "letzte Stunde",
+    "_ai": true
+  },
+  "perf_none_yet": {
+    "value": "Noch nichts gemessen.",
+    "_ai": true
+  },
+  "perf_tasks_title": {
+    "value": "Hintergrundaufgaben",
+    "_ai": true
+  },
+  "perf_tasks_aside": {
+    "plural": {
+      "one": "{count} Schleife · {overdue} überfällig",
+      "other": "{count} Schleifen · {overdue} überfällig"
+    },
+    "_ai": true
+  },
+  "perf_tasks_empty": {
+    "value": "Es ist noch keine Hintergrundschleife gelaufen.",
+    "_ai": true
+  },
+  "perf_loop_state_ok": {
+    "value": "in Ordnung",
+    "_ai": true
+  },
+  "perf_loop_state_running": {
+    "value": "läuft",
+    "_ai": true
+  },
+  "perf_loop_state_overdue": {
+    "value": "überfällig",
+    "_ai": true
+  },
+  "perf_loop_state_idle": {
+    "value": "inaktiv",
+    "_ai": true
+  },
+  "perf_loop_state_error": {
+    "value": "fehlgeschlagen",
+    "_ai": true
+  },
+  "perf_running_now": {
+    "value": "läuft gerade",
+    "_ai": true
+  },
+  "perf_col_task": {
+    "value": "Aufgabe",
+    "_ai": true
+  },
+  "perf_col_state": {
+    "value": "Status",
+    "_ai": true
+  },
+  "perf_col_every": {
+    "value": "Alle",
+    "_ai": true
+  },
+  "perf_col_last_run": {
+    "value": "Letzter Lauf",
+    "_ai": true
+  },
+  "perf_col_took": {
+    "value": "Dauer",
+    "_ai": true
+  },
+  "perf_col_24h": {
+    "value": "Letzte 24 h",
+    "_ai": true
+  },
+  "perf_col_runs": {
+    "value": "Läufe",
+    "_ai": true
+  },
+  "perf_col_errors": {
+    "value": "Fehler",
+    "_ai": true
+  },
+  "perf_col_coroutine": null,
+  "perf_col_count": {
+    "value": "Anzahl",
+    "_ai": true
+  },
+  "perf_col_type": {
+    "value": "Typ",
+    "_ai": true
+  },
+  "perf_col_packets": {
+    "value": "Pakete",
+    "_ai": true
+  },
+  "perf_col_avg_process": {
+    "value": "Ø Verarbeitung",
+    "_ai": true
+  },
+  "perf_col_caller": {
+    "value": "Aufrufer",
+    "_ai": true
+  },
+  "perf_col_p50": null,
+  "perf_col_p95": null,
+  "perf_col_max": null,
+  "perf_col_wait": {
+    "value": "Warten p95",
+    "_ai": true
+  },
+  "perf_col_calls": {
+    "value": "Aufrufe/h",
+    "_ai": true
+  },
+  "perf_col_output": {
+    "value": "Ausgabe",
+    "_ai": true
+  },
+  "perf_col_sent_hour": {
+    "value": "Gesendet/h",
+    "_ai": true
+  },
+  "perf_col_failed": {
+    "value": "Fehlgeschlagen",
+    "_ai": true
+  },
+  "perf_col_route": null,
+  "perf_col_operation": null,
+  "perf_asyncio_title": {
+    "value": "Alle Asyncio-Tasks",
+    "_ai": true
+  },
+  "perf_asyncio_aside": {
+    "plural": {
+      "one": "{count} Task gerade",
+      "other": "{count} Tasks gerade"
+    },
+    "_ai": true
+  },
+  "perf_stalls_title": {
+    "value": "Event-Loop-Blockaden",
+    "_ai": true
+  },
+  "perf_stalls_aside": {
+    "value": "was der Prozess tat, während die Loop blockiert war",
+    "_ai": true
+  },
+  "perf_stalls_empty": {
+    "value": "Keine Blockade von 100 ms oder mehr seit dem Start.",
+    "_ai": true
+  },
+  "perf_stall_no_stack": {
+    "value": "Zu kurz, um zu erfassen, was lief.",
+    "_ai": true
+  },
+  "perf_db_title": {
+    "value": "Datenbank",
+    "_ai": true
+  },
+  "perf_db_aside": {
+    "value": "SQLite, WAL-Modus",
+    "_ai": true
+  },
+  "perf_db_file": {
+    "value": "Datei",
+    "_ai": true
+  },
+  "perf_db_wal": null,
+  "perf_db_readers_busy": {
+    "value": "Leser belegt",
+    "_ai": true
+  },
+  "perf_db_write_wait": {
+    "value": "Warten auf Schreibsperre p95",
+    "_ai": true
+  },
+  "perf_db_slowest": {
+    "value": "Langsamste Datenbankaufrufe, letzte Stunde",
+    "_ai": true
+  },
+  "perf_db_kind_read": {
+    "value": "lesen",
+    "_ai": true
+  },
+  "perf_db_kind_write": {
+    "value": "schreiben",
+    "_ai": true
+  },
+  "perf_outputs_title": {
+    "value": "Ausgaben",
+    "_ai": true
+  },
+  "perf_output_websocket": null,
+  "perf_output_tak": null,
+  "perf_output_push": {
+    "value": "Web-Push",
+    "_ai": true
+  },
+  "perf_clients": {
+    "plural": {
+      "one": "{count} Client",
+      "other": "{count} Clients"
+    },
+    "_ai": true
+  },
+  "perf_devices": {
+    "plural": {
+      "one": "{count} Gerät",
+      "other": "{count} Geräte"
+    },
+    "_ai": true
+  },
+  "perf_off": {
+    "value": "aus",
+    "_ai": true
+  },
+  "perf_routes_title": {
+    "value": "Meistgenutzte API-Routen",
+    "_ai": true
+  },
+  "perf_radio_title": {
+    "value": "Funkverbindung",
+    "_ai": true
+  },
+  "perf_radio_connected": {
+    "value": "verbunden",
+    "_ai": true
+  },
+  "perf_radio_disconnected": {
+    "value": "getrennt",
+    "_ai": true
+  },
+  "perf_radio_paused": {
+    "value": "pausiert",
+    "_ai": true
+  },
+  "perf_radio_hold_p95": null,
+  "perf_radio_errors": {
+    "value": "Fehler",
+    "_ai": true
+  },
+  "perf_radio_reconnects": {
+    "value": "Neuverbindungen ok / versucht",
+    "_ai": true
+  },
+  "perf_radio_last_reconnect": {
+    "value": "Letzte Neuverbindung",
+    "_ai": true
+  },
+  "perf_radio_slowest": {
+    "value": "Langsamste Funkoperationen, letzte Stunde",
+    "_ai": true
+  },
+  "perf_logs_title": {
+    "value": "Warnungen und Fehler",
+    "_ai": true
+  },
+  "perf_logs_aside": {
+    "value": "aus dem Backend-Log",
+    "_ai": true
+  },
+  "perf_logs_empty": {
+    "value": "Keine Warnungen seit dem Start.",
+    "_ai": true
+  },
+  "perf_col_5xx": null
 }

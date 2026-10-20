@@ -24859,5 +24859,589 @@
   "share_filter_host_mode_off": {
     "value": "uit",
     "_ai": true
-  }
+  },
+  "nav_performance": {
+    "value": "Prestaties",
+    "_ai": true
+  },
+  "common_loading_performance": {
+    "value": "Prestaties laden...",
+    "_ai": true
+  },
+  "buddy_tip_performance": {
+    "value": "Prestaties laat zien wat RTFM-EV zelf doet: CPU, geheugen, de event loop, achtergrondtaken en meer.",
+    "_ai": true
+  },
+  "perf_page_title": {
+    "value": "Prestaties",
+    "_ai": true
+  },
+  "perf_tab_overview": {
+    "value": "Overzicht",
+    "_ai": true
+  },
+  "perf_tab_loop": null,
+  "perf_tab_tasks": {
+    "value": "Achtergrondtaken",
+    "_ai": true
+  },
+  "perf_tab_pipeline": {
+    "value": "Pakketverwerking",
+    "_ai": true
+  },
+  "perf_tab_database": null,
+  "perf_tab_radio": {
+    "value": "Radioverbinding",
+    "_ai": true
+  },
+  "perf_tab_outputs": {
+    "value": "Uitvoer",
+    "_ai": true
+  },
+  "perf_tab_requests": {
+    "value": "Verzoeken",
+    "_ai": true
+  },
+  "perf_tab_logs": null,
+  "perf_auto_refresh": {
+    "value": "ververst elke 5 s",
+    "_ai": true
+  },
+  "perf_range_label": {
+    "value": "Tijdvenster",
+    "_ai": true
+  },
+  "perf_range_live": null,
+  "perf_range_15m": null,
+  "perf_sampling_note": {
+    "value": "elke 10 s gemeten, 30 dagen bewaard per minuut",
+    "_ai": true
+  },
+  "perf_load_error": {
+    "value": "Prestatiegegevens laden mislukt: {error}",
+    "_ai": true
+  },
+  "perf_loading": {
+    "value": "Prestatiegegevens laden...",
+    "_ai": true
+  },
+  "perf_state_ok": {
+    "value": "Gezond",
+    "_ai": true
+  },
+  "perf_state_degraded": {
+    "value": "Verminderd",
+    "_ai": true
+  },
+  "perf_state_critical": {
+    "value": "Kritiek",
+    "_ai": true
+  },
+  "perf_more_reasons": {
+    "plural": {
+      "one": "+{count} meer",
+      "other": "+{count} meer"
+    },
+    "_ai": true
+  },
+  "perf_reason_loop_overdue": {
+    "value": "{detail} is te laat",
+    "_ai": true
+  },
+  "perf_reason_loop_failing": {
+    "value": "{detail} faalde bij de laatste run",
+    "_ai": true
+  },
+  "perf_reason_stall": {
+    "value": "event loop {detail} geblokkeerd",
+    "_ai": true
+  },
+  "perf_reason_lag_high": {
+    "value": "event loop vertraging {detail}",
+    "_ai": true
+  },
+  "perf_reason_output_error": {
+    "value": "uitvoer {detail} faalt",
+    "_ai": true
+  },
+  "perf_reason_radio_disconnected": {
+    "value": "radio niet verbonden",
+    "_ai": true
+  },
+  "perf_reason_memory_high": {
+    "value": "geheugen bijna op de limiet ({detail})",
+    "_ai": true
+  },
+  "perf_uptime": null,
+  "perf_started": {
+    "value": "Gestart",
+    "_ai": true
+  },
+  "perf_process": {
+    "value": "Proces",
+    "_ai": true
+  },
+  "perf_process_value": null,
+  "perf_host": null,
+  "perf_host_value": null,
+  "perf_memory_limit": {
+    "value": "Geheugenlimiet",
+    "_ai": true
+  },
+  "perf_python": null,
+  "perf_per_min": null,
+  "perf_tile_cpu": {
+    "value": "Proces-CPU",
+    "_ai": true
+  },
+  "perf_tile_cpu_foot": {
+    "value": "{seconds} s CPU-tijd sinds start",
+    "_ai": true
+  },
+  "perf_tile_memory": {
+    "value": "Geheugen (RSS)",
+    "_ai": true
+  },
+  "perf_tile_mem_of_limit": {
+    "value": "{pct}% van de containerlimiet",
+    "_ai": true
+  },
+  "perf_tile_mem_no_limit": {
+    "value": "geen containerlimiet",
+    "_ai": true
+  },
+  "perf_tile_lag": {
+    "value": "Event loop vertraging p95",
+    "_ai": true
+  },
+  "perf_tile_lag_foot": {
+    "plural": {
+      "one": "max {max} · {count} blokkade het laatste uur",
+      "other": "max {max} · {count} blokkades het laatste uur"
+    },
+    "_ai": true
+  },
+  "perf_tile_tasks": {
+    "value": "Asyncio-taken",
+    "_ai": true
+  },
+  "perf_tile_tasks_foot": {
+    "plural": {
+      "one": "{loops} achtergrondlus gevolgd",
+      "other": "{loops} achtergrondlussen gevolgd"
+    },
+    "_ai": true
+  },
+  "perf_tile_packets": {
+    "value": "Pakketten binnen",
+    "_ai": true
+  },
+  "perf_tile_packets_foot": {
+    "value": "totale verwerking p95 {ms}",
+    "_ai": true
+  },
+  "perf_tile_db": {
+    "value": "DB schrijven p95",
+    "_ai": true
+  },
+  "perf_tile_db_foot": {
+    "value": "{calls} aanroepen/min · {busy}/{readers} lezers bezig",
+    "_ai": true
+  },
+  "perf_tile_radio": {
+    "value": "Radio-operatie p95",
+    "_ai": true
+  },
+  "perf_tile_radio_foot": {
+    "value": "{errors} fouten · {reconnects} herverbindingen",
+    "_ai": true
+  },
+  "perf_tile_overdue": {
+    "value": "Te late taken",
+    "_ai": true
+  },
+  "perf_tile_overdue_none": {
+    "value": "alle achtergrondlussen op tijd",
+    "_ai": true
+  },
+  "perf_chart_cpu": null,
+  "perf_chart_memory": {
+    "value": "Geheugen",
+    "_ai": true
+  },
+  "perf_chart_lag": {
+    "value": "Event loop vertraging",
+    "_ai": true
+  },
+  "perf_chart_lag_hint": {
+    "value": "hoe lang een klaarstaande taak wacht; stippellijn = 100 ms blokkade",
+    "_ai": true
+  },
+  "perf_chart_latency": {
+    "value": "Vertraging p95",
+    "_ai": true
+  },
+  "perf_chart_packets": {
+    "value": "Pakketten per minuut",
+    "_ai": true
+  },
+  "perf_chart_warnings": {
+    "value": "Waarschuwingen en blokkades",
+    "_ai": true
+  },
+  "perf_series_cpu": {
+    "value": "CPU % van één core",
+    "_ai": true
+  },
+  "perf_series_rss": null,
+  "perf_series_max": null,
+  "perf_series_db": null,
+  "perf_series_radio": null,
+  "perf_series_http": null,
+  "perf_series_packets": {
+    "value": "pakketten/min",
+    "_ai": true
+  },
+  "perf_series_warnings": {
+    "value": "logwaarschuwingen",
+    "_ai": true
+  },
+  "perf_series_stalls": {
+    "value": "event loop blokkades",
+    "_ai": true
+  },
+  "perf_pipeline_title": {
+    "value": "Pakketverwerking",
+    "_ai": true
+  },
+  "perf_pipeline_hint": {
+    "value": "per minuut, tijd per stap",
+    "_ai": true
+  },
+  "perf_pipeline_oldest_undecrypted": {
+    "value": "oudste niet-ontsleutelde pakket: {age}",
+    "_ai": true
+  },
+  "perf_pipeline_p95_note": {
+    "value": "Stapcijfers zijn p95 over het laatste uur; de traagste stap heeft een rand.",
+    "_ai": true
+  },
+  "perf_stage_rx": null,
+  "perf_stage_parse": {
+    "value": "Ontleden",
+    "_ai": true
+  },
+  "perf_stage_store": {
+    "value": "Opslaan",
+    "_ai": true
+  },
+  "perf_stage_process": {
+    "value": "Verwerken",
+    "_ai": true
+  },
+  "perf_stage_broadcast": {
+    "value": "Uitzenden",
+    "_ai": true
+  },
+  "perf_stage_fanout": null,
+  "perf_stage_detail": {
+    "value": "gem. {avg} · p95 {p95}",
+    "_ai": true
+  },
+  "perf_stage_duplicates": {
+    "plural": {
+      "one": "{count} dubbel",
+      "other": "{count} dubbel"
+    },
+    "_ai": true
+  },
+  "perf_stage_decrypted": {
+    "value": "{count} ontsleuteld",
+    "_ai": true
+  },
+  "perf_stage_process_note": {
+    "value": "{decrypted} ontsleuteld · {undecrypted} geen sleutel · {malformed} misvormd",
+    "_ai": true
+  },
+  "perf_stage_clients": {
+    "plural": {
+      "one": "{count} WebSocket-client",
+      "other": "{count} WebSocket-clients"
+    },
+    "_ai": true
+  },
+  "perf_stage_modules": null,
+  "perf_stage_fanout_ok": {
+    "value": "geen fouten",
+    "_ai": true
+  },
+  "perf_stage_fanout_failing": {
+    "plural": {
+      "one": "{count} faalt",
+      "other": "{count} falen"
+    },
+    "_ai": true
+  },
+  "perf_types_title": {
+    "value": "Pakketten per type",
+    "_ai": true
+  },
+  "perf_since_start": {
+    "value": "sinds start",
+    "_ai": true
+  },
+  "perf_last_hour": {
+    "value": "laatste uur",
+    "_ai": true
+  },
+  "perf_none_yet": {
+    "value": "Nog niets gemeten.",
+    "_ai": true
+  },
+  "perf_tasks_title": {
+    "value": "Achtergrondtaken",
+    "_ai": true
+  },
+  "perf_tasks_aside": {
+    "plural": {
+      "one": "{count} lus · {overdue} te laat",
+      "other": "{count} lussen · {overdue} te laat"
+    },
+    "_ai": true
+  },
+  "perf_tasks_empty": {
+    "value": "Er heeft nog geen achtergrondlus gedraaid.",
+    "_ai": true
+  },
+  "perf_loop_state_ok": {
+    "value": "gezond",
+    "_ai": true
+  },
+  "perf_loop_state_running": {
+    "value": "bezig",
+    "_ai": true
+  },
+  "perf_loop_state_overdue": {
+    "value": "te laat",
+    "_ai": true
+  },
+  "perf_loop_state_idle": {
+    "value": "inactief",
+    "_ai": true
+  },
+  "perf_loop_state_error": {
+    "value": "mislukt",
+    "_ai": true
+  },
+  "perf_running_now": {
+    "value": "nu bezig",
+    "_ai": true
+  },
+  "perf_col_task": {
+    "value": "Taak",
+    "_ai": true
+  },
+  "perf_col_state": {
+    "value": "Status",
+    "_ai": true
+  },
+  "perf_col_every": {
+    "value": "Elke",
+    "_ai": true
+  },
+  "perf_col_last_run": {
+    "value": "Laatste run",
+    "_ai": true
+  },
+  "perf_col_took": {
+    "value": "Duur",
+    "_ai": true
+  },
+  "perf_col_24h": {
+    "value": "Laatste 24 u",
+    "_ai": true
+  },
+  "perf_col_runs": null,
+  "perf_col_errors": {
+    "value": "Fouten",
+    "_ai": true
+  },
+  "perf_col_coroutine": null,
+  "perf_col_count": {
+    "value": "Aantal",
+    "_ai": true
+  },
+  "perf_col_type": null,
+  "perf_col_packets": {
+    "value": "Pakketten",
+    "_ai": true
+  },
+  "perf_col_avg_process": {
+    "value": "Gem. verwerking",
+    "_ai": true
+  },
+  "perf_col_caller": {
+    "value": "Aanroeper",
+    "_ai": true
+  },
+  "perf_col_p50": null,
+  "perf_col_p95": null,
+  "perf_col_max": null,
+  "perf_col_wait": {
+    "value": "Wachten p95",
+    "_ai": true
+  },
+  "perf_col_calls": {
+    "value": "Aanroepen/u",
+    "_ai": true
+  },
+  "perf_col_output": {
+    "value": "Uitvoer",
+    "_ai": true
+  },
+  "perf_col_sent_hour": {
+    "value": "Verzonden/u",
+    "_ai": true
+  },
+  "perf_col_failed": {
+    "value": "Mislukt",
+    "_ai": true
+  },
+  "perf_col_route": null,
+  "perf_col_operation": {
+    "value": "Operatie",
+    "_ai": true
+  },
+  "perf_asyncio_title": {
+    "value": "Alle asyncio-taken",
+    "_ai": true
+  },
+  "perf_asyncio_aside": {
+    "plural": {
+      "one": "{count} taak op dit moment",
+      "other": "{count} taken op dit moment"
+    },
+    "_ai": true
+  },
+  "perf_stalls_title": {
+    "value": "Event loop blokkades",
+    "_ai": true
+  },
+  "perf_stalls_aside": {
+    "value": "wat het proces deed terwijl de loop geblokkeerd was",
+    "_ai": true
+  },
+  "perf_stalls_empty": {
+    "value": "Geen blokkade van 100 ms of meer sinds de start.",
+    "_ai": true
+  },
+  "perf_stall_no_stack": {
+    "value": "Te kort om vast te leggen wat er draaide.",
+    "_ai": true
+  },
+  "perf_db_title": null,
+  "perf_db_aside": {
+    "value": "SQLite, WAL-modus",
+    "_ai": true
+  },
+  "perf_db_file": {
+    "value": "Bestand",
+    "_ai": true
+  },
+  "perf_db_wal": null,
+  "perf_db_readers_busy": {
+    "value": "Lezers bezig",
+    "_ai": true
+  },
+  "perf_db_write_wait": {
+    "value": "Wachten op schrijfslot p95",
+    "_ai": true
+  },
+  "perf_db_slowest": {
+    "value": "Traagste database-aanroepen, laatste uur",
+    "_ai": true
+  },
+  "perf_db_kind_read": {
+    "value": "lezen",
+    "_ai": true
+  },
+  "perf_db_kind_write": {
+    "value": "schrijven",
+    "_ai": true
+  },
+  "perf_outputs_title": {
+    "value": "Uitvoer",
+    "_ai": true
+  },
+  "perf_output_websocket": null,
+  "perf_output_tak": null,
+  "perf_output_push": {
+    "value": "Webpush",
+    "_ai": true
+  },
+  "perf_clients": null,
+  "perf_devices": {
+    "plural": {
+      "one": "{count} apparaat",
+      "other": "{count} apparaten"
+    },
+    "_ai": true
+  },
+  "perf_off": {
+    "value": "uit",
+    "_ai": true
+  },
+  "perf_routes_title": {
+    "value": "Drukste API-routes",
+    "_ai": true
+  },
+  "perf_radio_title": {
+    "value": "Radioverbinding",
+    "_ai": true
+  },
+  "perf_radio_connected": {
+    "value": "verbonden",
+    "_ai": true
+  },
+  "perf_radio_disconnected": {
+    "value": "niet verbonden",
+    "_ai": true
+  },
+  "perf_radio_paused": {
+    "value": "gepauzeerd",
+    "_ai": true
+  },
+  "perf_radio_hold_p95": {
+    "value": "Operatie p95",
+    "_ai": true
+  },
+  "perf_radio_errors": {
+    "value": "Fouten",
+    "_ai": true
+  },
+  "perf_radio_reconnects": {
+    "value": "Herverbindingen gelukt / geprobeerd",
+    "_ai": true
+  },
+  "perf_radio_last_reconnect": {
+    "value": "Laatste herverbinding",
+    "_ai": true
+  },
+  "perf_radio_slowest": {
+    "value": "Traagste radio-operaties, laatste uur",
+    "_ai": true
+  },
+  "perf_logs_title": {
+    "value": "Waarschuwingen en fouten",
+    "_ai": true
+  },
+  "perf_logs_aside": {
+    "value": "uit de backend-log",
+    "_ai": true
+  },
+  "perf_logs_empty": {
+    "value": "Geen waarschuwingen sinds de start.",
+    "_ai": true
+  },
+  "perf_col_5xx": null
 }
