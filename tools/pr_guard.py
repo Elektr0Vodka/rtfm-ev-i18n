@@ -6,7 +6,8 @@ Fails when a PR
 - touches state/ (tool bookkeeping), or
 - changes a translation but leaves it flagged "_ai" or "_stale". An edited
   value is a human one; a value still flagged "_ai" can be replaced by the
-  app's draft in the next nightly run.
+  app's draft in the next nightly run. A new "_ai" draft for a key that was
+  null is fine: nothing human is lost if the nightly run replaces it.
 
     BASE_REF=origin/main python tools/pr_guard.py
 """
@@ -49,10 +50,11 @@ def main() -> int:
             errors.append(f"{rel}: _meta is maintained by the tools; leave it as is")
         old_entries = entries(old)
         for key, value in entries(new).items():
-            if value is None or not isinstance(value, dict) or to_app(value) == to_app(old_entries.get(key)):
+            old_value = old_entries.get(key)
+            if value is None or not isinstance(value, dict) or to_app(value) == to_app(old_value):
                 continue
             left = []
-            if value.get("_ai") and not value.get("_human"):
+            if value.get("_ai") and not value.get("_human") and old_value is not None:
                 left.append("_ai")
             if value.get("_stale"):
                 left.append("_stale")

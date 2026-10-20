@@ -109,7 +109,8 @@ glossary and the strings using it.
 - A key that does not exist in `en.json`
 - Any change to `locales/en.json`
 - Any change to a file's `_meta` block
-- Changed text that is still flagged `_ai` or `_stale`
+- Changed text that is still flagged `_ai` or `_stale` (a new `_ai` draft
+  for a key that was `null` is fine)
 - A placeholder that is missing or not in the English text
 - A plural without `other`, or a plural where English has a plain string
   (or the other way round)
