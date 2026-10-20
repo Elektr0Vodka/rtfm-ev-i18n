@@ -211,7 +211,14 @@
     "value": "Directe Trace. Stuur een directe trace-probe naar dit contact en toon SNR heen en terug",
     "_ai": true
   },
-  "chat_emoji_bytes": null,
+  "chat_emoji_bytes": {
+    "plural": {
+      "one": "{count} byte",
+      "other": "{count} bytes"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_emoji_hint": {
     "value": "Wijs een emoji aan om de bytekosten te zien",
     "_ai": true
@@ -308,7 +315,11 @@
     "value": "Momenteel gesorteerd {current}. Klik om te sorteren {next}.",
     "_ai": true
   },
-  "chat_sort_type_label": null,
+  "chat_sort_type_label": {
+    "value": "Type",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_web_push_alerts_closed": {
     "value": "Meldingen zelfs als de browser gesloten is",
     "_ai": true
@@ -393,7 +404,11 @@
     "value": "Alles doorzoeken",
     "_ai": true
   },
-  "nav_tab_chats": null,
+  "nav_tab_chats": {
+    "value": "Chats",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_tab_map": {
     "value": "Kaart",
     "_ai": true
@@ -490,7 +505,11 @@
     "value": "Alle",
     "_ai": true
   },
-  "nav_contacts_pill_companions": null,
+  "nav_contacts_pill_companions": {
+    "value": "Companions",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_contacts_pill_sensors": {
     "value": "Sensoren",
     "_ai": true
@@ -571,7 +590,11 @@
     "value": "Uitzoomen",
     "_ai": true
   },
-  "node_radar_zoom_level": null,
+  "node_radar_zoom_level": {
+    "value": "{current}x / {max}x",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_apply": {
     "value": "Toepassen",
     "_ai": true
@@ -580,7 +603,11 @@
     "value": "gem. {value}",
     "_ai": true
   },
-  "node_battery_voltage_percent": null,
+  "node_battery_voltage_percent": {
+    "value": "{voltage}V · {percent}%",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_best_rssi": {
     "value": "Beste RSSI",
     "_ai": true
@@ -593,7 +620,11 @@
     "value": "Drukste Kanalen (laatste 24u)",
     "_ai": true
   },
-  "node_bytes_label": null,
+  "node_bytes_label": {
+    "value": "Bytes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_chart_bytes_received": {
     "value": "Ontvangen Bytes",
     "_ai": true
@@ -618,7 +649,11 @@
     "value": "SNR (Signaal-ruisverhouding)",
     "_ai": true
   },
-  "node_count_percent": null,
+  "node_count_percent": {
+    "value": "{count} ({percent}%)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_custom_from": {
     "value": "Van",
     "_ai": true
@@ -635,10 +670,26 @@
     "value": "Frequentie",
     "_ai": true
   },
-  "node_detail_id": null,
-  "node_detail_model": null,
-  "node_detail_platform": null,
-  "node_details_heading": null,
+  "node_detail_id": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_detail_model": {
+    "value": "Model",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_detail_platform": {
+    "value": "Platform",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_details_heading": {
+    "value": "Details",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_direct_neighbors_count_desc": {
     "value": "Nodes die deze sessie rechtstreeks (0-hop) zijn gehoord, per pakketaantal.",
     "_ai": true
@@ -663,7 +714,11 @@
     "value": "Kan nodegegevens niet laden.",
     "_ai": true
   },
-  "node_firmware_prefix": null,
+  "node_firmware_prefix": {
+    "value": "fw {version}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_historical_data_note": {
     "value": "Historische gegevens uit database",
     "_ai": true
@@ -676,7 +731,11 @@
     "value": " · Signaal- en typegegevens beschikbaar voor pakketten die zijn vastgelegd na de laatste update",
     "_ai": true
   },
-  "node_hop_pct_pkts": null,
+  "node_hop_pct_pkts": {
+    "value": "{percent}% · {count} pkt",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_live_activity_heading": {
     "value": "Live-activiteit",
     "_ai": true
@@ -685,7 +744,11 @@
     "value": "{packets} pakketten · {bytes} bytes · {pktRate} pkt/s · {byteRate} bytes/s · {avgBytes} bytes/pkt gem.",
     "_ai": true
   },
-  "node_live_activity_summary_compact": null,
+  "node_live_activity_summary_compact": {
+    "value": "{packets} pkt · {bytes} B",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_live_session_label": {
     "value": "Live-sessie",
     "_ai": true
@@ -706,7 +769,11 @@
     "value": "{count} pakketten · {type}",
     "_ai": true
   },
-  "node_neighbor_relseen_type_suffix": null,
+  "node_neighbor_relseen_type_suffix": {
+    "value": "{time} · {type}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_neighbors_most_active": {
     "value": "Buren - Meest Actief",
     "_ai": true
@@ -759,10 +826,26 @@
     "value": "Padhash-breedte (laatste 24u)",
     "_ai": true
   },
-  "node_per_min_suffix": null,
-  "node_pkts_time_suffix": null,
-  "node_platform_openhop": null,
-  "node_radio_summary": null,
+  "node_per_min_suffix": {
+    "value": "{value} /min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_pkts_time_suffix": {
+    "value": "{count} pkt · {time}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_platform_openhop": {
+    "value": "OpenHop",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_radio_summary": {
+    "value": "{freq} MHz / SF{sf} / BW{bw} / CR{cr}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_refreshed_suffix": {
     "value": "Vernieuwd {time}",
     "_ai": true
@@ -787,7 +870,11 @@
     "value": "{value} dBm gem.",
     "_ai": true
   },
-  "node_stats_db_tab": null,
+  "node_stats_db_tab": {
+    "value": "DB - {window}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_stats_heading": {
     "value": "Statistieken",
     "_ai": true
@@ -812,11 +899,31 @@
     "value": "{count}s geleden",
     "_ai": true
   },
-  "node_tooltip_battery": null,
-  "node_tooltip_bytes": null,
-  "node_tooltip_noise_floor": null,
-  "node_tooltip_packets": null,
-  "node_tooltip_rssi": null,
+  "node_tooltip_battery": {
+    "value": "BAT",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_tooltip_bytes": {
+    "value": "bytes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_tooltip_noise_floor": {
+    "value": "NF",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_tooltip_packets": {
+    "value": "pkt",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_tooltip_rssi": {
+    "value": "RSSI",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_tooltip_noise_est": {
     "value": "gesch. NF",
     "_ai": true
@@ -825,7 +932,11 @@
     "value": "Stippellijn: ruisvloer gepolld van de radio (één meting per minuut). Gearceerd: geschatte ruisvloer (RSSI min SNR); de ruimte tot de RSSI-lijn is de SNR-marge.",
     "_ai": true
   },
-  "node_tooltip_time_suffix": null,
+  "node_tooltip_time_suffix": {
+    "value": "{label} · {time}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_total_packets_label": {
     "value": "Totaal Pakketten",
     "_ai": true
@@ -834,52 +945,188 @@
     "value": "{count} totaal",
     "_ai": true
   },
-  "node_tx_power_value": null,
+  "node_tx_power_value": {
+    "value": "{power} dBm (max {max} dBm)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_type_breakdown_live_only": {
     "value": "Typeverdeling alleen beschikbaar in live-sessie",
     "_ai": true
   },
-  "node_type_companion": null,
+  "node_type_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_unnamed_node": {
     "value": "Naamloze Node",
     "_ai": true
   },
-  "node_value_bytes_compact": null,
-  "node_value_cr": null,
-  "node_value_db_compact": null,
-  "node_value_dbm": null,
-  "node_value_dbm_compact": null,
-  "node_value_k_compact": null,
-  "node_value_kb_compact": null,
-  "node_value_khz": null,
-  "node_value_mb_compact": null,
-  "node_value_mhz": null,
-  "node_value_sf": null,
-  "node_value_v_compact": null,
-  "node_window_1d": null,
-  "node_window_1h": null,
-  "node_window_1y": null,
-  "node_window_20m": null,
-  "time_range_1m": null,
-  "time_range_5m": null,
-  "time_range_10m": null,
-  "time_range_30m": null,
-  "time_range_20m": null,
+  "node_value_bytes_compact": {
+    "value": "{value} B",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_cr": {
+    "value": "CR{value}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_db_compact": {
+    "value": "{value}dB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_dbm": {
+    "value": "{value} dBm",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_dbm_compact": {
+    "value": "{value}dBm",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_k_compact": {
+    "value": "{value}k",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_kb_compact": {
+    "value": "{value} KB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_khz": {
+    "value": "{value} kHz",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_mb_compact": {
+    "value": "{value} MB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_mhz": {
+    "value": "{value} MHz",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_sf": {
+    "value": "SF{value}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_value_v_compact": {
+    "value": "{value}V",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_1d": {
+    "value": "1d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_1h": {
+    "value": "1u",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_1y": {
+    "value": "1j",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_20m": {
+    "value": "20m",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_1m": {
+    "value": "1m",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_5m": {
+    "value": "5m",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_10m": {
+    "value": "10m",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_30m": {
+    "value": "30m",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_20m": {
+    "value": "20m",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_stats_historical_note": {
     "value": "Historische weergave: geteld uit opgeslagen pakketten, elk pakket één keer. De live- en sessievensters tellen elke keer dat een pakket wordt gehoord.",
     "_ai": true
   },
-  "time_range_1h": null,
-  "time_range_3h": null,
-  "time_range_6h": null,
-  "time_range_12h": null,
-  "time_range_24h": null,
-  "time_range_48h": null,
-  "time_range_3d": null,
-  "time_range_7d": null,
-  "time_range_14d": null,
-  "time_range_30d": null,
-  "time_range_1y": null,
+  "time_range_1h": {
+    "value": "1u",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_3h": {
+    "value": "3u",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_6h": {
+    "value": "6u",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_12h": {
+    "value": "12u",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_24h": {
+    "value": "24u",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_48h": {
+    "value": "48u",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_3d": {
+    "value": "3d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_7d": {
+    "value": "7d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_14d": {
+    "value": "14d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_30d": {
+    "value": "30d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "time_range_1y": {
+    "value": "1j",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "time_range_all": {
     "value": "Alles",
     "_ai": true
@@ -908,9 +1155,21 @@
     "value": "Zendtijdgebruik",
     "_ai": true
   },
-  "node_chart_airtime_stat": null,
-  "node_chart_airtime_rx": null,
-  "node_chart_airtime_tx": null,
+  "node_chart_airtime_stat": {
+    "value": "RX {rx}% / TX {tx}%",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_chart_airtime_rx": {
+    "value": "RX %",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_chart_airtime_tx": {
+    "value": "TX %",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_chart_airtime_note": {
     "value": "Zendtijd wordt door de radio gerapporteerd (time-on-air per pakket), niet carrier-sense.",
     "_ai": true
@@ -931,9 +1190,21 @@
     "value": "Pakketten die de radio begon te ontvangen maar niet kon decoderen (CRC- of headerfouten), uit de pakketstatistieken van de companion. Vereist firmware v1.12 of nieuwer. Op OpenHop-nodes komt dit uit de CRC-foutgeschiedenis van de radio via de OpenHop-API, dus daarvoor moet de OpenHop-API ingesteld zijn.",
     "_ai": true
   },
-  "node_window_30d": null,
-  "node_window_6h": null,
-  "node_window_7d": null,
+  "node_window_30d": {
+    "value": "30d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_6h": {
+    "value": "6u",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_window_7d": {
+    "value": "7d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_window_custom_range": {
     "value": "Aangepast bereik",
     "_ai": true
@@ -954,7 +1225,11 @@
     "value": "Mesh-detectie",
     "_ai": true
   },
-  "nav_snmp": null,
+  "nav_snmp": {
+    "value": "SNMP",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_fleet": {
     "value": "Vloot",
     "_ai": true
@@ -1066,7 +1341,11 @@
     "value": "Buiten gebruik",
     "_ai": true
   },
-  "fleet_field_label": null,
+  "fleet_field_label": {
+    "value": "Label",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_field_public_key": {
     "value": "Publieke sleutel",
     "_ai": true
@@ -1083,7 +1362,11 @@
     "value": "Serienummer hardware",
     "_ai": true
   },
-  "fleet_field_model": null,
+  "fleet_field_model": {
+    "value": "Model",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_field_role": {
     "value": "Rol",
     "_ai": true
@@ -1104,7 +1387,11 @@
     "value": "Locatie",
     "_ai": true
   },
-  "fleet_field_status": null,
+  "fleet_field_status": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_field_notes": {
     "value": "Notities",
     "_ai": true
@@ -1113,7 +1400,11 @@
     "value": "Identiteit",
     "_ai": true
   },
-  "fleet_section_hardware": null,
+  "fleet_section_hardware": {
+    "value": "Hardware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_section_placement": {
     "value": "Plaatsing",
     "_ai": true
@@ -1174,7 +1465,11 @@
     "value": "Dit apparaat heeft geen publieke sleutel en is daarom niet aan een node gekoppeld.",
     "_ai": true
   },
-  "fleet_mesh_type": null,
+  "fleet_mesh_type": {
+    "value": "Type",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_mesh_position": {
     "value": "Positie",
     "_ai": true
@@ -1199,7 +1494,11 @@
     "value": "Vlootregister: {error}",
     "_ai": true
   },
-  "fleet_csv_id": null,
+  "fleet_csv_id": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_csv_contact_name": {
     "value": "Nodenaam",
     "_ai": true
@@ -1256,7 +1555,11 @@
     "value": "Nog niets vastgelegd.",
     "_ai": true
   },
-  "fleet_log_change": null,
+  "fleet_log_change": {
+    "value": "{from} → {to}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_log_by": {
     "value": "door {actor}",
     "_ai": true
@@ -1277,12 +1580,20 @@
     "value": "Houder",
     "_ai": true
   },
-  "fleet_log_kind_firmware": null,
+  "fleet_log_kind_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_log_kind_note": {
     "value": "Notitie",
     "_ai": true
   },
-  "fleet_log_kind_status": null,
+  "fleet_log_kind_status": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_log_kind_config_applied": {
     "value": "Configuratie toegepast",
     "_ai": true
@@ -1291,8 +1602,16 @@
     "value": "Accu",
     "_ai": true
   },
-  "fleet_health_volts": null,
-  "fleet_health_volts_at": null,
+  "fleet_health_volts": {
+    "value": "{volts} V",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_health_volts_at": {
+    "value": "{volts} V ({when})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_health_no_telemetry": {
     "value": "Geen telemetrie opgeslagen. Die wordt alleen verzameld voor nodes op de lijsten met gevolgde telemetrie.",
     "_ai": true
@@ -1301,9 +1620,21 @@
     "value": "Temperatuur",
     "_ai": true
   },
-  "fleet_health_celsius": null,
-  "fleet_health_firmware": null,
-  "fleet_health_firmware_from": null,
+  "fleet_health_celsius": {
+    "value": "{value} °C",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_health_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_health_firmware_from": {
+    "value": "{version} ({source})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_health_no_firmware": {
     "value": "Nog niet gemeld. Dit komt uit het eigenaarspaneel van de repeater en uit SNMP-uitlezingen.",
     "_ai": true
@@ -1829,8 +2160,16 @@
     "value": "Rol",
     "_ai": true
   },
-  "fleet_usb_firmware": null,
-  "fleet_usb_board": null,
+  "fleet_usb_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "fleet_usb_board": {
+    "value": "Board",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_usb_public_key": {
     "value": "Publieke sleutel",
     "_ai": true
@@ -2399,7 +2738,11 @@
     "value": "Omschrijving",
     "_ai": true
   },
-  "fleet_template_document": null,
+  "fleet_template_document": {
+    "value": "Document (JSON)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_template_document_hint": {
     "value": "Schrijf {{name}} waar een variabele moet komen. Altijd aanwezig: {{asset.label}}, {{asset.org_serial}}, {{asset.site_name}}. Een geheim blijft leeg of bevat {\"$secret\": null}: de waarde wordt nooit in een sjabloon opgeslagen.",
     "_ai": true
@@ -2423,7 +2766,11 @@
     "value": "Naam van de variabele",
     "_ai": true
   },
-  "fleet_template_var_type": null,
+  "fleet_template_var_type": {
+    "value": "Type",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fleet_template_var_default": {
     "value": "Standaardwaarde",
     "_ai": true
@@ -2456,13 +2803,25 @@
     "value": "Het document is geen geldige JSON.",
     "_ai": true
   },
-  "mesh_discovery_advert_label": null,
+  "mesh_discovery_advert_label": {
+    "value": "Advert",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_discovery_advert_desc": {
     "value": "Maak je node bekend. Direct (0 hop) bereikt alleen nodes binnen direct radiobereik en gebruikt minder zendtijd. Flood advert wordt door repeaters over de mesh doorgestuurd.",
     "_ai": true
   },
-  "mesh_discovery_advert_direct_button": null,
-  "mesh_discovery_advert_flood_button": null,
+  "mesh_discovery_advert_direct_button": {
+    "value": "Direct (0 hop)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_discovery_advert_flood_button": {
+    "value": "Flood advert",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_user_guide": {
     "value": "Gebruikershandleiding",
     "_ai": true
@@ -2535,7 +2894,11 @@
     "value": "Ouder laden",
     "_ai": true
   },
-  "packet_history_live": null,
+  "packet_history_live": {
+    "value": "Live",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_history_historical": {
     "value": "Historisch",
     "_ai": true
@@ -2572,9 +2935,21 @@
     "value": "SNR versus RSSI-spreidingsdiagram",
     "_ai": true
   },
-  "mesh_health_scatter_tooltip": null,
-  "mesh_health_req_tooltip_flood": null,
-  "mesh_health_req_tooltip_direct": null,
+  "mesh_health_scatter_tooltip": {
+    "value": "RSSI {rssi} / SNR {snr}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_req_tooltip_flood": {
+    "value": "Flood {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_req_tooltip_direct": {
+    "value": "Direct {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_req_tooltip_responses": {
     "value": "Antw. {count}",
     "_ai": true
@@ -2598,8 +2973,16 @@
     },
     "_ai": true
   },
-  "mesh_health_axis_rssi_dbm": null,
-  "mesh_health_axis_snr_db": null,
+  "mesh_health_axis_rssi_dbm": {
+    "value": "RSSI (dBm)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_axis_snr_db": {
+    "value": "SNR (dB)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_heatmap_cell_title": {
     "plural": {
       "one": "{day} {hour}:00 - {count} pakket",
@@ -2686,8 +3069,16 @@
     "value": "Hashmodus (bytes/hop)",
     "_ai": true
   },
-  "mesh_health_hop_direct": null,
-  "mesh_health_hop_three_plus": null,
+  "mesh_health_hop_direct": {
+    "value": "Direct",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_hop_three_plus": {
+    "value": "3+ hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_stat_sub_unique_nodes": {
     "value": "unieke nodes",
     "_ai": true
@@ -2711,7 +3102,14 @@
     "value": "HOOG - Te Frequent Flood-adverteren",
     "_ai": true
   },
-  "mesh_health_alert_node_count": null,
+  "mesh_health_alert_node_count": {
+    "plural": {
+      "one": "{count} node",
+      "other": "{count} nodes"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_medium_alert_heading": {
     "value": "GEMIDDELD - Boven Normale Flood-advertfrequentie",
     "_ai": true
@@ -2751,13 +3149,25 @@
     "value": "Alle",
     "_ai": true
   },
-  "mesh_health_col_id": null,
+  "mesh_health_col_id": {
+    "value": "ID",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_col_adverts": {
     "value": "Advertenties",
     "_ai": true
   },
-  "mesh_health_col_direct": null,
-  "mesh_health_col_flood": null,
+  "mesh_health_col_direct": {
+    "value": "Direct",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_col_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_col_total": {
     "value": "Totaal",
     "_ai": true
@@ -2774,7 +3184,11 @@
     "value": "Eerst Gehoord",
     "_ai": true
   },
-  "mesh_health_col_hops": null,
+  "mesh_health_col_hops": {
+    "value": "Hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_col_mode": {
     "value": "Modus",
     "_ai": true
@@ -2791,7 +3205,11 @@
     "value": "Adresbreedte onbekend (nog geen gegevens)",
     "_ai": true
   },
-  "mesh_health_distance_km": null,
+  "mesh_health_distance_km": {
+    "value": "{km} km",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_status_active": {
     "value": "ACTIEF",
     "_ai": true
@@ -2847,7 +3265,11 @@
     "value": "Laden mislukt",
     "_ai": true
   },
-  "mesh_health_tab_adverts": null,
+  "mesh_health_tab_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_tab_requests": {
     "value": "Verzoeken",
     "_ai": true
@@ -2880,7 +3302,11 @@
     "value": "Geen geflood pakketten ontvangen in dit venster.",
     "_ai": true
   },
-  "relay_reception_direct": null,
+  "relay_reception_direct": {
+    "value": "(direct)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "relay_reception_collision": {
     "value": "{count} contacten delen dit hash-voorvoegsel; niet opgelost.",
     "_ai": true
@@ -2897,7 +3323,11 @@
     "value": "Kopieën",
     "_ai": true
   },
-  "relay_reception_col_relay": null,
+  "relay_reception_col_relay": {
+    "value": "Relay",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "relay_reception_col_receptions": {
     "value": "Kopieën",
     "_ai": true
@@ -2918,7 +3348,11 @@
     "value": "Pakketten",
     "_ai": true
   },
-  "relay_reception_summary_heading": null,
+  "relay_reception_summary_heading": {
+    "value": "Per relay",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "relay_reception_tile_packets": {
     "value": "Pakketten",
     "_ai": true
@@ -3047,11 +3481,31 @@
     "value": "Tijd",
     "_ai": true
   },
-  "relay_detail_col_type": null,
-  "relay_detail_col_hops": null,
-  "relay_detail_col_snr": null,
-  "relay_detail_col_rssi": null,
-  "relay_detail_col_relays": null,
+  "relay_detail_col_type": {
+    "value": "Type",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_hops": {
+    "value": "Hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_snr": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_rssi": {
+    "value": "RSSI",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "relay_detail_col_relays": {
+    "value": "Relays",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "relay_detail_first_badge": {
     "value": "eerst",
     "_ai": true
@@ -3072,9 +3526,21 @@
     "value": "Contacten die hetzelfde publieke-sleutelprefix delen. Een gedeeld prefix maakt hop-resolutie op die breedte dubbelzinnig.",
     "_ai": true
   },
-  "mesh_health_pc_width_1b": null,
-  "mesh_health_pc_width_2b": null,
-  "mesh_health_pc_width_3b": null,
+  "mesh_health_pc_width_1b": {
+    "value": "1 byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_pc_width_2b": {
+    "value": "2 bytes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_pc_width_3b": {
+    "value": "3 bytes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_pc_stat_total": {
     "value": "Nodes met volledige sleutel",
     "_ai": true
@@ -3087,7 +3553,11 @@
     "value": "Nodes in botsingen",
     "_ai": true
   },
-  "mesh_health_pc_col_prefix": null,
+  "mesh_health_pc_col_prefix": {
+    "value": "Prefix",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_pc_col_nodes": {
     "value": "Botsende nodes",
     "_ai": true
@@ -3156,7 +3626,11 @@
     "value": "Verzoeken",
     "_ai": true
   },
-  "mesh_health_req_stat_total_sub": null,
+  "mesh_health_req_stat_total_sub": {
+    "value": "REQUEST + anon",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_req_stat_flood": {
     "value": "Flood-verzoeken",
     "_ai": true
@@ -3225,7 +3699,11 @@
     "value": "Ruwe pakketfeed",
     "_ai": true
   },
-  "nav_repeaters_heading": null,
+  "nav_repeaters_heading": {
+    "value": "Repeaters",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_room_servers_heading": {
     "value": "Roomservers",
     "_ai": true
@@ -3242,7 +3720,11 @@
     "value": "Hulpmiddelen",
     "_ai": true
   },
-  "nav_live_packets_rate": null,
+  "nav_live_packets_rate": {
+    "value": "{rate}/min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "nav_live_packets_title": {
     "value": "Live pakketfeed: {count} pakketten in de laatste 5 minuten.",
     "_ai": true
@@ -3251,10 +3733,26 @@
     "value": "Live pakketten: {rate} per minuut",
     "_ai": true
   },
-  "nav_trace": null,
-  "status_battery_mv": null,
-  "status_battery_percent": null,
-  "status_battery_percent_and_mv": null,
+  "nav_trace": {
+    "value": "Trace",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "status_battery_mv": {
+    "value": "{mv}mV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "status_battery_percent": {
+    "value": "{pct}%",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "status_battery_percent_and_mv": {
+    "value": "{pct}% ({mv}mV)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "status_battery_title": {
     "value": "Batterij: {pct}% ({voltage}V)",
     "_ai": true
@@ -3271,7 +3769,11 @@
     "value": "Radio initialiseert",
     "_ai": true
   },
-  "status_radio_ok": null,
+  "status_radio_ok": {
+    "value": "Radio OK",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "status_radio_paused": {
     "value": "Radio gepauzeerd",
     "_ai": true
@@ -3474,7 +3976,11 @@
     "value": "Willekeurige sleutel genereren",
     "_ai": true
   },
-  "chat_gif_alt": null,
+  "chat_gif_alt": {
+    "value": "GIF",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_group_data_image_placeholder": {
     "value": "Afbeelding (niet ondersteund)",
     "_ai": true
@@ -3595,9 +4101,21 @@
     "value": "Verbergen op hopgrootte",
     "_ai": true
   },
-  "chat_hop_filter_1byte": null,
-  "chat_hop_filter_2byte": null,
-  "chat_hop_filter_3byte": null,
+  "chat_hop_filter_1byte": {
+    "value": "1-byte hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "chat_hop_filter_2byte": {
+    "value": "2-byte hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "chat_hop_filter_3byte": {
+    "value": "3-byte hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_hop_filter_hint": {
     "value": "Berichten zonder bekende hopgrootte blijven zichtbaar.",
     "_ai": true
@@ -3618,7 +4136,11 @@
     "value": "Spam met willekeurige tekens en afzenders met een nooit ingestelde klok.",
     "_ai": true
   },
-  "chat_scope_direct": null,
+  "chat_scope_direct": {
+    "value": "Direct",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_scope_direct_title": {
     "value": "Direct ontvangen (0 hops): de afzender is binnen direct radiobereik van je node.",
     "_ai": true
@@ -3643,7 +4165,11 @@
     "value": "Toon op kaart",
     "_ai": true
   },
-  "chat_pubkey_open_contact": null,
+  "chat_pubkey_open_contact": {
+    "value": "Contact {name} openen",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_pubkey_lookup_analyzer": {
     "value": "Opzoeken op {site}",
     "_ai": true
@@ -3668,7 +4194,11 @@
     "value": "Geluid",
     "_ai": true
   },
-  "settings_mention_sound_volume_label": null,
+  "settings_mention_sound_volume_label": {
+    "value": "Volume",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_mention_sound_test": {
     "value": "Testen",
     "_ai": true
@@ -3789,7 +4319,11 @@
     "value": "Geen GPS-fix",
     "_ai": true
   },
-  "team_radio_battery": null,
+  "team_radio_battery": {
+    "value": "Radio {volts} V",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "team_phone_battery": {
     "value": "Telefoon {volts} V",
     "_ai": true
@@ -3814,7 +4348,11 @@
     "value": "Hoort {neighbors} van {nodes} nodes",
     "_ai": true
   },
-  "team_source_signalk": null,
+  "team_source_signalk": {
+    "value": "via signalk-meshcore",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "team_waypoint_type_camp": {
     "value": "Kamp",
     "_ai": true
@@ -3835,12 +4373,20 @@
     "value": "Hoogzit",
     "_ai": true
   },
-  "team_waypoint_type_water": null,
+  "team_waypoint_type_water": {
+    "value": "Water",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "team_waypoint_type_vehicle": {
     "value": "Voertuig",
     "_ai": true
   },
-  "team_waypoint_type_route": null,
+  "team_waypoint_type_route": {
+    "value": "Route",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "team_waypoint_type_custom": {
     "value": "Aangepast",
     "_ai": true
@@ -3861,7 +4407,11 @@
     "value": "TEAM-mogelijkheden",
     "_ai": true
   },
-  "team_cap_alias": null,
+  "team_cap_alias": {
+    "value": "Alias {alias}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "team_cap_custom_firmware": {
     "value": "Aangepaste firmware",
     "_ai": true
@@ -3922,7 +4472,11 @@
     "value": "{count} posities in dit tijdvenster",
     "_ai": true
   },
-  "map_trackers_label": null,
+  "map_trackers_label": {
+    "value": "Trackers",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_trackers_enable": {
     "value": "ATAK-gebruikers, MeshCore SAR- en MeshCoreNG-trackers tonen",
     "_ai": true
@@ -3962,7 +4516,11 @@
     "value": "MeshCoreNG-tracker",
     "_ai": true
   },
-  "tracker_popup_team": null,
+  "tracker_popup_team": {
+    "value": "Team: {team}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "tracker_popup_speed": {
     "value": "Snelheid: {kmh} km/u",
     "_ai": true
@@ -3983,7 +4541,11 @@
     "value": "Gedeeld door {sender}",
     "_ai": true
   },
-  "tak_stream_title": null,
+  "tak_stream_title": {
+    "value": "TAK-stream",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "tak_stream_running": {
     "value": "Actief op poort {port}, {clients} ATAK / WinTAK-clients verbonden. Onversleuteld en zonder wachtwoord: houd het op een vertrouwd netwerk.",
     "_ai": true
@@ -4191,8 +4753,16 @@
     "value": "Annuleren",
     "_ai": true
   },
-  "common_client": null,
-  "common_contact": null,
+  "common_client": {
+    "value": "Client",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "common_contact": {
+    "value": "Contact",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_create": {
     "value": "Aanmaken",
     "_ai": true
@@ -4253,7 +4823,11 @@
     "value": "Publieke sleutel",
     "_ai": true
   },
-  "common_repeater": null,
+  "common_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_room_server": {
     "value": "Roomserver",
     "_ai": true
@@ -4266,7 +4840,11 @@
     "value": "Bezig met verzenden...",
     "_ai": true
   },
-  "common_type": null,
+  "common_type": {
+    "value": "Type",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_unknown": {
     "value": "Onbekend",
     "_ai": true
@@ -4311,7 +4889,11 @@
     "value": "Kamer",
     "_ai": true
   },
-  "common_sensor": null,
+  "common_sensor": {
+    "value": "Sensor",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_close": {
     "value": "Sluiten",
     "_ai": true
@@ -4655,7 +5237,11 @@
     "value": "Eigenaar berichten",
     "_ai": true
   },
-  "map_node_details": null,
+  "map_node_details": {
+    "value": "Details",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_owner_info_autofilled": {
     "value": "Opgeslagen bij contact",
     "_ai": true
@@ -4688,7 +5274,11 @@
     "value": "Radioplaatsing",
     "_ai": true
   },
-  "snmp_title": null,
+  "snmp_title": {
+    "value": "SNMP (LAN)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_intro": {
     "value": "Lees een node met observer-firmware uit via je netwerk. SNMP moet op de node aan staan en deze server moet de node via UDP kunnen bereiken.",
     "_ai": true
@@ -4701,12 +5291,20 @@
     "value": "Host of IP-adres",
     "_ai": true
   },
-  "snmp_host_placeholder": null,
+  "snmp_host_placeholder": {
+    "value": "192.168.1.20",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_port": {
     "value": "Poort",
     "_ai": true
   },
-  "snmp_community": null,
+  "snmp_community": {
+    "value": "Community",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_community_keep": {
     "value": "Leeg laten om de opgeslagen waarde te houden",
     "_ai": true
@@ -4939,8 +5537,16 @@
     "value": "Systeem",
     "_ai": true
   },
-  "snmp_group_radio": null,
-  "snmp_group_mqtt": null,
+  "snmp_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_group_mqtt": {
+    "value": "MQTT",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_group_memory": {
     "value": "Geheugen",
     "_ai": true
@@ -4957,7 +5563,11 @@
     "value": "Firmwareversie",
     "_ai": true
   },
-  "snmp_field_uptime_secs": null,
+  "snmp_field_uptime_secs": {
+    "value": "Uptime",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_field_packets_recv": {
     "value": "Pakketten ontvangen",
     "_ai": true
@@ -5178,7 +5788,11 @@
     "value": "Een companion kan niet via RF om zijn adres gevraagd worden. Zijn eigen opdrachtregel toont het met get wifi.ip.",
     "_ai": true
   },
-  "snmp_group_companion": null,
+  "snmp_group_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_group_companion_filter": {
     "value": "Ontvangstfilter",
     "_ai": true
@@ -5267,9 +5881,21 @@
     "value": "Radiowatchdog afgegaan",
     "_ai": true
   },
-  "snmp_error_flag_other": null,
-  "snmp_reset_reason_named": null,
-  "snmp_reset_reason_other": null,
+  "snmp_error_flag_other": {
+    "value": "Bit {bit}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_reset_reason_named": {
+    "value": "{name} ({code})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_reset_reason_other": {
+    "value": "Code {code}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_reset_reason_0": {
     "value": "Onbekend",
     "_ai": true
@@ -5286,7 +5912,11 @@
     "value": "Softwarereset",
     "_ai": true
   },
-  "snmp_reset_reason_4": null,
+  "snmp_reset_reason_4": {
+    "value": "Paniek",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_reset_reason_5": {
     "value": "Interrupt-watchdog",
     "_ai": true
@@ -5375,13 +6005,25 @@
     "value": "Zet daar \"{option}\" aan om de server de node zelf te laten uitlezen en de historiegrafiek te vullen.",
     "_ai": true
   },
-  "snmp_page_col_details": null,
+  "snmp_page_col_details": {
+    "value": "Details",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_col_actions": {
     "value": "Acties",
     "_ai": true
   },
-  "snmp_page_col_status": null,
-  "snmp_page_col_node": null,
+  "snmp_page_col_status": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_page_col_node": {
+    "value": "Node",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_col_address": {
     "value": "Adres",
     "_ai": true
@@ -5398,7 +6040,11 @@
     "value": "Laatste fout",
     "_ai": true
   },
-  "snmp_page_status_ok": null,
+  "snmp_page_status_ok": {
+    "value": "OK",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_status_failing": {
     "value": "Mislukt",
     "_ai": true
@@ -5407,7 +6053,11 @@
     "value": "Niet uitgelezen",
     "_ai": true
   },
-  "snmp_page_schedule_minutes": null,
+  "snmp_page_schedule_minutes": {
+    "value": "{minutes} min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_page_schedule_off": {
     "value": "Uit",
     "_ai": true
@@ -5468,8 +6118,16 @@
     "value": "{title}, % van de tijd",
     "_ai": true
   },
-  "snmp_node_value_per_minute": null,
-  "snmp_node_value_percent": null,
+  "snmp_node_value_per_minute": {
+    "value": "{value} /min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_node_value_percent": {
+    "value": "{value} %",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_node_chart_packets": {
     "value": "Pakketten",
     "_ai": true
@@ -5506,8 +6164,16 @@
     "value": "Signaal & zendtijd",
     "_ai": true
   },
-  "snmp_latest_col_flood": null,
-  "snmp_latest_col_direct": null,
+  "snmp_latest_col_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "snmp_latest_col_direct": {
+    "value": "Direct",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "snmp_latest_col_total": {
     "value": "Totaal",
     "_ai": true
@@ -5544,7 +6210,11 @@
     "value": "Kies een begin en een einde en druk dan op Toepassen.",
     "_ai": true
   },
-  "contact_radio_policy_auto": null,
+  "contact_radio_policy_auto": {
+    "value": "Automatisch",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_radio_policy_pinned": {
     "value": "Vastzetten",
     "_ai": true
@@ -5649,7 +6319,11 @@
     "value": "Een meshcore://-link die andere MeshCore-clients kunnen importeren. Werkt alleen als de radio een advert van dit contact heeft opgeslagen. Er wordt niets verzonden.",
     "_ai": true
   },
-  "chat_import_contact_link_placeholder": null,
+  "chat_import_contact_link_placeholder": {
+    "value": "meshcore://...",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_import_contact_link_help": {
     "value": "Plak een meshcore://-link die gedeeld is vanuit een andere MeshCore-client. De handtekening van de advert wordt gecontroleerd voordat het contact in de radio wordt geïmporteerd. Er wordt niets verzonden.",
     "_ai": true
@@ -5690,7 +6364,11 @@
     "value": "recente advert",
     "_ai": true
   },
-  "contact_radio_reason_loadout": null,
+  "contact_radio_reason_loadout": {
+    "value": "loadout",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_unblock_key": {
     "value": "Deze sleutel deblokkeren",
     "_ai": true
@@ -5715,13 +6393,28 @@
     "value": "Dichtstbijzijnde Repeaters - Geo (laatste 7 dagen)",
     "_ai": true
   },
-  "contact_hop_count": null,
-  "contact_direct": null,
+  "contact_hop_count": {
+    "plural": {
+      "one": "{count} hop",
+      "other": "{count} hops"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "contact_direct": {
+    "value": "direct",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_recent_advert_paths": {
     "value": "Recente Advertentiepaden",
     "_ai": true
   },
-  "contact_direct_path": null,
+  "contact_direct_path": {
+    "value": "(direct)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_path_scores": {
     "value": "Berichtroutes (gescoord)",
     "_ai": true
@@ -5730,7 +6423,11 @@
     "value": "Routes waarover je directe berichten aan dit contact zijn verstuurd, gerangschikt zoals meshcore-open ze scoort (afleverpercentage, reistijd, versheid, gewicht). Alleen weergave; de routering verandert niet.",
     "_ai": true
   },
-  "contact_path_score_flood": null,
+  "contact_path_score_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_path_score_detail": {
     "value": "score {score} · {ok}/{attempts} afgeleverd · {trip}",
     "_ai": true
@@ -6054,7 +6751,11 @@
     "value": "Nog niet opgehaald",
     "_ai": true
   },
-  "contact_gps_position": null,
+  "contact_gps_position": {
+    "value": "GPS: {position}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_fetched_at": {
     "value": "Opgehaald {time}",
     "_ai": true
@@ -6094,7 +6795,11 @@
     "value": "Kanaalgegevens en statistieken",
     "_ai": true
   },
-  "channel_type_hashtag": null,
+  "channel_type_hashtag": {
+    "value": "Hashtag",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_type_private_key": {
     "value": "Privésleutel",
     "_ai": true
@@ -6151,9 +6856,21 @@
     "value": "Kanaal niet gevonden",
     "_ai": true
   },
-  "channel_hop_width_1byte": null,
-  "channel_hop_width_2byte": null,
-  "channel_hop_width_3byte": null,
+  "channel_hop_width_1byte": {
+    "value": "1-byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_hop_width_2byte": {
+    "value": "2-byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_hop_width_3byte": {
+    "value": "3-byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_pkt_count": {
     "plural": {
       "one": "{n} pakket",
@@ -6253,7 +6970,11 @@
     "value": "Wijzigingslog",
     "_ai": true
   },
-  "settings_about_changelog_ev": null,
+  "settings_about_changelog_ev": {
+    "value": "Changelog-EV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_about_acknowledgements": {
     "value": "Met grote waardering voor degenen die de tools hebben gemaakt waarop dit is gebouwd:",
     "_ai": true
@@ -6384,7 +7105,11 @@
     },
     "_ai": true
   },
-  "settings_push_test": null,
+  "settings_push_test": {
+    "value": "Test",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_push_unsubscribe_device": {
     "value": "Dit apparaat afmelden",
     "_ai": true
@@ -6433,7 +7158,11 @@
     "value": "Herkleurt de Nova Dark-kaartlaag zodat die past bij de gekozen fosforkleur. Werkt alleen zolang Nova Dark de gekozen kaartlaag is.",
     "_ai": true
   },
-  "settings_branding_heading": null,
+  "settings_branding_heading": {
+    "value": "Huisstijl",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_branding_description": {
     "value": "Pas de app-naam en het pictogram in de bovenbalk en het browsertabblad aan. Gedeeld op alle apparaten die met deze instance verbonden zijn.",
     "_ai": true
@@ -6442,7 +7171,11 @@
     "value": "App-naam",
     "_ai": true
   },
-  "settings_branding_name_placeholder": null,
+  "settings_branding_name_placeholder": {
+    "value": "RTFM-EV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_branding_hide_label": {
     "value": "Naam in de bovenbalk verbergen",
     "_ai": true
@@ -6535,7 +7268,11 @@
     "value": "Graden, minuten, seconden (52°05'26.5\"N)",
     "_ai": true
   },
-  "settings_coordinate_format_mgrs": null,
+  "settings_coordinate_format_mgrs": {
+    "value": "MGRS (31U FT 45332 73249)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "date_field_open_calendar": {
     "value": "Kalender openen",
     "_ai": true
@@ -6608,9 +7345,21 @@
     "value": "LiPo (standaard)",
     "_ai": true
   },
-  "settings_battery_chemistry_lifepo4": null,
-  "settings_battery_chemistry_lipo_hv": null,
-  "settings_battery_chemistry_nmc": null,
+  "settings_battery_chemistry_lifepo4": {
+    "value": "LiFePO4",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_battery_chemistry_lipo_hv": {
+    "value": "LiPo HV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_battery_chemistry_nmc": {
+    "value": "NMC",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_status_dot_label": {
     "value": "Statuspuntje glinstert",
     "_ai": true
@@ -6731,9 +7480,21 @@
     "value": "Standaard van het thema",
     "_ai": true
   },
-  "settings_reading_font_opendyslexic": null,
-  "settings_reading_font_atkinson": null,
-  "settings_reading_font_lexend": null,
+  "settings_reading_font_opendyslexic": {
+    "value": "OpenDyslexic",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_reading_font_atkinson": {
+    "value": "Atkinson Hyperlegible",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_reading_font_lexend": {
+    "value": "Lexend",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_reading_font_help": {
     "value": "Een lettertype dat makkelijker leest, bijvoorbeeld bij dyslexie. Vervangt het tekstlettertype van het thema in deze browser; code en pakketgegevens houden hun lettertype met vaste breedte.",
     "_ai": true
@@ -6801,7 +7562,11 @@
     "value": "rijen per node",
     "_ai": true
   },
-  "settings_retention_unit_paths": null,
+  "settings_retention_unit_paths": {
+    "value": "per contact",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_retention_no_limit": {
     "value": "geen limiet",
     "_ai": true
@@ -6837,7 +7602,11 @@
     },
     "_ai": true
   },
-  "settings_retention_input_label": null,
+  "settings_retention_input_label": {
+    "value": "{name} ({unit})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_retention_class_raw_packets": {
     "value": "Ruwe pakketten",
     "_ai": true
@@ -7014,7 +7783,11 @@
     "value": "Instelling opslaan mislukt",
     "_ai": true
   },
-  "settings_meshcomod_heading": null,
+  "settings_meshcomod_heading": {
+    "value": "Meshcomod (DMC-EV)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_meshcomod_cad_label": {
     "value": "CAD (Kanaalactiviteitsdetectie)",
     "_ai": true
@@ -7027,7 +7800,11 @@
     "value": "Vereist CAD-geschikte meshcomod-firmware.",
     "_ai": true
   },
-  "settings_meshcomod_gps_label": null,
+  "settings_meshcomod_gps_label": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_meshcomod_gps_supported_desc": {
     "value": "Schakel de ingebouwde GPS-ontvanger in.",
     "_ai": true
@@ -7040,7 +7817,11 @@
     "value": "Interval (seconden)",
     "_ai": true
   },
-  "settings_meshcomod_full_capture_title": null,
+  "settings_meshcomod_full_capture_title": {
+    "value": "Volledige vastlegging",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_meshcomod_full_capture_hint": {
     "value": "Geef frames die de radio normaal weggooit door aan RTFM-EV. Er wordt niets extra via de radio verzonden.",
     "_ai": true
@@ -7265,7 +8046,11 @@
     "value": "De filterinstellingen op de radio vervangen door de back-up? De instellingen op de radio worden eerst gewist.",
     "_ai": true
   },
-  "settings_gps_heading": null,
+  "settings_gps_heading": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_gps_enabled_label": {
     "value": "GPS inschakelen",
     "_ai": true
@@ -7330,7 +8115,11 @@
     "value": "Bijgewerkt {age}s geleden",
     "_ai": true
   },
-  "settings_radio_stat_uptime": null,
+  "settings_radio_stat_uptime": {
+    "value": "Uptime",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_stat_battery": {
     "value": "Batterij",
     "_ai": true
@@ -7371,10 +8160,26 @@
     "value": "Pakketten Verzonden",
     "_ai": true
   },
-  "settings_radio_stat_flood_tx": null,
-  "settings_radio_stat_flood_rx": null,
-  "settings_radio_stat_direct_tx": null,
-  "settings_radio_stat_direct_rx": null,
+  "settings_radio_stat_flood_tx": {
+    "value": "Flood TX",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radio_stat_flood_rx": {
+    "value": "Flood RX",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radio_stat_direct_tx": {
+    "value": "Direct TX",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radio_stat_direct_rx": {
+    "value": "Direct RX",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_toast_geo_not_supported_title": {
     "value": "Geolocatie niet ondersteund",
     "_ai": true
@@ -7611,7 +8416,11 @@
     "value": "Geen deels bekende nodes konden aan de externe kaart worden gekoppeld.",
     "_ai": true
   },
-  "partial_sync_seen_placeholder": null,
+  "partial_sync_seen_placeholder": {
+    "value": "placeholder",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "partial_sync_seen_path": {
     "value": "gezien in pad",
     "_ai": true
@@ -7795,7 +8604,11 @@
     "value": "Verbonden",
     "_ai": true
   },
-  "settings_radio_status_radio_fallback": null,
+  "settings_radio_status_radio_fallback": {
+    "value": "radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_status_initializing": {
     "value": "Initialiseren van {info}",
     "_ai": true
@@ -7828,12 +8641,20 @@
     "value": "{n} kanalen",
     "_ai": true
   },
-  "settings_radio_device_label_fallback": null,
+  "settings_radio_device_label_fallback": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_device_running": {
     "value": "{label} draait {firmware}",
     "_ai": true
   },
-  "settings_radio_device_capacity_suffix": null,
+  "settings_radio_device_capacity_suffix": {
+    "value": "{label} (max: {capacity})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_toast_reconnect_requested": {
     "value": "Opnieuw verbinden aangevraagd",
     "_ai": true
@@ -7886,7 +8707,11 @@
     "value": "Radioparameters",
     "_ai": true
   },
-  "settings_radio_preset_label": null,
+  "settings_radio_preset_label": {
+    "value": "Voorinstelling",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radio_preset_custom": {
     "value": "Aangepast",
     "_ai": true
@@ -8367,9 +9192,21 @@
     "value": "Er worden geen repeaters gevolgd. Schakel volgen in vanaf het dashboard van een repeater.",
     "_ai": true
   },
-  "settings_radioapp_route_flood": null,
-  "settings_radioapp_route_routed": null,
-  "settings_radioapp_route_direct": null,
+  "settings_radioapp_route_flood": {
+    "value": "flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radioapp_route_routed": {
+    "value": "gerouteerd",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radioapp_route_direct": {
+    "value": "direct",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radioapp_remove_button": {
     "value": "Verwijderen",
     "_ai": true
@@ -8422,8 +9259,16 @@
     "value": "Sensoren Blokkeren",
     "_ai": true
   },
-  "settings_radioapp_type_clients": null,
-  "settings_radioapp_type_repeaters": null,
+  "settings_radioapp_type_clients": {
+    "value": "clients",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radioapp_type_repeaters": {
+    "value": "repeaters",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_radioapp_type_room_servers": {
     "value": "roomservers",
     "_ai": true
@@ -8492,16 +9337,40 @@
     "value": "Community delen",
     "_ai": true
   },
-  "settings_fanout_type_home_assistant": null,
-  "settings_fanout_type_webhook": null,
-  "settings_fanout_type_apprise": null,
-  "settings_fanout_type_amazon_sqs": null,
+  "settings_fanout_type_home_assistant": {
+    "value": "Home Assistant",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_type_webhook": {
+    "value": "Webhook",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_type_apprise": {
+    "value": "Apprise",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_type_amazon_sqs": {
+    "value": "Amazon SQS",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_type_map_upload": {
     "value": "Kaartupload",
     "_ai": true
   },
-  "settings_fanout_type_mqtt_ha_discovery": null,
-  "settings_fanout_type_community_mqtt_generic": null,
+  "settings_fanout_type_mqtt_ha_discovery": {
+    "value": "Home Assistant MQTT Discovery",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_type_community_mqtt_generic": {
+    "value": "Community MQTT/meshcoretomqtt",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_section_private_forwarding": {
     "value": "Privé-doorsturen",
     "_ai": true
@@ -8702,7 +9571,11 @@
     "value": "Contact-gps",
     "_ai": true
   },
-  "settings_fanout_type_prefix": null,
+  "settings_fanout_type_prefix": {
+    "value": "Type: {type}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_ha_intro": {
     "value": "Publiceer discovery-configuraties en MeshCore-status naar uw MQTT-broker zodat Home Assistant automatisch native apparaten, sensoren, gps-trackers en berichtgebeurtenissen aanmaakt.",
     "_ai": true
@@ -8755,7 +9628,11 @@
     "value": "- wordt elke 60s bijgewerkt",
     "_ai": true
   },
-  "settings_fanout_ha_entity_radio_online_offline": null,
+  "settings_fanout_ha_entity_radio_online_offline": {
+    "value": "- radio online/offline",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_ha_entity_radio_noise_floor": {
     "value": "- radio-ruisvloer (dBm)",
     "_ai": true
@@ -8768,8 +9645,16 @@
     "value": "- werkt bij tijdens de telemetrieverzamelcyclus (~8u) of handmatig ophalen via het dashboard. De getoonde entiteits-ID's gebruiken één repeater als voorbeeld; deze sensoren worden aangemaakt voor elke geselecteerde repeater.",
     "_ai": true
   },
-  "settings_fanout_ha_unit_volts": null,
-  "settings_fanout_ha_unit_dbm_db": null,
+  "settings_fanout_ha_unit_volts": {
+    "value": "(V)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_ha_unit_dbm_db": {
+    "value": "(dBm/dB)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_ha_unit_seconds": {
     "value": "(seconden)",
     "_ai": true
@@ -8910,14 +9795,30 @@
     "value": "Geavanceerde community-MQTT-editor. Gebruik dit voor handmatige meshcoretomqtt-compatibele configuraties of om een opgeslagen preset na het aanmaken te wijzigen. Alleen ruwe RF-pakketten worden gedeeld - nooit ontsleutelde berichten.",
     "_ai": true
   },
-  "settings_fanout_transport_label": null,
-  "settings_fanout_transport_websockets": null,
-  "settings_fanout_transport_tcp": null,
+  "settings_fanout_transport_label": {
+    "value": "Transport",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_transport_websockets": {
+    "value": "WebSockets",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_transport_tcp": {
+    "value": "TCP",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_authentication_label": {
     "value": "Authenticatie",
     "_ai": true
   },
-  "settings_fanout_auth_token": null,
+  "settings_fanout_auth_token": {
+    "value": "Token",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_auth_none": {
     "value": "Geen",
     "_ai": true
@@ -9062,7 +9963,11 @@
     "value": "Uw radio heeft momenteel geen breedte-/lengtegraad geconfigureerd. Geofencing wordt stilzwijgend overgeslagen totdat coördinaten zijn ingesteld in",
     "_ai": true
   },
-  "settings_fanout_map_settings_radio_location_path": null,
+  "settings_fanout_map_settings_radio_location_path": {
+    "value": "Instellingen → Radio → Locatie",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_map_using_radio_position": {
     "value": "Radiopositie gebruikt",
     "_ai": true
@@ -9311,7 +10216,11 @@
     "value": "Verstuur berichtgegevens als JSON naar een HTTP-eindpunt wanneer berichten worden ontvangen.",
     "_ai": true
   },
-  "settings_fanout_url_label": null,
+  "settings_fanout_url_label": {
+    "value": "URL",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_http_method_label": {
     "value": "HTTP-methode",
     "_ai": true
@@ -9324,7 +10233,11 @@
     "value": "Wanneer een geheim is ingesteld, bevat elk verzoek een HMAC-SHA256-handtekening van de JSON-body in de opgegeven header (bijv.",
     "_ai": true
   },
-  "settings_fanout_hmac_signing_desc_suffix": null,
+  "settings_fanout_hmac_signing_desc_suffix": {
+    "value": ").",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_hmac_secret_label": {
     "value": "HMAC-geheim",
     "_ai": true
@@ -9505,10 +10418,26 @@
     "value": "Bewerken",
     "_ai": true
   },
-  "settings_fanout_broker_label": null,
-  "settings_fanout_topic_label": null,
-  "settings_fanout_topics_label": null,
-  "settings_fanout_url_summary_label": null,
+  "settings_fanout_broker_label": {
+    "value": "Broker:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_topic_label": {
+    "value": "Topic:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_topics_label": {
+    "value": "Topics:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_fanout_url_summary_label": {
+    "value": "URL:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_fanout_not_set": {
     "value": "Niet ingesteld",
     "_ai": true
@@ -9563,7 +10492,11 @@
     "value": "Contacten",
     "_ai": true
   },
-  "settings_statistics_repeaters_label": null,
+  "settings_statistics_repeaters_label": {
+    "value": "Repeaters",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_statistics_channels_label": {
     "value": "Kanalen",
     "_ai": true
@@ -9596,7 +10529,11 @@
     "value": "24u",
     "_ai": true
   },
-  "settings_statistics_col_7d": null,
+  "settings_statistics_col_7d": {
+    "value": "7d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_statistics_contacts_heard_label": {
     "value": "Contacten gehoord",
     "_ai": true
@@ -9629,8 +10566,16 @@
     "value": "MQTT-brokers",
     "_ai": true
   },
-  "settings_statistics_mqtt_broker": null,
-  "settings_statistics_mqtt_status": null,
+  "settings_statistics_mqtt_broker": {
+    "value": "Broker",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_mqtt_status": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_statistics_mqtt_published": {
     "value": "Verzonden",
     "_ai": true
@@ -9671,9 +10616,21 @@
     "value": "Geparste opgeslagen ruwe pakketten van de afgelopen 24 uur: {count}",
     "_ai": true
   },
-  "settings_statistics_path_hash_1byte": null,
-  "settings_statistics_path_hash_2byte": null,
-  "settings_statistics_path_hash_3byte": null,
+  "settings_statistics_path_hash_1byte": {
+    "value": "1-byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_path_hash_2byte": {
+    "value": "2-byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_statistics_path_hash_3byte": {
+    "value": "3-byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_statistics_count_label": {
     "value": "Aantal",
     "_ai": true
@@ -9814,7 +10771,11 @@
     "value": "Typ hieronder een CLI-commando...",
     "_ai": true
   },
-  "repeater_console_title": null,
+  "repeater_console_title": {
+    "value": "Console",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_console_suggestions_aria": {
     "value": "Suggesties voor CLI-commando's",
     "_ai": true
@@ -9855,7 +10816,11 @@
     "value": "Debug-vlaggen",
     "_ai": true
   },
-  "repeater_direct_label": null,
+  "repeater_direct_label": {
+    "value": "Direct",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_disable_tracking_hint": {
     "value": "Schakel tracking op een andere repeater uit om een slot vrij te maken: {names}",
     "_ai": true
@@ -9910,13 +10875,25 @@
     "value": "Ophalen (poging {attempt}/{total})...",
     "_ai": true
   },
-  "repeater_firmware_label": null,
+  "repeater_firmware_label": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_flood_advert": {
     "value": "Flood-advertentie",
     "_ai": true
   },
-  "repeater_flood_direct_dups": null,
-  "repeater_flood_label": null,
+  "repeater_flood_direct_dups": {
+    "value": "{flood} flood / {direct} direct",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "repeater_flood_label": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_guest_password_label": {
     "value": "Gastwachtwoord",
     "_ai": true
@@ -9953,7 +10930,11 @@
     "value": "Laatste SNR",
     "_ai": true
   },
-  "repeater_lat_lon_label": null,
+  "repeater_lat_lon_label": {
+    "value": "Lat / Lon",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_load_all": {
     "value": "Alles laden",
     "_ai": true
@@ -10018,7 +10999,11 @@
     "value": "Live-opvraging gaf niets terug; laatst bekende buren uit opgeslagen geschiedenis worden getoond.",
     "_ai": true
   },
-  "repeater_neighbors_trend_header": null,
+  "repeater_neighbors_trend_header": {
+    "value": "Trend",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "neighbor_signal_history_title": {
     "value": "Signaalgeschiedenis: {name}",
     "_ai": true
@@ -10139,7 +11124,11 @@
     "value": "Rechten",
     "_ai": true
   },
-  "repeater_radio_label": null,
+  "repeater_radio_label": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_radio_settings_title": {
     "value": "Radio-instellingen",
     "_ai": true
@@ -10256,8 +11245,16 @@
     "value": "RX-fouten",
     "_ai": true
   },
-  "repeater_rx_tx_counts": null,
-  "repeater_samples_count": null,
+  "repeater_rx_tx_counts": {
+    "value": "{rx} rx / {tx} tx",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "repeater_samples_count": {
+    "value": "{count} metingen",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_series_error_rate": {
     "value": "Foutpercentage",
     "_ai": true
@@ -10298,7 +11295,11 @@
     "value": "Opgeslagen momentopnamen van de panelen, bewaard wanneer een opgehaald paneel afwijkt van de vorige. Gelezen van deze server; er wordt niets naar de room server verzonden.",
     "_ai": true
   },
-  "repeater_config_history_kind_acl": null,
+  "repeater_config_history_kind_acl": {
+    "value": "ACL",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_config_history_empty": {
     "value": "Nog geen momentopnamen opgeslagen. Er wordt er een bewaard telkens als een paneel hierboven wordt opgehaald en afwijkt van de vorige.",
     "_ai": true
@@ -10347,7 +11348,11 @@
     "value": "Bijwerken...",
     "_ai": true
   },
-  "repeater_uptime_label": null,
+  "repeater_uptime_label": {
+    "value": "Uptime",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_view_info_aria": {
     "value": "Info bekijken voor {name}",
     "_ai": true
@@ -10516,8 +11521,16 @@
     "value": "Routetype",
     "_ai": true
   },
-  "packet_csv_snr": null,
-  "packet_csv_rssi": null,
+  "packet_csv_snr": {
+    "value": "SNR (dB)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_csv_rssi": {
+    "value": "RSSI (dBm)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_csv_decrypted": {
     "value": "Ontsleuteld",
     "_ai": true
@@ -10550,7 +11563,11 @@
     "value": "(alleen)",
     "_ai": true
   },
-  "packet_filters_button": null,
+  "packet_filters_button": {
+    "value": "Filters",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_filters_active_count": {
     "value": "{count} actief",
     "_ai": true
@@ -10703,8 +11720,16 @@
     "value": "Geluidsthema",
     "_ai": true
   },
-  "packet_sound_theme_geiger": null,
-  "packet_sound_theme_sonar": null,
+  "packet_sound_theme_geiger": {
+    "value": "Geiger",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_sound_theme_sonar": {
+    "value": "Sonar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_sound_theme_waterdrip": {
     "value": "Waterdruppel",
     "_ai": true
@@ -10729,10 +11754,26 @@
     "value": "Statistiekenvenster",
     "_ai": true
   },
-  "packet_window_1m": null,
-  "packet_window_5m": null,
-  "packet_window_10m": null,
-  "packet_window_30m": null,
+  "packet_window_1m": {
+    "value": "1 min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_window_5m": {
+    "value": "5 min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_window_10m": {
+    "value": "10 min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_window_30m": {
+    "value": "30 min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_window_session": {
     "value": "Sessie",
     "_ai": true
@@ -10812,9 +11853,21 @@
     },
     "_ai": true
   },
-  "packet_duration_seconds": null,
-  "packet_duration_minutes": null,
-  "packet_duration_minutes_seconds": null,
+  "packet_duration_seconds": {
+    "value": "{count} sec",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_duration_minutes": {
+    "value": "{minutes}m",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_duration_minutes_seconds": {
+    "value": "{minutes}m {seconds}s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_duration_hours": {
     "value": "{hours}u",
     "_ai": true
@@ -10926,19 +11979,45 @@
     "value": "Geen signaalmeting",
     "_ai": true
   },
-  "packet_byte_single": null,
-  "packet_byte_range": null,
+  "packet_byte_single": {
+    "value": "Byte {n}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_byte_range": {
+    "value": "Bytes {start}-{end}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_no_path_hops": {
     "value": "Geen padhops",
     "_ai": true
   },
-  "packet_hop_count": null,
-  "packet_hash_size": null,
+  "packet_hop_count": {
+    "plural": {
+      "one": "{count} hop",
+      "other": "{count} hops"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "packet_hash_size": {
+    "plural": {
+      "one": "{count}-byte hash",
+      "other": "{count}-byte hashes"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_context_title_channel": {
     "value": "Kanaal",
     "_ai": true
   },
-  "packet_context_title_context": null,
+  "packet_context_title_context": {
+    "value": "Context",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_sender_metadata_available": {
     "value": "Afzendermetadata beschikbaar",
     "_ai": true
@@ -10959,7 +12038,11 @@
     "value": "Bereik",
     "_ai": true
   },
-  "packet_bytes_status": null,
+  "packet_bytes_status": {
+    "value": "{count} bytes · {status}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_status_encrypted": {
     "value": "Versleuteld",
     "_ai": true
@@ -11040,7 +12123,11 @@
     "value": "Kon de analyzer niet bevragen: {error}",
     "_ai": true
   },
-  "packet_who_heard_col_observer": null,
+  "packet_who_heard_col_observer": {
+    "value": "Observer",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_who_heard_col_region": {
     "value": "Regio",
     "_ai": true
@@ -11073,7 +12160,11 @@
     "value": "Gedecodeerde waarde",
     "_ai": true
   },
-  "packet_bits_label": null,
+  "packet_bits_label": {
+    "value": "Bits {bits}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "packet_hex_input_label": {
     "value": "Pakket-hex",
     "_ai": true
@@ -11114,18 +12205,50 @@
     "value": "Legenda recentheid markers",
     "_ai": true
   },
-  "map_lt_1h": null,
-  "map_lt_1d": null,
-  "map_lt_3d": null,
+  "map_lt_1h": {
+    "value": "<1u",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_lt_1d": {
+    "value": "<1d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_lt_3d": {
+    "value": "<3d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_recency_older": {
     "value": "ouder",
     "_ai": true
   },
-  "map_packet_legend_ad": null,
-  "map_packet_legend_ch": null,
-  "map_packet_legend_dm": null,
-  "map_packet_legend_ack": null,
-  "map_repeater_legend": null,
+  "map_packet_legend_ad": {
+    "value": "Ad",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_packet_legend_ch": {
+    "value": "Kan",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_packet_legend_dm": {
+    "value": "DM",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_packet_legend_ack": {
+    "value": "ACK",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_repeater_legend": {
+    "value": "repeater",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_since_group_aria": {
     "value": "Toon nodes gehoord sinds",
     "_ai": true
@@ -11134,7 +12257,11 @@
     "value": "Sinds",
     "_ai": true
   },
-  "map_preset_7d": null,
+  "map_preset_7d": {
+    "value": "7d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_preset_all": {
     "value": "Alle",
     "_ai": true
@@ -11179,13 +12306,25 @@
     "value": "Afspeelsnelheid",
     "_ai": true
   },
-  "map_playback_speed": null,
-  "map_playback_live": null,
+  "map_playback_speed": {
+    "value": "{rate}x",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_playback_live": {
+    "value": "Live",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_playback_lookback_label": {
     "value": "Terugkijkvenster",
     "_ai": true
   },
-  "map_lookback_15m": null,
+  "map_lookback_15m": {
+    "value": "15m",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_lookback_1h": {
     "value": "1u",
     "_ai": true
@@ -11210,7 +12349,11 @@
     "value": "Afvlakken",
     "_ai": true
   },
-  "map_packets_buffer_value": null,
+  "map_packets_buffer_value": {
+    "value": "{seconds}s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_legend_snr": {
     "value": "Signaal (SNR)",
     "_ai": true
@@ -11239,7 +12382,11 @@
     "value": "Geigergeluid",
     "_ai": true
   },
-  "map_packets_volume_label": null,
+  "map_packets_volume_label": {
+    "value": "Volume",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_discover_nodes_label": {
     "value": "Nodes ontdekken",
     "_ai": true
@@ -11256,7 +12403,11 @@
     "value": "Verbergt nodes op (0, 0) of meer dan 300 km van de dichtstbijzijnde node die ze via RF hoorde.",
     "_ai": true
   },
-  "map_external_node": null,
+  "map_external_node": {
+    "value": "Node",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_external_node_source": {
     "value": "{role} · via analyzer",
     "_ai": true
@@ -11358,9 +12509,24 @@
     "value": "Directe buur",
     "_ai": true
   },
-  "map_popup_route_hops": null,
-  "map_popup_distance": null,
-  "map_popup_dir_n": null,
+  "map_popup_route_hops": {
+    "plural": {
+      "one": "{count} hop",
+      "other": "{count} hops"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_distance": {
+    "value": "{distance} {direction}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_n": {
+    "value": "N",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_dir_ne": {
     "value": "NO",
     "_ai": true
@@ -11381,8 +12547,16 @@
     "value": "ZW",
     "_ai": true
   },
-  "map_popup_dir_w": null,
-  "map_popup_dir_nw": null,
+  "map_popup_dir_w": {
+    "value": "W",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_popup_dir_nw": {
+    "value": "NW",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_location_reported": {
     "value": "Gemelde locatie",
     "_ai": true
@@ -11395,7 +12569,11 @@
     "value": "Batterij",
     "_ai": true
   },
-  "map_popup_battery_value": null,
+  "map_popup_battery_value": {
+    "value": "{pct}% · {volts} V",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_no_battery": {
     "value": "geen batterijgegevens",
     "_ai": true
@@ -11404,12 +12582,20 @@
     "value": "Temperatuur",
     "_ai": true
   },
-  "map_popup_temperature_value": null,
+  "map_popup_temperature_value": {
+    "value": "{value} °C",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_chip_temperature": {
     "value": "Chiptemp.",
     "_ai": true
   },
-  "map_popup_source_snmp": null,
+  "map_popup_source_snmp": {
+    "value": "SNMP",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_source_snmp_title": {
     "value": "Uitgelezen via SNMP op het LAN",
     "_ai": true
@@ -11430,7 +12616,14 @@
     "value": "Verbindingen op kaart",
     "_ai": true
   },
-  "map_popup_links_value": null,
+  "map_popup_links_value": {
+    "plural": {
+      "one": "{count} node",
+      "other": "{count} nodes"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_adverts": {
     "value": "Adverts gehoord",
     "_ai": true
@@ -11455,7 +12648,11 @@
     "value": "Laatst bezocht",
     "_ai": true
   },
-  "map_popup_route": null,
+  "map_popup_route": {
+    "value": "Route",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_popup_route_source_override": {
     "value": "Door jou ingesteld",
     "_ai": true
@@ -11628,7 +12825,11 @@
     "value": "Meshband",
     "_ai": true
   },
-  "map_antennas_band_mhz": null,
+  "map_antennas_band_mhz": {
+    "value": "{mhz} MHz",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_antennas_help_433": {
     "value": "Zenders uit het Nederlandse Antenneregister rond 433 MHz: PAMR en basisstations op 400-470 MHz (oranje, met frequentie en vermogen) en zendamateurs (paarse ring). Het register vermeldt bij zendamateurs geen band of vermogen; 70 cm (430-440 MHz) ligt direct naast 433 MHz, maar een station kan ook alleen andere banden gebruiken. Alleen Nederland; synchroniseer de gegevens via Instellingen > Kaart.",
     "_ai": true
@@ -11649,7 +12850,11 @@
     "value": "Rand bij",
     "_ai": true
   },
-  "map_antennas_level_dbm": null,
+  "map_antennas_level_dbm": {
+    "value": "{level} dBm",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_antennas_patterns_help": {
     "value": "Waar het signaal van elke antenne in vrije ruimte tot het gekozen niveau zakt. Gerichte antennes krijgen een wig van 65° (aangenomen: het register kent geen bundelbreedte), rondstralende een cirkel. Gebouwen, terrein en downtilt maken het echte bereik korter. In 3D liggen de patronen op antennehoogte.",
     "_ai": true
@@ -11816,7 +13021,11 @@
     "value": "Topografisch (OpenTopoMap)",
     "_ai": true
   },
-  "map_tile_layer_natgeo": null,
+  "map_tile_layer_natgeo": {
+    "value": "NatGeo (Esri)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_tile_layer_satellite": {
     "value": "Satelliet (Esri)",
     "_ai": true
@@ -11837,8 +13046,16 @@
     "value": "Zoeken",
     "_ai": true
   },
-  "map_2d": null,
-  "map_3d": null,
+  "map_2d": {
+    "value": "2D",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_3d": {
+    "value": "3D",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_tilt_label": {
     "value": "Kanteling (3D)",
     "_ai": true
@@ -11895,7 +13112,11 @@
     "value": "Lijndikte verbindingen",
     "_ai": true
   },
-  "map_labels_label": null,
+  "map_labels_label": {
+    "value": "Labels",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_labels_off": {
     "value": "Uit",
     "_ai": true
@@ -11936,8 +13157,16 @@
     "value": "Weergave",
     "_ai": true
   },
-  "map_group_filters": null,
-  "map_group_overlays": null,
+  "map_group_filters": {
+    "value": "Filters",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_group_overlays": {
+    "value": "Overlays",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_group_style": {
     "value": "Grootte & kleuren",
     "_ai": true
@@ -11946,16 +13175,40 @@
     "value": "Spoor vervagen na",
     "_ai": true
   },
-  "map_arc_fade_value_s": null,
-  "map_arc_fade_value_min": null,
+  "map_arc_fade_value_s": {
+    "value": "{seconds}s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_arc_fade_value_min": {
+    "value": "{minutes} min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_layer_nova": {
     "value": "Nova (donker)",
     "_ai": true
   },
-  "map_layer_ofm_positron": null,
-  "map_layer_ofm_liberty": null,
-  "map_layer_ofm_dark": null,
-  "map_layer_ofm_fiord": null,
+  "map_layer_ofm_positron": {
+    "value": "OpenFreeMap Positron",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_layer_ofm_liberty": {
+    "value": "OpenFreeMap Liberty",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_layer_ofm_dark": {
+    "value": "OpenFreeMap Dark",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_layer_ofm_fiord": {
+    "value": "OpenFreeMap Fiord",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_links_label": {
     "value": "Verbindingen",
     "_ai": true
@@ -11984,7 +13237,11 @@
     "value": "1b+ (laag)",
     "_ai": true
   },
-  "map_links_confidence_medium": null,
+  "map_links_confidence_medium": {
+    "value": "2b+",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_links_confidence_high": {
     "value": "3b (hoog)",
     "_ai": true
@@ -12029,9 +13286,21 @@
     "value": "Laatst gezien {time}",
     "_ai": true
   },
-  "map_link_popup_distance": null,
-  "map_link_popup_details": null,
-  "link_detail_title": null,
+  "map_link_popup_distance": {
+    "value": "{km} km",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_link_popup_details": {
+    "value": "Details",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "link_detail_title": {
+    "value": "Link {a} ↔ {b}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "link_detail_back": {
     "value": "Terug",
     "_ai": true
@@ -12120,15 +13389,35 @@
     "value": "Tijd",
     "_ai": true
   },
-  "link_detail_col_type": null,
-  "link_detail_col_route": null,
-  "link_detail_col_hop": null,
+  "link_detail_col_type": {
+    "value": "Type",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "link_detail_col_route": {
+    "value": "Route",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "link_detail_col_hop": {
+    "value": "Hop",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "link_detail_col_confidence": {
     "value": "Resolutie",
     "_ai": true
   },
-  "link_detail_col_snr": null,
-  "link_detail_col_rssi": null,
+  "link_detail_col_snr": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "link_detail_col_rssi": {
+    "value": "RSSI",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_fullscreen_enter": {
     "value": "Volledig scherm",
     "_ai": true
@@ -12145,10 +13434,26 @@
     "value": "handmatige locatie",
     "_ai": true
   },
-  "map_type_client": null,
-  "map_type_repeater": null,
-  "map_type_room": null,
-  "map_type_sensor": null,
+  "map_type_client": {
+    "value": "Client",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_type_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_type_room": {
+    "value": "Room",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "map_type_sensor": {
+    "value": "Sensor",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "map_legend_node_types": {
     "value": "Knooptypen",
     "_ai": true
@@ -12213,7 +13518,11 @@
     "value": "Pakketten",
     "_ai": true
   },
-  "visualizer_controls_nodes_heading": null,
+  "visualizer_controls_nodes_heading": {
+    "value": "Nodes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_controls_toggle_title": {
     "value": "Zichtbaarheid van legenda's en bediening in-/uitschakelen",
     "_ai": true
@@ -12282,7 +13591,11 @@
     "value": "Ack/echo luistervenster:",
     "_ai": true
   },
-  "visualizer_controls_seconds_unit": null,
+  "visualizer_controls_seconds_unit": {
+    "value": "sec",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_controls_prune_stale_title": {
     "value": "Verwijder automatisch nodes zonder verkeer binnen het ingestelde venster om het mesh overzichtelijk te houden",
     "_ai": true
@@ -12295,7 +13608,11 @@
     "value": "Venster:",
     "_ai": true
   },
-  "visualizer_controls_minutes_unit": null,
+  "visualizer_controls_minutes_unit": {
+    "value": "min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_controls_let_drift_title": {
     "value": "Indien ingeschakeld, herorganiseert de graaf zichzelf continu tot een betere lay-out",
     "_ai": true
@@ -12344,8 +13661,16 @@
     "value": "Wissen & resetten",
     "_ai": true
   },
-  "visualizer_controls_nodes_stat": null,
-  "visualizer_controls_links_stat": null,
+  "visualizer_controls_nodes_stat": {
+    "value": "Nodes: {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "visualizer_controls_links_stat": {
+    "value": "Links: {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_legend_packet_advertisement": {
     "value": "Advertentie",
     "_ai": true
@@ -12374,7 +13699,11 @@
     "value": "Overig",
     "_ai": true
   },
-  "visualizer_legend_node_node": null,
+  "visualizer_legend_node_node": {
+    "value": "Node",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_legend_node_ambiguous": {
     "value": "Dubbelzinnig",
     "_ai": true
@@ -12383,8 +13712,16 @@
     "value": "Ik",
     "_ai": true
   },
-  "visualizer_tooltip_id": null,
-  "visualizer_tooltip_type": null,
+  "visualizer_tooltip_id": {
+    "value": "ID: {id}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "visualizer_tooltip_type": {
+    "value": "Type: {type}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_tooltip_type_ambiguous": {
     "value": "Type: {type} (dubbelzinnig)",
     "_ai": true
@@ -12417,12 +13754,20 @@
     "value": "(verborgen)",
     "_ai": true
   },
-  "visualizer_tooltip_paren_names": null,
+  "visualizer_tooltip_paren_names": {
+    "value": "({names})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "visualizer_3d_aria_label": {
     "value": "3D-meshnetwerkvisualisatie met radio-nodes als gekleurde bollen en pakketoverdrachten als geanimeerde bogen daartussen",
     "_ai": true
   },
-  "settings_section_radio": null,
+  "settings_section_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_section_local": {
     "value": "Lokale configuratie",
     "_ai": true
@@ -12431,12 +13776,20 @@
     "value": "Radio-app-beheer",
     "_ai": true
   },
-  "settings_section_database": null,
+  "settings_section_database": {
+    "value": "Database",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_section_fanout": {
     "value": "MQTT en automatisering",
     "_ai": true
   },
-  "settings_section_openhop": null,
+  "settings_section_openhop": {
+    "value": "OpenHop",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_tab_policy": {
     "value": "Beleid",
     "_ai": true
@@ -12449,7 +13802,11 @@
     "value": "Plug-ins",
     "_ai": true
   },
-  "openhop_tab_config": null,
+  "openhop_tab_config": {
+    "value": "Configuratie",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_config_configure_first": {
     "value": "Configureer OpenHop-beheer (URL en token) om de configuratietools te gebruiken.",
     "_ai": true
@@ -12466,7 +13823,11 @@
     "value": "Doorsturen",
     "_ai": true
   },
-  "openhop_config_mode_monitor": null,
+  "openhop_config_mode_monitor": {
+    "value": "Monitor",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_config_mode_no_tx": {
     "value": "Geen TX",
     "_ai": true
@@ -12663,7 +14024,11 @@
     "value": "Bijwerken",
     "_ai": true
   },
-  "openhop_plugin_logs": null,
+  "openhop_plugin_logs": {
+    "value": "Logs",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_plugin_settings": {
     "value": "Instellingen",
     "_ai": true
@@ -12744,7 +14109,11 @@
     "value": "Categorie",
     "_ai": true
   },
-  "openhop_catalogue_repo": null,
+  "openhop_catalogue_repo": {
+    "value": "Repository",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_catalogue_refresh": {
     "value": "Catalogus vernieuwen",
     "_ai": true
@@ -12765,7 +14134,11 @@
     "value": "Stream beëindigd.",
     "_ai": true
   },
-  "openhop_tab_update": null,
+  "openhop_tab_update": {
+    "value": "Update",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_update_installed": {
     "value": "Geïnstalleerd",
     "_ai": true
@@ -12802,7 +14175,11 @@
     "value": "Installatie bevestigen",
     "_ai": true
   },
-  "openhop_tab_cad": null,
+  "openhop_tab_cad": {
+    "value": "CAD",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_cad_hw_note": {
     "value": "Zinvolle CAD-detectiestatistieken vereisen echte LoRa RF-hardware.",
     "_ai": true
@@ -12815,7 +14192,11 @@
     "value": "Piek",
     "_ai": true
   },
-  "openhop_cad_min": null,
+  "openhop_cad_min": {
+    "value": "Min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_cad_symbols": {
     "value": "Symbolen",
     "_ai": true
@@ -12864,7 +14245,11 @@
     "value": "Systeem",
     "_ai": true
   },
-  "openhop_sys_cpu": null,
+  "openhop_sys_cpu": {
+    "value": "CPU",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_sys_memory": {
     "value": "Geheugen",
     "_ai": true
@@ -12877,7 +14262,11 @@
     "value": "vrij",
     "_ai": true
   },
-  "openhop_sys_uptime": null,
+  "openhop_sys_uptime": {
+    "value": "Uptime",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_sys_analytics": {
     "value": "Analyse",
     "_ai": true
@@ -12886,7 +14275,11 @@
     "value": "Hardwarestatistieken niet beschikbaar op de node.",
     "_ai": true
   },
-  "openhop_tab_transport": null,
+  "openhop_tab_transport": {
+    "value": "Transport",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_tk_title": {
     "value": "Transportsleutels",
     "_ai": true
@@ -12919,7 +14312,11 @@
     "value": "Scopes opvragen",
     "_ai": true
   },
-  "openhop_tab_mqtt": null,
+  "openhop_tab_mqtt": {
+    "value": "MQTT",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_mqtt_status": {
     "value": "MQTT-status",
     "_ai": true
@@ -12964,8 +14361,16 @@
     "value": "Publiceren start een ontdek- en publiceercyclus die minuten duurt.",
     "_ai": true
   },
-  "openhop_group_node": null,
-  "openhop_group_mesh": null,
+  "openhop_group_node": {
+    "value": "Node",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "openhop_group_mesh": {
+    "value": "Mesh",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_policy_heading": {
     "value": "Beleidsengine",
     "_ai": true
@@ -13090,7 +14495,11 @@
     "value": "Veld",
     "_ai": true
   },
-  "openhop_rule_op": null,
+  "openhop_rule_op": {
+    "value": "Operator",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "openhop_rule_value": {
     "value": "Waarde",
     "_ai": true
@@ -13247,7 +14656,11 @@
     "value": "Lengtegraad",
     "_ai": true
   },
-  "settings_map_zoom_label": null,
+  "settings_map_zoom_label": {
+    "value": "Zoom",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_map_home_save": {
     "value": "Thuislocatie opslaan",
     "_ai": true
@@ -13536,7 +14949,11 @@
     "value": "Instellen",
     "_ai": true
   },
-  "settings_handy_tab_links": null,
+  "settings_handy_tab_links": {
+    "value": "Links",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_links_desc": {
     "value": "Referentiesites, monitoring, tools en meer. Open of kopieer een link.",
     "_ai": true
@@ -13589,8 +15006,16 @@
     "value": "Community-sites",
     "_ai": true
   },
-  "settings_handy_cat_monitoring": null,
-  "settings_handy_cat_tools": null,
+  "settings_handy_cat_monitoring": {
+    "value": "Monitoring & data",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_handy_cat_tools": {
+    "value": "Tools",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_cat_technical": {
     "value": "Technisch",
     "_ai": true
@@ -13607,7 +15032,11 @@
     "value": "Item bewerken",
     "_ai": true
   },
-  "settings_handy_field_type": null,
+  "settings_handy_field_type": {
+    "value": "Type",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_type_analyzer": {
     "value": "Analyzer-preset",
     "_ai": true
@@ -13620,8 +15049,16 @@
     "value": "Kanaalregister-bron",
     "_ai": true
   },
-  "settings_handy_field_label": null,
-  "settings_handy_field_url": null,
+  "settings_handy_field_label": {
+    "value": "Label",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_handy_field_url": {
+    "value": "URL",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_handy_field_category": {
     "value": "Categorie",
     "_ai": true
@@ -13925,7 +15362,11 @@
     "value": " - Lengte {length}",
     "_ai": true
   },
-  "cracker_eta_label": null,
+  "cracker_eta_label": {
+    "value": "Resterend:",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "cracker_progress_aria": {
     "value": "Voortgang kanalen zoeken",
     "_ai": true
@@ -14029,7 +15470,11 @@
     },
     "_ai": true
   },
-  "trace_badge_hop": null,
+  "trace_badge_hop": {
+    "value": "Hop",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_badge_self": {
     "value": "Zelf",
     "_ai": true
@@ -14098,8 +15543,16 @@
     "value": "{n} hex-tekens",
     "_ai": true
   },
-  "trace_hop_hex_subtitle": null,
-  "trace_hop_width_button": null,
+  "trace_hop_hex_subtitle": {
+    "value": "{hex} ({bytes}-byte)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "trace_hop_width_button": {
+    "value": "{n}-byte",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_hop_width_label": {
     "value": "Hopbreedte",
     "_ai": true
@@ -14187,7 +15640,11 @@
     "value": "Repeaterprefix",
     "_ai": true
   },
-  "trace_results_duration_suffix": null,
+  "trace_results_duration_suffix": {
+    "value": " ({seconds}s)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_results_heading": {
     "value": "Resultaten",
     "_ai": true
@@ -14212,12 +15669,20 @@
     "value": "De eerste {shown} van {total} repeaters worden weergegeven. Zoek om de lijst te versmallen.",
     "_ai": true
   },
-  "trace_snr_label": null,
+  "trace_snr_label": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_sort_alpha_desc": {
     "value": "Alfabetisch sorteren",
     "_ai": true
   },
-  "trace_sort_alpha_label": null,
+  "trace_sort_alpha_label": {
+    "value": "A/Z",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "trace_sort_distance_desc": {
     "value": "Dichtstbijzijnde eerst",
     "_ai": true
@@ -14294,7 +15759,11 @@
     "value": "experimenteel",
     "_ai": true
   },
-  "channel_registry_source_finder_lc": null,
+  "channel_registry_source_finder_lc": {
+    "value": "finder",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_source_manual_lc": {
     "value": "handmatig",
     "_ai": true
@@ -14307,7 +15776,11 @@
     "value": "vermelding",
     "_ai": true
   },
-  "channel_registry_source_radio_lc": null,
+  "channel_registry_source_radio_lc": {
+    "value": "radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_status_active": {
     "value": "Actief",
     "_ai": true
@@ -14324,8 +15797,16 @@
     "value": "Experimenteel",
     "_ai": true
   },
-  "channel_registry_source_finder": null,
-  "channel_registry_source_radio": null,
+  "channel_registry_source_finder": {
+    "value": "Finder",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_registry_source_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_source_imported": {
     "value": "Geïmporteerd",
     "_ai": true
@@ -14382,17 +15863,29 @@
     "value": "Taal",
     "_ai": true
   },
-  "channel_registry_language_placeholder": null,
+  "channel_registry_language_placeholder": {
+    "value": "NL, EN",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_comma_separated": {
     "value": "Komma-gescheiden",
     "_ai": true
   },
-  "channel_registry_status_label": null,
+  "channel_registry_status_label": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_source_label": {
     "value": "Bron",
     "_ai": true
   },
-  "channel_registry_scopes": null,
+  "channel_registry_scopes": {
+    "value": "Scopes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_scopes_placeholder": {
     "value": "bijv. nl, nl-nh, nl-nh-dhr",
     "_ai": true
@@ -14465,7 +15958,11 @@
     "value": "Gedetecteerd",
     "_ai": true
   },
-  "channel_registry_geo_vr_label": null,
+  "channel_registry_geo_vr_label": {
+    "value": "VR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_registry_auto_fill": {
     "value": "Automatisch invullen",
     "_ai": true
@@ -15022,7 +16519,11 @@
     "value": "Laden…",
     "_ai": true
   },
-  "community_short_id": null,
+  "community_short_id": {
+    "value": "ID {id}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "community_channels_heading": {
     "plural": {
       "one": "{count} kanaal",
@@ -15034,13 +16535,25 @@
     "value": "Nog geen kanalen van deze community.",
     "_ai": true
   },
-  "community_kind_public": null,
-  "community_kind_hashtag": null,
+  "community_kind_public": {
+    "value": "Openbaar",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "community_kind_hashtag": {
+    "value": "Hashtag",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "community_add_hashtag_heading": {
     "value": "Hashtagkanaal toevoegen",
     "_ai": true
   },
-  "community_hashtag_placeholder": null,
+  "community_hashtag_placeholder": {
+    "value": "#tag",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "community_hashtag_aria": {
     "value": "Community-hashtag",
     "_ai": true
@@ -15211,7 +16724,11 @@
     "value": "Alle routes waarover dit bericht binnenkwam, samen op een kaart. Elke route heeft een eigen kleur.",
     "_ai": true
   },
-  "path_map_route_legend": null,
+  "path_map_route_legend": {
+    "value": "Route {n} ({hops} hops)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "path_modal_resend_button": {
     "value": "Opnieuw verzenden",
     "_ai": true
@@ -15240,7 +16757,11 @@
     "value": "Vermoedelijke ondubbelzinnige afgelegde afstand:",
     "_ai": true
   },
-  "path_modal_hop_label": null,
+  "path_modal_hop_label": {
+    "value": "Hop {n}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "path_modal_ambiguous_suffix": {
     "value": "ambigu",
     "_ai": true
@@ -15276,14 +16797,30 @@
     "value": "Sommige nodes in deze route hebben geen gps en worden niet weergegeven",
     "_ai": true
   },
-  "path_discovery_hop_width_1byte": null,
-  "path_discovery_hop_width_2byte": null,
-  "path_discovery_hop_width_3byte": null,
+  "path_discovery_hop_width_1byte": {
+    "value": "1-byte hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "path_discovery_hop_width_2byte": {
+    "value": "2-byte hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "path_discovery_hop_width_3byte": {
+    "value": "3-byte hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "path_discovery_hop_width_unknown": {
     "value": "Onbekende hopbreedte",
     "_ai": true
   },
-  "path_discovery_raw_label": null,
+  "path_discovery_raw_label": {
+    "value": "Ruw: {path}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "path_discovery_description": {
     "value": "Stuur een gerouteerde probe naar dit contact en wacht op het heen-en-terug padantwoord. De geleerde route wordt teruggeschreven naar het contact als er een antwoord komt.",
     "_ai": true
@@ -15439,7 +16976,11 @@
     "value": "Huidige instelling:",
     "_ai": true
   },
-  "region_override_placeholder_example": null,
+  "region_override_placeholder_example": {
+    "value": "Esperance",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "region_override_scope_to_region_button": {
     "value": "Scope {room} naar {region}",
     "_ai": true
@@ -15576,7 +17117,11 @@
     "value": "Tonen",
     "_ai": true
   },
-  "bulkdelete_type_clients": null,
+  "bulkdelete_type_clients": {
+    "value": "Clients",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bulkdelete_type_sensors": {
     "value": "Sensoren",
     "_ai": true
@@ -15643,7 +17188,14 @@
     },
     "_ai": true
   },
-  "bulkdelete_summary_repeaters": null,
+  "bulkdelete_summary_repeaters": {
+    "plural": {
+      "one": "{count} repeater",
+      "other": "{count} repeaters"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "bulkdelete_summary_rooms": {
     "plural": {
       "one": "{count} kamer",
@@ -15729,7 +17281,11 @@
     "value": "Kanaal",
     "_ai": true
   },
-  "bulkdelete_col_type": null,
+  "bulkdelete_col_type": {
+    "value": "Type",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_registry_heading": {
     "value": "Kanaalregister",
     "_ai": true
@@ -16024,8 +17580,16 @@
     "value": "Herstellen",
     "_ai": true
   },
-  "settings_db_restore_size_mb": null,
-  "settings_db_restore_file_meta": null,
+  "settings_db_restore_size_mb": {
+    "value": "{size} MB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_db_restore_file_meta": {
+    "value": "{kind} · {size} · {time}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_restore_kind_auto": {
     "value": "automatisch",
     "_ai": true
@@ -16034,7 +17598,11 @@
     "value": "handmatig",
     "_ai": true
   },
-  "settings_db_restore_kind_pre_restore": null,
+  "settings_db_restore_kind_pre_restore": {
+    "value": "vóór herstel",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_db_restore_kind_other": {
     "value": "overig",
     "_ai": true
@@ -16090,8 +17658,16 @@
     "value": "ruis {value} dBm",
     "_ai": true
   },
-  "settings_radioapp_rx_count": null,
-  "settings_radioapp_tx_count": null,
+  "settings_radioapp_rx_count": {
+    "value": "rx {value}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_radioapp_tx_count": {
+    "value": "tx {value}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_editor_title": {
     "value": "Instellingen bewerken",
     "_ai": true
@@ -16128,12 +17704,20 @@
     "value": "Identiteit",
     "_ai": true
   },
-  "repeater_settings_group_radio": null,
+  "repeater_settings_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_group_routing": {
     "value": "Routering",
     "_ai": true
   },
-  "repeater_settings_group_adverts": null,
+  "repeater_settings_group_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_group_observer": {
     "value": "Observer-firmware",
     "_ai": true
@@ -16174,8 +17758,16 @@
     "value": "Gastwachtwoord",
     "_ai": true
   },
-  "repeater_settings_radio": null,
-  "repeater_settings_radio_display": null,
+  "repeater_settings_radio": {
+    "value": "Radio (freq, BW, SF, CR)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "repeater_settings_radio_display": {
+    "value": "{freq} MHz, BW {bw} kHz, SF{sf}, CR{cr}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_tx": {
     "value": "Zendvermogen (dBm)",
     "_ai": true
@@ -16372,7 +17964,11 @@
     "value": "Bandbreedte (kHz)",
     "_ai": true
   },
-  "repeater_settings_radio_sf": null,
+  "repeater_settings_radio_sf": {
+    "value": "Spreading factor",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "repeater_settings_radio_cr": {
     "value": "Coderingsratio",
     "_ai": true
@@ -16517,7 +18113,11 @@
     "value": "Als de radio de verbinding verliest terwijl gewapend, automatisch opnieuw wapenen zodra hij weer verbindt en alle controles slagen. Uit: ontwapend blijven tot je opnieuw wapent.",
     "_ai": true
   },
-  "settings_host_repeater_timing_heading": null,
+  "settings_host_repeater_timing_heading": {
+    "value": "Timing",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_tx_delay_factor": {
     "value": "Flood-vertragingsfactor (txdelay)",
     "_ai": true
@@ -16582,9 +18182,21 @@
     "value": "Repeaterregels",
     "_ai": true
   },
-  "settings_host_repeater_flood_max": null,
-  "settings_host_repeater_flood_max_unscoped": null,
-  "settings_host_repeater_flood_max_advert": null,
+  "settings_host_repeater_flood_max": {
+    "value": "flood.max",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_host_repeater_flood_max_unscoped": {
+    "value": "flood.max.unscoped",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_host_repeater_flood_max_advert": {
+    "value": "flood.max.advert",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_loop_detect": {
     "value": "Lusdetectie",
     "_ai": true
@@ -16657,7 +18269,11 @@
     "value": "Ouder",
     "_ai": true
   },
-  "settings_host_repeater_region_col_flood": null,
+  "settings_host_repeater_region_col_flood": {
+    "value": "Flood",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_region_parent_root": {
     "value": "* (bovenste niveau)",
     "_ai": true
@@ -16810,7 +18426,11 @@
     "value": "Controleert tijdstempel (binnen 7 dagen), lege tekst en UTF-8.",
     "_ai": true
   },
-  "settings_host_repeater_col_type": null,
+  "settings_host_repeater_col_type": {
+    "value": "Type",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_col_hops_max": {
     "value": "Max. hops",
     "_ai": true
@@ -16847,8 +18467,16 @@
     "value": "Geblokkeerde kanalen",
     "_ai": true
   },
-  "settings_host_repeater_channel_hash_placeholder": null,
-  "settings_host_repeater_channel_label_placeholder": null,
+  "settings_host_repeater_channel_hash_placeholder": {
+    "value": "Hash (hex)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "settings_host_repeater_channel_label_placeholder": {
+    "value": "Label",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_channel_add": {
     "value": "Blokkeren",
     "_ai": true
@@ -17441,8 +19069,16 @@
     "value": "Hostrepeater gewapend: RTFM-EV stuurt pakketten door over de ether",
     "_ai": true
   },
-  "settings_host_repeater_col_hops": null,
-  "channel_sets_heading": null,
+  "settings_host_repeater_col_hops": {
+    "value": "Hops",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "channel_sets_heading": {
+    "value": "Loadouts",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "channel_sets_desc": {
     "value": "Bewaar een groep kanalen en contacten en laad ze met één klik op de radio, bijvoorbeeld voordat je de radio buiten bereik van de server meeneemt. Laden voegt alleen toe: kanalen en contacten die al op de radio staan blijven staan en er wordt niets verwijderd. Geladen contacten blijven op de radio tot de volgende herverbinding. RTFM-EV maakt de kanaalslots van de radio weer leeg bij de volgende herverbinding of volledige synchronisatie, dus laad de loadout vlak voordat je de verbinding verbreekt. Er wordt niets uitgezonden.",
     "_ai": true
@@ -17587,7 +19223,11 @@
     "value": "Laden zet de kanalen en contacten van de loadout op de radio, zodat hij zonder de server blijft werken. Er wordt niets uitgezonden.",
     "_ai": true
   },
-  "loadout_disconnect_select_label": null,
+  "loadout_disconnect_select_label": {
+    "value": "Loadout",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "loadout_disconnect_load_and_disconnect": {
     "value": "Laden en verbinding verbreken",
     "_ai": true
@@ -17608,7 +19248,11 @@
     "value": "Toch verbreken",
     "_ai": true
   },
-  "radio_identity_label": null,
+  "radio_identity_label": {
+    "value": "{name} ({key})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "radio_identity_unnamed": {
     "value": "Naamloze radio",
     "_ai": true
@@ -17773,7 +19417,11 @@
     "value": "Kon de radio niet verwijderen",
     "_ai": true
   },
-  "node_radio_picker_label": null,
+  "node_radio_picker_label": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_radio_picker_current": {
     "value": "Huidige radio",
     "_ai": true
@@ -17854,7 +19502,11 @@
     "value": "Campagne",
     "_ai": true
   },
-  "fuota_col_build": null,
+  "fuota_col_build": {
+    "value": "Build",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "fuota_col_target": {
     "value": "Doel",
     "_ai": true
@@ -17935,13 +19587,25 @@
     "value": "Kon de samenvatting niet kopiëren",
     "_ai": true
   },
-  "mesh_filter_download_json": null,
-  "mesh_filter_download_csv": null,
+  "mesh_filter_download_json": {
+    "value": "JSON",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_filter_download_csv": {
+    "value": "CSV",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_tile_messages": {
     "value": "Kanaalberichten",
     "_ai": true
   },
-  "mesh_filter_tile_spam": null,
+  "mesh_filter_tile_spam": {
+    "value": "Spam",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_tile_malformed": {
     "value": "Misvormd",
     "_ai": true
@@ -17950,7 +19614,11 @@
     "value": "Duplicaten",
     "_ai": true
   },
-  "mesh_filter_tile_bots": null,
+  "mesh_filter_tile_bots": {
+    "value": "Bots",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_share_of_traffic": {
     "value": "{percent}% van het verkeer",
     "_ai": true
@@ -18019,7 +19687,11 @@
     "value": "Gemarkeerd",
     "_ai": true
   },
-  "mesh_filter_col_spam": null,
+  "mesh_filter_col_spam": {
+    "value": "Spam",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_col_malformed": {
     "value": "Misvormd",
     "_ai": true
@@ -18028,7 +19700,11 @@
     "value": "Duplicaten",
     "_ai": true
   },
-  "mesh_filter_col_bots": null,
+  "mesh_filter_col_bots": {
+    "value": "Bot",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_col_flagged_arrival": {
     "value": "Bot bij aankomst",
     "_ai": true
@@ -18073,7 +19749,11 @@
     "value": "Direct gehoord",
     "_ai": true
   },
-  "mesh_filter_bot_badge": null,
+  "mesh_filter_bot_badge": {
+    "value": "bot",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_add_to_bot_list": {
     "value": "Aan botlijst toevoegen",
     "_ai": true
@@ -18102,7 +19782,11 @@
     "value": "Pagina {page} van {total}",
     "_ai": true
   },
-  "mesh_filter_filters_heading": null,
+  "mesh_filter_filters_heading": {
+    "value": "Filters",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_sg_off": {
     "value": "Spam Guard staat uit, dus voor nieuwe berichten wordt geen uitkomst vastgelegd.",
     "_ai": true
@@ -18185,7 +19869,11 @@
     "value": "Links vastgehouden",
     "_ai": true
   },
-  "mesh_filter_block_lockdown": null,
+  "mesh_filter_block_lockdown": {
+    "value": "Lockdown",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_block_auto_lockdown": {
     "value": "Automatische lockdown",
     "_ai": true
@@ -18238,9 +19926,21 @@
     "value": "Standaardactie",
     "_ai": true
   },
-  "mesh_filter_action_allow": null,
-  "mesh_filter_action_drop": null,
-  "mesh_filter_action_log_only": null,
+  "mesh_filter_action_allow": {
+    "value": "Toestaan",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_filter_action_drop": {
+    "value": "Weggooien",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_filter_action_log_only": {
+    "value": "Alleen loggen",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_policy_all_channels": {
     "value": "Geteld over alle kanalen, wat het kanaalfilter ook zegt: een regel hoort hier niet bij één kanaal.",
     "_ai": true
@@ -18257,7 +19957,11 @@
     "value": "RTFM-EV OpenHop-regels, laatste {window}, alle kanalen",
     "_ai": true
   },
-  "mesh_filter_policy_summary_item": null,
+  "mesh_filter_policy_summary_item": {
+    "value": "- {rule}: {action}, {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_summary_title": {
     "value": "RTFM-EV spam en bots, laatste {window}, {channel}",
     "_ai": true
@@ -18266,7 +19970,11 @@
     "value": "Kanaalberichten: {count}",
     "_ai": true
   },
-  "mesh_filter_summary_line_cat": null,
+  "mesh_filter_summary_line_cat": {
+    "value": "{label}: {count} ({percent}%)",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_filter_summary_line_outcome": {
     "value": "Spam Guard: {stopped} gestopt, {would} zou gestopt zijn, {let_through} doorgelaten, {held} tegengehouden",
     "_ai": true
@@ -18279,13 +19987,25 @@
     "value": "Meest gemarkeerd per bronrepeater:",
     "_ai": true
   },
-  "mesh_filter_summary_item": null,
+  "mesh_filter_summary_item": {
+    "value": "- {name}: {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_caption": {
     "value": "Welke nodes online blijven als het stroomnet uitvalt, op basis van de stroombron van elke node (de instelling op het contact, anders het stroomicoon in de naam; DTIS-nodes zijn zon + accu). Accu- en zonnenodes blijven draaien; netgevoede en onbekende nodes vallen uit. Overlevende nodes worden gegroepeerd in eilanden die elkaar nog kunnen bereiken via gehoorde advert-padlinks.",
     "_ai": true
   },
-  "mesh_health_po_scope_label": null,
-  "mesh_health_po_scope_infra": null,
+  "mesh_health_po_scope_label": {
+    "value": "Nodes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_po_scope_infra": {
+    "value": "Repeaters + rooms",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_scope_all": {
     "value": "Alle nodes",
     "_ai": true
@@ -18298,13 +20018,25 @@
     "value": "24u",
     "_ai": true
   },
-  "mesh_health_po_heard_7d": null,
-  "mesh_health_po_heard_30d": null,
+  "mesh_health_po_heard_7d": {
+    "value": "7d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "mesh_health_po_heard_30d": {
+    "value": "30d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_heard_all": {
     "value": "Alles",
     "_ai": true
   },
-  "mesh_health_po_stat_nodes": null,
+  "mesh_health_po_stat_nodes": {
+    "value": "Nodes",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_stat_online": {
     "value": "Blijven online",
     "_ai": true
@@ -18353,7 +20085,11 @@
     "value": "Onbekend (geen instelling en geen aanwijzing in de naam) telt als uitvallend, net als net, en zon wordt verondersteld een accu te hebben. Links komen uit advert-paden gehoord in het gekozen venster tussen nodes met locatie, dus een overlever zonder buur met locatie toont als geïsoleerd.",
     "_ai": true
   },
-  "mesh_health_po_status_label": null,
+  "mesh_health_po_status_label": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_filter_all": {
     "value": "Alle",
     "_ai": true
@@ -18370,7 +20106,11 @@
     "value": "Geen nodes voor deze filters.",
     "_ai": true
   },
-  "mesh_health_po_col_node": null,
+  "mesh_health_po_col_node": {
+    "value": "Node",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_po_col_role": {
     "value": "Rol",
     "_ai": true
@@ -18399,7 +20139,14 @@
     "value": "Toon op kaart",
     "_ai": true
   },
-  "mesh_health_po_rows_summary": null,
+  "mesh_health_po_rows_summary": {
+    "plural": {
+      "one": "{count} node",
+      "other": "{count} nodes"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "mesh_health_scroll_top": {
     "value": "Naar boven",
     "_ai": true
@@ -18528,7 +20275,11 @@
     "value": "12-336 uur, standaard 24 (het DMC-observerbereik). De eerste opvraging draait 2 minuten na inschakelen.",
     "_ai": true
   },
-  "settings_host_repeater_reason_dryrun": null,
+  "settings_host_repeater_reason_dryrun": {
+    "value": "Proefrun: {reason}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_reason_filter_path": {
     "value": "Filter: geblokkeerde padprefix",
     "_ai": true
@@ -18597,7 +20348,11 @@
     "value": "Sleutel",
     "_ai": true
   },
-  "settings_host_repeater_neighbors_col_snr": null,
+  "settings_host_repeater_neighbors_col_snr": {
+    "value": "SNR",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_neighbors_col_heard": {
     "value": "Gehoord",
     "_ai": true
@@ -18606,7 +20361,11 @@
     "value": "Regio’s",
     "_ai": true
   },
-  "settings_host_repeater_neighbors_col_status": null,
+  "settings_host_repeater_neighbors_col_status": {
+    "value": "Status",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_host_repeater_neighbors_ago": {
     "value": "{minutes} min geleden",
     "_ai": true
@@ -19085,7 +20844,11 @@
     "value": "Een maatje kan in een paar stappen laten zien wat de meshcomod-firmware aan deze app toevoegt. Je kunt hem ook later starten via de gebruikershandleiding.",
     "_ai": true
   },
-  "buddy_tour_mc118_welcome_title": null,
+  "buddy_tour_mc118_welcome_title": {
+    "value": "MeshCore 1.18",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "buddy_tour_mc118_welcome_text": {
     "value": "Companion-firmware 1.18 heeft een opdrachtregel. Ik laat je zien waar je die gebruikt op je eigen radio en op een andere companion, en wat sensoren erbij krijgen. Ik wijs alleen aan: ik voer nooit een opdracht voor je uit.",
     "_ai": true
@@ -19138,7 +20901,11 @@
     "value": "Repeaters op 1.18 tonen ook hun stroombron in het paneel Node-info. Je kunt deze rondleiding opnieuw volgen via de gebruikershandleiding of mijn menu.",
     "_ai": true
   },
-  "buddy_tour_mcm_welcome_title": null,
+  "buddy_tour_mcm_welcome_title": {
+    "value": "meshcomod",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "buddy_tour_mcm_welcome_text": {
     "value": "meshcomod is companion-firmware die USB, Bluetooth en TCP (poort 5000) tegelijk bedient, zodat deze app de radio kan delen met de telefoon-app of Home Assistant. Ik laat je zien wat het hier toevoegt. Ik wijs alleen aan: ik verstuur nooit iets.",
     "_ai": true
@@ -19276,7 +21043,14 @@
     },
     "_ai": true
   },
-  "buddy_quiet_part_updates": null,
+  "buddy_quiet_part_updates": {
+    "plural": {
+      "one": "{count} update",
+      "other": "{count} updates"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_buddy_groups_label": {
     "value": "Vertel me over",
     "_ai": true
@@ -19297,7 +21071,11 @@
     "value": "Lege batterijen",
     "_ai": true
   },
-  "settings_buddy_group_updates": null,
+  "settings_buddy_group_updates": {
+    "value": "Updates",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "settings_buddy_group_tips": {
     "value": "Paginatips",
     "_ai": true
@@ -19394,8 +21172,16 @@
     "value": "Ballonnen",
     "_ai": true
   },
-  "popout_skin_label": null,
-  "popout_skin_mirc": null,
+  "popout_skin_label": {
+    "value": "Skin",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "popout_skin_mirc": {
+    "value": "mIRC",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_skin_mirc_dark": {
     "value": "mIRC donker",
     "_ai": true
@@ -19424,13 +21210,25 @@
     "value": "Gesprekken",
     "_ai": true
   },
-  "popout_filter_placeholder": null,
+  "popout_filter_placeholder": {
+    "value": "Filteren...",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_section_channels": {
     "value": "Kanalen",
     "_ai": true
   },
-  "popout_section_direct": null,
-  "popout_section_rooms": null,
+  "popout_section_direct": {
+    "value": "Direct",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "popout_section_rooms": {
+    "value": "Rooms",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_no_matches": {
     "value": "Geen resultaten",
     "_ai": true
@@ -19443,7 +21241,11 @@
     "value": "Recente afzenders",
     "_ai": true
   },
-  "popout_senders_heading": null,
+  "popout_senders_heading": {
+    "value": "Recent",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_status_connected": {
     "value": "Radio verbonden",
     "_ai": true
@@ -19492,8 +21294,16 @@
     "value": "Oudste",
     "_ai": true
   },
-  "popout_sort_alpha": null,
-  "popout_sort_alpha_desc": null,
+  "popout_sort_alpha": {
+    "value": "A-Z",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "popout_sort_alpha_desc": {
+    "value": "Z-A",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "popout_sort_unread": {
     "value": "Meeste ongelezen",
     "_ai": true
@@ -19530,7 +21340,11 @@
     "value": "Recente afzenders tonen",
     "_ai": true
   },
-  "nav_spam_guard": null,
+  "nav_spam_guard": {
+    "value": "Spam Guard",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "common_loading_spam_guard": {
     "value": "Spam Guard laden...",
     "_ai": true
@@ -19551,12 +21365,20 @@
     "value": "Geen spam",
     "_ai": true
   },
-  "chat_spam_badge": null,
+  "chat_spam_badge": {
+    "value": "Spam",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_spam_badge_title": {
     "value": "Spam Guard heeft dit bericht als spam gemarkeerd",
     "_ai": true
   },
-  "chat_bot_badge": null,
+  "chat_bot_badge": {
+    "value": "Bot",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "chat_bot_badge_title": {
     "value": "Deze afzender staat op een van je ingeschakelde botlijsten",
     "_ai": true
@@ -20335,15 +22157,35 @@
     "value": "{label}: {stopped} gestopt, {through} doorgelaten",
     "_ai": true
   },
-  "spam_chart_single_title": null,
-  "spam_duration_seconds": null,
-  "spam_duration_minutes": null,
+  "spam_chart_single_title": {
+    "value": "{label}: {count}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_duration_seconds": {
+    "value": "{count} s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_duration_minutes": {
+    "value": "{count} min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_duration_hours": {
     "value": "{count} u",
     "_ai": true
   },
-  "spam_duration_days": null,
-  "spam_airtime_seconds": null,
+  "spam_duration_days": {
+    "value": "{count} d",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "spam_airtime_seconds": {
+    "value": "{value} s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_expiry_in": {
     "value": "eindigt over {time}",
     "_ai": true
@@ -20532,7 +22374,11 @@
     "value": "Door jou als spam gemarkeerd",
     "_ai": true
   },
-  "spam_lockdown_title": null,
+  "spam_lockdown_title": {
+    "value": "Lockdown",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_lockdown_desc": {
     "value": "Voor een zware aanval: een tijdlang komen alleen namen die Spam Guard al kent door op de beschermde kanalen. Nieuwe mensen worden ook tegengehouden. Het eindigt vanzelf.",
     "_ai": true
@@ -20573,7 +22419,11 @@
     "value": "via {path}, {time} geleden",
     "_ai": true
   },
-  "spam_path_direct": null,
+  "spam_path_direct": {
+    "value": "direct",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_let_through": {
     "value": "Doorlaten",
     "_ai": true
@@ -20826,12 +22676,20 @@
     "value": "Bewijslog",
     "_ai": true
   },
-  "spam_unit_seconds": null,
+  "spam_unit_seconds": {
+    "value": "s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_unit_days": {
     "value": "dagen",
     "_ai": true
   },
-  "spam_unit_percent": null,
+  "spam_unit_percent": {
+    "value": "%",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_setting_reset": {
     "value": "herstellen",
     "_ai": true
@@ -20884,7 +22742,11 @@
     "value": "Nog geen profielen opgeslagen.",
     "_ai": true
   },
-  "spam_profiles_summary": null,
+  "spam_profiles_summary": {
+    "value": "{mode}, {sensitivity}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_profiles_apply": {
     "value": "Toepassen",
     "_ai": true
@@ -20965,7 +22827,11 @@
     "value": "Annuleren",
     "_ai": true
   },
-  "spam_profile_change_values": null,
+  "spam_profile_change_values": {
+    "value": "{from} → {to}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "spam_profile_value_on": {
     "value": "Aan",
     "_ai": true
@@ -22006,12 +23872,20 @@
     "value": "Verwijderen",
     "_ai": true
   },
-  "gateway_radio_log": null,
+  "gateway_radio_log": {
+    "value": "Log",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_radio_log_empty": {
     "value": "Nog geen uitvoer.",
     "_ai": true
   },
-  "gateway_radio_status": null,
+  "gateway_radio_status": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_radio_connected": {
     "value": "Verbonden ({name})",
     "_ai": true
@@ -22047,8 +23921,16 @@
     "value": "Serieel (USB)",
     "_ai": true
   },
-  "gateway_transport_tcp": null,
-  "gateway_transport_ble": null,
+  "gateway_transport_tcp": {
+    "value": "TCP",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "gateway_transport_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_field_serial_port": {
     "value": "Seriële poort",
     "_ai": true
@@ -22057,7 +23939,11 @@
     "value": "Baudrate",
     "_ai": true
   },
-  "gateway_field_host": null,
+  "gateway_field_host": {
+    "value": "Host",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "gateway_field_tcp_port": {
     "value": "Poort",
     "_ai": true
@@ -22144,7 +24030,11 @@
     "value": "Opdrachtregel",
     "_ai": true
   },
-  "contact_remote_cli_label": null,
+  "contact_remote_cli_label": {
+    "value": "Remote CLI",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "contact_remote_cli_hint": {
     "value": "Laat dit contact via de mesh opdrachten op je radio uitvoeren (companion-firmware 1.18+).",
     "_ai": true
@@ -22189,8 +24079,16 @@
     "value": "Min / max / gemiddelde (24 u)",
     "_ai": true
   },
-  "sensor_mma_min": null,
-  "sensor_mma_max": null,
+  "sensor_mma_min": {
+    "value": "Min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "sensor_mma_max": {
+    "value": "Max",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "sensor_mma_avg": {
     "value": "Gem.",
     "_ai": true
@@ -22219,7 +24117,11 @@
     "value": "Min. wijziging",
     "_ai": true
   },
-  "sensor_push_switch": null,
+  "sensor_push_switch": {
+    "value": "Push",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "sensor_push_save": {
     "value": "Drempels opslaan",
     "_ai": true
@@ -22228,7 +24130,11 @@
     "value": "Toegekend tot {time}",
     "_ai": true
   },
-  "sensor_push_scope": null,
+  "sensor_push_scope": {
+    "value": "Bereik: {scope}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "sensor_push_last": {
     "value": "Laatste push: {time}",
     "_ai": true
@@ -22289,7 +24195,11 @@
     "value": "Poort",
     "_ai": true
   },
-  "lan_scan_community": null,
+  "lan_scan_community": {
+    "value": "Community",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_snmp_help": {
     "value": "Vindt observer-repeaters, roomservers en companions met SNMP aan. Een apparaat met een andere community antwoordt niet. Uitlezen via SNMP verandert niets op het apparaat.",
     "_ai": true
@@ -22362,13 +24272,25 @@
     "value": "Antwoordde op",
     "_ai": true
   },
-  "lan_scan_col_firmware": null,
-  "lan_scan_col_contact": null,
+  "lan_scan_col_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "lan_scan_col_contact": {
+    "value": "Contact",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_col_actions": {
     "value": "Acties",
     "_ai": true
   },
-  "lan_scan_found_snmp": null,
+  "lan_scan_found_snmp": {
+    "value": "SNMP (UDP {port})",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "lan_scan_found_snmp_other": {
     "value": "SNMP (UDP {port}), geen MeshCore",
     "_ai": true
@@ -22425,7 +24347,11 @@
     "value": "Tijdvenster",
     "_ai": true
   },
-  "node_signal_window_minutes": null,
+  "node_signal_window_minutes": {
+    "value": "{minutes} min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_signal_window_minutes_ago": {
     "value": "{minutes} min geleden",
     "_ai": true
@@ -22454,9 +24380,21 @@
     "value": "RSSI van het laatste pakket min de ruisvloer. LoRa kan pakketten onder de ruisvloer nog decoderen; SNR zegt meer over één pakket.",
     "_ai": true
   },
-  "node_signal_dbm": null,
-  "node_signal_db": null,
-  "node_signal_last_sub": null,
+  "node_signal_dbm": {
+    "value": "{value} dBm",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_signal_db": {
+    "value": "{value} dB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "node_signal_last_sub": {
+    "value": "SNR {snr} dB, {age}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_signal_age_seconds": {
     "value": "{seconds} s geleden",
     "_ai": true
@@ -22473,7 +24411,11 @@
     "value": "RSSI van {count} pakketten tegen de ruisvloer",
     "_ai": true
   },
-  "node_signal_point_title": null,
+  "node_signal_point_title": {
+    "value": "{type}: RSSI {rssi} dBm, SNR {snr} dB, {age}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "node_signal_noise_legend": {
     "value": "Ruisvloer",
     "_ai": true
@@ -22526,7 +24468,11 @@
     "value": "{span} in {secs} seconden",
     "_ai": true
   },
-  "share_chart_span_minutes": null,
+  "share_chart_span_minutes": {
+    "value": "{n} min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_chart_span_hours": {
     "value": "{n} uur",
     "_ai": true
@@ -22603,7 +24549,11 @@
     "value": "Deel hoe dit bericht reisde",
     "_ai": true
   },
-  "share_msg_kicker_channel": null,
+  "share_msg_kicker_channel": {
+    "value": "{channel}, {time}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_msg_kicker_dm": {
     "value": "Privébericht met {name}, {time}",
     "_ai": true
@@ -22624,8 +24574,22 @@
     "value": "Kaart van de routes waarlangs mijn bericht terugkwam",
     "_ai": true
   },
-  "share_fig_routes": null,
-  "share_fig_hops": null,
+  "share_fig_routes": {
+    "plural": {
+      "one": "route",
+      "other": "routes"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "share_fig_hops": {
+    "plural": {
+      "one": "hop",
+      "other": "hops"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_fig_range": {
     "value": "{min} tot {max}",
     "_ai": true
@@ -22638,7 +24602,11 @@
     "value": "beste SNR bij mijn radio",
     "_ai": true
   },
-  "share_fig_snr_value": null,
+  "share_fig_snr_value": {
+    "value": "{snr} dB",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_trace_kicker": {
     "value": "Traceroute, {time}",
     "_ai": true
@@ -22679,7 +24647,11 @@
     "value": "Deel als afbeelding wie mijn node direct hoort",
     "_ai": true
   },
-  "share_fig_count_capped": null,
+  "share_fig_count_capped": {
+    "value": "{n}+",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_fig_heard_direct": {
     "value": "direct gehoorde nodes",
     "_ai": true
@@ -22688,7 +24660,14 @@
     "value": "verste",
     "_ai": true
   },
-  "share_fig_repeaters": null,
+  "share_fig_repeaters": {
+    "plural": {
+      "one": "repeater",
+      "other": "repeaters"
+    },
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_fig_median_snr": {
     "value": "mediaan SNR",
     "_ai": true
@@ -22721,13 +24700,25 @@
     "value": "gebruikte zendtijd",
     "_ai": true
   },
-  "share_fig_percent": null,
+  "share_fig_percent": {
+    "value": "{n} %",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_fig_flood_adverts": {
     "value": "flood-adverts",
     "_ai": true
   },
-  "share_duration_s": null,
-  "share_duration_min": null,
+  "share_duration_s": {
+    "value": "{n} s",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
+  "share_duration_min": {
+    "value": "{n} min",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_duration_h": {
     "value": "{n} u",
     "_ai": true
@@ -22788,7 +24779,11 @@
     "value": "Spam, bots en rommel op mijn mesh",
     "_ai": true
   },
-  "share_filter_rtfm_kicker": null,
+  "share_filter_rtfm_kicker": {
+    "value": "{channels}, {window}",
+    "_ai": true,
+    "_seeded": "2026-10-20"
+  },
   "share_filter_top_sources": {
     "value": "Grootste bronnen: {names}",
     "_ai": true
