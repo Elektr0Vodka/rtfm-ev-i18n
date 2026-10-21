@@ -11672,6 +11672,11 @@
     "value": "Alle breedtes",
     "_ai": true
   },
+  "packet_filter_routes_section": null,
+  "packet_filter_all_routes_label": {
+    "value": "Alle routes",
+    "_ai": true
+  },
   "packet_autoscroll_label": {
     "value": "Automatisch scrollen",
     "_ai": true
@@ -19567,6 +19572,14 @@
     "value": "Onbekend kanaal",
     "_ai": true
   },
+  "mesh_filter_channel_protected": {
+    "value": "Beschermd",
+    "_ai": true
+  },
+  "mesh_filter_protected_only": {
+    "value": "Alleen beschermde kanalen",
+    "_ai": true
+  },
   "mesh_filter_scramble": {
     "value": "Namen anonimiseren",
     "_ai": true
@@ -21472,7 +21485,7 @@
     "_ai": true
   },
   "settings_bot_lists_block_help": {
-    "value": "Doorsturen blokkeren zorgt dat deze repeater kanaalberichten van de namen op een lijst niet meer doorstuurt. Het werkt via Spam Guard: in de modus Beschermen, op de beschermde kanalen. Andere repeaters sturen ze nog wel door en ze komen hier nog steeds aan.",
+    "value": "Doorsturen blokkeren zorgt dat deze repeater kanaalberichten van de namen op een lijst niet meer doorstuurt. Het werkt via Spam Guard: in de modus Beschermen, op de beschermde kanalen waar 'Gelijste bots hier blokkeren' aan staat. Andere repeaters sturen ze nog wel door en ze komen hier nog steeds aan.",
     "_ai": true
   },
   "settings_bot_lists_review_count": {
@@ -21515,6 +21528,10 @@
   },
   "bot_forward_no_channels": {
     "value": "Wacht: Spam Guard heeft geen beschermde kanalen",
+    "_ai": true
+  },
+  "bot_forward_no_bot_channels": {
+    "value": "Wacht: bij geen enkel beschermd kanaal staat 'Gelijste bots hier blokkeren' aan",
     "_ai": true
   },
   "bot_forward_not_armed": {
@@ -22642,6 +22659,10 @@
   },
   "spam_channels_share_key": {
     "value": "Ook afdwingen op de OpenHop-node (kopieert de sleutel van dit kanaal naar de node)",
+    "_ai": true
+  },
+  "spam_channels_drop_bots": {
+    "value": "Gelijste bots hier blokkeren (voegt een regel toe voor botlijsten met Doorsturen blokkeren aan)",
     "_ai": true
   },
   "spam_channels_share_key_confirm": {

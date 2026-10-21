@@ -11623,6 +11623,11 @@
     "value": "Alle Breiten",
     "_ai": true
   },
+  "packet_filter_routes_section": null,
+  "packet_filter_all_routes_label": {
+    "value": "Alle Routen",
+    "_ai": true
+  },
   "packet_autoscroll_label": {
     "value": "Automatisch scrollen",
     "_ai": true
@@ -19492,6 +19497,14 @@
     "value": "Unbekannter Kanal",
     "_ai": true
   },
+  "mesh_filter_channel_protected": {
+    "value": "Geschützt",
+    "_ai": true
+  },
+  "mesh_filter_protected_only": {
+    "value": "Nur geschützte Kanäle",
+    "_ai": true
+  },
   "mesh_filter_scramble": {
     "value": "Namen anonymisieren",
     "_ai": true
@@ -21385,7 +21398,7 @@
     "_ai": true
   },
   "settings_bot_lists_block_help": {
-    "value": "Weiterleitung blockieren sorgt dafür, dass dieser Repeater Kanalnachrichten der Namen einer Liste nicht mehr weiterleitet. Es läuft über Spam Guard: im Modus Schützen, auf den geschützten Kanälen. Andere Repeater leiten sie weiterhin weiter, und sie kommen hier weiterhin an.",
+    "value": "Weiterleitung blockieren sorgt dafür, dass dieser Repeater Kanalnachrichten der Namen einer Liste nicht mehr weiterleitet. Es läuft über Spam Guard: im Modus Schützen, auf den geschützten Kanälen, bei denen „Gelistete Bots hier blockieren“ an ist. Andere Repeater leiten sie weiterhin weiter, und sie kommen hier weiterhin an.",
     "_ai": true
   },
   "settings_bot_lists_review_count": {
@@ -21428,6 +21441,10 @@
   },
   "bot_forward_no_channels": {
     "value": "Wartet: Spam Guard hat keine geschützten Kanäle",
+    "_ai": true
+  },
+  "bot_forward_no_bot_channels": {
+    "value": "Wartet: bei keinem geschützten Kanal ist „Gelistete Bots hier blockieren“ an",
     "_ai": true
   },
   "bot_forward_not_armed": {
@@ -22558,6 +22575,10 @@
   },
   "spam_channels_share_key": {
     "value": "Auch auf dem OpenHop-Knoten durchsetzen (kopiert den Schlüssel dieses Kanals auf den Knoten)",
+    "_ai": true
+  },
+  "spam_channels_drop_bots": {
+    "value": "Gelistete Bots hier blockieren (fügt eine Regel für Bot-Listen mit Weiterleitung blockieren hinzu)",
     "_ai": true
   },
   "spam_channels_share_key_confirm": {
