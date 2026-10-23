@@ -12754,7 +12754,7 @@
     "_ai": true
   },
   "map_guessed_locations_help": {
-    "value": "Geschätzte Positionen für Knoten ohne gesendeten oder manuellen Standort, basierend auf dem/den nächstgelegenen lokalisierten Repeater(n) in ihren bekannten Advert-Pfaden. Auf jeder Zoomstufe sichtbar, für Knoten, die in den letzten 24 Stunden empfangen wurden, beschriftet wie andere Knoten (Karteneinstellung Beschriftungen). Wird nie gespeichert, exportiert oder irgendwohin gesendet.",
+    "value": "Geschätzte Positionen für Knoten ohne gesendeten oder manuellen Standort, basierend auf dem/den nächstgelegenen lokalisierten Repeater(n) in ihren bekannten Advert-Pfaden, oder dem Standort deines eigenen Funkgeräts für direkt gehörte Knoten. Auf jeder Zoomstufe sichtbar, für Knoten, die in den letzten 24 Stunden empfangen wurden, beschriftet wie andere Knoten (Karteneinstellung Beschriftungen). Wird nie gespeichert, exportiert oder irgendwohin gesendet.",
     "_ai": true
   },
   "map_guessed_locations_count": {
@@ -12900,11 +12900,19 @@
     "_ai": true
   },
   "map_guessed_locations_confidence_high": {
-    "value": "Höhere Zuverlässigkeit: 2+ übereinstimmende Repeater",
+    "value": "Höhere Zuverlässigkeit: 2+ übereinstimmende Anker (Repeater oder dein Funkgerät)",
     "_ai": true
   },
   "map_guessed_locations_confidence_low": {
     "value": "Geringere Zuverlässigkeit: basiert auf einem einzelnen Repeater",
+    "_ai": true
+  },
+  "map_guessed_locations_anchor_self": {
+    "value": "Direkt von deinem Funkgerät gehört: {name}",
+    "_ai": true
+  },
+  "map_guessed_locations_confidence_low_self": {
+    "value": "Geringere Zuverlässigkeit: nur direkt gehört, kann also überall in Funkreichweite deines Funkgeräts sein",
     "_ai": true
   },
   "map_contact_count": {
@@ -19367,6 +19375,23 @@
     "value": "Knoten nach Stromquelle ein- oder ausblenden: die Einstellung am Kontakt, sonst der Name (⚡/🔌 Netz, 🔋 Akku, ☀️ Solar; DTIS-Knoten sind Solar + Akku). Knoten ohne Hinweis sind Unbekannt.",
     "_ai": true
   },
+  "map_hops_label": null,
+  "map_hops_any": {
+    "value": "Alle",
+    "_ai": true
+  },
+  "map_hops_direct": {
+    "value": "Direkt",
+    "_ai": true
+  },
+  "map_hops_max": {
+    "value": "Bis {count}",
+    "_ai": true
+  },
+  "map_hops_help": {
+    "value": "Nur Knoten anzeigen, deren zuletzt gehörtes Advert innerhalb dieser Hop-Anzahl ankam (Direkt = von deinem Funkgerät selbst gehört). Knoten ohne gehörtes Advert werden ausgeblendet, solange ein Limit gesetzt ist. Gilt auch für geschätzte Standorte.",
+    "_ai": true
+  },
   "power_source_mains": {
     "value": "Netz",
     "_ai": true
@@ -25410,5 +25435,439 @@
     "value": "Keine Warnungen seit dem Start.",
     "_ai": true
   },
-  "perf_col_5xx": null
+  "perf_col_5xx": null,
+  "temp_radio_button_title": {
+    "value": "Temporäre Funkeinstellungen",
+    "_ai": true
+  },
+  "temp_radio_button_unavailable": {
+    "value": "Temporäre Funkeinstellungen (Funkgerät nicht verbunden)",
+    "_ai": true
+  },
+  "temp_radio_title": {
+    "value": "Temporäre Funkeinstellungen",
+    "_ai": true
+  },
+  "temp_radio_description": {
+    "value": "Stelle deinen Companion eine Weile auf andere Funkeinstellungen, zum Beispiel um ein benachbartes Mesh zu erreichen. RTFM stellt sie zurück, wenn die Zeit abgelaufen ist.",
+    "_ai": true
+  },
+  "temp_radio_tab_switch": {
+    "value": "Wechseln",
+    "_ai": true
+  },
+  "temp_radio_tab_scan": {
+    "value": "Scannen",
+    "_ai": true
+  },
+  "temp_radio_preset_label": {
+    "value": "Voreinstellung",
+    "_ai": true
+  },
+  "temp_radio_preset_custom": {
+    "value": "Benutzerdefiniert",
+    "_ai": true
+  },
+  "temp_radio_freq_label": {
+    "value": "Frequenz (MHz)",
+    "_ai": true
+  },
+  "temp_radio_bw_label": {
+    "value": "Bandbreite (kHz)",
+    "_ai": true
+  },
+  "temp_radio_sf_label": {
+    "value": "Spreizfaktor (SF)",
+    "_ai": true
+  },
+  "temp_radio_cr_label": {
+    "value": "Coderate",
+    "_ai": true
+  },
+  "temp_radio_region_label": null,
+  "temp_radio_region_hint": {
+    "value": "Leer lässt die Region wie sie ist. * sendet ohne Region. Repeater verwerfen Floods für eine Region, die sie nicht kennen.",
+    "_ai": true
+  },
+  "temp_radio_mode_temporary": {
+    "value": "Vorübergehend",
+    "_ai": true
+  },
+  "temp_radio_mode_new_normal": {
+    "value": "Als neuen Standard übernehmen",
+    "_ai": true
+  },
+  "temp_radio_duration_label": {
+    "value": "Dauer",
+    "_ai": true
+  },
+  "temp_radio_duration_unit_label": {
+    "value": "Einheit der Dauer",
+    "_ai": true
+  },
+  "temp_radio_unit_minutes": {
+    "value": "Minuten",
+    "_ai": true
+  },
+  "temp_radio_unit_hours": {
+    "value": "Stunden",
+    "_ai": true
+  },
+  "temp_radio_keep_running_heading": {
+    "value": "Solange diese Einstellungen aktiv sind",
+    "_ai": true
+  },
+  "temp_radio_keep_running_hint": {
+    "value": "Alles darunter pausiert, außer du hakst es an.",
+    "_ai": true
+  },
+  "temp_radio_optin_adverts": {
+    "value": "Automatische Adverts",
+    "_ai": true
+  },
+  "temp_radio_optin_team_beacon": {
+    "value": "TEAM-Bake",
+    "_ai": true
+  },
+  "temp_radio_optin_telemetry": {
+    "value": "Telemetrie-Abfragen verfolgter Nodes",
+    "_ai": true
+  },
+  "temp_radio_optin_client_repeat": {
+    "value": "Client-Repeat",
+    "_ai": true
+  },
+  "temp_radio_optin_integration": null,
+  "temp_radio_normal_settings": {
+    "value": "Normale Einstellungen: {settings}",
+    "_ai": true
+  },
+  "temp_radio_warning": {
+    "value": "Auf anderen Einstellungen kann dein Companion dein normales Mesh weder hören noch erreichen.",
+    "_ai": true
+  },
+  "temp_radio_start": {
+    "value": "Wechseln",
+    "_ai": true
+  },
+  "temp_radio_save_new_normal": {
+    "value": "Als neuen Standard speichern",
+    "_ai": true
+  },
+  "temp_radio_restore_now": {
+    "value": "Jetzt zurücksetzen",
+    "_ai": true
+  },
+  "temp_radio_cancel": {
+    "value": "Abbrechen",
+    "_ai": true
+  },
+  "temp_radio_error_freq": {
+    "value": "Die Frequenz muss zwischen 150 und 2500 MHz liegen.",
+    "_ai": true
+  },
+  "temp_radio_error_bw": {
+    "value": "Die Bandbreite muss zwischen 7 und 500 kHz liegen.",
+    "_ai": true
+  },
+  "temp_radio_error_sf": {
+    "value": "Der Spreizfaktor muss zwischen 5 und 12 liegen.",
+    "_ai": true
+  },
+  "temp_radio_error_cr": {
+    "value": "Die Coderate muss zwischen 5 und 8 liegen.",
+    "_ai": true
+  },
+  "temp_radio_error_duration": {
+    "value": "Die Dauer muss größer als 0 sein.",
+    "_ai": true
+  },
+  "temp_radio_failed": {
+    "value": "Wechsel fehlgeschlagen: {error}",
+    "_ai": true
+  },
+  "temp_radio_restore_failed": {
+    "value": "Zurücksetzen fehlgeschlagen: {error}",
+    "_ai": true
+  },
+  "temp_radio_banner_active": {
+    "value": "Temporäre Funkeinstellungen: {settings}",
+    "_ai": true
+  },
+  "temp_radio_banner_time_left": {
+    "value": "noch {time}",
+    "_ai": true
+  },
+  "temp_radio_banner_region": {
+    "value": "Region {region}",
+    "_ai": true
+  },
+  "temp_radio_banner_overdue": {
+    "value": "Zurücksetzen ist überfällig. RTFM versucht es erneut, wenn das Funkgerät wieder verbunden ist.",
+    "_ai": true
+  },
+  "temp_radio_dropped_changed_elsewhere": {
+    "value": "Temporäre Funkeinstellungen beendet: das Funkgerät wurde außerhalb von RTFM geändert.",
+    "_ai": true
+  },
+  "temp_radio_dropped_scan_stopped_for_contact": {
+    "value": "Scan gestoppt, um zu den Einstellungen eines Kontakts zu wechseln.",
+    "_ai": true
+  },
+  "chat_sf_filter_heading": {
+    "value": "Nach SF ausblenden",
+    "_ai": true
+  },
+  "chat_sf_filter_option": {
+    "value": "SF{sf} ausblenden",
+    "_ai": true
+  },
+  "chat_sf_filter_unknown": {
+    "value": "Nachrichten ohne gespeicherte Funkeinstellungen ausblenden",
+    "_ai": true
+  },
+  "packet_filter_sf_heading": {
+    "value": "Spreizfaktor",
+    "_ai": true
+  },
+  "packet_filter_sf_unknown": {
+    "value": "Nicht erfasst",
+    "_ai": true
+  },
+  "nav_contacts_sf_filter": {
+    "value": "Gehört auf",
+    "_ai": true
+  },
+  "nav_contacts_sf_all": {
+    "value": "Alle SF",
+    "_ai": true
+  },
+  "nav_contacts_sf_unknown": {
+    "value": "Unbekannt",
+    "_ai": true
+  },
+  "packet_filter_all_sfs_label": {
+    "value": "Alle SF",
+    "_ai": true
+  },
+  "contact_radio_heading": {
+    "value": "Funkeinstellungen",
+    "_ai": true
+  },
+  "contact_radio_heard_on": {
+    "value": "Gehört auf",
+    "_ai": true
+  },
+  "contact_radio_heard_on_none": {
+    "value": "Für diesen Kontakt sind noch keine Funkeinstellungen erfasst.",
+    "_ai": true
+  },
+  "contact_radio_use_sighting": {
+    "value": "SF{sf} verwenden",
+    "_ai": true
+  },
+  "contact_radio_use_session": {
+    "value": "Aktuelle temporäre Einstellungen verwenden",
+    "_ai": true
+  },
+  "contact_radio_hint": {
+    "value": "Gespeicherte Einstellungen für diesen Kontakt. Die Wechseltaste im Chatkopf und der automatische Wechsel verwenden sie.",
+    "_ai": true
+  },
+  "contact_radio_auto_switch": {
+    "value": "Vor jeder DM automatisch wechseln",
+    "_ai": true
+  },
+  "contact_radio_save": {
+    "value": "Funkeinstellungen speichern",
+    "_ai": true
+  },
+  "contact_radio_remove": {
+    "value": "Funkeinstellungen entfernen",
+    "_ai": true
+  },
+  "contact_radio_saved": {
+    "value": "Funkeinstellungen gespeichert",
+    "_ai": true
+  },
+  "contact_radio_save_failed": {
+    "value": "Speichern fehlgeschlagen: {error}",
+    "_ai": true
+  },
+  "chat_contact_radio_switch": {
+    "value": "Zu den Einstellungen von {name} wechseln",
+    "_ai": true
+  },
+  "chat_contact_radio_auto_toggle": {
+    "value": "Automatischer Wechsel",
+    "_ai": true
+  },
+  "chat_contact_radio_auto_on": {
+    "value": "Automatischer Wechsel zu den Einstellungen von {name} vor jeder DM ist an",
+    "_ai": true
+  },
+  "chat_contact_radio_auto_off": {
+    "value": "Automatischer Wechsel zu den Einstellungen von {name} vor jeder DM ist aus",
+    "_ai": true
+  },
+  "temp_radio_scan_intro": {
+    "value": "Lass den Companion eine Liste von Einstellungen durchlaufen, zum Beispiel um nacheinander mehreren Meshes zuzuhören. RTFM kehrt zu den normalen Einstellungen zurück, wenn der Scan endet oder gestoppt wird.",
+    "_ai": true
+  },
+  "temp_radio_scan_new": {
+    "value": "Neue Scanliste",
+    "_ai": true
+  },
+  "temp_radio_scan_none": {
+    "value": "Noch keine Scanlisten.",
+    "_ai": true
+  },
+  "temp_radio_scan_entries_count": {
+    "value": "{count} Einträge",
+    "_ai": true
+  },
+  "temp_radio_scan_run": {
+    "value": "{name} starten",
+    "_ai": true
+  },
+  "temp_radio_scan_run_short": {
+    "value": "Starten",
+    "_ai": true
+  },
+  "temp_radio_scan_edit": {
+    "value": "{name} bearbeiten",
+    "_ai": true
+  },
+  "temp_radio_scan_edit_short": {
+    "value": "Bearbeiten",
+    "_ai": true
+  },
+  "temp_radio_scan_delete": {
+    "value": "{name} löschen",
+    "_ai": true
+  },
+  "temp_radio_scan_delete_short": {
+    "value": "Löschen",
+    "_ai": true
+  },
+  "temp_radio_scan_running": {
+    "value": "Läuft: {name}",
+    "_ai": true
+  },
+  "temp_radio_scan_stop": {
+    "value": "Scan stoppen",
+    "_ai": true
+  },
+  "temp_radio_scan_name_label": {
+    "value": "Name der Liste",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_heading": {
+    "value": "Eintrag {n}",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_freq": {
+    "value": "Eintrag {n} Frequenz (MHz)",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_bw": {
+    "value": "Eintrag {n} Bandbreite (kHz)",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_sf": {
+    "value": "Eintrag {n} Spreizfaktor",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_cr": {
+    "value": "Eintrag {n} Coderate",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_region": {
+    "value": "Eintrag {n} Region",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_dwell": {
+    "value": "Eintrag {n} Sekunden auf diesen Einstellungen",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_remove": {
+    "value": "Eintrag {n} entfernen",
+    "_ai": true
+  },
+  "temp_radio_scan_add_entry": {
+    "value": "Eintrag hinzufügen",
+    "_ai": true
+  },
+  "temp_radio_scan_rounds": {
+    "value": "Runden (0 = bis gestoppt)",
+    "_ai": true
+  },
+  "temp_radio_scan_normal_between": {
+    "value": "Sekunden auf normalen Einstellungen zwischen Einträgen",
+    "_ai": true
+  },
+  "temp_radio_scan_hold": {
+    "value": "Bei Aktivität halten (Sekunden)",
+    "_ai": true
+  },
+  "temp_radio_scan_hold_hint": {
+    "value": "Wenn ein Paket ankommt, bleib auf diesem Eintrag bis so lange nach dem letzten Paket. 0 = aus.",
+    "_ai": true
+  },
+  "temp_radio_scan_save": {
+    "value": "Scanliste speichern",
+    "_ai": true
+  },
+  "temp_radio_scan_error_name": {
+    "value": "Gib der Liste einen Namen.",
+    "_ai": true
+  },
+  "temp_radio_scan_error_entry": {
+    "value": "Eintrag {n}: {error}",
+    "_ai": true
+  },
+  "temp_radio_scan_error_dwell": {
+    "value": "Eintrag {n}: Sekunden müssen größer als 0 sein.",
+    "_ai": true
+  },
+  "temp_radio_scan_error_number": {
+    "value": "Runden und Sekunden müssen ganze Zahlen sein, 0 oder mehr.",
+    "_ai": true
+  },
+  "temp_radio_scan_failed": {
+    "value": "Aktion für Scanliste fehlgeschlagen: {error}",
+    "_ai": true
+  },
+  "temp_radio_scan_banner": {
+    "value": "Scan {name}: Eintrag {entry} von {count}",
+    "_ai": true
+  },
+  "temp_radio_scan_banner_normal": {
+    "value": "Scan {name}: auf normalen Einstellungen",
+    "_ai": true
+  },
+  "temp_radio_scan_round": {
+    "value": "Runde {round}",
+    "_ai": true
+  },
+  "temp_radio_optin_polls": {
+    "value": "Sensor-Abos und Nachbarabfragen",
+    "_ai": true
+  },
+  "contact_radio_switch_now": {
+    "value": "Jetzt zu diesen Einstellungen wechseln",
+    "_ai": true
+  },
+  "settings_host_repeater_blocker_temp_radio_session": {
+    "value": "temporäre Funkeinstellungen sind aktiv",
+    "_ai": true
+  },
+  "temp_radio_button_openhop": {
+    "value": "Temporäre Funkeinstellungen sind aus: OpenHop verwaltet seine eigenen Funkeinstellungen",
+    "_ai": true
+  },
+  "contact_radio_openhop_note": {
+    "value": "OpenHop verwaltet seine eigenen Funkeinstellungen, daher ist das Wechseln aus. Gespeicherte Einstellungen bleiben für einen verbundenen Companion erhalten.",
+    "_ai": true
+  }
 }

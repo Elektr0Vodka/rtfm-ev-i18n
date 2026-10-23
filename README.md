@@ -10,34 +10,34 @@ MeshCore).
 
 | Language | Code | Completion | Human | AI drafted | Outdated | Missing | In app | Managed by |
 |----------|------|-----------:|------:|-----------:|---------:|--------:|:------:|------------|
-| English | `en` | 100% | 6171 | 0 | 0 | 0 | yes | rtfm-ev-team |
-| Nederlands | `nl` | 99% | 0 | 6137 | 0 | 34 | yes | community |
-| Deutsch | `de` | 99% | 0 | 6148 | 0 | 23 | yes | community |
-| Български | `bg` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Čeština | `cs` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Dansk | `da` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Ελληνικά | `el` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Español | `es` | 9% | 0 | 594 | 0 | 5577 | no | community |
-| Eesti | `et` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Suomi | `fi` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Français | `fr` | 9% | 0 | 594 | 0 | 5577 | no | community |
-| Gaeilge | `ga` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Hrvatski | `hr` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Magyar | `hu` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Italiano | `it` | 9% | 0 | 594 | 0 | 5577 | no | community |
-| Lietuvių | `lt` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Latviešu | `lv` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Malti | `mt` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Norsk bokmål | `nb` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Polski | `pl` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Português (Brasil) | `pt-BR` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Português (Portugal) | `pt-PT` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Română | `ro` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Русский | `ru` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Slovenčina | `sk` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Slovenščina | `sl` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Svenska | `sv` | 0% | 0 | 0 | 0 | 6171 | no | community |
-| Українська | `uk` | 0% | 0 | 0 | 0 | 6171 | no | community |
+| English | `en` | 100% | 6288 | 0 | 0 | 0 | yes | rtfm-ev-team |
+| Nederlands | `nl` | 99% | 0 | 6248 | 0 | 40 | yes | community |
+| Deutsch | `de` | 99% | 0 | 6262 | 0 | 26 | yes | community |
+| Български | `bg` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Čeština | `cs` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Dansk | `da` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Ελληνικά | `el` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Español | `es` | 9% | 0 | 594 | 0 | 5694 | no | community |
+| Eesti | `et` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Suomi | `fi` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Français | `fr` | 9% | 0 | 594 | 0 | 5694 | no | community |
+| Gaeilge | `ga` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Hrvatski | `hr` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Magyar | `hu` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Italiano | `it` | 9% | 0 | 594 | 0 | 5694 | no | community |
+| Lietuvių | `lt` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Latviešu | `lv` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Malti | `mt` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Norsk bokmål | `nb` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Polski | `pl` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Português (Brasil) | `pt-BR` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Português (Portugal) | `pt-PT` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Română | `ro` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Русский | `ru` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Slovenčina | `sk` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Slovenščina | `sl` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Svenska | `sv` | 0% | 0 | 0 | 0 | 6288 | no | community |
+| Українська | `uk` | 0% | 0 | 0 | 0 | 6288 | no | community |
 
 <!-- status:end -->
 

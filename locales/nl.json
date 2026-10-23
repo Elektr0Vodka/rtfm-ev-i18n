@@ -12807,7 +12807,7 @@
     "_ai": true
   },
   "map_guessed_locations_help": {
-    "value": "Geschatte posities voor nodes zonder verzonden of handmatige locatie, gebaseerd op de dichtstbijzijnde gelokaliseerde repeater(s) in hun bekende advertentiepaden. Zichtbaar op elk zoomniveau, voor nodes gehoord in de laatste 24 uur, met labels zoals andere nodes (kaartinstelling Labels). Nooit opgeslagen, geëxporteerd of ergens naartoe verzonden.",
+    "value": "Geschatte posities voor nodes zonder verzonden of handmatige locatie, gebaseerd op de dichtstbijzijnde gelokaliseerde repeater(s) in hun bekende advertentiepaden, of de locatie van je eigen radio voor nodes die hij direct hoorde. Zichtbaar op elk zoomniveau, voor nodes gehoord in de laatste 24 uur, met labels zoals andere nodes (kaartinstelling Labels). Nooit opgeslagen, geëxporteerd of ergens naartoe verzonden.",
     "_ai": true
   },
   "map_guessed_locations_count": {
@@ -12953,11 +12953,19 @@
     "_ai": true
   },
   "map_guessed_locations_confidence_high": {
-    "value": "Hogere betrouwbaarheid: 2+ consistente repeaters komen overeen",
+    "value": "Hogere betrouwbaarheid: 2+ consistente ankers komen overeen (repeaters of je radio)",
     "_ai": true
   },
   "map_guessed_locations_confidence_low": {
     "value": "Lagere betrouwbaarheid: gebaseerd op één repeater",
+    "_ai": true
+  },
+  "map_guessed_locations_anchor_self": {
+    "value": "Direct gehoord door je radio: {name}",
+    "_ai": true
+  },
+  "map_guessed_locations_confidence_low_self": {
+    "value": "Lagere betrouwbaarheid: alleen direct gehoord, dus overal binnen radiobereik van je radio mogelijk",
     "_ai": true
   },
   "map_contact_count": {
@@ -19443,6 +19451,20 @@
     "value": "Toon of verberg nodes op stroombron: de instelling op het contact, anders de naam (⚡/🔌 net, 🔋 accu, ☀️ zon; DTIS-nodes zijn zon + accu). Nodes zonder aanwijzing zijn Onbekend.",
     "_ai": true
   },
+  "map_hops_label": null,
+  "map_hops_any": {
+    "value": "Alle",
+    "_ai": true
+  },
+  "map_hops_direct": null,
+  "map_hops_max": {
+    "value": "Tot {count}",
+    "_ai": true
+  },
+  "map_hops_help": {
+    "value": "Toon alleen nodes waarvan de laatst gehoorde advert binnen dit aantal hops binnenkwam (Direct = door je radio zelf gehoord). Nodes zonder gehoorde advert worden verborgen zolang er een limiet staat. Geldt ook voor geraden locaties.",
+    "_ai": true
+  },
   "power_source_mains": {
     "value": "Net",
     "_ai": true
@@ -25464,5 +25486,433 @@
     "value": "Geen waarschuwingen sinds de start.",
     "_ai": true
   },
-  "perf_col_5xx": null
+  "perf_col_5xx": null,
+  "temp_radio_button_title": {
+    "value": "Tijdelijke radio-instellingen",
+    "_ai": true
+  },
+  "temp_radio_button_unavailable": {
+    "value": "Tijdelijke radio-instellingen (radio niet verbonden)",
+    "_ai": true
+  },
+  "temp_radio_title": {
+    "value": "Tijdelijke radio-instellingen",
+    "_ai": true
+  },
+  "temp_radio_description": {
+    "value": "Zet je companion een tijdje op andere radio-instellingen, bijvoorbeeld om een naburige mesh te bereiken. RTFM zet ze terug als de tijd om is.",
+    "_ai": true
+  },
+  "temp_radio_tab_switch": {
+    "value": "Wisselen",
+    "_ai": true
+  },
+  "temp_radio_tab_scan": {
+    "value": "Scannen",
+    "_ai": true
+  },
+  "temp_radio_preset_label": {
+    "value": "Voorinstelling",
+    "_ai": true
+  },
+  "temp_radio_preset_custom": {
+    "value": "Aangepast",
+    "_ai": true
+  },
+  "temp_radio_freq_label": {
+    "value": "Frequentie (MHz)",
+    "_ai": true
+  },
+  "temp_radio_bw_label": {
+    "value": "Bandbreedte (kHz)",
+    "_ai": true
+  },
+  "temp_radio_sf_label": null,
+  "temp_radio_cr_label": null,
+  "temp_radio_region_label": {
+    "value": "Regio (optioneel)",
+    "_ai": true
+  },
+  "temp_radio_region_hint": {
+    "value": "Leeg laat de regio zoals hij is. * stuurt zonder regio. Repeaters laten floods vallen voor een regio die ze niet kennen.",
+    "_ai": true
+  },
+  "temp_radio_mode_temporary": {
+    "value": "Tijdelijk",
+    "_ai": true
+  },
+  "temp_radio_mode_new_normal": {
+    "value": "Maak dit mijn nieuwe standaard",
+    "_ai": true
+  },
+  "temp_radio_duration_label": {
+    "value": "Duur",
+    "_ai": true
+  },
+  "temp_radio_duration_unit_label": {
+    "value": "Eenheid van duur",
+    "_ai": true
+  },
+  "temp_radio_unit_minutes": {
+    "value": "minuten",
+    "_ai": true
+  },
+  "temp_radio_unit_hours": {
+    "value": "uur",
+    "_ai": true
+  },
+  "temp_radio_keep_running_heading": {
+    "value": "Zolang deze instellingen actief zijn",
+    "_ai": true
+  },
+  "temp_radio_keep_running_hint": {
+    "value": "Alles hieronder staat stil tenzij je het aanvinkt.",
+    "_ai": true
+  },
+  "temp_radio_optin_adverts": {
+    "value": "Automatische adverts",
+    "_ai": true
+  },
+  "temp_radio_optin_team_beacon": {
+    "value": "TEAM-baken",
+    "_ai": true
+  },
+  "temp_radio_optin_telemetry": {
+    "value": "Telemetrie-opvragingen van gevolgde nodes",
+    "_ai": true
+  },
+  "temp_radio_optin_client_repeat": null,
+  "temp_radio_optin_integration": {
+    "value": "Integratie: {name}",
+    "_ai": true
+  },
+  "temp_radio_normal_settings": {
+    "value": "Normale instellingen: {settings}",
+    "_ai": true
+  },
+  "temp_radio_warning": {
+    "value": "Op andere instellingen kan je companion je normale mesh niet horen of bereiken.",
+    "_ai": true
+  },
+  "temp_radio_start": {
+    "value": "Wisselen",
+    "_ai": true
+  },
+  "temp_radio_save_new_normal": {
+    "value": "Opslaan als nieuwe standaard",
+    "_ai": true
+  },
+  "temp_radio_restore_now": {
+    "value": "Nu terugzetten",
+    "_ai": true
+  },
+  "temp_radio_cancel": {
+    "value": "Annuleren",
+    "_ai": true
+  },
+  "temp_radio_error_freq": {
+    "value": "Frequentie moet tussen 150 en 2500 MHz liggen.",
+    "_ai": true
+  },
+  "temp_radio_error_bw": {
+    "value": "Bandbreedte moet tussen 7 en 500 kHz liggen.",
+    "_ai": true
+  },
+  "temp_radio_error_sf": {
+    "value": "Spreading factor moet tussen 5 en 12 liggen.",
+    "_ai": true
+  },
+  "temp_radio_error_cr": {
+    "value": "Coding rate moet tussen 5 en 8 liggen.",
+    "_ai": true
+  },
+  "temp_radio_error_duration": {
+    "value": "Duur moet meer dan 0 zijn.",
+    "_ai": true
+  },
+  "temp_radio_failed": {
+    "value": "Wisselen mislukt: {error}",
+    "_ai": true
+  },
+  "temp_radio_restore_failed": {
+    "value": "Terugzetten mislukt: {error}",
+    "_ai": true
+  },
+  "temp_radio_banner_active": {
+    "value": "Tijdelijke radio-instellingen: {settings}",
+    "_ai": true
+  },
+  "temp_radio_banner_time_left": {
+    "value": "nog {time}",
+    "_ai": true
+  },
+  "temp_radio_banner_region": {
+    "value": "regio {region}",
+    "_ai": true
+  },
+  "temp_radio_banner_overdue": {
+    "value": "Terugzetten is te laat. RTFM probeert het opnieuw als de radio weer verbindt.",
+    "_ai": true
+  },
+  "temp_radio_dropped_changed_elsewhere": {
+    "value": "Tijdelijke radio-instellingen gestopt: de radio is buiten RTFM gewijzigd.",
+    "_ai": true
+  },
+  "temp_radio_dropped_scan_stopped_for_contact": {
+    "value": "Scan gestopt om naar de instellingen van een contact te wisselen.",
+    "_ai": true
+  },
+  "chat_sf_filter_heading": {
+    "value": "Verbergen op SF",
+    "_ai": true
+  },
+  "chat_sf_filter_option": {
+    "value": "SF{sf} verbergen",
+    "_ai": true
+  },
+  "chat_sf_filter_unknown": {
+    "value": "Berichten zonder opgeslagen radio-instellingen verbergen",
+    "_ai": true
+  },
+  "packet_filter_sf_heading": null,
+  "packet_filter_sf_unknown": {
+    "value": "Niet vastgelegd",
+    "_ai": true
+  },
+  "nav_contacts_sf_filter": {
+    "value": "Gehoord op",
+    "_ai": true
+  },
+  "nav_contacts_sf_all": {
+    "value": "Alle SF",
+    "_ai": true
+  },
+  "nav_contacts_sf_unknown": {
+    "value": "Onbekend",
+    "_ai": true
+  },
+  "packet_filter_all_sfs_label": {
+    "value": "Alle SF's",
+    "_ai": true
+  },
+  "contact_radio_heading": {
+    "value": "Radio-instellingen",
+    "_ai": true
+  },
+  "contact_radio_heard_on": {
+    "value": "Gehoord op",
+    "_ai": true
+  },
+  "contact_radio_heard_on_none": {
+    "value": "Nog geen radio-instellingen vastgelegd voor dit contact.",
+    "_ai": true
+  },
+  "contact_radio_use_sighting": {
+    "value": "SF{sf} gebruiken",
+    "_ai": true
+  },
+  "contact_radio_use_session": {
+    "value": "Huidige tijdelijke instellingen gebruiken",
+    "_ai": true
+  },
+  "contact_radio_hint": {
+    "value": "Opgeslagen instellingen voor dit contact. De wisselknop in de chatkop en automatisch wisselen gebruiken ze.",
+    "_ai": true
+  },
+  "contact_radio_auto_switch": {
+    "value": "Automatisch wisselen voor elk DM",
+    "_ai": true
+  },
+  "contact_radio_save": {
+    "value": "Radio-instellingen opslaan",
+    "_ai": true
+  },
+  "contact_radio_remove": {
+    "value": "Radio-instellingen verwijderen",
+    "_ai": true
+  },
+  "contact_radio_saved": {
+    "value": "Radio-instellingen opgeslagen",
+    "_ai": true
+  },
+  "contact_radio_save_failed": {
+    "value": "Opslaan mislukt: {error}",
+    "_ai": true
+  },
+  "chat_contact_radio_switch": {
+    "value": "Wissel naar de instellingen van {name}",
+    "_ai": true
+  },
+  "chat_contact_radio_auto_toggle": {
+    "value": "Automatisch wisselen",
+    "_ai": true
+  },
+  "chat_contact_radio_auto_on": {
+    "value": "Automatisch wisselen naar de instellingen van {name} voor elk DM staat aan",
+    "_ai": true
+  },
+  "chat_contact_radio_auto_off": {
+    "value": "Automatisch wisselen naar de instellingen van {name} voor elk DM staat uit",
+    "_ai": true
+  },
+  "temp_radio_scan_intro": {
+    "value": "Laat de companion een lijst met instellingen doorlopen, bijvoorbeeld om om de beurt naar meerdere meshes te luisteren. RTFM gaat terug naar de normale instellingen als de scan klaar is of gestopt wordt.",
+    "_ai": true
+  },
+  "temp_radio_scan_new": {
+    "value": "Nieuwe scanlijst",
+    "_ai": true
+  },
+  "temp_radio_scan_none": {
+    "value": "Nog geen scanlijsten.",
+    "_ai": true
+  },
+  "temp_radio_scan_entries_count": {
+    "value": "{count} items",
+    "_ai": true
+  },
+  "temp_radio_scan_run": {
+    "value": "{name} starten",
+    "_ai": true
+  },
+  "temp_radio_scan_run_short": {
+    "value": "Starten",
+    "_ai": true
+  },
+  "temp_radio_scan_edit": {
+    "value": "{name} bewerken",
+    "_ai": true
+  },
+  "temp_radio_scan_edit_short": {
+    "value": "Bewerken",
+    "_ai": true
+  },
+  "temp_radio_scan_delete": {
+    "value": "{name} verwijderen",
+    "_ai": true
+  },
+  "temp_radio_scan_delete_short": {
+    "value": "Verwijderen",
+    "_ai": true
+  },
+  "temp_radio_scan_running": {
+    "value": "Actief: {name}",
+    "_ai": true
+  },
+  "temp_radio_scan_stop": {
+    "value": "Scan stoppen",
+    "_ai": true
+  },
+  "temp_radio_scan_name_label": {
+    "value": "Naam van de lijst",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_heading": {
+    "value": "Item {n}",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_freq": {
+    "value": "Item {n} frequentie (MHz)",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_bw": {
+    "value": "Item {n} bandbreedte (kHz)",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_sf": {
+    "value": "Item {n} spreading factor",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_cr": {
+    "value": "Item {n} coding rate",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_region": {
+    "value": "Item {n} regio",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_dwell": {
+    "value": "Item {n} seconden op deze instellingen",
+    "_ai": true
+  },
+  "temp_radio_scan_entry_remove": {
+    "value": "Item {n} verwijderen",
+    "_ai": true
+  },
+  "temp_radio_scan_add_entry": {
+    "value": "Item toevoegen",
+    "_ai": true
+  },
+  "temp_radio_scan_rounds": {
+    "value": "Rondes (0 = tot gestopt)",
+    "_ai": true
+  },
+  "temp_radio_scan_normal_between": {
+    "value": "Seconden op normale instellingen tussen items",
+    "_ai": true
+  },
+  "temp_radio_scan_hold": {
+    "value": "Vasthouden bij activiteit (seconden)",
+    "_ai": true
+  },
+  "temp_radio_scan_hold_hint": {
+    "value": "Als er een pakket binnenkomt, blijf op dat item tot zo lang na het laatste pakket. 0 = uit.",
+    "_ai": true
+  },
+  "temp_radio_scan_save": {
+    "value": "Scanlijst opslaan",
+    "_ai": true
+  },
+  "temp_radio_scan_error_name": {
+    "value": "Geef de lijst een naam.",
+    "_ai": true
+  },
+  "temp_radio_scan_error_entry": {
+    "value": "Item {n}: {error}",
+    "_ai": true
+  },
+  "temp_radio_scan_error_dwell": {
+    "value": "Item {n}: seconden moeten meer dan 0 zijn.",
+    "_ai": true
+  },
+  "temp_radio_scan_error_number": {
+    "value": "Rondes en seconden moeten hele getallen zijn, 0 of meer.",
+    "_ai": true
+  },
+  "temp_radio_scan_failed": {
+    "value": "Actie op scanlijst mislukt: {error}",
+    "_ai": true
+  },
+  "temp_radio_scan_banner": {
+    "value": "Scan {name}: item {entry} van {count}",
+    "_ai": true
+  },
+  "temp_radio_scan_banner_normal": {
+    "value": "Scan {name}: op normale instellingen",
+    "_ai": true
+  },
+  "temp_radio_scan_round": {
+    "value": "ronde {round}",
+    "_ai": true
+  },
+  "temp_radio_optin_polls": {
+    "value": "Sensorabonnementen en buren-opvragingen",
+    "_ai": true
+  },
+  "contact_radio_switch_now": {
+    "value": "Nu naar deze instellingen wisselen",
+    "_ai": true
+  },
+  "settings_host_repeater_blocker_temp_radio_session": {
+    "value": "tijdelijke radio-instellingen staan aan",
+    "_ai": true
+  },
+  "temp_radio_button_openhop": {
+    "value": "Tijdelijke radio-instellingen staan uit: OpenHop beheert zijn eigen radio-instellingen",
+    "_ai": true
+  },
+  "contact_radio_openhop_note": {
+    "value": "OpenHop beheert zijn eigen radio-instellingen, dus wisselen staat uit. Opgeslagen instellingen blijven bewaard voor als er een companion verbonden is.",
+    "_ai": true
+  }
 }
