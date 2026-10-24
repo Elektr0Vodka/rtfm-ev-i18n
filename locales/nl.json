@@ -542,6 +542,26 @@
     "value": "Berichten zoeken",
     "_ai": true
   },
+  "nav_mentions": {
+    "value": "Vermeldingen",
+    "_ai": true
+  },
+  "mentions_refresh": {
+    "value": "Vermeldingen vernieuwen",
+    "_ai": true
+  },
+  "mentions_empty": {
+    "value": "Niemand heeft @[{name}] nog vermeld.",
+    "_ai": true
+  },
+  "mentions_no_radio_name": {
+    "value": "Verbind een radio om de berichten te zien die hem vermelden.",
+    "_ai": true
+  },
+  "buddy_tip_mentions": {
+    "value": "Elk bericht waarin je wordt vermeld, nieuwste eerst. Klik erop om ernaartoe te springen.",
+    "_ai": true
+  },
   "nav_node_map": {
     "value": "Nodekaart",
     "_ai": true
@@ -4541,6 +4561,30 @@
     "value": "Gedeeld door {sender}",
     "_ai": true
   },
+  "companion_bridge_title": {
+    "value": "Companion-brug",
+    "_ai": true
+  },
+  "companion_bridge_running": {
+    "value": "Actief op {host}:{port}, {clients} app(s) verbonden. Geen wachtwoord: houd het op een vertrouwd netwerk.",
+    "_ai": true
+  },
+  "companion_bridge_read_only": {
+    "value": "Verzenden vanuit apps staat uit (MESHCORE_COMPANION_BRIDGE_ALLOW_SEND=false): ze kunnen lezen, niet verzenden.",
+    "_ai": true
+  },
+  "companion_bridge_client_named": {
+    "value": "{app} vanaf {address}",
+    "_ai": true
+  },
+  "companion_bridge_off_hint": {
+    "value": "Uit. Zet MESHCORE_COMPANION_BRIDGE_ENABLED=true om een MeshCore companion-app via TCP met RTFM-EV te laten verbinden (poort 5000, alleen lokaal tenzij MESHCORE_COMPANION_BRIDGE_HOST is ingesteld).",
+    "_ai": true
+  },
+  "companion_bridge_help": {
+    "value": "Verbind in de MeshCore-app via TCP / wifi met het adres en de poort van deze server. De app ziet je radio, de contacten en kanalen van RTFM-EV en de berichten die RTFM-EV ontvangt, en verzendt via RTFM-EV. Radio-instellingen, sleutels en CLI blijven buiten bereik.",
+    "_ai": true
+  },
   "tak_stream_title": {
     "value": "TAK-stream",
     "_ai": true,
@@ -6856,6 +6900,42 @@
     "value": "Kanaal niet gevonden",
     "_ai": true
   },
+  "channel_data_heading": {
+    "value": "Kanaaldata verzenden (ontwikkelaars)",
+    "_ai": true
+  },
+  "channel_data_help": {
+    "value": "Verzendt een binair datagram via flood naar dit kanaal. Het datatype bepaalt de toepassing (hex, 0001-FFFF; FF00-FFFF zijn vrij om te testen). Er wordt niets opgeslagen; het verschijnt als andere kanaaldata zodra het terug wordt gehoord.",
+    "_ai": true
+  },
+  "channel_data_type_label": {
+    "value": "Datatype (hex)",
+    "_ai": true
+  },
+  "channel_data_payload_label": {
+    "value": "Inhoud (hex)",
+    "_ai": true
+  },
+  "channel_data_size": {
+    "value": "{size} van {max} bytes",
+    "_ai": true
+  },
+  "channel_data_not_hex": {
+    "value": "De inhoud is geen hex.",
+    "_ai": true
+  },
+  "channel_data_send": {
+    "value": "Uitzenden",
+    "_ai": true
+  },
+  "channel_data_sent": {
+    "value": "Kanaaldata verzonden ({bytes} bytes)",
+    "_ai": true
+  },
+  "channel_data_send_failed": {
+    "value": "Kanaaldata verzenden mislukt",
+    "_ai": true
+  },
   "channel_hop_width_1byte": {
     "value": "1-byte",
     "_ai": true,
@@ -8876,12 +8956,20 @@
     "value": "Indien ingeschakeld, stuurt de radio één extra directe ACK-transmissie vóór de normale ACK voor ontvangen directe berichten. Dit is een ontvangstgedrag op firmwareniveau, geen RemoteTerm-herhaalinstelling.",
     "_ai": true
   },
+  "settings_radio_send_gap_label": {
+    "value": "Ruimte tussen verzendingen (seconden)",
+    "_ai": true
+  },
+  "settings_radio_send_gap_desc": {
+    "value": "Een repeater hoort niets terwijl hij herhaalt, dus een bericht dat direct achter een ander wordt verzonden gaat vaak verloren. Elke verzending wacht tot 1 seconde nadat de vorige een echo of bevestiging kreeg, of hoogstens dit aantal seconden, en op een moment van stilte in de lucht. 0 zet de ruimte uit.",
+    "_ai": true
+  },
   "settings_radio_auto_resend_label": {
     "value": "Onbeantwoorde Kanaalberichten Automatisch Opnieuw Verzenden",
     "_ai": true
   },
   "settings_radio_auto_resend_desc": {
-    "value": "Indien ingeschakeld, worden uitgaande kanaalberichten die binnen 2 seconden geen echo ontvangen automatisch één keer opnieuw verzonden (byte-perfect, binnen het dedup-venster van 30 seconden). Repeaters die het origineel al hebben gehoord, negeren het duplicaat. Deze functionaliteit zal GEEN dubbel verzonden/duplicaatberichten creëren.",
+    "value": "Indien ingeschakeld, worden uitgaande kanaalberichten die binnen 6 seconden geen echo ontvangen automatisch één keer opnieuw verzonden (byte-perfect, binnen het dedup-venster van 30 seconden). Repeaters die het origineel al hebben gehoord, negeren het duplicaat. Deze functionaliteit zal GEEN dubbel verzonden/duplicaatberichten creëren.",
     "_ai": true
   },
   "settings_radio_flood_scope_label": {
@@ -9397,6 +9485,42 @@
   },
   "settings_fanout_publish_packets": {
     "value": "Pakketten publiceren",
+    "_ai": true
+  },
+  "settings_fanout_packet_types": {
+    "value": "Te publiceren payloadtypes",
+    "_ai": true
+  },
+  "settings_fanout_packet_types_all": {
+    "value": "Niets aangevinkt: elk type wordt gepubliceerd.",
+    "_ai": true
+  },
+  "settings_fanout_packet_types_some": {
+    "value": "Alleen de {count} aangevinkte types worden gepubliceerd.",
+    "_ai": true
+  },
+  "settings_fanout_offline_queue": {
+    "value": "Pakketten bewaren als de broker onbereikbaar is",
+    "_ai": true
+  },
+  "settings_fanout_offline_queue_desc": {
+    "value": "Pakketten die tijdens een verbroken verbinding binnenkomen wachten in het geheugen en worden verzonden zodra de verbinding terug is, oudste eerst en met de tijd waarop ze zijn gehoord. Gaan verloren bij een herstart.",
+    "_ai": true
+  },
+  "settings_fanout_offline_queue_max": {
+    "value": "Maximaal bewaarde pakketten",
+    "_ai": true
+  },
+  "settings_fanout_listen_broker_errors": {
+    "value": "Weigeringen van de broker tonen",
+    "_ai": true
+  },
+  "settings_fanout_listen_broker_errors_desc": {
+    "value": "Abonneert op het foutentopic van deze node (meshcore/IATA/KEY/error) en toont een weigering als fout van de koppeling. Alleen voor brokers die er een publiceren; een andere broker kan het abonnement weigeren.",
+    "_ai": true
+  },
+  "settings_statistics_mqtt_queue": {
+    "value": "{queued} wachtend, {dropped} verwijderd",
     "_ai": true
   },
   "settings_fanout_publish_config": {
@@ -25472,6 +25596,22 @@
   },
   "perf_radio_slowest": {
     "value": "Traagste radio-operaties, laatste uur",
+    "_ai": true
+  },
+  "perf_radio_queue_title": {
+    "value": "Radiowachtrij nu",
+    "_ai": true
+  },
+  "perf_radio_queue_idle": {
+    "value": "Niets gebruikt de radio.",
+    "_ai": true
+  },
+  "perf_radio_queue_running": {
+    "value": "Bezig:",
+    "_ai": true
+  },
+  "perf_radio_queue_waiting": {
+    "value": "Wacht #{n}:",
     "_ai": true
   },
   "perf_logs_title": {

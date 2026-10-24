@@ -542,6 +542,26 @@
     "value": "Nachrichtensuche",
     "_ai": true
   },
+  "nav_mentions": {
+    "value": "Erwähnungen",
+    "_ai": true
+  },
+  "mentions_refresh": {
+    "value": "Erwähnungen aktualisieren",
+    "_ai": true
+  },
+  "mentions_empty": {
+    "value": "Noch niemand hat @[{name}] erwähnt.",
+    "_ai": true
+  },
+  "mentions_no_radio_name": {
+    "value": "Verbinde ein Funkgerät, um die Nachrichten zu sehen, die es erwähnen.",
+    "_ai": true
+  },
+  "buddy_tip_mentions": {
+    "value": "Jede Nachricht, in der du erwähnt wirst, neueste zuerst. Klicke darauf, um dorthin zu springen.",
+    "_ai": true
+  },
   "nav_node_map": {
     "value": "Knotenkarte",
     "_ai": true
@@ -4512,6 +4532,30 @@
     "value": "Geteilt von {sender}",
     "_ai": true
   },
+  "companion_bridge_title": {
+    "value": "Companion-Brücke",
+    "_ai": true
+  },
+  "companion_bridge_running": {
+    "value": "Läuft auf {host}:{port}, {clients} App(s) verbunden. Kein Passwort: nur in einem vertrauenswürdigen Netz verwenden.",
+    "_ai": true
+  },
+  "companion_bridge_read_only": {
+    "value": "Senden aus Apps ist aus (MESHCORE_COMPANION_BRIDGE_ALLOW_SEND=false): sie können lesen, nicht senden.",
+    "_ai": true
+  },
+  "companion_bridge_client_named": {
+    "value": "{app} von {address}",
+    "_ai": true
+  },
+  "companion_bridge_off_hint": {
+    "value": "Aus. Setze MESHCORE_COMPANION_BRIDGE_ENABLED=true, damit sich eine MeshCore-Companion-App per TCP mit RTFM-EV verbinden kann (Port 5000, nur lokal, solange MESHCORE_COMPANION_BRIDGE_HOST nicht gesetzt ist).",
+    "_ai": true
+  },
+  "companion_bridge_help": {
+    "value": "Verbinde dich in der MeshCore-App per TCP / WLAN mit Adresse und Port dieses Servers. Die App sieht dein Funkgerät, die Kontakte und Kanäle von RTFM-EV und die Nachrichten, die RTFM-EV empfängt, und sendet über RTFM-EV. Funkeinstellungen, Schlüssel und CLI bleiben außer Reichweite.",
+    "_ai": true
+  },
   "tak_stream_title": {
     "value": "TAK-Stream",
     "_ai": true,
@@ -6822,6 +6866,42 @@
     "value": "Kanal nicht gefunden",
     "_ai": true
   },
+  "channel_data_heading": {
+    "value": "Kanaldaten senden (Entwickler)",
+    "_ai": true
+  },
+  "channel_data_help": {
+    "value": "Sendet ein binäres Datagramm per Flood an diesen Kanal. Der Datentyp bestimmt die Anwendung (hex, 0001-FFFF; FF00-FFFF sind zum Testen frei). Es wird nichts gespeichert; es erscheint wie andere Kanaldaten, sobald es zurück gehört wird.",
+    "_ai": true
+  },
+  "channel_data_type_label": {
+    "value": "Datentyp (hex)",
+    "_ai": true
+  },
+  "channel_data_payload_label": {
+    "value": "Inhalt (hex)",
+    "_ai": true
+  },
+  "channel_data_size": {
+    "value": "{size} von {max} Bytes",
+    "_ai": true
+  },
+  "channel_data_not_hex": {
+    "value": "Der Inhalt ist kein Hex.",
+    "_ai": true
+  },
+  "channel_data_send": {
+    "value": "Aussenden",
+    "_ai": true
+  },
+  "channel_data_sent": {
+    "value": "Kanaldaten gesendet ({bytes} Bytes)",
+    "_ai": true
+  },
+  "channel_data_send_failed": {
+    "value": "Kanaldaten senden fehlgeschlagen",
+    "_ai": true
+  },
   "channel_hop_width_1byte": {
     "value": "1-Byte",
     "_ai": true
@@ -8834,12 +8914,20 @@
     "value": "Wenn aktiviert, sendet das Funkgerät vor der normalen ACK für empfangene Direktnachrichten eine zusätzliche direkte ACK-Übertragung. Dies ist ein Empfangsverhalten auf Firmware-Ebene, keine RemoteTerm-Wiederholungseinstellung.",
     "_ai": true
   },
+  "settings_radio_send_gap_label": {
+    "value": "Abstand zwischen Sendungen (Sekunden)",
+    "_ai": true
+  },
+  "settings_radio_send_gap_desc": {
+    "value": "Ein Repeater hört nichts, während er wiederholt; eine Nachricht direkt hinter einer anderen geht daher oft verloren. Jede Sendung wartet bis 1 Sekunde nach Echo oder Bestätigung der vorigen, höchstens diese Anzahl Sekunden, und auf einen Moment Funkstille. 0 schaltet den Abstand aus.",
+    "_ai": true
+  },
   "settings_radio_auto_resend_label": {
     "value": "Unbeantwortete Kanalnachrichten automatisch erneut senden",
     "_ai": true
   },
   "settings_radio_auto_resend_desc": {
-    "value": "Wenn aktiviert, werden ausgehende Kanalnachrichten, die innerhalb von 2 Sekunden kein Echo erhalten, automatisch einmal erneut gesendet (bytegenau, innerhalb des 30-Sekunden-Dedup-Fensters). Repeater, die das Original bereits gehört haben, ignorieren das Duplikat. Diese Funktion erzeugt KEINE doppelt gesendeten/duplizierten Nachrichten.",
+    "value": "Wenn aktiviert, werden ausgehende Kanalnachrichten, die innerhalb von 6 Sekunden kein Echo erhalten, automatisch einmal erneut gesendet (bytegenau, innerhalb des 30-Sekunden-Dedup-Fensters). Repeater, die das Original bereits gehört haben, ignorieren das Duplikat. Diese Funktion erzeugt KEINE doppelt gesendeten/duplizierten Nachrichten.",
     "_ai": true
   },
   "settings_radio_flood_scope_label": {
@@ -9353,6 +9441,42 @@
   },
   "settings_fanout_publish_packets": {
     "value": "Pakete veröffentlichen",
+    "_ai": true
+  },
+  "settings_fanout_packet_types": {
+    "value": "Zu veröffentlichende Payload-Typen",
+    "_ai": true
+  },
+  "settings_fanout_packet_types_all": {
+    "value": "Nichts angehakt: jeder Typ wird veröffentlicht.",
+    "_ai": true
+  },
+  "settings_fanout_packet_types_some": {
+    "value": "Nur die {count} angehakten Typen werden veröffentlicht.",
+    "_ai": true
+  },
+  "settings_fanout_offline_queue": {
+    "value": "Pakete behalten, solange der Broker nicht erreichbar ist",
+    "_ai": true
+  },
+  "settings_fanout_offline_queue_desc": {
+    "value": "Pakete, die ohne Verbindung empfangen werden, warten im Speicher und werden gesendet, sobald die Verbindung zurück ist, älteste zuerst und mit ihrer Empfangszeit. Gehen bei einem Neustart verloren.",
+    "_ai": true
+  },
+  "settings_fanout_offline_queue_max": {
+    "value": "Höchstens behaltene Pakete",
+    "_ai": true
+  },
+  "settings_fanout_listen_broker_errors": {
+    "value": "Ablehnungen des Brokers anzeigen",
+    "_ai": true
+  },
+  "settings_fanout_listen_broker_errors_desc": {
+    "value": "Abonniert das Fehler-Topic dieses Knotens (meshcore/IATA/KEY/error) und zeigt eine Ablehnung als Fehler der Integration. Nur für Broker, die eines veröffentlichen; ein anderer Broker kann das Abonnement ablehnen.",
+    "_ai": true
+  },
+  "settings_statistics_mqtt_queue": {
+    "value": "{queued} wartend, {dropped} verworfen",
     "_ai": true
   },
   "settings_fanout_publish_config": {
@@ -25421,6 +25545,22 @@
   },
   "perf_radio_slowest": {
     "value": "Langsamste Funkoperationen, letzte Stunde",
+    "_ai": true
+  },
+  "perf_radio_queue_title": {
+    "value": "Funk-Warteschlange jetzt",
+    "_ai": true
+  },
+  "perf_radio_queue_idle": {
+    "value": "Nichts nutzt das Funkgerät.",
+    "_ai": true
+  },
+  "perf_radio_queue_running": {
+    "value": "Läuft:",
+    "_ai": true
+  },
+  "perf_radio_queue_waiting": {
+    "value": "Wartet #{n}:",
     "_ai": true
   },
   "perf_logs_title": {
