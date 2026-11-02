@@ -2576,6 +2576,130 @@
     "value": "In gebruik genomen via USB: {name} ({firmware}, {board})",
     "_ai": true
   },
+  "fleet_lan_title": {
+    "value": "Webconfig (LAN)",
+    "_ai": true
+  },
+  "fleet_lan_intro": {
+    "value": "Een DMC observer heeft een webconfig op zijn LAN-adres. De server leest die en past er een opgeslagen configuratie op toe, en logt in met het beheerderswachtwoord van de node uit de sleutelkluis. De webconfig spreekt gewone HTTP, dus dat wachtwoord gaat onversleuteld over je LAN, net als vanaf de eigen pagina van de webconfig.",
+    "_ai": true
+  },
+  "fleet_lan_vault_off": {
+    "value": "De sleutelkluis staat uit op deze server: de webconfig heeft het beheerderswachtwoord van de node daaruit nodig.",
+    "_ai": true
+  },
+  "fleet_lan_vault_locked": {
+    "value": "Ontgrendel eerst de sleutelkluis: de webconfig heeft het beheerderswachtwoord van de node daaruit nodig (soort: beheerderswachtwoord).",
+    "_ai": true
+  },
+  "fleet_lan_host": {
+    "value": "LAN-adres van de node",
+    "_ai": true
+  },
+  "fleet_lan_start": {
+    "value": "Webconfig starten (via de radio)",
+    "_ai": true
+  },
+  "fleet_lan_start_confirm": {
+    "value": "start webconfig nu versturen",
+    "_ai": true
+  },
+  "fleet_lan_start_warning": {
+    "value": "Dit stuurt een opdracht, start webconfig, via de radio naar de node. Log er eerst op in op zijn repeaterpagina. Op een observer zonder wifi-instellingen opent dit zijn installatie-toegangspunt, dat geen login heeft. De webconfig blijft draaien tot je hem stopt.",
+    "_ai": true
+  },
+  "fleet_lan_stop": {
+    "value": "Webconfig stoppen (via de radio)",
+    "_ai": true
+  },
+  "fleet_lan_stop_confirm": {
+    "value": "stop webconfig nu versturen",
+    "_ai": true
+  },
+  "fleet_lan_stop_warning": {
+    "value": "Dit stuurt een opdracht, stop webconfig, via de radio naar de node.",
+    "_ai": true
+  },
+  "fleet_lan_read": {
+    "value": "Via het LAN lezen",
+    "_ai": true
+  },
+  "fleet_lan_node_id": {
+    "value": "Node-id",
+    "_ai": true
+  },
+  "fleet_lan_match": {
+    "value": "Dit is de node van dit apparaat (zijn publieke sleutel begint met deze node-id).",
+    "_ai": true
+  },
+  "fleet_lan_partial": {
+    "value": "Alleen wat de webconfig laat zien: geen pakketfilter, regio, hardware, meldingen, gastwachtwoord, privésleutel of eigenaarsinfo, en geen wifi- of brokerwachtwoord (de webconfig verbergt die). Een momentopname hiervan is geen volledige back-up.",
+    "_ai": true
+  },
+  "fleet_lan_stored": {
+    "value": "De webconfig-instellingen van de node zijn opgeslagen als momentopname.",
+    "_ai": true
+  },
+  "fleet_lan_apply_title": {
+    "value": "Een opgeslagen configuratie via het LAN toepassen",
+    "_ai": true
+  },
+  "fleet_lan_no_key": {
+    "value": "De privésleutel en het gastwachtwoord worden nooit via het LAN ingesteld; gebruik daarvoor de USB-kabel.",
+    "_ai": true
+  },
+  "fleet_lan_prepare": {
+    "value": "Via het LAN lezen en de wijzigingen tonen",
+    "_ai": true
+  },
+  "fleet_lan_apply_hint": {
+    "value": "Er wordt niets verstuurd voordat je elke opdracht hebt gezien en bevestigd. Elke opdracht is een eigen opslag op de node; de server wacht op het resultaat en leest de instelling terug, en het toepassen stopt bij het eerste onverwachte antwoord. De node krijgt nooit de opdracht om te herstarten.",
+    "_ai": true
+  },
+  "fleet_usb_skip_not_over_webconfig": {
+    "value": "niet verstuurd: de webconfig kan dit niet instellen",
+    "_ai": true
+  },
+  "fleet_usb_skip_secret_unknown": {
+    "value": "niet verstuurd: de node heeft een waarde die de webconfig verbergt, dus vergelijken kan niet (stel het in via de USB-kabel)",
+    "_ai": true
+  },
+  "fleet_usb_check_unreachable": {
+    "value": "de node is niet bereikbaar op het LAN",
+    "_ai": true
+  },
+  "fleet_usb_check_not_running": {
+    "value": "de webconfig draait niet op de node",
+    "_ai": true
+  },
+  "fleet_usb_check_wrong_password": {
+    "value": "het beheerderswachtwoord werd niet geaccepteerd",
+    "_ai": true
+  },
+  "fleet_usb_check_locked": {
+    "value": "te veel verkeerde wachtwoorden; de node wacht 30 seconden",
+    "_ai": true
+  },
+  "fleet_usb_check_session": {
+    "value": "de webconfig-sessie is beëindigd",
+    "_ai": true
+  },
+  "fleet_usb_check_busy": {
+    "value": "de node is nog bezig met een andere opslag",
+    "_ai": true
+  },
+  "fleet_usb_check_refused": {
+    "value": "de node weigerde de opslag",
+    "_ai": true
+  },
+  "fleet_usb_check_no_result": {
+    "value": "de node meldde het resultaat niet op tijd",
+    "_ai": true
+  },
+  "fleet_usb_check_bad_answer": {
+    "value": "de node gaf een antwoord dat deze app niet begrijpt",
+    "_ai": true
+  },
   "fleet_config_vault_hint_locked": {
     "value": "De kluis is vergrendeld: geheimen in een bestand worden weggelaten. Ontgrendel hem eerst onder Sleutelkluis op deze pagina om ze te bewaren.",
     "_ai": true
@@ -4154,6 +4278,14 @@
   },
   "chat_filter_malformed_hint": {
     "value": "Spam met willekeurige tekens en afzenders met een nooit ingestelde klok.",
+    "_ai": true
+  },
+  "chat_filter_hide_name_filtered": {
+    "value": "Verbergen op naampatroon",
+    "_ai": true
+  },
+  "chat_filter_name_filtered_hint": {
+    "value": "Afzenders die passen bij je naampatronen in Instellingen.",
     "_ai": true
   },
   "chat_scope_direct": {
@@ -7723,6 +7855,1224 @@
     "value": "Apparaatgeschiedenis (paneel-momentopnamen, posities)",
     "_ai": true
   },
+  "settings_retention_class_wardrive": {
+    "value": "Wardrive-ontvangsten en tracks",
+    "_ai": true
+  },
+  "settings_wardrive_heading": null,
+  "settings_wardrive_desc": {
+    "value": "Rijders op je netwerk of tailnet openen de wardrive-pagina, koppelen hun eigen companion-radio in de browser en rijden. Wat hun radio hoort gaat naar de brokers hieronder die elke rijder zelf aanzet, en een kopie blijft hier. Je eigen radio wordt niet gebruikt.",
+    "_ai": true
+  },
+  "settings_wardrive_unprotected": {
+    "value": "De hoofdlogin staat uit (MESHCORE_BASIC_AUTH_USERNAME en MESHCORE_BASIC_AUTH_PASSWORD zijn niet ingesteld). Iedereen die de wardrive-pagina kan openen, kan ook deze app en je thuisradio openen. Stel beide in om dit af te schermen.",
+    "_ai": true
+  },
+  "settings_wardrive_page_label": {
+    "value": "Wardrive-pagina",
+    "_ai": true
+  },
+  "settings_wardrive_https_note": {
+    "value": "De pagina heeft HTTPS nodig voor Bluetooth en GPS: gebruik tailscale serve of een reverse proxy met een certificaat.",
+    "_ai": true
+  },
+  "settings_wardrive_users_heading": {
+    "value": "Wardrive-gebruikers",
+    "_ai": true
+  },
+  "settings_wardrive_no_users": {
+    "value": "Nog geen wardrive-accounts.",
+    "_ai": true
+  },
+  "settings_wardrive_obs_count": {
+    "plural": {
+      "one": "{count} ontvangst opgeslagen",
+      "other": "{count} ontvangsten opgeslagen"
+    },
+    "_ai": true
+  },
+  "settings_wardrive_visibility_for": {
+    "value": "Zichtbaarheid voor {name}",
+    "_ai": true
+  },
+  "settings_wardrive_visibility_own": {
+    "value": "Alleen eigen data",
+    "_ai": true
+  },
+  "settings_wardrive_visibility_groups": {
+    "value": "Mijn groepen",
+    "_ai": true
+  },
+  "settings_wardrive_visibility_all": {
+    "value": "Alle rijders",
+    "_ai": true
+  },
+  "settings_wardrive_disabled": {
+    "value": "Uitgeschakeld",
+    "_ai": true
+  },
+  "settings_wardrive_disabled_for": {
+    "value": "Uitgeschakeld: {name}",
+    "_ai": true
+  },
+  "settings_wardrive_delete": {
+    "value": "Verwijderen",
+    "_ai": true
+  },
+  "settings_wardrive_delete_user": {
+    "value": "Gebruiker {name} verwijderen",
+    "_ai": true
+  },
+  "settings_wardrive_delete_group": {
+    "value": "Groep {name} verwijderen",
+    "_ai": true
+  },
+  "settings_wardrive_delete_user_confirm": {
+    "value": "{name} verwijderen, met hun radio's en al hun opgeslagen wardrive-data?",
+    "_ai": true
+  },
+  "settings_wardrive_remove": {
+    "value": "Verwijderen",
+    "_ai": true
+  },
+  "settings_wardrive_remove_radio": {
+    "value": "Radio {key} verwijderen",
+    "_ai": true
+  },
+  "settings_wardrive_remove_radio_confirm": {
+    "value": "Radio {key} van dit account verwijderen? De opgeslagen data blijft bij het account.",
+    "_ai": true
+  },
+  "settings_wardrive_member_of": null,
+  "settings_wardrive_groups_heading": {
+    "value": "Groepen",
+    "_ai": true
+  },
+  "settings_wardrive_group_name": {
+    "value": "Naam van groep {name}",
+    "_ai": true
+  },
+  "settings_wardrive_member_count": {
+    "plural": {
+      "one": "{count} lid",
+      "other": "{count} leden"
+    },
+    "_ai": true
+  },
+  "settings_wardrive_delete_group_confirm": {
+    "value": "Groep {name} verwijderen?",
+    "_ai": true
+  },
+  "settings_wardrive_new_group": {
+    "value": "Naam nieuwe groep",
+    "_ai": true
+  },
+  "settings_wardrive_add_group": {
+    "value": "Groep toevoegen",
+    "_ai": true
+  },
+  "settings_wardrive_channels_heading": {
+    "value": "Kanalen die rijders kunnen lezen",
+    "_ai": true
+  },
+  "settings_wardrive_channels_desc": {
+    "value": "De wardrive-pagina ontsleutelt het Public-kanaal en deze hashtagkanalen. Alleen de namen worden gedeeld: de sleutel van een hashtagkanaal volgt uit de naam, dus rijders rekenen hem zelf uit. Privékanalen worden nooit gedeeld.",
+    "_ai": true
+  },
+  "settings_wardrive_channels_from_radio": {
+    "value": "Van je radio: de hashtagkanalen daarop. Voeg er een toe of haal er een weg om je eigen lijst te houden.",
+    "_ai": true
+  },
+  "settings_wardrive_channels_none": {
+    "value": "Geen hashtagkanalen: rijders ontsleutelen alleen het Public-kanaal.",
+    "_ai": true
+  },
+  "settings_wardrive_channels_remove": {
+    "value": "{name} verwijderen",
+    "_ai": true
+  },
+  "settings_wardrive_channels_name": {
+    "value": "Kanaalnaam",
+    "_ai": true
+  },
+  "settings_wardrive_channels_add": {
+    "value": "Kanaal toevoegen",
+    "_ai": true
+  },
+  "settings_wardrive_channels_reset": {
+    "value": "Hashtagkanalen van mijn radio gebruiken",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_heading": {
+    "value": "Brokers waar rijders naar kunnen doorsturen",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_desc": {
+    "value": "Rijders zetten deze per radio aan op de wardrivepagina; zelf toevoegen kunnen ze niet. De DutchMeshCore-collectors nemen wardriveberichten aan, meshcore-analyzer.eu neemt observerpakketten aan. Een companion-broker meldt aan met een token dat de radio van de rijder ondertekent.",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_builtin": {
+    "value": "ingebouwd",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_with_account": {
+    "value": "met een account",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_where_label": {
+    "value": "stroom {label}",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_where_region": {
+    "value": "regio {region}",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_remove_body": {
+    "value": "Rijders stoppen binnen 10 minuten met doorsturen naar {name}. Wat ze al stuurden blijft bij de broker.",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_remove_cancel": {
+    "value": "Annuleren",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_remove_confirm": {
+    "value": "Broker verwijderen",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_remove_title": {
+    "value": "Deze broker verwijderen?",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_remove": {
+    "value": "{name} verwijderen",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_analyzer_region": {
+    "value": "Regiocode voor de analyzer",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_save_region": {
+    "value": "Regio opslaan",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_add_heading": {
+    "value": "Broker toevoegen",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_name": {
+    "value": "Naam van de broker",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_url": {
+    "value": "Adres",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_format": {
+    "value": "Formaat",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_format_packets": {
+    "value": "Observerpakketten",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_format_wardrive": {
+    "value": "Wardrive-obs en -tracks",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_label": {
+    "value": "Stroomlabel",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_region": {
+    "value": "Regiocode",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_auth": {
+    "value": "Aanmelden",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_auth_companion": {
+    "value": "Token ondertekend door de radio van de rijder",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_auth_password": {
+    "value": "Gebruikersnaam en wachtwoord",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_username": {
+    "value": "Gebruikersnaam broker",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_password": {
+    "value": "Wachtwoord broker",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_password_warning": {
+    "value": "De browser van elke wardrive-rijder krijgt deze gebruikersnaam en dit wachtwoord, omdat die zelf met de broker verbindt. Gebruik een account dat daarvoor bedoeld is.",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_add": {
+    "value": "Broker toevoegen",
+    "_ai": true
+  },
+  "settings_wardrive_calibration_label": {
+    "value": "RSSI-kalibratie (dB)",
+    "_ai": true
+  },
+  "settings_wardrive_calibration_save": {
+    "value": "Kalibratie opslaan",
+    "_ai": true
+  },
+  "settings_wardrive_calibration_desc": {
+    "value": "Opgeteld bij elke RSSI die de wardrivepagina kleurt (-30 tot 30), voor radio's die te hoog of te laag meten. Getoonde, opgeslagen en doorgestuurde getallen blijven zoals gemeten. Rijders stellen hun eigen verzwakker in op de pagina.",
+    "_ai": true
+  },
+  "wardrive_page_title": null,
+  "wardrive_map_heading": {
+    "value": "Kaart",
+    "_ai": true
+  },
+  "wardrive_map_show": {
+    "value": "Kaart tonen",
+    "_ai": true
+  },
+  "wardrive_map_hide": {
+    "value": "Kaart verbergen",
+    "_ai": true
+  },
+  "wardrive_map_window": {
+    "value": "Tijdvenster",
+    "_ai": true
+  },
+  "wardrive_map_window_24h": {
+    "value": "Afgelopen 24 uur",
+    "_ai": true
+  },
+  "wardrive_map_window_7d": {
+    "value": "Afgelopen 7 dagen",
+    "_ai": true
+  },
+  "wardrive_map_window_30d": {
+    "value": "Afgelopen 30 dagen",
+    "_ai": true
+  },
+  "wardrive_map_loading": {
+    "value": "Laden",
+    "_ai": true
+  },
+  "wardrive_map_empty": {
+    "value": "Nog niets bewaard in dit tijdvenster.",
+    "_ai": true
+  },
+  "wardrive_map_truncated": {
+    "value": "Alleen de nieuwste ontvangsten worden getoond.",
+    "_ai": true
+  },
+  "wardrive_map_counts": {
+    "value": "{obs} ontvangsten, {tracks} trackintervallen",
+    "_ai": true
+  },
+  "wardrive_map_legend": null,
+  "wardrive_map_unknown": {
+    "value": "onbekend",
+    "_ai": true
+  },
+  "wardrive_popup_heard": {
+    "value": "Gehoord",
+    "_ai": true
+  },
+  "wardrive_popup_driver": {
+    "value": "Rijder",
+    "_ai": true
+  },
+  "wardrive_popup_radio": null,
+  "wardrive_popup_drive": {
+    "value": "Rit",
+    "_ai": true
+  },
+  "wardrive_popup_signal": {
+    "value": "Signaal",
+    "_ai": true
+  },
+  "wardrive_popup_packet": {
+    "value": "Pakket",
+    "_ai": true
+  },
+  "wardrive_popup_hops": null,
+  "wardrive_popup_heard_via": {
+    "value": "Gehoord via",
+    "_ai": true
+  },
+  "wardrive_popup_position": {
+    "value": "Positie",
+    "_ai": true
+  },
+  "wardrive_popup_hash": null,
+  "wardrive_popup_published": {
+    "value": "Gepubliceerd",
+    "_ai": true
+  },
+  "wardrive_popup_uploaded": {
+    "value": "Geüpload",
+    "_ai": true
+  },
+  "wardrive_popup_route_flood": null,
+  "wardrive_popup_route_direct": null,
+  "wardrive_popup_bytes": null,
+  "wardrive_map_aria": {
+    "value": "Wardrive-kaart",
+    "_ai": true
+  },
+  "wardrive_map_all_users": {
+    "value": "Alle gebruikers",
+    "_ai": true
+  },
+  "wardrive_map_all_groups": {
+    "value": "Alle groepen",
+    "_ai": true
+  },
+  "wardrive_map_user": {
+    "value": "Gebruiker",
+    "_ai": true
+  },
+  "wardrive_map_group": {
+    "value": "Groep",
+    "_ai": true
+  },
+  "wardrive_map_radio": null,
+  "wardrive_map_all_radios": {
+    "value": "Alle radio's",
+    "_ai": true
+  },
+  "wardrive_page_forward_heading": {
+    "value": "Doorsturen naar",
+    "_ai": true
+  },
+  "wardrive_page_forward_note": {
+    "value": "Elke schakelaar geldt voor deze radio en begint bij wat vanaf nu gehoord wordt. De hunter-stroom van DutchMeshCore is voor jachten, de wardriver-stroom voor dekkingsritten.",
+    "_ai": true
+  },
+  "wardrive_page_broker_dmc_hunter": null,
+  "wardrive_page_broker_dmc_wardriver": null,
+  "wardrive_page_forward_off": {
+    "value": "Uit",
+    "_ai": true
+  },
+  "wardrive_page_forward_connecting": {
+    "value": "Verbinden",
+    "_ai": true
+  },
+  "wardrive_page_forward_connected": {
+    "value": "Verbonden, {count} wachtend",
+    "_ai": true
+  },
+  "wardrive_page_forward_sign_failed": {
+    "value": "Je radio kon niet inloggen",
+    "_ai": true
+  },
+  "wardrive_page_forward_error": {
+    "value": "Probleem: {error}",
+    "_ai": true
+  },
+  "wardrive_page_send_now": {
+    "value": "Nu versturen",
+    "_ai": true
+  },
+  "wardrive_page_intro": {
+    "value": "Koppel je eigen companion-radio en rijd. Wat hij hoort wordt hier bewaard en geüpload zodra RTFM-EV bereikbaar is.",
+    "_ai": true
+  },
+  "wardrive_page_offline": {
+    "value": "Offline: RTFM-EV is niet bereikbaar. Ontvangsten worden bewaard en later geüpload.",
+    "_ai": true
+  },
+  "wardrive_page_account_heading": null,
+  "wardrive_page_username": {
+    "value": "Gebruikersnaam",
+    "_ai": true
+  },
+  "wardrive_page_password": {
+    "value": "Wachtwoord",
+    "_ai": true
+  },
+  "wardrive_page_log_in": {
+    "value": "Inloggen",
+    "_ai": true
+  },
+  "wardrive_page_log_out": {
+    "value": "Uitloggen",
+    "_ai": true
+  },
+  "wardrive_page_logged_in_as": {
+    "value": "Ingelogd als {name}",
+    "_ai": true
+  },
+  "wardrive_page_create_account": {
+    "value": "Account aanmaken",
+    "_ai": true
+  },
+  "wardrive_page_create_hint": {
+    "value": "Verbind eerst je radio om een account aan te maken: hij tekent om te bewijzen dat hij van jou is.",
+    "_ai": true
+  },
+  "wardrive_page_radio_name": {
+    "value": "Naam van de radio",
+    "_ai": true
+  },
+  "wardrive_page_password_short": {
+    "value": "Het wachtwoord heeft minstens 10 tekens nodig.",
+    "_ai": true
+  },
+  "wardrive_page_radio_heading": null,
+  "wardrive_page_connect_ble": {
+    "value": "Verbinden via Bluetooth",
+    "_ai": true
+  },
+  "wardrive_page_connect_usb": {
+    "value": "Verbinden via USB",
+    "_ai": true
+  },
+  "wardrive_page_disconnect": {
+    "value": "Verbreken",
+    "_ai": true
+  },
+  "wardrive_page_radio_connected": null,
+  "wardrive_page_radio_not_on_account": {
+    "value": "Deze radio staat nog niet op je account.",
+    "_ai": true
+  },
+  "wardrive_page_add_to_account": {
+    "value": "Aan dit account toevoegen",
+    "_ai": true
+  },
+  "wardrive_page_separate_account": {
+    "value": "Apart account aanmaken",
+    "_ai": true
+  },
+  "wardrive_page_radio_lost": {
+    "value": "De radio is verbroken. De rit is gepauzeerd; verbind opnieuw om verder te gaan.",
+    "_ai": true
+  },
+  "wardrive_page_no_radio_support": {
+    "value": "Deze browser kan geen radio bereiken. Gebruik op een iPhone de Bluefy-browser, op een computer Chrome of Edge.",
+    "_ai": true
+  },
+  "wardrive_page_position_heading": {
+    "value": "Positie",
+    "_ai": true
+  },
+  "wardrive_page_position_device": {
+    "value": "Locatie van dit apparaat gebruiken",
+    "_ai": true
+  },
+  "wardrive_page_position_usb": {
+    "value": "USB-GPS gebruiken",
+    "_ai": true
+  },
+  "wardrive_page_position_fix": {
+    "value": "Nauwkeurigheid {accuracy}, {age} s geleden",
+    "_ai": true
+  },
+  "wardrive_page_accuracy_unknown": {
+    "value": "onbekend",
+    "_ai": true
+  },
+  "wardrive_page_position_unusable": {
+    "value": "Geen bruikbare positie: ontvangsten worden pas bewaard als die er is (beter dan 100 m, hooguit 10 s oud).",
+    "_ai": true
+  },
+  "wardrive_page_laptop_gps": {
+    "value": "Een laptop heeft een aangesloten GPS nodig: zijn eigen locatie komt van wifi en is niet nauwkeurig genoeg.",
+    "_ai": true
+  },
+  "wardrive_page_drive_heading": {
+    "value": "Rit",
+    "_ai": true
+  },
+  "wardrive_page_start": {
+    "value": "Rit starten",
+    "_ai": true
+  },
+  "wardrive_page_stop": {
+    "value": "Rit stoppen",
+    "_ai": true
+  },
+  "wardrive_page_start_needs": {
+    "value": "Om te starten: log in, verbind een radio van je account en kies een positie.",
+    "_ai": true
+  },
+  "wardrive_page_heard": {
+    "value": "Gehoord",
+    "_ai": true
+  },
+  "wardrive_page_stored": {
+    "value": "Bewaard",
+    "_ai": true
+  },
+  "wardrive_page_no_position": {
+    "value": "Geen positie",
+    "_ai": true
+  },
+  "wardrive_page_hud_no_reception": {
+    "value": "Nog geen ontvangst",
+    "_ai": true
+  },
+  "wardrive_page_hud_dbm": null,
+  "wardrive_page_hud_snr": null,
+  "wardrive_page_hud_age_s": null,
+  "wardrive_page_hud_age_m": null,
+  "wardrive_page_hud_age_h": {
+    "value": "{hours} u",
+    "_ai": true
+  },
+  "wardrive_page_hud_backlog": {
+    "value": "{count} wachtend",
+    "_ai": true
+  },
+  "wardrive_page_hud_speed": {
+    "value": "Snelheid",
+    "_ai": true
+  },
+  "wardrive_page_hud_rssi": {
+    "value": "Signaalsterkte",
+    "_ai": true
+  },
+  "wardrive_page_log_aria": {
+    "value": "Ontvangsten",
+    "_ai": true
+  },
+  "wardrive_page_log_count": null,
+  "wardrive_page_log_size": {
+    "value": "Grootte van de log",
+    "_ai": true
+  },
+  "wardrive_page_log_hide": {
+    "value": "Log verbergen",
+    "_ai": true
+  },
+  "wardrive_page_log_kept": {
+    "value": "Opgeslagen",
+    "_ai": true
+  },
+  "wardrive_page_log_heard_only": {
+    "value": "Alleen gehoord",
+    "_ai": true
+  },
+  "wardrive_page_menu": null,
+  "wardrive_page_show_log": {
+    "value": "Log tonen",
+    "_ai": true
+  },
+  "wardrive_page_dot_radio": null,
+  "wardrive_page_dot_brokers": {
+    "value": "Doorsturen: {state}",
+    "_ai": true
+  },
+  "wardrive_page_dot_upload": null,
+  "wardrive_page_dot_on": {
+    "value": "verbonden",
+    "_ai": true
+  },
+  "wardrive_page_dot_lost": {
+    "value": "verbinding kwijt",
+    "_ai": true
+  },
+  "wardrive_page_dot_off": {
+    "value": "uit",
+    "_ai": true
+  },
+  "wardrive_page_dot_all": {
+    "value": "alles verbonden",
+    "_ai": true
+  },
+  "wardrive_page_dot_some": {
+    "value": "deels verbonden",
+    "_ai": true
+  },
+  "wardrive_page_dot_none": {
+    "value": "niet verbonden",
+    "_ai": true
+  },
+  "wardrive_page_dot_ok": {
+    "value": "bijgewerkt",
+    "_ai": true
+  },
+  "wardrive_page_dot_waiting": {
+    "value": "wacht op upload",
+    "_ai": true
+  },
+  "wardrive_page_dot_offline": null,
+  "wardrive_page_dot_logged_out": {
+    "value": "niet ingelogd",
+    "_ai": true
+  },
+  "wardrive_page_banner_no_radio": {
+    "value": "Geen radio verbonden.",
+    "_ai": true
+  },
+  "wardrive_page_banner_no_fix": {
+    "value": "Nog geen positie: ontvangsten worden pas opgeslagen als die er is.",
+    "_ai": true
+  },
+  "wardrive_page_banner_fix_poor": {
+    "value": "Positie te grof ({accuracy} m): ontvangsten worden opgeslagen vanaf 100 m of beter.",
+    "_ai": true
+  },
+  "wardrive_page_banner_paused": {
+    "value": "Gepauzeerd om {time} terwijl de pagina op de achtergrond stond.",
+    "_ai": true
+  },
+  "wardrive_page_banner_screen": {
+    "value": "Houd het scherm aan en deze pagina op de voorgrond: op de achtergrond stopt de telefoon met luisteren.",
+    "_ai": true
+  },
+  "wardrive_page_connect": {
+    "value": "Verbinden",
+    "_ai": true
+  },
+  "wardrive_page_dismiss": {
+    "value": "Sluiten",
+    "_ai": true
+  },
+  "wardrive_page_rail_sound": {
+    "value": "Geluid",
+    "_ai": true
+  },
+  "wardrive_page_rail_autodiscover_off": {
+    "value": "Auto-discover: uit",
+    "_ai": true
+  },
+  "wardrive_page_rail_autodiscover_on": {
+    "value": "Auto-discover: aan",
+    "_ai": true
+  },
+  "wardrive_page_rail_autodiscover_target": {
+    "value": "Auto-discover en doel-pings: aan",
+    "_ai": true
+  },
+  "wardrive_page_autodiscover_status_off": {
+    "value": "Auto-discover: uit",
+    "_ai": true
+  },
+  "wardrive_page_autodiscover_status_on": {
+    "value": "Auto-discover: aan, elke {seconds} s",
+    "_ai": true
+  },
+  "wardrive_page_introduce": {
+    "value": "Mijn node voorstellen aan doelen",
+    "_ai": true
+  },
+  "wardrive_page_introduce_hint": {
+    "value": "Met Auto-discover aan en een companion als doel stuurt elke ronde ook de eigen advert van je radio, zero-hop (zijn sleutel en naam, en alleen een positie als je radio die mag delen), zodat die companion kan antwoorden. Standaard uit.",
+    "_ai": true
+  },
+  "wardrive_page_rail_view": {
+    "value": "Weergave: {state}",
+    "_ai": true
+  },
+  "wardrive_page_view_points2d": {
+    "value": "2D, punten",
+    "_ai": true
+  },
+  "wardrive_page_view_both2d": {
+    "value": "2D, zeshoeken en punten",
+    "_ai": true
+  },
+  "wardrive_page_view_hex3d": {
+    "value": "3D, zeshoeken",
+    "_ai": true
+  },
+  "wardrive_page_view_points3d": {
+    "value": "3D, punten",
+    "_ai": true
+  },
+  "wardrive_page_view_both3d": {
+    "value": "3D, zeshoeken en punten",
+    "_ai": true
+  },
+  "wardrive_page_rail_compass": {
+    "value": "Kompas: {state}",
+    "_ai": true
+  },
+  "wardrive_page_compass_static": {
+    "value": "uit",
+    "_ai": true
+  },
+  "wardrive_page_compass_north": {
+    "value": "volgen, noorden boven",
+    "_ai": true
+  },
+  "wardrive_page_compass_heading": {
+    "value": "volgen, rijrichting",
+    "_ai": true
+  },
+  "wardrive_page_rail_nodepos": {
+    "value": "Nodeposities: {state}",
+    "_ai": true
+  },
+  "wardrive_page_nodepos_off": {
+    "value": "uit",
+    "_ai": true
+  },
+  "wardrive_page_nodepos_positions": {
+    "value": "geadverteerde posities",
+    "_ai": true
+  },
+  "wardrive_page_nodepos_reach": {
+    "value": "posities en bereik",
+    "_ai": true
+  },
+  "wardrive_page_terrain_heading": {
+    "value": "Terrein in 3D",
+    "_ai": true
+  },
+  "wardrive_page_terrain_hint": {
+    "value": "Hoeveel heuvels in de 3D-weergave worden opgehoogd. Alleen 1x is echt; in het vlakke Nederland is meer nodig om iets te zien.",
+    "_ai": true
+  },
+  "wardrive_page_terrain_step": null,
+  "wardrive_page_hud_noise": {
+    "value": "ruis {value} dBm",
+    "_ai": true
+  },
+  "wardrive_page_hud_offset_title": {
+    "value": "Kleuren liggen {offset} dB naast de gemeten waarde (kalibratie en verzwakker)",
+    "_ai": true
+  },
+  "wardrive_page_attenuator_heading": {
+    "value": "Verzwakker",
+    "_ai": true
+  },
+  "wardrive_page_attenuator_hint": {
+    "value": "Zit er een verzwakker tussen radio en antenne, kies dan zijn waarde: kleuren, zeshoeken en zuilen tellen het verlies er weer bij. De getoonde getallen en het geluid blijven zoals gemeten; wat wordt opgeslagen of doorgestuurd verandert niet.",
+    "_ai": true
+  },
+  "wardrive_page_attenuator_none": {
+    "value": "Geen",
+    "_ai": true
+  },
+  "wardrive_page_attenuator_step": null,
+  "wardrive_page_dot_low": {
+    "value": "batterij bijna leeg",
+    "_ai": true
+  },
+  "wardrive_page_battery": {
+    "value": "Batterij {volts} V, {percent} %",
+    "_ai": true
+  },
+  "wardrive_page_fullscreen": {
+    "value": "Volledig scherm",
+    "_ai": true
+  },
+  "wardrive_page_fullscreen_leave": {
+    "value": "Volledig scherm verlaten",
+    "_ai": true
+  },
+  "wardrive_page_log_move": {
+    "value": "Log verplaatsen",
+    "_ai": true
+  },
+  "wardrive_page_log_heard_us": {
+    "value": "hoorde ons met {snr} dB",
+    "_ai": true
+  },
+  "wardrive_page_battery_unknown": {
+    "value": "Batterij -",
+    "_ai": true
+  },
+  "wardrive_page_battery_volts": {
+    "value": "Batterij {volts} V",
+    "_ai": true
+  },
+  "wardrive_page_battery_low": {
+    "value": "(laag)",
+    "_ai": true
+  },
+  "wardrive_page_noise_map": {
+    "value": "Ruisvloer op de kaart",
+    "_ai": true
+  },
+  "wardrive_page_noise_map_hint": {
+    "value": "Ringen waar de radio zijn ruisvloer las (elke 10 s of 50 m): groen of blauw is stil, rood of oranje is rumoerig. Blijft staan tot de pagina sluit.",
+    "_ai": true
+  },
+  "wardrive_page_tab_status": null,
+  "wardrive_page_tab_settings": {
+    "value": "Instellingen",
+    "_ai": true
+  },
+  "wardrive_page_tab_about": {
+    "value": "Over",
+    "_ai": true
+  },
+  "wardrive_page_tab_drives": {
+    "value": "Ritten",
+    "_ai": true
+  },
+  "wardrive_page_tab_reports": {
+    "value": "Rapporten",
+    "_ai": true
+  },
+  "wardrive_page_drives_login": {
+    "value": "Log in om je ritten en rapporten te zien.",
+    "_ai": true
+  },
+  "wardrive_page_report_picked": {
+    "plural": {
+      "one": "Rapport over de gekozen rit.",
+      "other": "Rapport over de {count} gekozen ritten."
+    },
+    "_ai": true
+  },
+  "wardrive_page_report_window": {
+    "value": "Ritten van de laatste",
+    "_ai": true
+  },
+  "wardrive_page_report_days": {
+    "plural": {
+      "one": "{count} dag",
+      "other": "{count} dagen"
+    },
+    "_ai": true
+  },
+  "wardrive_page_close": {
+    "value": "Sluiten",
+    "_ai": true
+  },
+  "wardrive_page_start_radio": null,
+  "wardrive_page_start_gps": null,
+  "wardrive_page_start_no_radio": {
+    "value": "Geen radio",
+    "_ai": true
+  },
+  "wardrive_page_start_no_fix": {
+    "value": "Nog geen positie",
+    "_ai": true
+  },
+  "wardrive_page_start_fix": {
+    "value": "Positie, {accuracy} m",
+    "_ai": true
+  },
+  "wardrive_page_about_listens": {
+    "value": "Deze pagina luistert: ze leest wat je radio hoort en laat hem ondertekenen. Ze zendt alleen terwijl je Auto-discover aanzet (de radarknop), en die staat elke keer dat de pagina start uit.",
+    "_ai": true
+  },
+  "wardrive_page_about_meshhunter": null,
+  "wardrive_page_about_analyzer": null,
+  "wardrive_page_hint_login": {
+    "value": "Log in om een rit te starten.",
+    "_ai": true
+  },
+  "wardrive_page_hint_radio": {
+    "value": "Verbind je radio om een rit te starten.",
+    "_ai": true
+  },
+  "wardrive_page_hint_position": {
+    "value": "Kies een positie om een rit te starten.",
+    "_ai": true
+  },
+  "wardrive_page_map_retry": {
+    "value": "De kaart kon niet laden.",
+    "_ai": true
+  },
+  "wardrive_page_retry": {
+    "value": "Opnieuw",
+    "_ai": true
+  },
+  "wardrive_page_upload_idle": {
+    "value": "Geüpload naar RTFM-EV",
+    "_ai": true
+  },
+  "wardrive_page_upload_uploading": {
+    "value": "Bezig met uploaden",
+    "_ai": true
+  },
+  "wardrive_page_upload_offline": {
+    "value": "Wacht op RTFM-EV",
+    "_ai": true
+  },
+  "wardrive_page_upload_logged_out": {
+    "value": "Uploads gepauzeerd: log opnieuw in",
+    "_ai": true
+  },
+  "wardrive_page_upload_error": {
+    "value": "Uploadprobleem: {error}",
+    "_ai": true
+  },
+  "wardrive_page_pending": {
+    "value": "Wacht op upload: {obs} ontvangsten, {tracks} tracks",
+    "_ai": true
+  },
+  "wardrive_page_set_aside": {
+    "value": "{count} geweigerd door RTFM-EV en opzijgezet",
+    "_ai": true
+  },
+  "wardrive_page_other_accounts": {
+    "plural": {
+      "one": "{count} ontvangst van de radio van een ander account wacht hier tot dat account inlogt (7 dagen bewaard)",
+      "other": "{count} ontvangsten van de radio van een ander account wachten hier tot dat account inlogt (7 dagen bewaard)"
+    },
+    "_ai": true
+  },
+  "wardrive_page_error": {
+    "value": "Er ging iets mis: {error}",
+    "_ai": true
+  },
+  "wardrive_page_sender_via": null,
+  "wardrive_page_sender_none": {
+    "value": "{type}, geen afzender-id",
+    "_ai": true
+  },
+  "wardrive_page_type_advert": null,
+  "wardrive_page_type_group_text": {
+    "value": "Kanaal",
+    "_ai": true
+  },
+  "wardrive_page_type_group_data": {
+    "value": "Kanaaldata",
+    "_ai": true
+  },
+  "wardrive_page_type_response": {
+    "value": "Antwoord",
+    "_ai": true
+  },
+  "wardrive_page_type_request": {
+    "value": "Verzoek",
+    "_ai": true
+  },
+  "wardrive_page_type_anon_request": {
+    "value": "Anon. verzoek",
+    "_ai": true
+  },
+  "wardrive_page_type_text_message": {
+    "value": "Direct bericht",
+    "_ai": true
+  },
+  "wardrive_page_type_ack": null,
+  "wardrive_page_type_control": null,
+  "wardrive_page_type_path": {
+    "value": "Pad",
+    "_ai": true
+  },
+  "wardrive_page_type_multipart": null,
+  "wardrive_page_type_trace": null,
+  "wardrive_page_type_raw_custom": {
+    "value": "Ruw",
+    "_ai": true
+  },
+  "wardrive_page_type_unknown": {
+    "value": "Onbekend",
+    "_ai": true
+  },
+  "wardrive_page_targets_all": {
+    "value": "Alle afzenders",
+    "_ai": true
+  },
+  "wardrive_page_targets_count": {
+    "plural": {
+      "one": "{count} doel",
+      "other": "{count} doelen"
+    },
+    "_ai": true
+  },
+  "wardrive_page_targets_chip": {
+    "value": "Doelen: {label}",
+    "_ai": true
+  },
+  "wardrive_page_filters": null,
+  "wardrive_page_targets_title": {
+    "value": "Doelen",
+    "_ai": true
+  },
+  "wardrive_page_targets_desc": {
+    "value": "Kies de afzenders die je wilt volgen. Met gekozen doelen tonen de kaart, de log en de HUD alleen hen.",
+    "_ai": true
+  },
+  "wardrive_page_targets_search": {
+    "value": "Zoek op naam of id",
+    "_ai": true
+  },
+  "wardrive_page_targets_top": null,
+  "wardrive_page_targets_list": {
+    "value": "Gehoorde afzenders",
+    "_ai": true
+  },
+  "wardrive_page_targets_none": {
+    "value": "Geen afzenders gevonden",
+    "_ai": true
+  },
+  "wardrive_page_targets_empty": {
+    "value": "Nog geen afzenders gehoord",
+    "_ai": true
+  },
+  "wardrive_page_targets_unnamed": {
+    "value": "{id} (naam onbekend)",
+    "_ai": true
+  },
+  "wardrive_page_targets_clear": {
+    "value": "Doelen wissen",
+    "_ai": true
+  },
+  "wardrive_page_targets_more": {
+    "value": "Meer tonen",
+    "_ai": true
+  },
+  "wardrive_page_filters_title": null,
+  "wardrive_page_filters_desc": {
+    "value": "Wat de kaart, de log en de HUD tonen. Alles toont alles binnen het tijdvenster en maakt grijs wat de filters weglaten.",
+    "_ai": true
+  },
+  "wardrive_page_filters_window": {
+    "value": "Tijdvenster",
+    "_ai": true
+  },
+  "wardrive_page_window_min": null,
+  "wardrive_page_window_h": {
+    "value": "{count} u",
+    "_ai": true
+  },
+  "wardrive_page_window_d": {
+    "value": "{count} dagen",
+    "_ai": true
+  },
+  "wardrive_page_window_all": {
+    "value": "Alles",
+    "_ai": true
+  },
+  "wardrive_page_filters_types": {
+    "value": "Pakkettypes",
+    "_ai": true
+  },
+  "wardrive_page_filters_ids": {
+    "value": "Afzender-id",
+    "_ai": true
+  },
+  "wardrive_page_idclass_unnamed": {
+    "value": "Geen id",
+    "_ai": true
+  },
+  "wardrive_page_idclass_1b": null,
+  "wardrive_page_idclass_2b": null,
+  "wardrive_page_idclass_3b": null,
+  "wardrive_page_idclass_pubkey": {
+    "value": "Sleutel",
+    "_ai": true
+  },
+  "wardrive_page_idclass_channel": {
+    "value": "Kanaalnaam",
+    "_ai": true
+  },
+  "wardrive_page_filters_direct": {
+    "value": "Geen pad (rechtstreeks van de afzender gehoord)",
+    "_ai": true
+  },
+  "wardrive_page_filters_clear": {
+    "plural": {
+      "one": "{count} filter wissen",
+      "other": "{count} filters wissen"
+    },
+    "_ai": true
+  },
+  "wardrive_page_filters_ignored": {
+    "value": "Genegeerde afzenders",
+    "_ai": true
+  },
+  "wardrive_page_filters_ignored_none": {
+    "value": "Niemand wordt genegeerd.",
+    "_ai": true
+  },
+  "wardrive_page_filters_unignore": {
+    "value": "{name} niet meer negeren",
+    "_ai": true
+  },
+  "wardrive_page_filters_channels": {
+    "value": "Kanalen",
+    "_ai": true
+  },
+  "wardrive_page_filters_channels_desc": {
+    "value": "Het Public-kanaal en deze hashtagkanalen worden op deze pagina ontsleuteld.",
+    "_ai": true
+  },
+  "wardrive_page_filters_channels_served": {
+    "value": "Van RTFM-EV",
+    "_ai": true
+  },
+  "wardrive_page_filters_channels_own": {
+    "value": "Je eigen (alleen in deze browser)",
+    "_ai": true
+  },
+  "wardrive_page_filters_channels_none": {
+    "value": "Geen",
+    "_ai": true
+  },
+  "wardrive_page_filters_channel_name": {
+    "value": "Kanaalnaam",
+    "_ai": true
+  },
+  "wardrive_page_filters_channel_add": {
+    "value": "Kanaal toevoegen",
+    "_ai": true
+  },
+  "wardrive_page_filters_channel_remove": {
+    "value": "{name} verwijderen",
+    "_ai": true
+  },
+  "wardrive_page_hud_targets": {
+    "value": "Doelen",
+    "_ai": true
+  },
+  "wardrive_page_hud_add": {
+    "value": "Toevoegen",
+    "_ai": true
+  },
+  "wardrive_page_hud_add_aria": {
+    "value": "De getoonde afzender aan de doelen toevoegen",
+    "_ai": true
+  },
+  "wardrive_page_hud_ignore": {
+    "value": "Negeren",
+    "_ai": true
+  },
+  "wardrive_page_hud_ignore_aria": {
+    "value": "De getoonde afzender negeren",
+    "_ai": true
+  },
+  "wardrive_page_hud_all": {
+    "value": "Alles",
+    "_ai": true
+  },
+  "wardrive_page_hud_float": {
+    "value": "Zwevend",
+    "_ai": true
+  },
+  "wardrive_page_hud_float_aria": {
+    "value": "Toon de meting in een zwevend venster",
+    "_ai": true
+  },
+  "wardrive_page_float_empty_hint": {
+    "value": "De meting verschijnt zodra er een pakket binnenkomt.",
+    "_ai": true
+  },
+  "wardrive_page_hud_all_aria": {
+    "value": "Alle ontvangsten tonen",
+    "_ai": true
+  },
+  "wardrive_page_hud_arrow": {
+    "value": "Richting naar de afzender",
+    "_ai": true
+  },
+  "wardrive_page_hud_arrow_estimate": {
+    "value": "Richting naar de afzender (geschatte positie)",
+    "_ai": true
+  },
+  "wardrive_page_log_outside": {
+    "value": "buiten filter",
+    "_ai": true
+  },
+  "wardrive_page_log_back": {
+    "value": "Terug naar live",
+    "_ai": true
+  },
   "settings_retention_class_noise_floor": {
     "value": "Ruisvloer (Mijn node)",
     "_ai": true
@@ -9387,6 +10737,34 @@
   },
   "settings_radioapp_unblock_button": {
     "value": "Deblokkeren",
+    "_ai": true
+  },
+  "settings_name_filter_heading": {
+    "value": "Verbergen op naampatroon",
+    "_ai": true
+  },
+  "settings_name_filter_desc": {
+    "value": "Voor afzenders die bij elk bericht hun naam veranderen. Eén reguliere expressie per regel. Een patroon moet op de hele naam passen en negeert hoofdletters: Adriaan\\d+ vangt Adriaan257, maar niet Adriaan of MijnAdriaan1. Berichten worden verborgen, niet verwijderd, en komen terug als je het patroon weghaalt of dit uitzet. Opgeslagen berichten worden bij het opslaan opnieuw gecontroleerd. Je eigen berichten worden nooit verborgen.",
+    "_ai": true
+  },
+  "settings_name_filter_enable": {
+    "value": "Berichten van passende namen verbergen",
+    "_ai": true
+  },
+  "settings_name_filter_patterns_label": {
+    "value": "Naampatronen",
+    "_ai": true
+  },
+  "settings_name_filter_save": {
+    "value": "Patronen opslaan",
+    "_ai": true
+  },
+  "settings_name_filter_saved": {
+    "value": "Naampatronen opgeslagen",
+    "_ai": true
+  },
+  "settings_name_filter_save_failed": {
+    "value": "Kon het naamfilter niet opslaan",
     "_ai": true
   },
   "settings_radioapp_blocked_names_label": {
@@ -13922,6 +15300,7 @@
     "value": "MQTT en automatisering",
     "_ai": true
   },
+  "settings_section_wardrive": null,
   "settings_section_openhop": {
     "value": "OpenHop",
     "_ai": true,
@@ -24330,6 +25709,74 @@
     "value": "Netwerkscan",
     "_ai": true
   },
+  "nav_wardrive": null,
+  "wardrive_reports_page_intro": {
+    "value": "De ritten van alle rijders: hernoem, beschrijf, splits, voeg samen of verwijder ze, en maak rapporten, deelkaarten en exports voor een rijder, een groep of iedereen.",
+    "_ai": true
+  },
+  "wardrive_reports_window": {
+    "value": "Ritten van de laatste",
+    "_ai": true
+  },
+  "wardrive_reports_all_time": {
+    "value": "Altijd",
+    "_ai": true
+  },
+  "wardrive_reports_drives": {
+    "value": "Ritten",
+    "_ai": true
+  },
+  "wardrive_reports_report": {
+    "value": "Rapport",
+    "_ai": true
+  },
+  "wardrive_reports_filter_scope": {
+    "value": "Geen rit gekozen: het rapport omvat alle ritten die de filters hierboven tonen.",
+    "_ai": true
+  },
+  "wardrive_tab_map": {
+    "value": "Kaart",
+    "_ai": true
+  },
+  "wardrive_tab_reports": {
+    "value": "Rapporten",
+    "_ai": true
+  },
+  "wardrive_live_heading": {
+    "value": "Nu onderweg",
+    "_ai": true
+  },
+  "wardrive_live_none": {
+    "value": "Er is nu niemand onderweg.",
+    "_ai": true
+  },
+  "wardrive_live_seen": {
+    "value": "positie {age} geleden",
+    "_ai": true
+  },
+  "wardrive_live_receptions": {
+    "plural": {
+      "one": "{count} ontvangst",
+      "other": "{count} ontvangsten"
+    },
+    "_ai": true
+  },
+  "wardrive_live_show": {
+    "value": "{name} op de kaart tonen",
+    "_ai": true
+  },
+  "wardrive_map_page_intro": {
+    "value": "De dekkingskaart van alles wat de wardrive-rijders hebben opgeslagen: waar nodes gehoord zijn en hoe goed, de rijders die nu onderweg zijn, en de kaart zoals elke rijder hem zou zien.",
+    "_ai": true
+  },
+  "common_loading_wardrive": {
+    "value": "Wardrive laden...",
+    "_ai": true
+  },
+  "settings_wardrive_map_moved": {
+    "value": "De dekkingskaart van alle wardrive-gegevens staat in Hulpmiddelen > Wardrive, tabblad Kaart.",
+    "_ai": true
+  },
   "common_loading_lan_scan": {
     "value": "Netwerkscan laden...",
     "_ai": true
@@ -24706,6 +26153,26 @@
   },
   "share_insecure_note": {
     "value": "Delen en Afbeelding kopiëren werken alleen via https of localhost. Downloaden werkt wel.",
+    "_ai": true
+  },
+  "share_frame_open": {
+    "value": "Kaart uitsnijden",
+    "_ai": true
+  },
+  "share_frame_use": {
+    "value": "Deze weergave gebruiken",
+    "_ai": true
+  },
+  "share_frame_cancel": {
+    "value": "Annuleren",
+    "_ai": true
+  },
+  "share_frame_fit": {
+    "value": "Passend op de gegevens",
+    "_ai": true
+  },
+  "share_frame_map_aria": {
+    "value": "Kaart om de kaart op uit te snijden: schuiven en zoomen",
     "_ai": true
   },
   "share_hide_position": {
@@ -25627,6 +27094,1165 @@
     "_ai": true
   },
   "perf_col_5xx": null,
+  "wardrive_report_seconds": null,
+  "wardrive_report_minutes": null,
+  "wardrive_report_hours_minutes": {
+    "value": "{h} u {m} min",
+    "_ai": true
+  },
+  "wardrive_report_no_drives": {
+    "value": "Nog geen ritten in deze selectie.",
+    "_ai": true
+  },
+  "wardrive_report_loading": {
+    "value": "Laden...",
+    "_ai": true
+  },
+  "wardrive_report_pick": {
+    "value": "Kies {label}",
+    "_ai": true
+  },
+  "wardrive_report_receptions_n": {
+    "plural": {
+      "one": "{count} ontvangst",
+      "other": "{count} ontvangsten"
+    },
+    "_ai": true
+  },
+  "wardrive_report_edit": {
+    "value": "Bewerken",
+    "_ai": true
+  },
+  "wardrive_report_save": {
+    "value": "Opslaan",
+    "_ai": true
+  },
+  "wardrive_report_cancel": {
+    "value": "Annuleren",
+    "_ai": true
+  },
+  "wardrive_report_name": {
+    "value": "Naam",
+    "_ai": true
+  },
+  "wardrive_report_notes": {
+    "value": "Notities",
+    "_ai": true
+  },
+  "wardrive_report_delete": {
+    "value": "Verwijderen",
+    "_ai": true
+  },
+  "wardrive_report_split": {
+    "value": "Splitsen",
+    "_ai": true
+  },
+  "wardrive_report_split_at": {
+    "value": "Splitsen op",
+    "_ai": true
+  },
+  "wardrive_report_split_here": {
+    "value": "Hier splitsen",
+    "_ai": true
+  },
+  "wardrive_report_delete_title": {
+    "value": "Deze rit verwijderen?",
+    "_ai": true
+  },
+  "wardrive_report_delete_body": {
+    "value": "Dit verwijdert de rit met de opgeslagen ontvangsten en het spoor uit RTFM-EV. Dit kan niet ongedaan worden gemaakt. De collectors houden wat ze al ontvangen hebben.",
+    "_ai": true
+  },
+  "wardrive_report_delete_confirm": {
+    "value": "Rit verwijderen",
+    "_ai": true
+  },
+  "wardrive_report_merge": {
+    "value": "Gekozen ritten samenvoegen",
+    "_ai": true
+  },
+  "wardrive_report_clear": {
+    "value": "Keuze wissen",
+    "_ai": true
+  },
+  "wardrive_report_merge_hint": {
+    "value": "Samenvoegen kan met twee of meer eigen ritten van een radio.",
+    "_ai": true
+  },
+  "wardrive_report_truncated_list": {
+    "value": "Alleen de nieuwste ritten worden getoond.",
+    "_ai": true
+  },
+  "wardrive_report_cell_size": {
+    "value": "Celgrootte",
+    "_ai": true
+  },
+  "wardrive_report_cell_size_m": null,
+  "wardrive_report_empty": {
+    "value": "Geen ontvangsten in deze selectie.",
+    "_ai": true
+  },
+  "wardrive_report_truncated": {
+    "value": "Dit rapport gebruikt de nieuwste 200.000 ontvangsten en sporen van de selectie.",
+    "_ai": true
+  },
+  "wardrive_report_sec_summary": {
+    "value": "Wat er gereden is",
+    "_ai": true
+  },
+  "wardrive_report_sec_summary_hint": {
+    "value": "De ritten, hun tijd en afstand onderweg, en wat de radio hoorde.",
+    "_ai": true
+  },
+  "wardrive_report_drives": {
+    "value": "Ritten",
+    "_ai": true
+  },
+  "wardrive_report_drivers": {
+    "value": "Rijders",
+    "_ai": true
+  },
+  "wardrive_report_radios": {
+    "value": "Radio's",
+    "_ai": true
+  },
+  "wardrive_report_period": {
+    "value": "Periode",
+    "_ai": true
+  },
+  "wardrive_report_from_to": {
+    "value": "{from} tot {to}",
+    "_ai": true
+  },
+  "wardrive_report_time": {
+    "value": "Tijd onderweg",
+    "_ai": true
+  },
+  "wardrive_report_distance": {
+    "value": "Gereden afstand",
+    "_ai": true
+  },
+  "wardrive_report_receptions": {
+    "value": "Ontvangsten",
+    "_ai": true
+  },
+  "wardrive_report_nodes_heard": {
+    "value": "Gehoorde nodes",
+    "_ai": true
+  },
+  "wardrive_report_rssi_best": {
+    "value": "Beste signaal",
+    "_ai": true
+  },
+  "wardrive_report_rssi_median": {
+    "value": "Mediaan signaal",
+    "_ai": true
+  },
+  "wardrive_report_rssi_worst": {
+    "value": "Zwakste signaal",
+    "_ai": true
+  },
+  "wardrive_report_snr_median": {
+    "value": "Mediaan SNR",
+    "_ai": true
+  },
+  "wardrive_report_bands": {
+    "value": "Ontvangsten per signaalband",
+    "_ai": true
+  },
+  "wardrive_report_band_strong": {
+    "value": "Sterk (-90 dBm en hoger)",
+    "_ai": true
+  },
+  "wardrive_report_band_fair": {
+    "value": "Redelijk (-110 tot -90 dBm)",
+    "_ai": true
+  },
+  "wardrive_report_band_weak": {
+    "value": "Zwak (onder -110 dBm)",
+    "_ai": true
+  },
+  "wardrive_report_band_none": {
+    "value": "Geen signaalmeting",
+    "_ai": true
+  },
+  "wardrive_report_sec_coverage": {
+    "value": "Hoe goed het gebied gedekt is",
+    "_ai": true
+  },
+  "wardrive_report_sec_coverage_hint": {
+    "value": "Het gereden gebied in zeshoekige cellen (het raster van de analyzerkaarten). Een cel is gedekt als er iets in gehoord is; de band is het beste signaal.",
+    "_ai": true
+  },
+  "wardrive_report_cells_driven": {
+    "value": "Gereden cellen",
+    "_ai": true
+  },
+  "wardrive_report_cells_covered": {
+    "value": "Gedekte cellen",
+    "_ai": true
+  },
+  "wardrive_report_covered_share": {
+    "value": "Gedekt",
+    "_ai": true
+  },
+  "wardrive_report_cell_bands": {
+    "value": "Gedekte cellen per band",
+    "_ai": true
+  },
+  "wardrive_report_strongest": {
+    "value": "Sterkste cellen",
+    "_ai": true
+  },
+  "wardrive_report_weakest": {
+    "value": "Zwakste gedekte cellen",
+    "_ai": true
+  },
+  "wardrive_report_cell_line": null,
+  "wardrive_report_sec_weak": {
+    "value": "Waar de dekking zwak is of ontbreekt",
+    "_ai": true
+  },
+  "wardrive_report_sec_weak_hint": {
+    "value": "Gereden cellen waar niets gehoord is (gaten) of alleen zwakke signalen: het bewijs voor waar een node zou helpen. Meeste tijd daar eerst.",
+    "_ai": true
+  },
+  "wardrive_report_gaps": {
+    "value": "Gaten (niets gehoord)",
+    "_ai": true
+  },
+  "wardrive_report_weak_cells": {
+    "value": "Zwakke cellen",
+    "_ai": true
+  },
+  "wardrive_report_gap": {
+    "value": "Gat",
+    "_ai": true
+  },
+  "wardrive_report_weak": {
+    "value": "Zwak",
+    "_ai": true
+  },
+  "wardrive_report_time_there": {
+    "value": "{time} daar",
+    "_ai": true
+  },
+  "wardrive_report_nearby": {
+    "value": "Gehoord in de buurcel: {nodes}",
+    "_ai": true
+  },
+  "wardrive_report_none_nearby": {
+    "value": "Niets gehoord in de buurcellen",
+    "_ai": true
+  },
+  "wardrive_report_weak_more": {
+    "value": "{shown} van {total} getoond; de exports bevatten ze allemaal.",
+    "_ai": true
+  },
+  "wardrive_report_sec_nodes": {
+    "value": "Welke nodes waar gehoord worden, en hoe goed",
+    "_ai": true
+  },
+  "wardrive_report_sec_nodes_hint": {
+    "value": "Per node: hoe vaak en hoe sterk hij gehoord is, in hoeveel cellen, en de verste ontvangst vanaf zijn geadverteerde positie. Een ~ is een naam geraden uit een korte id.",
+    "_ai": true
+  },
+  "wardrive_report_col_node": null,
+  "wardrive_report_col_heard": {
+    "value": "Gehoord",
+    "_ai": true
+  },
+  "wardrive_report_col_best": {
+    "value": "Beste",
+    "_ai": true
+  },
+  "wardrive_report_col_median": {
+    "value": "Mediaan",
+    "_ai": true
+  },
+  "wardrive_report_col_cells": {
+    "value": "Cellen",
+    "_ai": true
+  },
+  "wardrive_report_col_farthest": {
+    "value": "Verste",
+    "_ai": true
+  },
+  "wardrive_report_not_attributed": {
+    "value": "{n} ontvangsten zijn niet aan een node te koppelen (direct, zonder hops of trace).",
+    "_ai": true
+  },
+  "wardrive_report_no_nodes": {
+    "value": "Geen ontvangst kon aan een node gekoppeld worden.",
+    "_ai": true
+  },
+  "wardrive_report_exports": null,
+  "wardrive_report_export_receptions": {
+    "value": "Ontvangsten (CSV)",
+    "_ai": true
+  },
+  "wardrive_report_export_cells": {
+    "value": "Cellen (CSV)",
+    "_ai": true
+  },
+  "wardrive_report_export_geojson": {
+    "value": "Kaartdata (GeoJSON)",
+    "_ai": true
+  },
+  "wardrive_report_export_gpx": {
+    "value": "Spoor (GPX)",
+    "_ai": true
+  },
+  "wardrive_card_share": {
+    "value": "Deelkaarten",
+    "_ai": true
+  },
+  "wardrive_card_drive": {
+    "value": "Ritkaart",
+    "_ai": true
+  },
+  "wardrive_card_coverage": {
+    "value": "Dekkingskaart",
+    "_ai": true
+  },
+  "wardrive_card_weak": {
+    "value": "Kaart zwakke plekken",
+    "_ai": true
+  },
+  "wardrive_card_drive_kicker": null,
+  "wardrive_card_drive_title": {
+    "value": "Mijn rit",
+    "_ai": true
+  },
+  "wardrive_card_drive_title_n": {
+    "value": "{n} ritten",
+    "_ai": true
+  },
+  "wardrive_card_coverage_kicker": {
+    "value": "Wardrive dekking · {period}",
+    "_ai": true
+  },
+  "wardrive_card_coverage_title": {
+    "value": "Dekking per cel",
+    "_ai": true
+  },
+  "wardrive_card_weak_kicker": {
+    "value": "Waar een node zou helpen · {period}",
+    "_ai": true
+  },
+  "wardrive_card_weak_title": {
+    "value": "Zwakke plekken en gaten",
+    "_ai": true
+  },
+  "wardrive_card_fig_distance": {
+    "value": "gereden",
+    "_ai": true
+  },
+  "wardrive_card_fig_time": {
+    "value": "onderweg",
+    "_ai": true
+  },
+  "wardrive_card_fig_receptions": {
+    "value": "ontvangsten",
+    "_ai": true
+  },
+  "wardrive_card_fig_best": {
+    "value": "beste signaal",
+    "_ai": true
+  },
+  "wardrive_card_fig_cells": {
+    "value": "gereden cellen",
+    "_ai": true
+  },
+  "wardrive_card_fig_covered": {
+    "value": "gedekt",
+    "_ai": true
+  },
+  "wardrive_card_fig_strong": {
+    "value": "sterke cellen",
+    "_ai": true
+  },
+  "wardrive_card_fig_weak": {
+    "value": "zwakke cellen",
+    "_ai": true
+  },
+  "wardrive_card_fig_gaps": {
+    "value": "gaten",
+    "_ai": true
+  },
+  "wardrive_card_fig_time_there": {
+    "value": "tijd daarin",
+    "_ai": true
+  },
+  "wardrive_card_fig_best_nearby": {
+    "value": "beste node dichtbij",
+    "_ai": true
+  },
+  "wardrive_card_fig_nodes": {
+    "value": "gehoorde nodes",
+    "_ai": true
+  },
+  "wardrive_card_alt_drive": {
+    "value": "Kaart van de rit met het spoor en de ontvangsten gekleurd naar signaal",
+    "_ai": true
+  },
+  "wardrive_card_alt_coverage": {
+    "value": "Kaart van de gereden cellen gekleurd naar hun beste signaal",
+    "_ai": true
+  },
+  "wardrive_card_alt_weak": {
+    "value": "Kaart van de gereden cellen met gaten en zwakke cellen gemarkeerd",
+    "_ai": true
+  },
+  "wardrive_cov_map_aria": {
+    "value": "Dekkingskaart",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_all": {
+    "value": "Alle rijders",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_some": {
+    "plural": {
+      "one": "{count} rijder",
+      "other": "{count} rijders"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_drivers_title": {
+    "value": "Rijders",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_select_all": {
+    "value": "Alles kiezen",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_clear": {
+    "value": "Keuze wissen",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_top": {
+    "value": "Meest recent",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_every": {
+    "value": "Alle rijders",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_none": {
+    "value": "Geen rijder heeft ontvangsten in deze periode.",
+    "_ai": true
+  },
+  "wardrive_cov_receptions": {
+    "plural": {
+      "one": "{count} ontvangst",
+      "other": "{count} ontvangsten"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_target_select": {
+    "value": "Doel kiezen",
+    "_ai": true
+  },
+  "wardrive_cov_target_some": {
+    "plural": {
+      "one": "{count} doel",
+      "other": "{count} doelen"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_target_prefix": {
+    "value": "Begint met {prefix}",
+    "_ai": true
+  },
+  "wardrive_cov_target_use_prefix": {
+    "value": "Elke id die begint met \"{prefix}\"",
+    "_ai": true
+  },
+  "wardrive_cov_target_loading": {
+    "value": "Afzenders laden…",
+    "_ai": true
+  },
+  "wardrive_cov_range_5m": {
+    "value": "Laatste 5 minuten",
+    "_ai": true
+  },
+  "wardrive_cov_range_15m": {
+    "value": "Laatste 15 minuten",
+    "_ai": true
+  },
+  "wardrive_cov_range_30m": {
+    "value": "Laatste 30 minuten",
+    "_ai": true
+  },
+  "wardrive_cov_range_1h": {
+    "value": "Laatste uur",
+    "_ai": true
+  },
+  "wardrive_cov_range_3h": {
+    "value": "Laatste 3 uur",
+    "_ai": true
+  },
+  "wardrive_cov_range_6h": {
+    "value": "Laatste 6 uur",
+    "_ai": true
+  },
+  "wardrive_cov_range_12h": {
+    "value": "Laatste 12 uur",
+    "_ai": true
+  },
+  "wardrive_cov_range_24h": {
+    "value": "Laatste 24 uur",
+    "_ai": true
+  },
+  "wardrive_cov_range_today": {
+    "value": "Vandaag",
+    "_ai": true
+  },
+  "wardrive_cov_range_2d": {
+    "value": "Laatste 2 dagen",
+    "_ai": true
+  },
+  "wardrive_cov_range_7d": {
+    "value": "Laatste 7 dagen",
+    "_ai": true
+  },
+  "wardrive_cov_range_30d": {
+    "value": "Laatste 30 dagen",
+    "_ai": true
+  },
+  "wardrive_cov_range_custom": {
+    "value": "{from} tot {to}",
+    "_ai": true
+  },
+  "wardrive_cov_time_title": {
+    "value": "Periode",
+    "_ai": true
+  },
+  "wardrive_cov_time_quick": {
+    "value": "Snelle keuzes",
+    "_ai": true
+  },
+  "wardrive_cov_time_absolute": {
+    "value": "Vaste periode",
+    "_ai": true
+  },
+  "wardrive_cov_time_from": {
+    "value": "Van",
+    "_ai": true
+  },
+  "wardrive_cov_time_to": {
+    "value": "Tot",
+    "_ai": true
+  },
+  "wardrive_cov_time_apply": {
+    "value": "Periode toepassen",
+    "_ai": true
+  },
+  "wardrive_cov_time_copy": {
+    "value": "Vaste link kopiëren",
+    "_ai": true
+  },
+  "wardrive_cov_time_copied": {
+    "value": "Link gekopieerd",
+    "_ai": true
+  },
+  "wardrive_cov_time_copy_hint": {
+    "value": "Een link naar deze kaart met de periode vastgezet op vaste tijden.",
+    "_ai": true
+  },
+  "wardrive_cov_view": {
+    "value": "Weergave",
+    "_ai": true
+  },
+  "wardrive_cov_mode_points": {
+    "value": "Punten",
+    "_ai": true
+  },
+  "wardrive_cov_mode_hex": null,
+  "wardrive_cov_mode_auto": null,
+  "wardrive_cov_stand": {
+    "value": "Tonen",
+    "_ai": true
+  },
+  "wardrive_cov_stand_filtered": {
+    "value": "Gefilterd",
+    "_ai": true
+  },
+  "wardrive_cov_stand_all": {
+    "value": "Alles",
+    "_ai": true
+  },
+  "wardrive_cov_stand_hint": {
+    "value": "Alles laat de afzender-, type-, id- en padfilters los; rijders, periode en genegeerde afzenders blijven.",
+    "_ai": true
+  },
+  "wardrive_cov_clear_filters": {
+    "value": "Filters wissen",
+    "_ai": true
+  },
+  "wardrive_cov_ignore_clear": {
+    "value": "Negeerlijst wissen",
+    "_ai": true
+  },
+  "wardrive_cov_zoom_in": {
+    "value": "Inzoomen",
+    "_ai": true
+  },
+  "wardrive_cov_zoom_out": {
+    "value": "Uitzoomen",
+    "_ai": true
+  },
+  "wardrive_cov_north": {
+    "value": "Noorden boven",
+    "_ai": true
+  },
+  "wardrive_cov_view_2d": {
+    "value": "Weergave: 2D",
+    "_ai": true
+  },
+  "wardrive_cov_view_3d": {
+    "value": "Weergave: 3D",
+    "_ai": true
+  },
+  "wardrive_cov_points": {
+    "plural": {
+      "one": "{count} punt",
+      "other": "{count} punten"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_cells": {
+    "plural": {
+      "one": "{count} cel",
+      "other": "{count} cellen"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_covers_from": {
+    "value": "gaat terug tot {date}",
+    "_ai": true
+  },
+  "wardrive_cov_cap_title": {
+    "value": "Alleen de nieuwste ontvangsten worden getekend (hooguit {cap}). Zoom in, kort de periode in of verfijn de filters om verder terug te gaan.",
+    "_ai": true
+  },
+  "wardrive_cov_ignored": {
+    "plural": {
+      "one": "{count} genegeerd",
+      "other": "{count} genegeerd"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_loading": {
+    "value": "Kaart laden…",
+    "_ai": true
+  },
+  "wardrive_cov_failed": {
+    "value": "Kaart laden mislukt: {error}",
+    "_ai": true
+  },
+  "wardrive_cov_popup_signal": {
+    "value": "Signaal",
+    "_ai": true
+  },
+  "wardrive_cov_popup_driver": {
+    "value": "Rijder",
+    "_ai": true
+  },
+  "wardrive_cov_popup_radio": null,
+  "wardrive_cov_popup_id": null,
+  "wardrive_cov_popup_role": {
+    "value": "Rol",
+    "_ai": true
+  },
+  "wardrive_cov_popup_packet": {
+    "value": "Pakket",
+    "_ai": true
+  },
+  "wardrive_cov_popup_channel": {
+    "value": "Kanaal",
+    "_ai": true
+  },
+  "wardrive_cov_popup_hops": null,
+  "wardrive_cov_popup_heard": {
+    "value": "Gehoord",
+    "_ai": true
+  },
+  "wardrive_cov_popup_position": {
+    "value": "Positie",
+    "_ai": true
+  },
+  "wardrive_cov_popup_guess": {
+    "value": "naam bij een korte id, een gok",
+    "_ai": true
+  },
+  "wardrive_cov_popup_no_sender": {
+    "value": "Afzender onbekend",
+    "_ai": true
+  },
+  "wardrive_cov_ignore_id": {
+    "value": "Deze id negeren",
+    "_ai": true
+  },
+  "wardrive_cov_close": {
+    "value": "Sluiten",
+    "_ai": true
+  },
+  "wardrive_cov_cell_title": {
+    "value": "Hexcel",
+    "_ai": true
+  },
+  "wardrive_cov_cell_best": {
+    "value": "Beste signaal",
+    "_ai": true
+  },
+  "wardrive_cov_cell_count": {
+    "value": "Ontvangsten",
+    "_ai": true
+  },
+  "wardrive_cov_cell_drivers": {
+    "value": "Rijders",
+    "_ai": true
+  },
+  "wardrive_cov_open": {
+    "value": "Dekkingskaart openen",
+    "_ai": true
+  },
+  "wardrive_cov_close_map": {
+    "value": "Kaart sluiten",
+    "_ai": true
+  },
+  "wardrive_cov_open_hint": {
+    "value": "Alles wat je account mag zien: waar nodes gehoord zijn en hoe goed, door elke rijder met wie je deelt.",
+    "_ai": true
+  },
+  "wardrive_cov_rail": {
+    "value": "Kaartknoppen",
+    "_ai": true
+  },
+  "wardrive_cov_nodepos_off": {
+    "value": "Nodeposities: uit",
+    "_ai": true
+  },
+  "wardrive_cov_nodepos_positions": {
+    "value": "Nodeposities: aan",
+    "_ai": true
+  },
+  "wardrive_cov_nodepos_reach": {
+    "value": "Nodeposities: bereik van elke repeater",
+    "_ai": true
+  },
+  "wardrive_cov_nodes_zoom": {
+    "value": "Zoom in om nodeposities te zien.",
+    "_ai": true
+  },
+  "wardrive_cov_nodes_none": {
+    "value": "Geen bekende nodes in deze weergave.",
+    "_ai": true
+  },
+  "wardrive_cov_nodes_failed": {
+    "value": "De nodelijst kon niet gelezen worden; elk bereik wordt vanaf de schatting getekend.",
+    "_ai": true
+  },
+  "wardrive_cov_node_advertised": {
+    "value": "▲ geadverteerd",
+    "_ai": true
+  },
+  "wardrive_cov_node_both": {
+    "value": "▲ geadverteerd · ● geschat",
+    "_ai": true
+  },
+  "wardrive_cov_node_drift": {
+    "value": "Afwijking {m} m · {count} punten",
+    "_ai": true
+  },
+  "wardrive_cov_node_search": {
+    "value": "Zoekstraal ongeveer {m} m",
+    "_ai": true
+  },
+  "wardrive_cov_node_one_sided": {
+    "value": "Eenzijdig: de straal is niet betrouwbaar",
+    "_ai": true
+  },
+  "wardrive_cov_reach_show": {
+    "value": "Bereik tonen",
+    "_ai": true
+  },
+  "wardrive_cov_reach_hide": {
+    "value": "Bereik verbergen",
+    "_ai": true
+  },
+  "wardrive_cov_reach_none": {
+    "value": "Nog geen ontvangsten in deze periode, dus geen bereik om te tekenen.",
+    "_ai": true
+  },
+  "wardrive_cov_locate": {
+    "value": "Lokaliseren",
+    "_ai": true
+  },
+  "wardrive_cov_locate_sender": {
+    "value": "Deze afzender lokaliseren",
+    "_ai": true
+  },
+  "wardrive_cov_locate_off": {
+    "value": "Lokaliseren verlaten",
+    "_ai": true
+  },
+  "wardrive_cov_locate_few": {
+    "plural": {
+      "one": "{count} punt: te weinig om te schatten (3 nodig).",
+      "other": "{count} punten: te weinig om te schatten (3 nodig)."
+    },
+    "_ai": true
+  },
+  "wardrive_cov_locate_stats": {
+    "value": "{n} punten · zoekstraal ongeveer {radius} · omcirkeld {pct}%",
+    "_ai": true
+  },
+  "wardrive_cov_locate_strongest": {
+    "value": "sterkste {rssi} dBm",
+    "_ai": true
+  },
+  "wardrive_cov_locate_one_sided": {
+    "value": "Eenzijdig: rijd om de schatting heen om hem aan te scherpen.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_hash": {
+    "plural": {
+      "one": "1-byte id: als één node genomen; {count} uitschieter weggelaten.",
+      "other": "1-byte id: als één node genomen; {count} uitschieters weggelaten."
+    },
+    "_ai": true
+  },
+  "wardrive_cov_locate_note": {
+    "value": "Blauw: de gewogen schatting. Geel: waar hij het luidst gehoord werd. Binnen het gereden gebied, ruwweg honderden meters, zonder kalibratie van de zender.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_help": {
+    "value": "Leg deze getallen uit",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_points": {
+    "value": "Punten",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_points_d": {
+    "value": "Gebruikte ontvangsten: meer punten, betrouwbaarder.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_radius": {
+    "value": "Zoekstraal",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_radius_d": {
+    "value": "De node ligt waarschijnlijk binnen deze afstand van de blauwe stip. Kleiner is preciezer.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_encircle": {
+    "value": "Omcirkeld",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_encircle_d": {
+    "value": "Deel van de richtingen waaruit hij gehoord werd. Hoger is een betrouwbaardere schatting.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_strongest": {
+    "value": "Sterkste",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_strongest_d": {
+    "value": "De luidste ontvangst (dBm). Zijn gele markering is de beste plek om heen te gaan.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_failed": {
+    "value": "Punten laden mislukt, opnieuw proberen…",
+    "_ai": true
+  },
+  "wardrive_cov_locate_loading": {
+    "value": "Lokaliseren…",
+    "_ai": true
+  },
+  "wardrive_cov_list": {
+    "value": "Ontvangsten",
+    "_ai": true
+  },
+  "wardrive_cov_list_count": {
+    "plural": {
+      "one": "{count} ontvangst",
+      "other": "{count} ontvangsten"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_list_more": {
+    "value": "de nieuwste; meer in de periode",
+    "_ai": true
+  },
+  "wardrive_cov_list_empty": {
+    "value": "Geen ontvangsten in deze periode.",
+    "_ai": true
+  },
+  "wardrive_cov_list_fold": {
+    "value": "Lijst inklappen",
+    "_ai": true
+  },
+  "wardrive_cov_list_move": {
+    "value": "Lijst verplaatsen",
+    "_ai": true
+  },
+  "wardrive_cov_list_close": {
+    "value": "Lijst sluiten",
+    "_ai": true
+  },
+  "wardrive_cov_export": {
+    "value": "Exporteren",
+    "_ai": true
+  },
+  "wardrive_cov_heard_title": {
+    "value": "Gehoorde repeaters",
+    "_ai": true
+  },
+  "wardrive_cov_heard_kicker": {
+    "value": "{from} tot {to}",
+    "_ai": true
+  },
+  "wardrive_cov_heard_fig_repeaters": null,
+  "wardrive_cov_heard_fig_receptions": {
+    "value": "ontvangsten",
+    "_ai": true
+  },
+  "wardrive_cov_heard_fig_farthest": {
+    "value": "verste",
+    "_ai": true
+  },
+  "wardrive_cov_heard_fig_drivers": {
+    "value": "rijders",
+    "_ai": true
+  },
+  "wardrive_cov_heard_off": {
+    "value": "Weggelaten, verder dan {km} km van hun positie: {list}",
+    "_ai": true
+  },
+  "wardrive_cov_heard_empty": {
+    "value": "In deze weergave is geen repeater gehoord. Schuif naar waar je reed, of maak de periode langer.",
+    "_ai": true
+  },
+  "wardrive_cov_heard_alt": {
+    "value": "Een kaart van de repeaters die in deze weergave gehoord zijn, met een lijn naar elke plek waar ze gehoord werden.",
+    "_ai": true
+  },
+  "wardrive_cov_heard_capped": {
+    "value": "de eerste {cap} ontvangsten",
+    "_ai": true
+  },
+  "wardrive_cov_heard_estimated": {
+    "value": "nodelijst niet beschikbaar, elke positie geschat",
+    "_ai": true
+  },
+  "wardrive_cov_heard_making": {
+    "value": "Kaart maken…",
+    "_ai": true
+  },
+  "wardrive_cov_settings": {
+    "value": "Kaartinstellingen",
+    "_ai": true
+  },
+  "wardrive_cov_settings_exag": {
+    "value": "Overdrijving van het terrein",
+    "_ai": true
+  },
+  "wardrive_cov_settings_exag_hint": {
+    "value": "De 3D-weergave tilt de grond op. Overdrijving toont welke kant hij op loopt, niet hoe steil: alleen 1x klopt voor een zichtlijn.",
+    "_ai": true
+  },
+  "wardrive_cov_help": {
+    "value": "Hoe de kaart werkt",
+    "_ai": true
+  },
+  "wardrive_cov_intro_title": {
+    "value": "De dekkingskaart",
+    "_ai": true
+  },
+  "wardrive_cov_intro_1": {
+    "value": "Waar de wardrive-rijders MeshCore-nodes hoorden, en hoe goed: rood is sterk, blauw is zwak.",
+    "_ai": true
+  },
+  "wardrive_cov_intro_2": {
+    "value": "Kies bovenaan rijders, een afzender en een periode. Filters beperken op pakkettype, afzender-id en pad, en wisselen tussen punten en zeshoeken.",
+    "_ai": true
+  },
+  "wardrive_cov_intro_3": {
+    "value": "Nodeposities (de speld rechts) toont waar nodes zeggen te staan tegenover waar ze gehoord werden, en het bereik van elke repeater.",
+    "_ai": true
+  },
+  "wardrive_cov_intro_4": {
+    "value": "Lokaliseren schat waar één afzender vandaan zendt, uit waar hij gehoord werd en hoe goed.",
+    "_ai": true
+  },
+  "wardrive_cov_intro_disclaimer": {
+    "value": "De posities op de kaart zijn de eigen positie van de rijder toen een node gehoord werd, niet die van de node. Geadverteerde posities stelt de eigenaar van elke node zelf in.",
+    "_ai": true
+  },
+  "wardrive_cov_intro_ok": {
+    "value": "Begrepen",
+    "_ai": true
+  },
+  "wardrive_tab_drivers": {
+    "value": "Rijders",
+    "_ai": true
+  },
+  "wardrive_drivers_intro": {
+    "value": "De rijders van deze RTFM-EV: wat elk mag zien, hun radio's en groepen, wanneer ze voor het laatst inlogden, en wat er gedaan is.",
+    "_ai": true
+  },
+  "wardrive_drivers_last_login": {
+    "value": "Laatst ingelogd: {when}",
+    "_ai": true
+  },
+  "wardrive_drivers_never": {
+    "value": "Nooit ingelogd",
+    "_ai": true
+  },
+  "wardrive_drivers_set_password": {
+    "value": "Wachtwoord instellen",
+    "_ai": true
+  },
+  "wardrive_drivers_set_password_for": {
+    "value": "Nieuw wachtwoord instellen voor {name}",
+    "_ai": true
+  },
+  "wardrive_drivers_password_label": {
+    "value": "Nieuw wachtwoord (minstens 10 tekens)",
+    "_ai": true
+  },
+  "wardrive_drivers_password_save": {
+    "value": "Wachtwoord opslaan",
+    "_ai": true
+  },
+  "wardrive_drivers_password_cancel": {
+    "value": "Annuleren",
+    "_ai": true
+  },
+  "wardrive_drivers_password_done": {
+    "value": "Wachtwoord ingesteld. {name} logt er opnieuw mee in.",
+    "_ai": true
+  },
+  "wardrive_drivers_view_as": {
+    "value": "Kaart bekijken als {name}",
+    "_ai": true
+  },
+  "wardrive_drivers_audit": {
+    "value": "Logboek",
+    "_ai": true
+  },
+  "wardrive_drivers_audit_none": {
+    "value": "Nog niets gelogd.",
+    "_ai": true
+  },
+  "wardrive_audit_owner": {
+    "value": "Eigenaar",
+    "_ai": true
+  },
+  "wardrive_audit_login": {
+    "value": "ingelogd",
+    "_ai": true
+  },
+  "wardrive_audit_login_refused": {
+    "value": "inloggen geweigerd",
+    "_ai": true
+  },
+  "wardrive_audit_login_disabled": {
+    "value": "inloggen geweigerd (account uitgeschakeld)",
+    "_ai": true
+  },
+  "wardrive_audit_logout": {
+    "value": "uitgelogd",
+    "_ai": true
+  },
+  "wardrive_audit_register": {
+    "value": "geregistreerd",
+    "_ai": true
+  },
+  "wardrive_audit_radio_add": {
+    "value": "radio toegevoegd",
+    "_ai": true
+  },
+  "wardrive_audit_drive_update": {
+    "value": "rit bewerkt",
+    "_ai": true
+  },
+  "wardrive_audit_drive_delete": {
+    "value": "rit verwijderd",
+    "_ai": true
+  },
+  "wardrive_audit_drive_merge": {
+    "value": "ritten samengevoegd",
+    "_ai": true
+  },
+  "wardrive_audit_drive_split": {
+    "value": "rit gesplitst",
+    "_ai": true
+  },
+  "wardrive_audit_user_update": {
+    "value": "gebruiker gewijzigd",
+    "_ai": true
+  },
+  "wardrive_audit_user_delete": {
+    "value": "gebruiker verwijderd",
+    "_ai": true
+  },
+  "wardrive_audit_radio_remove": {
+    "value": "radio verwijderd",
+    "_ai": true
+  },
+  "wardrive_audit_group_create": {
+    "value": "groep aangemaakt",
+    "_ai": true
+  },
+  "wardrive_audit_group_rename": {
+    "value": "groep hernoemd",
+    "_ai": true
+  },
+  "wardrive_audit_group_delete": {
+    "value": "groep verwijderd",
+    "_ai": true
+  },
+  "wardrive_audit_group_members": {
+    "value": "groepsleden gewijzigd",
+    "_ai": true
+  },
+  "wardrive_audit_password_set": {
+    "value": "wachtwoord ingesteld",
+    "_ai": true
+  },
+  "wardrive_view_as": {
+    "value": "Bekijken als",
+    "_ai": true
+  },
+  "wardrive_view_as_all": {
+    "value": "Alles (eigenaar)",
+    "_ai": true
+  },
+  "wardrive_view_as_group": {
+    "value": "Groep: {name}",
+    "_ai": true
+  },
+  "wardrive_view_as_banner": {
+    "value": "Je bekijkt als {name} (zichtbaarheid: {visibility}). Hun negeerlijst, doelen en opgeslagen weergave blijven in hun eigen browser.",
+    "_ai": true
+  },
+  "wardrive_view_as_banner_group": {
+    "value": "Je bekijkt als de leden van {name} samen.",
+    "_ai": true
+  },
+  "wardrive_view_as_back": {
+    "value": "Terug naar alles",
+    "_ai": true
+  },
+  "settings_wardrive_drivers_moved": {
+    "value": "Rijders, hun radio's en de groepen beheer je in Hulpmiddelen > Wardrive, tabblad Rijders.",
+    "_ai": true
+  },
   "temp_radio_button_title": {
     "value": "Tijdelijke radio-instellingen",
     "_ai": true

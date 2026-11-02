@@ -2569,6 +2569,130 @@
     "value": "Per USB in Betrieb genommen: {name} ({firmware}, {board})",
     "_ai": true
   },
+  "fleet_lan_title": {
+    "value": "Webconfig (LAN)",
+    "_ai": true
+  },
+  "fleet_lan_intro": {
+    "value": "Ein DMC Observer hat eine Webconfig auf seiner LAN-Adresse. Der Server liest sie und wendet eine gespeicherte Konfiguration darauf an; er meldet sich mit dem Admin-Passwort des Knotens aus dem Schlüsseltresor an. Die Webconfig spricht einfaches HTTP, das Passwort geht also unverschlüsselt durch dein LAN, wie von der eigenen Seite der Webconfig aus.",
+    "_ai": true
+  },
+  "fleet_lan_vault_off": {
+    "value": "Der Schlüsseltresor ist auf diesem Server ausgeschaltet: die Webconfig braucht das Admin-Passwort des Knotens daraus.",
+    "_ai": true
+  },
+  "fleet_lan_vault_locked": {
+    "value": "Entsperre zuerst den Schlüsseltresor: die Webconfig braucht das Admin-Passwort des Knotens daraus (Art: Admin-Passwort).",
+    "_ai": true
+  },
+  "fleet_lan_host": {
+    "value": "LAN-Adresse des Knotens",
+    "_ai": true
+  },
+  "fleet_lan_start": {
+    "value": "Webconfig starten (über Funk)",
+    "_ai": true
+  },
+  "fleet_lan_start_confirm": {
+    "value": "start webconfig jetzt senden",
+    "_ai": true
+  },
+  "fleet_lan_start_warning": {
+    "value": "Das sendet einen Befehl, start webconfig, über Funk an den Knoten. Melde dich zuerst auf seiner Repeater-Seite an. Auf einem Observer ohne WLAN-Einstellungen öffnet das seinen Einrichtungs-Zugangspunkt, der keine Anmeldung hat. Die Webconfig läuft weiter, bis du sie stoppst.",
+    "_ai": true
+  },
+  "fleet_lan_stop": {
+    "value": "Webconfig stoppen (über Funk)",
+    "_ai": true
+  },
+  "fleet_lan_stop_confirm": {
+    "value": "stop webconfig jetzt senden",
+    "_ai": true
+  },
+  "fleet_lan_stop_warning": {
+    "value": "Das sendet einen Befehl, stop webconfig, über Funk an den Knoten.",
+    "_ai": true
+  },
+  "fleet_lan_read": {
+    "value": "Über das LAN lesen",
+    "_ai": true
+  },
+  "fleet_lan_node_id": {
+    "value": "Knoten-ID",
+    "_ai": true
+  },
+  "fleet_lan_match": {
+    "value": "Das ist der Knoten dieses Geräts (sein öffentlicher Schlüssel beginnt mit dieser Knoten-ID).",
+    "_ai": true
+  },
+  "fleet_lan_partial": {
+    "value": "Nur was die Webconfig zeigt: kein Paketfilter, keine Region, Hardware, Meldungen, kein Gastpasswort, privater Schlüssel oder Besitzerinfo, und kein WLAN- oder Broker-Passwort (die Webconfig verbirgt sie). Eine Momentaufnahme davon ist keine vollständige Sicherung.",
+    "_ai": true
+  },
+  "fleet_lan_stored": {
+    "value": "Die Webconfig-Einstellungen des Knotens wurden als Momentaufnahme gespeichert.",
+    "_ai": true
+  },
+  "fleet_lan_apply_title": {
+    "value": "Eine gespeicherte Konfiguration über das LAN anwenden",
+    "_ai": true
+  },
+  "fleet_lan_no_key": {
+    "value": "Der private Schlüssel und das Gastpasswort werden nie über das LAN gesetzt; nutze dafür das USB-Kabel.",
+    "_ai": true
+  },
+  "fleet_lan_prepare": {
+    "value": "Über das LAN lesen und die Änderungen zeigen",
+    "_ai": true
+  },
+  "fleet_lan_apply_hint": {
+    "value": "Es wird nichts gesendet, bevor du jeden Befehl gesehen und bestätigt hast. Jeder Befehl ist eine eigene Speicherung auf dem Knoten; der Server wartet auf das Ergebnis und liest die Einstellung zurück, und das Anwenden stoppt bei der ersten unerwarteten Antwort. Der Knoten bekommt nie den Befehl zum Neustart.",
+    "_ai": true
+  },
+  "fleet_usb_skip_not_over_webconfig": {
+    "value": "nicht gesendet: die Webconfig kann das nicht setzen",
+    "_ai": true
+  },
+  "fleet_usb_skip_secret_unknown": {
+    "value": "nicht gesendet: der Knoten hat einen Wert, den die Webconfig verbirgt, ein Vergleich ist also nicht möglich (setze ihn über das USB-Kabel)",
+    "_ai": true
+  },
+  "fleet_usb_check_unreachable": {
+    "value": "der Knoten ist im LAN nicht erreichbar",
+    "_ai": true
+  },
+  "fleet_usb_check_not_running": {
+    "value": "die Webconfig läuft nicht auf dem Knoten",
+    "_ai": true
+  },
+  "fleet_usb_check_wrong_password": {
+    "value": "das Admin-Passwort wurde nicht angenommen",
+    "_ai": true
+  },
+  "fleet_usb_check_locked": {
+    "value": "zu viele falsche Passwörter; der Knoten wartet 30 Sekunden",
+    "_ai": true
+  },
+  "fleet_usb_check_session": {
+    "value": "die Webconfig-Sitzung ist beendet",
+    "_ai": true
+  },
+  "fleet_usb_check_busy": {
+    "value": "der Knoten führt noch eine andere Speicherung aus",
+    "_ai": true
+  },
+  "fleet_usb_check_refused": {
+    "value": "der Knoten hat die Speicherung abgelehnt",
+    "_ai": true
+  },
+  "fleet_usb_check_no_result": {
+    "value": "der Knoten hat das Ergebnis nicht rechtzeitig gemeldet",
+    "_ai": true
+  },
+  "fleet_usb_check_bad_answer": {
+    "value": "der Knoten gab eine Antwort, die diese App nicht versteht",
+    "_ai": true
+  },
   "fleet_config_vault_hint_locked": {
     "value": "Der Tresor ist gesperrt: Geheimnisse in einer Datei werden weggelassen. Entsperre ihn zuerst unter Schlüsseltresor auf dieser Seite, um sie aufzubewahren.",
     "_ai": true
@@ -4132,6 +4256,14 @@
   },
   "chat_filter_malformed_hint": {
     "value": "Spam aus zufälligen Zeichen und Absender mit nie gestellter Uhr.",
+    "_ai": true
+  },
+  "chat_filter_hide_name_filtered": {
+    "value": "Nach Namensmuster ausblenden",
+    "_ai": true
+  },
+  "chat_filter_name_filtered_hint": {
+    "value": "Absender, die zu deinen Namensmustern in den Einstellungen passen.",
     "_ai": true
   },
   "chat_scope_direct": {
@@ -7685,6 +7817,1263 @@
     "value": "Geräteverlauf (Bereichs-Momentaufnahmen, Positionen)",
     "_ai": true
   },
+  "settings_retention_class_wardrive": {
+    "value": "Wardrive-Empfänge und Tracks",
+    "_ai": true
+  },
+  "settings_wardrive_heading": null,
+  "settings_wardrive_desc": {
+    "value": "Fahrer in deinem Netzwerk oder Tailnet öffnen die Wardrive-Seite, koppeln ihr eigenes Companion-Funkgerät im Browser und fahren los. Was ihr Funkgerät hört, geht an die Broker unten, die jeder Fahrer selbst einschaltet, und eine Kopie bleibt hier. Dein eigenes Funkgerät wird nicht benutzt.",
+    "_ai": true
+  },
+  "settings_wardrive_unprotected": {
+    "value": "Die Hauptanmeldung ist aus (MESHCORE_BASIC_AUTH_USERNAME und MESHCORE_BASIC_AUTH_PASSWORD sind nicht gesetzt). Wer die Wardrive-Seite öffnen kann, kann auch diese App und dein Heimfunkgerät öffnen. Setze beide, um das zu schützen.",
+    "_ai": true
+  },
+  "settings_wardrive_page_label": {
+    "value": "Wardrive-Seite",
+    "_ai": true
+  },
+  "settings_wardrive_https_note": {
+    "value": "Die Seite braucht HTTPS für Bluetooth und GPS: nutze tailscale serve oder einen Reverse Proxy mit Zertifikat.",
+    "_ai": true
+  },
+  "settings_wardrive_users_heading": {
+    "value": "Wardrive-Benutzer",
+    "_ai": true
+  },
+  "settings_wardrive_no_users": {
+    "value": "Noch keine Wardrive-Konten.",
+    "_ai": true
+  },
+  "settings_wardrive_obs_count": {
+    "plural": {
+      "one": "{count} Empfang gespeichert",
+      "other": "{count} Empfänge gespeichert"
+    },
+    "_ai": true
+  },
+  "settings_wardrive_visibility_for": {
+    "value": "Sichtbarkeit für {name}",
+    "_ai": true
+  },
+  "settings_wardrive_visibility_own": {
+    "value": "Nur eigene Daten",
+    "_ai": true
+  },
+  "settings_wardrive_visibility_groups": {
+    "value": "Meine Gruppen",
+    "_ai": true
+  },
+  "settings_wardrive_visibility_all": {
+    "value": "Alle Fahrer",
+    "_ai": true
+  },
+  "settings_wardrive_disabled": {
+    "value": "Deaktiviert",
+    "_ai": true
+  },
+  "settings_wardrive_disabled_for": {
+    "value": "Deaktiviert: {name}",
+    "_ai": true
+  },
+  "settings_wardrive_delete": {
+    "value": "Löschen",
+    "_ai": true
+  },
+  "settings_wardrive_delete_user": {
+    "value": "Benutzer {name} löschen",
+    "_ai": true
+  },
+  "settings_wardrive_delete_group": {
+    "value": "Gruppe {name} löschen",
+    "_ai": true
+  },
+  "settings_wardrive_delete_user_confirm": {
+    "value": "{name} mit Funkgeräten und allen gespeicherten Wardrive-Daten löschen?",
+    "_ai": true
+  },
+  "settings_wardrive_remove": {
+    "value": "Entfernen",
+    "_ai": true
+  },
+  "settings_wardrive_remove_radio": {
+    "value": "Funkgerät {key} entfernen",
+    "_ai": true
+  },
+  "settings_wardrive_remove_radio_confirm": {
+    "value": "Funkgerät {key} von diesem Konto entfernen? Die gespeicherten Daten bleiben beim Konto.",
+    "_ai": true
+  },
+  "settings_wardrive_member_of": null,
+  "settings_wardrive_groups_heading": {
+    "value": "Gruppen",
+    "_ai": true
+  },
+  "settings_wardrive_group_name": {
+    "value": "Name der Gruppe {name}",
+    "_ai": true
+  },
+  "settings_wardrive_member_count": {
+    "plural": {
+      "one": "{count} Mitglied",
+      "other": "{count} Mitglieder"
+    },
+    "_ai": true
+  },
+  "settings_wardrive_delete_group_confirm": {
+    "value": "Gruppe {name} löschen?",
+    "_ai": true
+  },
+  "settings_wardrive_new_group": {
+    "value": "Name der neuen Gruppe",
+    "_ai": true
+  },
+  "settings_wardrive_add_group": {
+    "value": "Gruppe hinzufügen",
+    "_ai": true
+  },
+  "settings_wardrive_channels_heading": {
+    "value": "Kanäle, die Fahrer lesen können",
+    "_ai": true
+  },
+  "settings_wardrive_channels_desc": {
+    "value": "Die Wardrive-Seite entschlüsselt den Public-Kanal und diese Hashtag-Kanäle. Nur die Namen werden geteilt: Der Schlüssel eines Hashtag-Kanals folgt aus seinem Namen, also berechnen Fahrer ihn selbst. Private Kanäle werden nie geteilt.",
+    "_ai": true
+  },
+  "settings_wardrive_channels_from_radio": {
+    "value": "Von deinem Funkgerät: seine Hashtag-Kanäle. Füge einen hinzu oder entferne einen, um eine eigene Liste zu führen.",
+    "_ai": true
+  },
+  "settings_wardrive_channels_none": {
+    "value": "Keine Hashtag-Kanäle: Fahrer entschlüsseln nur den Public-Kanal.",
+    "_ai": true
+  },
+  "settings_wardrive_channels_remove": {
+    "value": "{name} entfernen",
+    "_ai": true
+  },
+  "settings_wardrive_channels_name": {
+    "value": "Kanalname",
+    "_ai": true
+  },
+  "settings_wardrive_channels_add": {
+    "value": "Kanal hinzufügen",
+    "_ai": true
+  },
+  "settings_wardrive_channels_reset": {
+    "value": "Hashtag-Kanäle meines Funkgeräts verwenden",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_heading": {
+    "value": "Broker, an die Fahrer weiterleiten können",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_desc": {
+    "value": "Fahrer schalten diese pro Funkgerät auf der Wardrive-Seite ein; eigene hinzufügen können sie nicht. Die DutchMeshCore-Collectors nehmen Wardrive-Nachrichten an, meshcore-analyzer.eu nimmt Observer-Pakete an. Ein Companion-Broker meldet sich mit einem Token an, das das Funkgerät des Fahrers signiert.",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_builtin": {
+    "value": "eingebaut",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_with_account": {
+    "value": "mit Konto",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_where_label": {
+    "value": "Stream {label}",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_where_region": {
+    "value": "Region {region}",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_remove_body": {
+    "value": "Fahrer hören innerhalb von 10 Minuten auf, an {name} weiterzuleiten. Was sie schon gesendet haben, bleibt beim Broker.",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_remove_cancel": {
+    "value": "Abbrechen",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_remove_confirm": {
+    "value": "Broker entfernen",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_remove_title": {
+    "value": "Diesen Broker entfernen?",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_remove": {
+    "value": "{name} entfernen",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_analyzer_region": {
+    "value": "Regionscode für den Analyzer",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_save_region": {
+    "value": "Region speichern",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_add_heading": {
+    "value": "Broker hinzufügen",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_name": {
+    "value": "Name des Brokers",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_url": {
+    "value": "Adresse",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_format": null,
+  "settings_wardrive_brokers_format_packets": {
+    "value": "Observer-Pakete",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_format_wardrive": {
+    "value": "Wardrive-Obs und -Tracks",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_label": {
+    "value": "Stream-Label",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_region": {
+    "value": "Regionscode",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_auth": {
+    "value": "Anmeldung",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_auth_companion": {
+    "value": "Token, signiert vom Funkgerät des Fahrers",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_auth_password": {
+    "value": "Benutzername und Passwort",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_username": {
+    "value": "Broker-Benutzername",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_password": {
+    "value": "Broker-Passwort",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_password_warning": {
+    "value": "Der Browser jedes Wardrive-Fahrers erhält diesen Benutzernamen und dieses Passwort, weil er sich selbst mit dem Broker verbindet. Nutze ein Konto, das dafür gedacht ist.",
+    "_ai": true
+  },
+  "settings_wardrive_brokers_add": {
+    "value": "Broker hinzufügen",
+    "_ai": true
+  },
+  "settings_wardrive_calibration_label": {
+    "value": "RSSI-Kalibrierung (dB)",
+    "_ai": true
+  },
+  "settings_wardrive_calibration_save": {
+    "value": "Kalibrierung speichern",
+    "_ai": true
+  },
+  "settings_wardrive_calibration_desc": {
+    "value": "Wird zu jedem RSSI addiert, den die Wardrive-Seite einfärbt (-30 bis 30), für Funkgeräte, die zu hoch oder zu niedrig messen. Angezeigte, gespeicherte und weitergeleitete Werte bleiben gemessen. Fahrer stellen ihr eigenes Dämpfungsglied auf der Seite ein.",
+    "_ai": true
+  },
+  "wardrive_page_title": null,
+  "wardrive_map_heading": {
+    "value": "Karte",
+    "_ai": true
+  },
+  "wardrive_map_show": {
+    "value": "Karte zeigen",
+    "_ai": true
+  },
+  "wardrive_map_hide": {
+    "value": "Karte ausblenden",
+    "_ai": true
+  },
+  "wardrive_map_window": {
+    "value": "Zeitfenster",
+    "_ai": true
+  },
+  "wardrive_map_window_24h": {
+    "value": "Letzte 24 Stunden",
+    "_ai": true
+  },
+  "wardrive_map_window_7d": {
+    "value": "Letzte 7 Tage",
+    "_ai": true
+  },
+  "wardrive_map_window_30d": {
+    "value": "Letzte 30 Tage",
+    "_ai": true
+  },
+  "wardrive_map_loading": {
+    "value": "Wird geladen",
+    "_ai": true
+  },
+  "wardrive_map_empty": {
+    "value": "In diesem Zeitfenster ist noch nichts gespeichert.",
+    "_ai": true
+  },
+  "wardrive_map_truncated": {
+    "value": "Nur die neuesten Empfänge werden gezeigt.",
+    "_ai": true
+  },
+  "wardrive_map_counts": {
+    "value": "{obs} Empfänge, {tracks} Track-Intervalle",
+    "_ai": true
+  },
+  "wardrive_map_legend": null,
+  "wardrive_map_unknown": {
+    "value": "unbekannt",
+    "_ai": true
+  },
+  "wardrive_popup_heard": {
+    "value": "Gehört",
+    "_ai": true
+  },
+  "wardrive_popup_driver": {
+    "value": "Fahrer",
+    "_ai": true
+  },
+  "wardrive_popup_radio": {
+    "value": "Funkgerät",
+    "_ai": true
+  },
+  "wardrive_popup_drive": {
+    "value": "Fahrt",
+    "_ai": true
+  },
+  "wardrive_popup_signal": null,
+  "wardrive_popup_packet": {
+    "value": "Paket",
+    "_ai": true
+  },
+  "wardrive_popup_hops": null,
+  "wardrive_popup_heard_via": {
+    "value": "Gehört über",
+    "_ai": true
+  },
+  "wardrive_popup_position": null,
+  "wardrive_popup_hash": null,
+  "wardrive_popup_published": {
+    "value": "Veröffentlicht",
+    "_ai": true
+  },
+  "wardrive_popup_uploaded": {
+    "value": "Hochgeladen",
+    "_ai": true
+  },
+  "wardrive_popup_route_flood": {
+    "value": "Flood",
+    "_ai": true
+  },
+  "wardrive_popup_route_direct": {
+    "value": "direkt",
+    "_ai": true
+  },
+  "wardrive_popup_bytes": {
+    "plural": {
+      "one": "{count} Byte",
+      "other": "{count} Bytes"
+    },
+    "_ai": true
+  },
+  "wardrive_map_aria": {
+    "value": "Wardrive-Karte",
+    "_ai": true
+  },
+  "wardrive_map_all_users": {
+    "value": "Alle Benutzer",
+    "_ai": true
+  },
+  "wardrive_map_all_groups": {
+    "value": "Alle Gruppen",
+    "_ai": true
+  },
+  "wardrive_map_user": {
+    "value": "Benutzer",
+    "_ai": true
+  },
+  "wardrive_map_group": {
+    "value": "Gruppe",
+    "_ai": true
+  },
+  "wardrive_map_radio": {
+    "value": "Funkgerät",
+    "_ai": true
+  },
+  "wardrive_map_all_radios": {
+    "value": "Alle Funkgeräte",
+    "_ai": true
+  },
+  "wardrive_page_forward_heading": {
+    "value": "Weiterleiten an",
+    "_ai": true
+  },
+  "wardrive_page_forward_note": {
+    "value": "Jeder Schalter gilt für dieses Funkgerät und beginnt mit dem, was ab jetzt empfangen wird. Der hunter-Strom von DutchMeshCore ist für Jagden, der wardriver-Strom für Abdeckungsfahrten.",
+    "_ai": true
+  },
+  "wardrive_page_broker_dmc_hunter": null,
+  "wardrive_page_broker_dmc_wardriver": null,
+  "wardrive_page_forward_off": {
+    "value": "Aus",
+    "_ai": true
+  },
+  "wardrive_page_forward_connecting": {
+    "value": "Verbinde",
+    "_ai": true
+  },
+  "wardrive_page_forward_connected": {
+    "value": "Verbunden, {count} wartend",
+    "_ai": true
+  },
+  "wardrive_page_forward_sign_failed": {
+    "value": "Dein Funkgerät konnte sich nicht anmelden",
+    "_ai": true
+  },
+  "wardrive_page_forward_error": null,
+  "wardrive_page_send_now": {
+    "value": "Jetzt senden",
+    "_ai": true
+  },
+  "wardrive_page_intro": {
+    "value": "Koppel dein eigenes Companion-Funkgerät und fahr los. Was es empfängt, wird hier gespeichert und hochgeladen, sobald RTFM-EV erreichbar ist.",
+    "_ai": true
+  },
+  "wardrive_page_offline": {
+    "value": "Offline: RTFM-EV ist nicht erreichbar. Empfänge werden gespeichert und später hochgeladen.",
+    "_ai": true
+  },
+  "wardrive_page_account_heading": {
+    "value": "Konto",
+    "_ai": true
+  },
+  "wardrive_page_username": {
+    "value": "Benutzername",
+    "_ai": true
+  },
+  "wardrive_page_password": {
+    "value": "Passwort",
+    "_ai": true
+  },
+  "wardrive_page_log_in": {
+    "value": "Anmelden",
+    "_ai": true
+  },
+  "wardrive_page_log_out": {
+    "value": "Abmelden",
+    "_ai": true
+  },
+  "wardrive_page_logged_in_as": {
+    "value": "Angemeldet als {name}",
+    "_ai": true
+  },
+  "wardrive_page_create_account": {
+    "value": "Konto erstellen",
+    "_ai": true
+  },
+  "wardrive_page_create_hint": {
+    "value": "Verbinde zuerst dein Funkgerät, um ein Konto zu erstellen: es signiert, um zu beweisen, dass es dir gehört.",
+    "_ai": true
+  },
+  "wardrive_page_radio_name": {
+    "value": "Name des Funkgeräts",
+    "_ai": true
+  },
+  "wardrive_page_password_short": {
+    "value": "Das Passwort braucht mindestens 10 Zeichen.",
+    "_ai": true
+  },
+  "wardrive_page_radio_heading": {
+    "value": "Funkgerät",
+    "_ai": true
+  },
+  "wardrive_page_connect_ble": {
+    "value": "Über Bluetooth verbinden",
+    "_ai": true
+  },
+  "wardrive_page_connect_usb": {
+    "value": "Über USB verbinden",
+    "_ai": true
+  },
+  "wardrive_page_disconnect": {
+    "value": "Trennen",
+    "_ai": true
+  },
+  "wardrive_page_radio_connected": null,
+  "wardrive_page_radio_not_on_account": {
+    "value": "Dieses Funkgerät ist noch nicht in deinem Konto.",
+    "_ai": true
+  },
+  "wardrive_page_add_to_account": {
+    "value": "Zu diesem Konto hinzufügen",
+    "_ai": true
+  },
+  "wardrive_page_separate_account": {
+    "value": "Eigenes Konto erstellen",
+    "_ai": true
+  },
+  "wardrive_page_radio_lost": {
+    "value": "Das Funkgerät wurde getrennt. Die Fahrt ist pausiert; verbinde erneut, um weiterzumachen.",
+    "_ai": true
+  },
+  "wardrive_page_no_radio_support": {
+    "value": "Dieser Browser kann kein Funkgerät erreichen. Nutze auf einem iPhone den Bluefy-Browser, auf einem Computer Chrome oder Edge.",
+    "_ai": true
+  },
+  "wardrive_page_position_heading": null,
+  "wardrive_page_position_device": {
+    "value": "Standort dieses Geräts verwenden",
+    "_ai": true
+  },
+  "wardrive_page_position_usb": {
+    "value": "USB-GPS verwenden",
+    "_ai": true
+  },
+  "wardrive_page_position_fix": {
+    "value": "Genauigkeit {accuracy}, vor {age} s",
+    "_ai": true
+  },
+  "wardrive_page_accuracy_unknown": {
+    "value": "unbekannt",
+    "_ai": true
+  },
+  "wardrive_page_position_unusable": {
+    "value": "Keine brauchbare Position: Empfänge werden erst gespeichert, wenn es eine gibt (besser als 100 m, höchstens 10 s alt).",
+    "_ai": true
+  },
+  "wardrive_page_laptop_gps": {
+    "value": "Ein Laptop braucht ein angeschlossenes GPS: sein eigener Standort kommt vom WLAN und ist nicht genau genug.",
+    "_ai": true
+  },
+  "wardrive_page_drive_heading": {
+    "value": "Fahrt",
+    "_ai": true
+  },
+  "wardrive_page_start": {
+    "value": "Fahrt starten",
+    "_ai": true
+  },
+  "wardrive_page_stop": {
+    "value": "Fahrt beenden",
+    "_ai": true
+  },
+  "wardrive_page_start_needs": {
+    "value": "Zum Starten: anmelden, ein Funkgerät deines Kontos verbinden und eine Position wählen.",
+    "_ai": true
+  },
+  "wardrive_page_heard": {
+    "value": "Empfangen",
+    "_ai": true
+  },
+  "wardrive_page_stored": {
+    "value": "Gespeichert",
+    "_ai": true
+  },
+  "wardrive_page_no_position": {
+    "value": "Keine Position",
+    "_ai": true
+  },
+  "wardrive_page_hud_no_reception": {
+    "value": "Noch kein Empfang",
+    "_ai": true
+  },
+  "wardrive_page_hud_dbm": null,
+  "wardrive_page_hud_snr": null,
+  "wardrive_page_hud_age_s": null,
+  "wardrive_page_hud_age_m": {
+    "value": "{minutes} Min.",
+    "_ai": true
+  },
+  "wardrive_page_hud_age_h": {
+    "value": "{hours} Std.",
+    "_ai": true
+  },
+  "wardrive_page_hud_backlog": {
+    "value": "{count} wartend",
+    "_ai": true
+  },
+  "wardrive_page_hud_speed": {
+    "value": "Geschwindigkeit",
+    "_ai": true
+  },
+  "wardrive_page_hud_rssi": {
+    "value": "Signalstärke",
+    "_ai": true
+  },
+  "wardrive_page_log_aria": {
+    "value": "Empfänge",
+    "_ai": true
+  },
+  "wardrive_page_log_count": null,
+  "wardrive_page_log_size": {
+    "value": "Größe des Protokolls",
+    "_ai": true
+  },
+  "wardrive_page_log_hide": {
+    "value": "Protokoll ausblenden",
+    "_ai": true
+  },
+  "wardrive_page_log_kept": {
+    "value": "Gespeichert",
+    "_ai": true
+  },
+  "wardrive_page_log_heard_only": {
+    "value": "Nur gehört",
+    "_ai": true
+  },
+  "wardrive_page_menu": {
+    "value": "Menü",
+    "_ai": true
+  },
+  "wardrive_page_show_log": {
+    "value": "Protokoll zeigen",
+    "_ai": true
+  },
+  "wardrive_page_dot_radio": {
+    "value": "Funkgerät: {state}",
+    "_ai": true
+  },
+  "wardrive_page_dot_brokers": {
+    "value": "Weiterleitung: {state}",
+    "_ai": true
+  },
+  "wardrive_page_dot_upload": null,
+  "wardrive_page_dot_on": {
+    "value": "verbunden",
+    "_ai": true
+  },
+  "wardrive_page_dot_lost": {
+    "value": "Verbindung verloren",
+    "_ai": true
+  },
+  "wardrive_page_dot_off": {
+    "value": "aus",
+    "_ai": true
+  },
+  "wardrive_page_dot_all": {
+    "value": "alle verbunden",
+    "_ai": true
+  },
+  "wardrive_page_dot_some": {
+    "value": "teilweise verbunden",
+    "_ai": true
+  },
+  "wardrive_page_dot_none": {
+    "value": "nicht verbunden",
+    "_ai": true
+  },
+  "wardrive_page_dot_ok": {
+    "value": "aktuell",
+    "_ai": true
+  },
+  "wardrive_page_dot_waiting": {
+    "value": "wartet auf Upload",
+    "_ai": true
+  },
+  "wardrive_page_dot_offline": null,
+  "wardrive_page_dot_logged_out": {
+    "value": "nicht angemeldet",
+    "_ai": true
+  },
+  "wardrive_page_banner_no_radio": {
+    "value": "Kein Funkgerät verbunden.",
+    "_ai": true
+  },
+  "wardrive_page_banner_no_fix": {
+    "value": "Noch keine Position: Empfänge werden erst gespeichert, wenn es eine gibt.",
+    "_ai": true
+  },
+  "wardrive_page_banner_fix_poor": {
+    "value": "Position zu ungenau ({accuracy} m): Empfänge werden ab 100 m oder besser gespeichert.",
+    "_ai": true
+  },
+  "wardrive_page_banner_paused": {
+    "value": "Pausiert um {time}, während die Seite im Hintergrund war.",
+    "_ai": true
+  },
+  "wardrive_page_banner_screen": {
+    "value": "Bildschirm an und diese Seite im Vordergrund lassen: im Hintergrund hört das Telefon nicht mehr zu.",
+    "_ai": true
+  },
+  "wardrive_page_connect": {
+    "value": "Verbinden",
+    "_ai": true
+  },
+  "wardrive_page_dismiss": {
+    "value": "Schließen",
+    "_ai": true
+  },
+  "wardrive_page_rail_sound": {
+    "value": "Ton",
+    "_ai": true
+  },
+  "wardrive_page_rail_autodiscover_off": {
+    "value": "Auto-discover: aus",
+    "_ai": true
+  },
+  "wardrive_page_rail_autodiscover_on": {
+    "value": "Auto-discover: an",
+    "_ai": true
+  },
+  "wardrive_page_rail_autodiscover_target": {
+    "value": "Auto-discover und Ziel-Pings: an",
+    "_ai": true
+  },
+  "wardrive_page_autodiscover_status_off": {
+    "value": "Auto-discover: aus",
+    "_ai": true
+  },
+  "wardrive_page_autodiscover_status_on": {
+    "value": "Auto-discover: an, alle {seconds} s",
+    "_ai": true
+  },
+  "wardrive_page_introduce": {
+    "value": "Meinen Knoten den Zielen vorstellen",
+    "_ai": true
+  },
+  "wardrive_page_introduce_hint": {
+    "value": "Mit Auto-discover an und einem Companion als Ziel sendet jede Runde auch den eigenen Advert deines Funkgeräts, zero-hop (Schlüssel und Name, eine Position nur, wenn dein Funkgerät sie teilen darf), damit dieser Companion antworten kann. Standardmäßig aus.",
+    "_ai": true
+  },
+  "wardrive_page_rail_view": {
+    "value": "Ansicht: {state}",
+    "_ai": true
+  },
+  "wardrive_page_view_points2d": {
+    "value": "2D, Punkte",
+    "_ai": true
+  },
+  "wardrive_page_view_both2d": {
+    "value": "2D, Sechsecke und Punkte",
+    "_ai": true
+  },
+  "wardrive_page_view_hex3d": {
+    "value": "3D, Sechsecke",
+    "_ai": true
+  },
+  "wardrive_page_view_points3d": {
+    "value": "3D, Punkte",
+    "_ai": true
+  },
+  "wardrive_page_view_both3d": {
+    "value": "3D, Sechsecke und Punkte",
+    "_ai": true
+  },
+  "wardrive_page_rail_compass": {
+    "value": "Kompass: {state}",
+    "_ai": true
+  },
+  "wardrive_page_compass_static": {
+    "value": "aus",
+    "_ai": true
+  },
+  "wardrive_page_compass_north": {
+    "value": "folgen, Norden oben",
+    "_ai": true
+  },
+  "wardrive_page_compass_heading": {
+    "value": "folgen, Fahrtrichtung",
+    "_ai": true
+  },
+  "wardrive_page_rail_nodepos": {
+    "value": "Node-Positionen: {state}",
+    "_ai": true
+  },
+  "wardrive_page_nodepos_off": {
+    "value": "aus",
+    "_ai": true
+  },
+  "wardrive_page_nodepos_positions": {
+    "value": "angekündigte Positionen",
+    "_ai": true
+  },
+  "wardrive_page_nodepos_reach": {
+    "value": "Positionen und Reichweite",
+    "_ai": true
+  },
+  "wardrive_page_terrain_heading": {
+    "value": "Gelände in 3D",
+    "_ai": true
+  },
+  "wardrive_page_terrain_hint": {
+    "value": "Wie stark Hügel in der 3D-Ansicht überhöht werden. Nur 1x ist naturgetreu; im flachen Norden braucht es mehr, um etwas zu sehen.",
+    "_ai": true
+  },
+  "wardrive_page_terrain_step": null,
+  "wardrive_page_hud_noise": {
+    "value": "Rauschen {value} dBm",
+    "_ai": true
+  },
+  "wardrive_page_hud_offset_title": {
+    "value": "Farben liegen {offset} dB neben dem gemessenen Wert (Kalibrierung und Dämpfungsglied)",
+    "_ai": true
+  },
+  "wardrive_page_attenuator_heading": {
+    "value": "Dämpfungsglied",
+    "_ai": true
+  },
+  "wardrive_page_attenuator_hint": {
+    "value": "Sitzt ein Dämpfungsglied zwischen Funkgerät und Antenne, wähle seinen Wert: Farben, Sechsecke und Säulen rechnen den Verlust wieder hinzu. Die angezeigten Zahlen und der Ton bleiben gemessen; Gespeichertes und Weitergeleitetes ändert sich nicht.",
+    "_ai": true
+  },
+  "wardrive_page_attenuator_none": {
+    "value": "Keins",
+    "_ai": true
+  },
+  "wardrive_page_attenuator_step": null,
+  "wardrive_page_dot_low": {
+    "value": "Akku schwach",
+    "_ai": true
+  },
+  "wardrive_page_battery": {
+    "value": "Akku {volts} V, {percent} %",
+    "_ai": true
+  },
+  "wardrive_page_fullscreen": {
+    "value": "Vollbild",
+    "_ai": true
+  },
+  "wardrive_page_fullscreen_leave": {
+    "value": "Vollbild verlassen",
+    "_ai": true
+  },
+  "wardrive_page_log_move": {
+    "value": "Log verschieben",
+    "_ai": true
+  },
+  "wardrive_page_log_heard_us": {
+    "value": "hörte uns mit {snr} dB",
+    "_ai": true
+  },
+  "wardrive_page_battery_unknown": {
+    "value": "Akku -",
+    "_ai": true
+  },
+  "wardrive_page_battery_volts": {
+    "value": "Akku {volts} V",
+    "_ai": true
+  },
+  "wardrive_page_battery_low": {
+    "value": "(schwach)",
+    "_ai": true
+  },
+  "wardrive_page_noise_map": {
+    "value": "Grundrauschen auf der Karte",
+    "_ai": true
+  },
+  "wardrive_page_noise_map_hint": {
+    "value": "Ringe, wo das Funkgerät sein Grundrauschen gelesen hat (alle 10 s oder 50 m): Grün oder Blau ist ruhig, Rot oder Orange ist laut. Bleibt, bis die Seite geschlossen wird.",
+    "_ai": true
+  },
+  "wardrive_page_tab_status": null,
+  "wardrive_page_tab_settings": {
+    "value": "Einstellungen",
+    "_ai": true
+  },
+  "wardrive_page_tab_about": {
+    "value": "Über",
+    "_ai": true
+  },
+  "wardrive_page_tab_drives": {
+    "value": "Fahrten",
+    "_ai": true
+  },
+  "wardrive_page_tab_reports": {
+    "value": "Berichte",
+    "_ai": true
+  },
+  "wardrive_page_drives_login": {
+    "value": "Melde dich an, um deine Fahrten und Berichte zu sehen.",
+    "_ai": true
+  },
+  "wardrive_page_report_picked": {
+    "plural": {
+      "one": "Bericht über die gewählte Fahrt.",
+      "other": "Bericht über die {count} gewählten Fahrten."
+    },
+    "_ai": true
+  },
+  "wardrive_page_report_window": {
+    "value": "Fahrten der letzten",
+    "_ai": true
+  },
+  "wardrive_page_report_days": {
+    "plural": {
+      "one": "{count} Tag",
+      "other": "{count} Tage"
+    },
+    "_ai": true
+  },
+  "wardrive_page_close": {
+    "value": "Schließen",
+    "_ai": true
+  },
+  "wardrive_page_start_radio": {
+    "value": "Funkgerät",
+    "_ai": true
+  },
+  "wardrive_page_start_gps": null,
+  "wardrive_page_start_no_radio": {
+    "value": "Kein Funkgerät",
+    "_ai": true
+  },
+  "wardrive_page_start_no_fix": {
+    "value": "Noch keine Position",
+    "_ai": true
+  },
+  "wardrive_page_start_fix": {
+    "value": "Position, {accuracy} m",
+    "_ai": true
+  },
+  "wardrive_page_about_listens": {
+    "value": "Diese Seite hört zu: Sie liest, was dein Funkgerät empfängt, und lässt es signieren. Sie sendet nur, während du Auto-discover einschaltest (die Radar-Taste), und dieser Schalter ist bei jedem Start der Seite aus.",
+    "_ai": true
+  },
+  "wardrive_page_about_meshhunter": null,
+  "wardrive_page_about_analyzer": null,
+  "wardrive_page_hint_login": {
+    "value": "Melde dich an, um eine Fahrt zu starten.",
+    "_ai": true
+  },
+  "wardrive_page_hint_radio": {
+    "value": "Verbinde dein Funkgerät, um eine Fahrt zu starten.",
+    "_ai": true
+  },
+  "wardrive_page_hint_position": {
+    "value": "Wähle eine Position, um eine Fahrt zu starten.",
+    "_ai": true
+  },
+  "wardrive_page_map_retry": {
+    "value": "Die Karte konnte nicht geladen werden.",
+    "_ai": true
+  },
+  "wardrive_page_retry": {
+    "value": "Erneut versuchen",
+    "_ai": true
+  },
+  "wardrive_page_upload_idle": {
+    "value": "Zu RTFM-EV hochgeladen",
+    "_ai": true
+  },
+  "wardrive_page_upload_uploading": {
+    "value": "Wird hochgeladen",
+    "_ai": true
+  },
+  "wardrive_page_upload_offline": {
+    "value": "Warte auf RTFM-EV",
+    "_ai": true
+  },
+  "wardrive_page_upload_logged_out": {
+    "value": "Uploads pausiert: bitte erneut anmelden",
+    "_ai": true
+  },
+  "wardrive_page_upload_error": {
+    "value": "Upload-Problem: {error}",
+    "_ai": true
+  },
+  "wardrive_page_pending": {
+    "value": "Warten auf Upload: {obs} Empfänge, {tracks} Tracks",
+    "_ai": true
+  },
+  "wardrive_page_set_aside": {
+    "value": "{count} von RTFM-EV abgelehnt und beiseitegelegt",
+    "_ai": true
+  },
+  "wardrive_page_other_accounts": {
+    "plural": {
+      "one": "{count} Empfang des Funkgeräts eines anderen Kontos wartet hier, bis sich dieses Konto anmeldet (7 Tage aufbewahrt)",
+      "other": "{count} Empfänge des Funkgeräts eines anderen Kontos warten hier, bis sich dieses Konto anmeldet (7 Tage aufbewahrt)"
+    },
+    "_ai": true
+  },
+  "wardrive_page_error": {
+    "value": "Etwas ist schiefgegangen: {error}",
+    "_ai": true
+  },
+  "wardrive_page_sender_via": null,
+  "wardrive_page_sender_none": {
+    "value": "{type}, keine Absender-ID",
+    "_ai": true
+  },
+  "wardrive_page_type_advert": null,
+  "wardrive_page_type_group_text": {
+    "value": "Kanal",
+    "_ai": true
+  },
+  "wardrive_page_type_group_data": {
+    "value": "Kanaldaten",
+    "_ai": true
+  },
+  "wardrive_page_type_response": {
+    "value": "Antwort",
+    "_ai": true
+  },
+  "wardrive_page_type_request": {
+    "value": "Anfrage",
+    "_ai": true
+  },
+  "wardrive_page_type_anon_request": {
+    "value": "Anon. Anfrage",
+    "_ai": true
+  },
+  "wardrive_page_type_text_message": {
+    "value": "Direktnachricht",
+    "_ai": true
+  },
+  "wardrive_page_type_ack": null,
+  "wardrive_page_type_control": null,
+  "wardrive_page_type_path": {
+    "value": "Pfad",
+    "_ai": true
+  },
+  "wardrive_page_type_multipart": null,
+  "wardrive_page_type_trace": null,
+  "wardrive_page_type_raw_custom": {
+    "value": "Roh",
+    "_ai": true
+  },
+  "wardrive_page_type_unknown": {
+    "value": "Unbekannt",
+    "_ai": true
+  },
+  "wardrive_page_targets_all": {
+    "value": "Alle Absender",
+    "_ai": true
+  },
+  "wardrive_page_targets_count": {
+    "plural": {
+      "one": "{count} Ziel",
+      "other": "{count} Ziele"
+    },
+    "_ai": true
+  },
+  "wardrive_page_targets_chip": {
+    "value": "Ziele: {label}",
+    "_ai": true
+  },
+  "wardrive_page_filters": {
+    "value": "Filter",
+    "_ai": true
+  },
+  "wardrive_page_targets_title": {
+    "value": "Ziele",
+    "_ai": true
+  },
+  "wardrive_page_targets_desc": {
+    "value": "Wähle die Absender, denen du folgen willst. Mit gewählten Zielen zeigen Karte, Log und HUD nur diese.",
+    "_ai": true
+  },
+  "wardrive_page_targets_search": {
+    "value": "Nach Name oder ID suchen",
+    "_ai": true
+  },
+  "wardrive_page_targets_top": null,
+  "wardrive_page_targets_list": {
+    "value": "Gehörte Absender",
+    "_ai": true
+  },
+  "wardrive_page_targets_none": {
+    "value": "Keine Absender gefunden",
+    "_ai": true
+  },
+  "wardrive_page_targets_empty": {
+    "value": "Noch keine Absender gehört",
+    "_ai": true
+  },
+  "wardrive_page_targets_unnamed": {
+    "value": "{id} (Name unbekannt)",
+    "_ai": true
+  },
+  "wardrive_page_targets_clear": {
+    "value": "Ziele löschen",
+    "_ai": true
+  },
+  "wardrive_page_targets_more": {
+    "value": "Mehr zeigen",
+    "_ai": true
+  },
+  "wardrive_page_filters_title": {
+    "value": "Filter",
+    "_ai": true
+  },
+  "wardrive_page_filters_desc": {
+    "value": "Was Karte, Log und HUD zeigen. Alle zeigt alles im Zeitfenster und graut aus, was die Filter weglassen.",
+    "_ai": true
+  },
+  "wardrive_page_filters_window": {
+    "value": "Zeitfenster",
+    "_ai": true
+  },
+  "wardrive_page_window_min": {
+    "value": "{count} Min.",
+    "_ai": true
+  },
+  "wardrive_page_window_h": {
+    "value": "{count} Std.",
+    "_ai": true
+  },
+  "wardrive_page_window_d": {
+    "value": "{count} Tage",
+    "_ai": true
+  },
+  "wardrive_page_window_all": {
+    "value": "Gesamte Zeit",
+    "_ai": true
+  },
+  "wardrive_page_filters_types": {
+    "value": "Pakettypen",
+    "_ai": true
+  },
+  "wardrive_page_filters_ids": {
+    "value": "Absender-ID",
+    "_ai": true
+  },
+  "wardrive_page_idclass_unnamed": {
+    "value": "Keine ID",
+    "_ai": true
+  },
+  "wardrive_page_idclass_1b": {
+    "value": "1 Byte",
+    "_ai": true
+  },
+  "wardrive_page_idclass_2b": {
+    "value": "2 Bytes",
+    "_ai": true
+  },
+  "wardrive_page_idclass_3b": {
+    "value": "3 Bytes",
+    "_ai": true
+  },
+  "wardrive_page_idclass_pubkey": {
+    "value": "Schlüssel",
+    "_ai": true
+  },
+  "wardrive_page_idclass_channel": {
+    "value": "Kanalname",
+    "_ai": true
+  },
+  "wardrive_page_filters_direct": {
+    "value": "Kein Pfad (direkt vom Absender gehört)",
+    "_ai": true
+  },
+  "wardrive_page_filters_clear": {
+    "plural": {
+      "one": "{count} Filter löschen",
+      "other": "{count} Filter löschen"
+    },
+    "_ai": true
+  },
+  "wardrive_page_filters_ignored": {
+    "value": "Ignorierte Absender",
+    "_ai": true
+  },
+  "wardrive_page_filters_ignored_none": {
+    "value": "Niemand wird ignoriert.",
+    "_ai": true
+  },
+  "wardrive_page_filters_unignore": {
+    "value": "{name} nicht mehr ignorieren",
+    "_ai": true
+  },
+  "wardrive_page_filters_channels": {
+    "value": "Kanäle",
+    "_ai": true
+  },
+  "wardrive_page_filters_channels_desc": {
+    "value": "Der Public-Kanal und diese Hashtag-Kanäle werden auf dieser Seite entschlüsselt.",
+    "_ai": true
+  },
+  "wardrive_page_filters_channels_served": {
+    "value": "Von RTFM-EV",
+    "_ai": true
+  },
+  "wardrive_page_filters_channels_own": {
+    "value": "Deine eigenen (nur in diesem Browser)",
+    "_ai": true
+  },
+  "wardrive_page_filters_channels_none": {
+    "value": "Keine",
+    "_ai": true
+  },
+  "wardrive_page_filters_channel_name": {
+    "value": "Kanalname",
+    "_ai": true
+  },
+  "wardrive_page_filters_channel_add": {
+    "value": "Kanal hinzufügen",
+    "_ai": true
+  },
+  "wardrive_page_filters_channel_remove": {
+    "value": "{name} entfernen",
+    "_ai": true
+  },
+  "wardrive_page_hud_targets": {
+    "value": "Ziele",
+    "_ai": true
+  },
+  "wardrive_page_hud_add": {
+    "value": "Hinzufügen",
+    "_ai": true
+  },
+  "wardrive_page_hud_add_aria": {
+    "value": "Den gezeigten Absender zu den Zielen hinzufügen",
+    "_ai": true
+  },
+  "wardrive_page_hud_ignore": {
+    "value": "Ignorieren",
+    "_ai": true
+  },
+  "wardrive_page_hud_ignore_aria": {
+    "value": "Den gezeigten Absender ignorieren",
+    "_ai": true
+  },
+  "wardrive_page_hud_all": {
+    "value": "Alle",
+    "_ai": true
+  },
+  "wardrive_page_hud_float": {
+    "value": "Schwebend",
+    "_ai": true
+  },
+  "wardrive_page_hud_float_aria": {
+    "value": "Messwert in einem schwebenden Fenster zeigen",
+    "_ai": true
+  },
+  "wardrive_page_float_empty_hint": {
+    "value": "Der Messwert erscheint, sobald ein Paket ankommt.",
+    "_ai": true
+  },
+  "wardrive_page_hud_all_aria": {
+    "value": "Alle Empfänge zeigen",
+    "_ai": true
+  },
+  "wardrive_page_hud_arrow": {
+    "value": "Richtung zum Absender",
+    "_ai": true
+  },
+  "wardrive_page_hud_arrow_estimate": {
+    "value": "Richtung zum Absender (geschätzte Position)",
+    "_ai": true
+  },
+  "wardrive_page_log_outside": {
+    "value": "außerhalb des Filters",
+    "_ai": true
+  },
+  "wardrive_page_log_back": {
+    "value": "Zurück zu live",
+    "_ai": true
+  },
   "settings_retention_class_noise_floor": {
     "value": "Rauschgrenze (Mein Knoten)",
     "_ai": true
@@ -9343,6 +10732,34 @@
   },
   "settings_radioapp_unblock_button": {
     "value": "Blockierung aufheben",
+    "_ai": true
+  },
+  "settings_name_filter_heading": {
+    "value": "Nach Namensmuster ausblenden",
+    "_ai": true
+  },
+  "settings_name_filter_desc": {
+    "value": "Für Absender, die bei jeder Nachricht ihren Namen ändern. Ein regulärer Ausdruck pro Zeile. Ein Muster muss auf den ganzen Namen passen und ignoriert Groß- und Kleinschreibung: Adriaan\\d+ erfasst Adriaan257, aber nicht Adriaan oder MijnAdriaan1. Nachrichten werden ausgeblendet, nicht gelöscht, und kommen zurück, wenn du das Muster entfernst oder dies ausschaltest. Gespeicherte Nachrichten werden beim Speichern erneut geprüft. Deine eigenen Nachrichten werden nie ausgeblendet.",
+    "_ai": true
+  },
+  "settings_name_filter_enable": {
+    "value": "Nachrichten von passenden Namen ausblenden",
+    "_ai": true
+  },
+  "settings_name_filter_patterns_label": {
+    "value": "Namensmuster",
+    "_ai": true
+  },
+  "settings_name_filter_save": {
+    "value": "Muster speichern",
+    "_ai": true
+  },
+  "settings_name_filter_saved": {
+    "value": "Namensmuster gespeichert",
+    "_ai": true
+  },
+  "settings_name_filter_save_failed": {
+    "value": "Namensfilter konnte nicht gespeichert werden",
     "_ai": true
   },
   "settings_radioapp_blocked_names_label": {
@@ -13857,6 +15274,7 @@
     "value": "MQTT & Automatisierung",
     "_ai": true
   },
+  "settings_section_wardrive": null,
   "settings_section_openhop": {
     "value": "OpenHop",
     "_ai": true,
@@ -24247,6 +25665,74 @@
     "value": "Netzwerkscan",
     "_ai": true
   },
+  "nav_wardrive": null,
+  "wardrive_reports_page_intro": {
+    "value": "Die Fahrten aller Fahrer: umbenennen, beschreiben, teilen, zusammenführen oder löschen, und Berichte, Teilkarten und Exporte für einen Fahrer, eine Gruppe oder alle erstellen.",
+    "_ai": true
+  },
+  "wardrive_reports_window": {
+    "value": "Fahrten der letzten",
+    "_ai": true
+  },
+  "wardrive_reports_all_time": {
+    "value": "Gesamte Zeit",
+    "_ai": true
+  },
+  "wardrive_reports_drives": {
+    "value": "Fahrten",
+    "_ai": true
+  },
+  "wardrive_reports_report": {
+    "value": "Bericht",
+    "_ai": true
+  },
+  "wardrive_reports_filter_scope": {
+    "value": "Keine Fahrt gewählt: der Bericht umfasst alle Fahrten, die die Filter oben zeigen.",
+    "_ai": true
+  },
+  "wardrive_tab_map": {
+    "value": "Karte",
+    "_ai": true
+  },
+  "wardrive_tab_reports": {
+    "value": "Berichte",
+    "_ai": true
+  },
+  "wardrive_live_heading": {
+    "value": "Jetzt unterwegs",
+    "_ai": true
+  },
+  "wardrive_live_none": {
+    "value": "Gerade ist niemand unterwegs.",
+    "_ai": true
+  },
+  "wardrive_live_seen": {
+    "value": "Position vor {age}",
+    "_ai": true
+  },
+  "wardrive_live_receptions": {
+    "plural": {
+      "one": "{count} Empfang",
+      "other": "{count} Empfänge"
+    },
+    "_ai": true
+  },
+  "wardrive_live_show": {
+    "value": "{name} auf der Karte zeigen",
+    "_ai": true
+  },
+  "wardrive_map_page_intro": {
+    "value": "Die Abdeckungskarte aller Daten der Wardrive-Fahrer: wo Nodes gehört wurden und wie gut, die Fahrer, die gerade unterwegs sind, und die Karte so, wie jeder Fahrer sie sehen würde.",
+    "_ai": true
+  },
+  "common_loading_wardrive": {
+    "value": "Wardrive wird geladen...",
+    "_ai": true
+  },
+  "settings_wardrive_map_moved": {
+    "value": "Die Abdeckungskarte aller Wardrive-Daten ist unter Werkzeuge > Wardrive, Tab Karte.",
+    "_ai": true
+  },
   "common_loading_lan_scan": {
     "value": "Netzwerkscan wird geladen...",
     "_ai": true
@@ -24621,6 +26107,26 @@
   },
   "share_insecure_note": {
     "value": "Teilen und Bild kopieren brauchen https oder localhost. Herunterladen funktioniert trotzdem.",
+    "_ai": true
+  },
+  "share_frame_open": {
+    "value": "Kartenausschnitt wählen",
+    "_ai": true
+  },
+  "share_frame_use": {
+    "value": "Diese Ansicht verwenden",
+    "_ai": true
+  },
+  "share_frame_cancel": {
+    "value": "Abbrechen",
+    "_ai": true
+  },
+  "share_frame_fit": {
+    "value": "An die Daten anpassen",
+    "_ai": true
+  },
+  "share_frame_map_aria": {
+    "value": "Karte für den Ausschnitt der Karte: verschieben und zoomen",
     "_ai": true
   },
   "share_hide_position": {
@@ -25576,6 +27082,1171 @@
     "_ai": true
   },
   "perf_col_5xx": null,
+  "wardrive_report_seconds": null,
+  "wardrive_report_minutes": {
+    "value": "{n} Min.",
+    "_ai": true
+  },
+  "wardrive_report_hours_minutes": {
+    "value": "{h} Std. {m} Min.",
+    "_ai": true
+  },
+  "wardrive_report_no_drives": {
+    "value": "Noch keine Fahrten in dieser Auswahl.",
+    "_ai": true
+  },
+  "wardrive_report_loading": {
+    "value": "Wird geladen...",
+    "_ai": true
+  },
+  "wardrive_report_pick": {
+    "value": "{label} auswählen",
+    "_ai": true
+  },
+  "wardrive_report_receptions_n": {
+    "plural": {
+      "one": "{count} Empfang",
+      "other": "{count} Empfänge"
+    },
+    "_ai": true
+  },
+  "wardrive_report_edit": {
+    "value": "Bearbeiten",
+    "_ai": true
+  },
+  "wardrive_report_save": {
+    "value": "Speichern",
+    "_ai": true
+  },
+  "wardrive_report_cancel": {
+    "value": "Abbrechen",
+    "_ai": true
+  },
+  "wardrive_report_name": null,
+  "wardrive_report_notes": {
+    "value": "Notizen",
+    "_ai": true
+  },
+  "wardrive_report_delete": {
+    "value": "Löschen",
+    "_ai": true
+  },
+  "wardrive_report_split": {
+    "value": "Teilen",
+    "_ai": true
+  },
+  "wardrive_report_split_at": {
+    "value": "Teilen bei",
+    "_ai": true
+  },
+  "wardrive_report_split_here": {
+    "value": "Hier teilen",
+    "_ai": true
+  },
+  "wardrive_report_delete_title": {
+    "value": "Diese Fahrt löschen?",
+    "_ai": true
+  },
+  "wardrive_report_delete_body": {
+    "value": "Dies entfernt die Fahrt mit ihren gespeicherten Empfängen und ihrer Spur aus RTFM-EV. Das lässt sich nicht rückgängig machen. Die Collectors behalten, was sie schon empfangen haben.",
+    "_ai": true
+  },
+  "wardrive_report_delete_confirm": {
+    "value": "Fahrt löschen",
+    "_ai": true
+  },
+  "wardrive_report_merge": {
+    "value": "Ausgewählte zusammenführen",
+    "_ai": true
+  },
+  "wardrive_report_clear": {
+    "value": "Auswahl aufheben",
+    "_ai": true
+  },
+  "wardrive_report_merge_hint": {
+    "value": "Zusammenführen geht mit zwei oder mehr eigenen Fahrten eines Funkgeräts.",
+    "_ai": true
+  },
+  "wardrive_report_truncated_list": {
+    "value": "Nur die neuesten Fahrten werden gezeigt.",
+    "_ai": true
+  },
+  "wardrive_report_cell_size": {
+    "value": "Zellgröße",
+    "_ai": true
+  },
+  "wardrive_report_cell_size_m": null,
+  "wardrive_report_empty": {
+    "value": "Keine Empfänge in dieser Auswahl.",
+    "_ai": true
+  },
+  "wardrive_report_truncated": {
+    "value": "Dieser Bericht nutzt die neuesten 200.000 Empfänge und Spurzeilen der Auswahl.",
+    "_ai": true
+  },
+  "wardrive_report_sec_summary": {
+    "value": "Was gefahren wurde",
+    "_ai": true
+  },
+  "wardrive_report_sec_summary_hint": {
+    "value": "Die Fahrten, ihre Zeit und Strecke unterwegs, und was das Funkgerät gehört hat.",
+    "_ai": true
+  },
+  "wardrive_report_drives": {
+    "value": "Fahrten",
+    "_ai": true
+  },
+  "wardrive_report_drivers": {
+    "value": "Fahrer",
+    "_ai": true
+  },
+  "wardrive_report_radios": {
+    "value": "Funkgeräte",
+    "_ai": true
+  },
+  "wardrive_report_period": {
+    "value": "Zeitraum",
+    "_ai": true
+  },
+  "wardrive_report_from_to": {
+    "value": "{from} bis {to}",
+    "_ai": true
+  },
+  "wardrive_report_time": {
+    "value": "Zeit unterwegs",
+    "_ai": true
+  },
+  "wardrive_report_distance": {
+    "value": "Gefahrene Strecke",
+    "_ai": true
+  },
+  "wardrive_report_receptions": {
+    "value": "Empfänge",
+    "_ai": true
+  },
+  "wardrive_report_nodes_heard": {
+    "value": "Gehörte Nodes",
+    "_ai": true
+  },
+  "wardrive_report_rssi_best": {
+    "value": "Bestes Signal",
+    "_ai": true
+  },
+  "wardrive_report_rssi_median": {
+    "value": "Median-Signal",
+    "_ai": true
+  },
+  "wardrive_report_rssi_worst": {
+    "value": "Schwächstes Signal",
+    "_ai": true
+  },
+  "wardrive_report_snr_median": {
+    "value": "Median-SNR",
+    "_ai": true
+  },
+  "wardrive_report_bands": {
+    "value": "Empfänge pro Signalband",
+    "_ai": true
+  },
+  "wardrive_report_band_strong": {
+    "value": "Stark (-90 dBm und mehr)",
+    "_ai": true
+  },
+  "wardrive_report_band_fair": {
+    "value": "Mittel (-110 bis -90 dBm)",
+    "_ai": true
+  },
+  "wardrive_report_band_weak": {
+    "value": "Schwach (unter -110 dBm)",
+    "_ai": true
+  },
+  "wardrive_report_band_none": {
+    "value": "Keine Signalmessung",
+    "_ai": true
+  },
+  "wardrive_report_sec_coverage": {
+    "value": "Wie gut das Gebiet abgedeckt ist",
+    "_ai": true
+  },
+  "wardrive_report_sec_coverage_hint": {
+    "value": "Das befahrene Gebiet in Sechseckzellen (das Raster der Analyzer-Karten). Eine Zelle ist abgedeckt, wenn dort etwas gehört wurde; ihr Band ist ihr bestes Signal.",
+    "_ai": true
+  },
+  "wardrive_report_cells_driven": {
+    "value": "Befahrene Zellen",
+    "_ai": true
+  },
+  "wardrive_report_cells_covered": {
+    "value": "Abgedeckte Zellen",
+    "_ai": true
+  },
+  "wardrive_report_covered_share": {
+    "value": "Abgedeckt",
+    "_ai": true
+  },
+  "wardrive_report_cell_bands": {
+    "value": "Abgedeckte Zellen pro Band",
+    "_ai": true
+  },
+  "wardrive_report_strongest": {
+    "value": "Stärkste Zellen",
+    "_ai": true
+  },
+  "wardrive_report_weakest": {
+    "value": "Schwächste abgedeckte Zellen",
+    "_ai": true
+  },
+  "wardrive_report_cell_line": {
+    "value": "{rssi} über {node}",
+    "_ai": true
+  },
+  "wardrive_report_sec_weak": {
+    "value": "Wo die Abdeckung schwach ist oder fehlt",
+    "_ai": true
+  },
+  "wardrive_report_sec_weak_hint": {
+    "value": "Befahrene Zellen ohne Empfang (Lücken) oder nur mit schwachem Signal: der Beleg dafür, wo ein Node helfen würde. Längste Zeit dort zuerst.",
+    "_ai": true
+  },
+  "wardrive_report_gaps": {
+    "value": "Lücken (nichts gehört)",
+    "_ai": true
+  },
+  "wardrive_report_weak_cells": {
+    "value": "Schwache Zellen",
+    "_ai": true
+  },
+  "wardrive_report_gap": {
+    "value": "Lücke",
+    "_ai": true
+  },
+  "wardrive_report_weak": {
+    "value": "Schwach",
+    "_ai": true
+  },
+  "wardrive_report_time_there": {
+    "value": "{time} dort",
+    "_ai": true
+  },
+  "wardrive_report_nearby": {
+    "value": "In der Nachbarzelle gehört: {nodes}",
+    "_ai": true
+  },
+  "wardrive_report_none_nearby": {
+    "value": "In den Nachbarzellen nichts gehört",
+    "_ai": true
+  },
+  "wardrive_report_weak_more": {
+    "value": "{shown} von {total} gezeigt; die Exporte enthalten alle.",
+    "_ai": true
+  },
+  "wardrive_report_sec_nodes": {
+    "value": "Welche Nodes wo gehört werden, und wie gut",
+    "_ai": true
+  },
+  "wardrive_report_sec_nodes_hint": {
+    "value": "Pro Node: wie oft und wie stark er gehört wurde, in wie vielen Zellen, und der weiteste Empfang von seiner angekündigten Position. Ein ~ ist ein aus einer kurzen ID geratener Name.",
+    "_ai": true
+  },
+  "wardrive_report_col_node": null,
+  "wardrive_report_col_heard": {
+    "value": "Gehört",
+    "_ai": true
+  },
+  "wardrive_report_col_best": {
+    "value": "Bestes",
+    "_ai": true
+  },
+  "wardrive_report_col_median": null,
+  "wardrive_report_col_cells": {
+    "value": "Zellen",
+    "_ai": true
+  },
+  "wardrive_report_col_farthest": {
+    "value": "Weitester",
+    "_ai": true
+  },
+  "wardrive_report_not_attributed": {
+    "value": "{n} Empfänge lassen sich keinem Node zuordnen (direkt, ohne Hops oder Trace).",
+    "_ai": true
+  },
+  "wardrive_report_no_nodes": {
+    "value": "Kein Empfang ließ sich einem Node zuordnen.",
+    "_ai": true
+  },
+  "wardrive_report_exports": {
+    "value": "Exporte",
+    "_ai": true
+  },
+  "wardrive_report_export_receptions": {
+    "value": "Empfänge (CSV)",
+    "_ai": true
+  },
+  "wardrive_report_export_cells": {
+    "value": "Zellen (CSV)",
+    "_ai": true
+  },
+  "wardrive_report_export_geojson": {
+    "value": "Kartendaten (GeoJSON)",
+    "_ai": true
+  },
+  "wardrive_report_export_gpx": {
+    "value": "Spur (GPX)",
+    "_ai": true
+  },
+  "wardrive_card_share": {
+    "value": "Teilkarten",
+    "_ai": true
+  },
+  "wardrive_card_drive": {
+    "value": "Fahrtkarte",
+    "_ai": true
+  },
+  "wardrive_card_coverage": {
+    "value": "Abdeckungskarte",
+    "_ai": true
+  },
+  "wardrive_card_weak": {
+    "value": "Karte der Schwachstellen",
+    "_ai": true
+  },
+  "wardrive_card_drive_kicker": null,
+  "wardrive_card_drive_title": {
+    "value": "Meine Fahrt",
+    "_ai": true
+  },
+  "wardrive_card_drive_title_n": {
+    "value": "{n} Fahrten",
+    "_ai": true
+  },
+  "wardrive_card_coverage_kicker": {
+    "value": "Wardrive-Abdeckung · {period}",
+    "_ai": true
+  },
+  "wardrive_card_coverage_title": {
+    "value": "Abdeckung pro Zelle",
+    "_ai": true
+  },
+  "wardrive_card_weak_kicker": {
+    "value": "Wo ein Node helfen würde · {period}",
+    "_ai": true
+  },
+  "wardrive_card_weak_title": {
+    "value": "Schwachstellen und Lücken",
+    "_ai": true
+  },
+  "wardrive_card_fig_distance": {
+    "value": "gefahren",
+    "_ai": true
+  },
+  "wardrive_card_fig_time": {
+    "value": "unterwegs",
+    "_ai": true
+  },
+  "wardrive_card_fig_receptions": {
+    "value": "Empfänge",
+    "_ai": true
+  },
+  "wardrive_card_fig_best": {
+    "value": "bestes Signal",
+    "_ai": true
+  },
+  "wardrive_card_fig_cells": {
+    "value": "befahrene Zellen",
+    "_ai": true
+  },
+  "wardrive_card_fig_covered": {
+    "value": "abgedeckt",
+    "_ai": true
+  },
+  "wardrive_card_fig_strong": {
+    "value": "starke Zellen",
+    "_ai": true
+  },
+  "wardrive_card_fig_weak": {
+    "value": "schwache Zellen",
+    "_ai": true
+  },
+  "wardrive_card_fig_gaps": {
+    "value": "Lücken",
+    "_ai": true
+  },
+  "wardrive_card_fig_time_there": {
+    "value": "Zeit darin",
+    "_ai": true
+  },
+  "wardrive_card_fig_best_nearby": {
+    "value": "beste Node in der Nähe",
+    "_ai": true
+  },
+  "wardrive_card_fig_nodes": {
+    "value": "gehörte Nodes",
+    "_ai": true
+  },
+  "wardrive_card_alt_drive": {
+    "value": "Karte der Fahrt mit Spur und Empfängen nach Signal gefärbt",
+    "_ai": true
+  },
+  "wardrive_card_alt_coverage": {
+    "value": "Karte der befahrenen Zellen nach ihrem besten Signal gefärbt",
+    "_ai": true
+  },
+  "wardrive_card_alt_weak": {
+    "value": "Karte der befahrenen Zellen mit markierten Lücken und schwachen Zellen",
+    "_ai": true
+  },
+  "wardrive_cov_map_aria": {
+    "value": "Abdeckungskarte",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_all": {
+    "value": "Alle Fahrer",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_some": {
+    "plural": {
+      "one": "{count} Fahrer",
+      "other": "{count} Fahrer"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_drivers_title": {
+    "value": "Fahrer",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_select_all": {
+    "value": "Alle wählen",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_clear": {
+    "value": "Auswahl aufheben",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_top": {
+    "value": "Zuletzt aktiv",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_every": {
+    "value": "Alle Fahrer",
+    "_ai": true
+  },
+  "wardrive_cov_drivers_none": {
+    "value": "Kein Fahrer hat Empfänge in diesem Zeitraum.",
+    "_ai": true
+  },
+  "wardrive_cov_receptions": {
+    "plural": {
+      "one": "{count} Empfang",
+      "other": "{count} Empfänge"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_target_select": {
+    "value": "Ziel wählen",
+    "_ai": true
+  },
+  "wardrive_cov_target_some": {
+    "plural": {
+      "one": "{count} Ziel",
+      "other": "{count} Ziele"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_target_prefix": {
+    "value": "Beginnt mit {prefix}",
+    "_ai": true
+  },
+  "wardrive_cov_target_use_prefix": {
+    "value": "Jede ID, die mit \"{prefix}\" beginnt",
+    "_ai": true
+  },
+  "wardrive_cov_target_loading": {
+    "value": "Absender werden geladen…",
+    "_ai": true
+  },
+  "wardrive_cov_range_5m": {
+    "value": "Letzte 5 Minuten",
+    "_ai": true
+  },
+  "wardrive_cov_range_15m": {
+    "value": "Letzte 15 Minuten",
+    "_ai": true
+  },
+  "wardrive_cov_range_30m": {
+    "value": "Letzte 30 Minuten",
+    "_ai": true
+  },
+  "wardrive_cov_range_1h": {
+    "value": "Letzte Stunde",
+    "_ai": true
+  },
+  "wardrive_cov_range_3h": {
+    "value": "Letzte 3 Stunden",
+    "_ai": true
+  },
+  "wardrive_cov_range_6h": {
+    "value": "Letzte 6 Stunden",
+    "_ai": true
+  },
+  "wardrive_cov_range_12h": {
+    "value": "Letzte 12 Stunden",
+    "_ai": true
+  },
+  "wardrive_cov_range_24h": {
+    "value": "Letzte 24 Stunden",
+    "_ai": true
+  },
+  "wardrive_cov_range_today": {
+    "value": "Heute",
+    "_ai": true
+  },
+  "wardrive_cov_range_2d": {
+    "value": "Letzte 2 Tage",
+    "_ai": true
+  },
+  "wardrive_cov_range_7d": {
+    "value": "Letzte 7 Tage",
+    "_ai": true
+  },
+  "wardrive_cov_range_30d": {
+    "value": "Letzte 30 Tage",
+    "_ai": true
+  },
+  "wardrive_cov_range_custom": {
+    "value": "{from} bis {to}",
+    "_ai": true
+  },
+  "wardrive_cov_time_title": {
+    "value": "Zeitraum",
+    "_ai": true
+  },
+  "wardrive_cov_time_quick": {
+    "value": "Schnellauswahl",
+    "_ai": true
+  },
+  "wardrive_cov_time_absolute": {
+    "value": "Fester Zeitraum",
+    "_ai": true
+  },
+  "wardrive_cov_time_from": {
+    "value": "Von",
+    "_ai": true
+  },
+  "wardrive_cov_time_to": {
+    "value": "Bis",
+    "_ai": true
+  },
+  "wardrive_cov_time_apply": {
+    "value": "Zeitraum anwenden",
+    "_ai": true
+  },
+  "wardrive_cov_time_copy": {
+    "value": "Festen Link kopieren",
+    "_ai": true
+  },
+  "wardrive_cov_time_copied": {
+    "value": "Link kopiert",
+    "_ai": true
+  },
+  "wardrive_cov_time_copy_hint": {
+    "value": "Ein Link zu dieser Karte mit dem Zeitraum auf feste Zeiten festgelegt.",
+    "_ai": true
+  },
+  "wardrive_cov_view": {
+    "value": "Ansicht",
+    "_ai": true
+  },
+  "wardrive_cov_mode_points": {
+    "value": "Punkte",
+    "_ai": true
+  },
+  "wardrive_cov_mode_hex": null,
+  "wardrive_cov_mode_auto": null,
+  "wardrive_cov_stand": {
+    "value": "Zeigen",
+    "_ai": true
+  },
+  "wardrive_cov_stand_filtered": {
+    "value": "Gefiltert",
+    "_ai": true
+  },
+  "wardrive_cov_stand_all": {
+    "value": "Alle",
+    "_ai": true
+  },
+  "wardrive_cov_stand_hint": {
+    "value": "Alle hebt die Absender-, Typ-, ID- und Pfadfilter auf; Fahrer, Zeitraum und ignorierte Absender bleiben.",
+    "_ai": true
+  },
+  "wardrive_cov_clear_filters": {
+    "value": "Filter löschen",
+    "_ai": true
+  },
+  "wardrive_cov_ignore_clear": {
+    "value": "Ignorierliste leeren",
+    "_ai": true
+  },
+  "wardrive_cov_zoom_in": {
+    "value": "Vergrößern",
+    "_ai": true
+  },
+  "wardrive_cov_zoom_out": {
+    "value": "Verkleinern",
+    "_ai": true
+  },
+  "wardrive_cov_north": {
+    "value": "Norden oben",
+    "_ai": true
+  },
+  "wardrive_cov_view_2d": {
+    "value": "Ansicht: 2D",
+    "_ai": true
+  },
+  "wardrive_cov_view_3d": {
+    "value": "Ansicht: 3D",
+    "_ai": true
+  },
+  "wardrive_cov_points": {
+    "plural": {
+      "one": "{count} Punkt",
+      "other": "{count} Punkte"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_cells": {
+    "plural": {
+      "one": "{count} Zelle",
+      "other": "{count} Zellen"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_covers_from": {
+    "value": "reicht zurück bis {date}",
+    "_ai": true
+  },
+  "wardrive_cov_cap_title": {
+    "value": "Nur die neuesten Empfänge werden gezeichnet (höchstens {cap}). Vergrößere, verkürze den Zeitraum oder grenze die Filter ein, um weiter zurückzureichen.",
+    "_ai": true
+  },
+  "wardrive_cov_ignored": {
+    "plural": {
+      "one": "{count} ignoriert",
+      "other": "{count} ignoriert"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_loading": {
+    "value": "Karte wird geladen…",
+    "_ai": true
+  },
+  "wardrive_cov_failed": {
+    "value": "Karte konnte nicht geladen werden: {error}",
+    "_ai": true
+  },
+  "wardrive_cov_popup_signal": null,
+  "wardrive_cov_popup_driver": {
+    "value": "Fahrer",
+    "_ai": true
+  },
+  "wardrive_cov_popup_radio": {
+    "value": "Funkgerät",
+    "_ai": true
+  },
+  "wardrive_cov_popup_id": {
+    "value": "ID",
+    "_ai": true
+  },
+  "wardrive_cov_popup_role": {
+    "value": "Rolle",
+    "_ai": true
+  },
+  "wardrive_cov_popup_packet": {
+    "value": "Paket",
+    "_ai": true
+  },
+  "wardrive_cov_popup_channel": {
+    "value": "Kanal",
+    "_ai": true
+  },
+  "wardrive_cov_popup_hops": null,
+  "wardrive_cov_popup_heard": {
+    "value": "Gehört",
+    "_ai": true
+  },
+  "wardrive_cov_popup_position": null,
+  "wardrive_cov_popup_guess": {
+    "value": "Name zu einer kurzen ID, geraten",
+    "_ai": true
+  },
+  "wardrive_cov_popup_no_sender": {
+    "value": "Absender unbekannt",
+    "_ai": true
+  },
+  "wardrive_cov_ignore_id": {
+    "value": "Diese ID ignorieren",
+    "_ai": true
+  },
+  "wardrive_cov_close": {
+    "value": "Schließen",
+    "_ai": true
+  },
+  "wardrive_cov_cell_title": {
+    "value": "Hex-Zelle",
+    "_ai": true
+  },
+  "wardrive_cov_cell_best": {
+    "value": "Bestes Signal",
+    "_ai": true
+  },
+  "wardrive_cov_cell_count": {
+    "value": "Empfänge",
+    "_ai": true
+  },
+  "wardrive_cov_cell_drivers": {
+    "value": "Fahrer",
+    "_ai": true
+  },
+  "wardrive_cov_open": {
+    "value": "Abdeckungskarte öffnen",
+    "_ai": true
+  },
+  "wardrive_cov_close_map": {
+    "value": "Karte schließen",
+    "_ai": true
+  },
+  "wardrive_cov_open_hint": {
+    "value": "Alles, was dein Konto sehen darf: wo Nodes gehört wurden und wie gut, von jedem Fahrer, mit dem du teilst.",
+    "_ai": true
+  },
+  "wardrive_cov_rail": {
+    "value": "Kartensteuerung",
+    "_ai": true
+  },
+  "wardrive_cov_nodepos_off": {
+    "value": "Node-Positionen: aus",
+    "_ai": true
+  },
+  "wardrive_cov_nodepos_positions": {
+    "value": "Node-Positionen: an",
+    "_ai": true
+  },
+  "wardrive_cov_nodepos_reach": {
+    "value": "Node-Positionen: Reichweite jedes Repeaters",
+    "_ai": true
+  },
+  "wardrive_cov_nodes_zoom": {
+    "value": "Vergrößere, um Node-Positionen zu sehen.",
+    "_ai": true
+  },
+  "wardrive_cov_nodes_none": {
+    "value": "Keine bekannten Nodes in dieser Ansicht.",
+    "_ai": true
+  },
+  "wardrive_cov_nodes_failed": {
+    "value": "Die Node-Liste konnte nicht gelesen werden; jede Reichweite wird von der Schätzung aus gezeichnet.",
+    "_ai": true
+  },
+  "wardrive_cov_node_advertised": {
+    "value": "▲ angekündigt",
+    "_ai": true
+  },
+  "wardrive_cov_node_both": {
+    "value": "▲ angekündigt · ● geschätzt",
+    "_ai": true
+  },
+  "wardrive_cov_node_drift": {
+    "value": "Abweichung {m} m · {count} Punkte",
+    "_ai": true
+  },
+  "wardrive_cov_node_search": {
+    "value": "Suchradius etwa {m} m",
+    "_ai": true
+  },
+  "wardrive_cov_node_one_sided": {
+    "value": "Einseitig: dem Radius ist nicht zu trauen",
+    "_ai": true
+  },
+  "wardrive_cov_reach_show": {
+    "value": "Reichweite zeigen",
+    "_ai": true
+  },
+  "wardrive_cov_reach_hide": {
+    "value": "Reichweite ausblenden",
+    "_ai": true
+  },
+  "wardrive_cov_reach_none": {
+    "value": "Noch keine Empfänge in diesem Zeitraum, also keine Reichweite zu zeichnen.",
+    "_ai": true
+  },
+  "wardrive_cov_locate": {
+    "value": "Orten",
+    "_ai": true
+  },
+  "wardrive_cov_locate_sender": {
+    "value": "Diesen Absender orten",
+    "_ai": true
+  },
+  "wardrive_cov_locate_off": {
+    "value": "Orten beenden",
+    "_ai": true
+  },
+  "wardrive_cov_locate_few": {
+    "plural": {
+      "one": "{count} Punkt: zu wenig zum Schätzen (3 nötig).",
+      "other": "{count} Punkte: zu wenig zum Schätzen (3 nötig)."
+    },
+    "_ai": true
+  },
+  "wardrive_cov_locate_stats": {
+    "value": "{n} Punkte · Suchradius etwa {radius} · umrundet {pct}%",
+    "_ai": true
+  },
+  "wardrive_cov_locate_strongest": {
+    "value": "stärkster {rssi} dBm",
+    "_ai": true
+  },
+  "wardrive_cov_locate_one_sided": {
+    "value": "Einseitig: fahre um die Schätzung herum, um sie zu schärfen.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_hash": {
+    "plural": {
+      "one": "1-Byte-ID: als ein Node angenommen; {count} Ausreißer weggelassen.",
+      "other": "1-Byte-ID: als ein Node angenommen; {count} Ausreißer weggelassen."
+    },
+    "_ai": true
+  },
+  "wardrive_cov_locate_note": {
+    "value": "Blau: die gewichtete Schätzung. Gelb: wo er am lautesten gehört wurde. Innerhalb des gefahrenen Gebiets, grob einige hundert Meter, ohne Kalibrierung des Senders.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_help": {
+    "value": "Diese Zahlen erklären",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_points": {
+    "value": "Punkte",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_points_d": {
+    "value": "Verwendete Empfänge: mehr Punkte, verlässlicher.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_radius": {
+    "value": "Suchradius",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_radius_d": {
+    "value": "Der Node liegt wahrscheinlich innerhalb dieser Entfernung vom blauen Punkt. Kleiner ist genauer.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_encircle": {
+    "value": "Umrundet",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_encircle_d": {
+    "value": "Anteil der Richtungen, aus denen er gehört wurde. Höher ist eine verlässlichere Schätzung.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_strongest": {
+    "value": "Stärkster",
+    "_ai": true
+  },
+  "wardrive_cov_locate_l_strongest_d": {
+    "value": "Der lauteste Empfang (dBm). Seine gelbe Markierung ist der beste Ort, um hinzufahren.",
+    "_ai": true
+  },
+  "wardrive_cov_locate_failed": {
+    "value": "Punkte konnten nicht geladen werden, neuer Versuch…",
+    "_ai": true
+  },
+  "wardrive_cov_locate_loading": {
+    "value": "Orten…",
+    "_ai": true
+  },
+  "wardrive_cov_list": {
+    "value": "Empfänge",
+    "_ai": true
+  },
+  "wardrive_cov_list_count": {
+    "plural": {
+      "one": "{count} Empfang",
+      "other": "{count} Empfänge"
+    },
+    "_ai": true
+  },
+  "wardrive_cov_list_more": {
+    "value": "die neuesten; mehr im Zeitraum",
+    "_ai": true
+  },
+  "wardrive_cov_list_empty": {
+    "value": "Keine Empfänge in diesem Zeitraum.",
+    "_ai": true
+  },
+  "wardrive_cov_list_fold": {
+    "value": "Liste einklappen",
+    "_ai": true
+  },
+  "wardrive_cov_list_move": {
+    "value": "Liste verschieben",
+    "_ai": true
+  },
+  "wardrive_cov_list_close": {
+    "value": "Liste schließen",
+    "_ai": true
+  },
+  "wardrive_cov_export": {
+    "value": "Exportieren",
+    "_ai": true
+  },
+  "wardrive_cov_heard_title": {
+    "value": "Gehörte Repeater",
+    "_ai": true
+  },
+  "wardrive_cov_heard_kicker": {
+    "value": "{from} bis {to}",
+    "_ai": true
+  },
+  "wardrive_cov_heard_fig_repeaters": {
+    "value": "Repeater",
+    "_ai": true
+  },
+  "wardrive_cov_heard_fig_receptions": {
+    "value": "Empfänge",
+    "_ai": true
+  },
+  "wardrive_cov_heard_fig_farthest": {
+    "value": "am weitesten",
+    "_ai": true
+  },
+  "wardrive_cov_heard_fig_drivers": {
+    "value": "Fahrer",
+    "_ai": true
+  },
+  "wardrive_cov_heard_off": {
+    "value": "Weggelassen, weiter als {km} km von ihrer Position: {list}",
+    "_ai": true
+  },
+  "wardrive_cov_heard_empty": {
+    "value": "In dieser Ansicht wurde kein Repeater gehört. Verschiebe die Karte dorthin, wo du gefahren bist, oder verlängere den Zeitraum.",
+    "_ai": true
+  },
+  "wardrive_cov_heard_alt": {
+    "value": "Eine Karte der in dieser Ansicht gehörten Repeater, mit einer Linie zu jedem Ort, an dem sie gehört wurden.",
+    "_ai": true
+  },
+  "wardrive_cov_heard_capped": {
+    "value": "die ersten {cap} Empfänge",
+    "_ai": true
+  },
+  "wardrive_cov_heard_estimated": {
+    "value": "Node-Liste nicht verfügbar, jede Position geschätzt",
+    "_ai": true
+  },
+  "wardrive_cov_heard_making": {
+    "value": "Karte wird erstellt…",
+    "_ai": true
+  },
+  "wardrive_cov_settings": {
+    "value": "Karteneinstellungen",
+    "_ai": true
+  },
+  "wardrive_cov_settings_exag": {
+    "value": "Geländeüberhöhung",
+    "_ai": true
+  },
+  "wardrive_cov_settings_exag_hint": {
+    "value": "Die 3D-Ansicht hebt den Boden an. Die Überhöhung zeigt, wohin er ansteigt, nicht wie steil: nur 1x stimmt für eine Sichtlinie.",
+    "_ai": true
+  },
+  "wardrive_cov_help": {
+    "value": "So funktioniert die Karte",
+    "_ai": true
+  },
+  "wardrive_cov_intro_title": {
+    "value": "Die Abdeckungskarte",
+    "_ai": true
+  },
+  "wardrive_cov_intro_1": {
+    "value": "Wo die Wardrive-Fahrer MeshCore-Nodes gehört haben, und wie gut: Rot ist stark, Blau ist schwach.",
+    "_ai": true
+  },
+  "wardrive_cov_intro_2": {
+    "value": "Wähle oben Fahrer, einen Absender und einen Zeitraum. Filter grenzen nach Pakettyp, Absender-ID und Pfad ein und wechseln zwischen Punkten und Sechsecken.",
+    "_ai": true
+  },
+  "wardrive_cov_intro_3": {
+    "value": "Node-Positionen (die Nadel rechts) zeigt, wo Nodes nach eigener Angabe stehen, gegenüber dem, wo sie gehört wurden, und die Reichweite jedes Repeaters.",
+    "_ai": true
+  },
+  "wardrive_cov_intro_4": {
+    "value": "Orten schätzt, von wo ein Absender sendet, aus dem, wo er gehört wurde und wie gut.",
+    "_ai": true
+  },
+  "wardrive_cov_intro_disclaimer": {
+    "value": "Die Positionen auf der Karte sind die eigene Position des Fahrers, als ein Node gehört wurde, nicht die des Nodes. Angekündigte Positionen legt der Besitzer jedes Nodes fest.",
+    "_ai": true
+  },
+  "wardrive_cov_intro_ok": {
+    "value": "Verstanden",
+    "_ai": true
+  },
+  "wardrive_tab_drivers": {
+    "value": "Fahrer",
+    "_ai": true
+  },
+  "wardrive_drivers_intro": {
+    "value": "Die Fahrer dieses RTFM-EV: was jeder sehen darf, ihre Funkgeräte und Gruppen, wann sie sich zuletzt angemeldet haben und was getan wurde.",
+    "_ai": true
+  },
+  "wardrive_drivers_last_login": {
+    "value": "Zuletzt angemeldet: {when}",
+    "_ai": true
+  },
+  "wardrive_drivers_never": {
+    "value": "Nie angemeldet",
+    "_ai": true
+  },
+  "wardrive_drivers_set_password": {
+    "value": "Passwort setzen",
+    "_ai": true
+  },
+  "wardrive_drivers_set_password_for": {
+    "value": "Neues Passwort für {name} setzen",
+    "_ai": true
+  },
+  "wardrive_drivers_password_label": {
+    "value": "Neues Passwort (mindestens 10 Zeichen)",
+    "_ai": true
+  },
+  "wardrive_drivers_password_save": {
+    "value": "Passwort speichern",
+    "_ai": true
+  },
+  "wardrive_drivers_password_cancel": {
+    "value": "Abbrechen",
+    "_ai": true
+  },
+  "wardrive_drivers_password_done": {
+    "value": "Passwort gesetzt. {name} meldet sich damit neu an.",
+    "_ai": true
+  },
+  "wardrive_drivers_view_as": {
+    "value": "Karte ansehen als {name}",
+    "_ai": true
+  },
+  "wardrive_drivers_audit": {
+    "value": "Protokoll",
+    "_ai": true
+  },
+  "wardrive_drivers_audit_none": {
+    "value": "Noch nichts protokolliert.",
+    "_ai": true
+  },
+  "wardrive_audit_owner": {
+    "value": "Besitzer",
+    "_ai": true
+  },
+  "wardrive_audit_login": {
+    "value": "angemeldet",
+    "_ai": true
+  },
+  "wardrive_audit_login_refused": {
+    "value": "Anmeldung abgelehnt",
+    "_ai": true
+  },
+  "wardrive_audit_login_disabled": {
+    "value": "Anmeldung abgelehnt (Konto deaktiviert)",
+    "_ai": true
+  },
+  "wardrive_audit_logout": {
+    "value": "abgemeldet",
+    "_ai": true
+  },
+  "wardrive_audit_register": {
+    "value": "registriert",
+    "_ai": true
+  },
+  "wardrive_audit_radio_add": {
+    "value": "Funkgerät hinzugefügt",
+    "_ai": true
+  },
+  "wardrive_audit_drive_update": {
+    "value": "Fahrt bearbeitet",
+    "_ai": true
+  },
+  "wardrive_audit_drive_delete": {
+    "value": "Fahrt gelöscht",
+    "_ai": true
+  },
+  "wardrive_audit_drive_merge": {
+    "value": "Fahrten zusammengeführt",
+    "_ai": true
+  },
+  "wardrive_audit_drive_split": {
+    "value": "Fahrt geteilt",
+    "_ai": true
+  },
+  "wardrive_audit_user_update": {
+    "value": "Benutzer geändert",
+    "_ai": true
+  },
+  "wardrive_audit_user_delete": {
+    "value": "Benutzer gelöscht",
+    "_ai": true
+  },
+  "wardrive_audit_radio_remove": {
+    "value": "Funkgerät entfernt",
+    "_ai": true
+  },
+  "wardrive_audit_group_create": {
+    "value": "Gruppe erstellt",
+    "_ai": true
+  },
+  "wardrive_audit_group_rename": {
+    "value": "Gruppe umbenannt",
+    "_ai": true
+  },
+  "wardrive_audit_group_delete": {
+    "value": "Gruppe gelöscht",
+    "_ai": true
+  },
+  "wardrive_audit_group_members": {
+    "value": "Gruppenmitglieder geändert",
+    "_ai": true
+  },
+  "wardrive_audit_password_set": {
+    "value": "Passwort gesetzt",
+    "_ai": true
+  },
+  "wardrive_view_as": {
+    "value": "Ansehen als",
+    "_ai": true
+  },
+  "wardrive_view_as_all": {
+    "value": "Alles (Besitzer)",
+    "_ai": true
+  },
+  "wardrive_view_as_group": {
+    "value": "Gruppe: {name}",
+    "_ai": true
+  },
+  "wardrive_view_as_banner": {
+    "value": "Ansicht als {name} (Sichtbarkeit: {visibility}). Ihre Ignorierliste, Ziele und gespeicherte Ansicht bleiben in ihrem eigenen Browser.",
+    "_ai": true
+  },
+  "wardrive_view_as_banner_group": {
+    "value": "Ansicht als die Mitglieder von {name} zusammen.",
+    "_ai": true
+  },
+  "wardrive_view_as_back": {
+    "value": "Zurück zu allem",
+    "_ai": true
+  },
+  "settings_wardrive_drivers_moved": {
+    "value": "Fahrer, ihre Funkgeräte und die Gruppen verwaltest du unter Werkzeuge > Wardrive, Tab Fahrer.",
+    "_ai": true
+  },
   "temp_radio_button_title": {
     "value": "Temporäre Funkeinstellungen",
     "_ai": true
