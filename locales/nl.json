@@ -4277,7 +4277,7 @@
     "_ai": true
   },
   "chat_filter_malformed_hint": {
-    "value": "Spam met willekeurige tekens en afzenders met een nooit ingestelde klok.",
+    "value": "Spam met willekeurige tekens, en afzenders met een nooit ingestelde of voorlopende klok.",
     "_ai": true
   },
   "chat_filter_hide_name_filtered": {
@@ -10767,6 +10767,34 @@
     "value": "Kon het naamfilter niet opslaan",
     "_ai": true
   },
+  "settings_malformed_clock_heading": {
+    "value": "Misvormd: klok van afzender loopt voor",
+    "_ai": true
+  },
+  "settings_malformed_clock_desc": {
+    "value": "Een kanaalbericht met een tijdstempel die verder vooruit loopt op de ontvangsttijd dan dit, wordt als misvormd gemarkeerd, zodat Misvormde verbergen het verbergt (en Spam Guard het meetelt als die optie aan staat). Opgeslagen berichten worden opnieuw gecontroleerd bij opslaan.",
+    "_ai": true
+  },
+  "settings_malformed_clock_label": {
+    "value": "Minuten vooruit",
+    "_ai": true
+  },
+  "settings_malformed_clock_hint": {
+    "value": "0-10080, 0 = uit. Standaard 60.",
+    "_ai": true
+  },
+  "settings_malformed_clock_save": {
+    "value": "Kloklimiet opslaan",
+    "_ai": true
+  },
+  "settings_malformed_clock_saved": {
+    "value": "Kloklimiet opgeslagen",
+    "_ai": true
+  },
+  "settings_malformed_clock_save_failed": {
+    "value": "Kon de kloklimiet niet opslaan",
+    "_ai": true
+  },
   "settings_radioapp_blocked_names_label": {
     "value": "Geblokkeerde Namen",
     "_ai": true
@@ -13119,7 +13147,7 @@
     "_ai": true
   },
   "packet_hide_malformed_description": {
-    "value": "Verberg kanaalberichten met willekeurige tekens of van een afzender met een nooit ingestelde klok. Wordt in deze browser onthouden.",
+    "value": "Verberg kanaalberichten met willekeurige tekens of van een afzender met een nooit ingestelde of voorlopende klok. Wordt in deze browser onthouden.",
     "_ai": true
   },
   "packet_show_damaged_label": {
@@ -18165,6 +18193,40 @@
     "value": "Berichtstatus",
     "_ai": true
   },
+  "message_details_title": null,
+  "message_details_sent": {
+    "value": "Verzonden",
+    "_ai": true
+  },
+  "message_details_sent_title": {
+    "value": "De eigen klok van de afzender, zoals gestempeld. RTFM-EV past die niet aan.",
+    "_ai": true
+  },
+  "message_details_received": {
+    "value": "Ontvangen",
+    "_ai": true
+  },
+  "message_details_clock_ahead": {
+    "value": "klok van afzender {offset} voor",
+    "_ai": true
+  },
+  "message_details_clock_behind": {
+    "value": "{offset} voordat het ontvangen werd",
+    "_ai": true
+  },
+  "message_details_hops": {
+    "value": "Sprongen",
+    "_ai": true
+  },
+  "message_details_path_hash": {
+    "value": "Pad-hash",
+    "_ai": true
+  },
+  "message_details_bytes": null,
+  "message_details_region": {
+    "value": "Regio",
+    "_ai": true
+  },
   "path_modal_no_echoes": {
     "value": "Nog geen echo's gehoord. Echo's verschijnen wanneer repeaters je bericht opnieuw uitzenden.",
     "_ai": true
@@ -21710,7 +21772,7 @@
     "_ai": true
   },
   "settings_host_repeater_filter_age_desc": {
-    "value": "Drop groepsberichten met een tijdstempel van meer dan zoveel minuten geleden (1-10080, 0 = uit). Alleen Public en gevolgde kanalen zijn leesbaar. Houd marge voor afzenders met een achterlopende klok.",
+    "value": "Drop groepsberichten met een tijdstempel van meer dan zoveel minuten geleden of in de toekomst (1-10080, 0 = uit). Alleen Public en gevolgde kanalen zijn leesbaar. Houd marge voor afzenders met een achterlopende of voorlopende klok.",
     "_ai": true
   },
   "settings_host_repeater_filter_paths_heading": {
@@ -24175,7 +24237,7 @@
     "_ai": true
   },
   "spam_channels_desc": {
-    "value": "Spam Guard leest alleen de kanalen in deze lijst. Zoek een kanaal om het toe te voegen.",
+    "value": "Spam Guard leest de kanalen in deze lijst. Zoek een kanaal om het toe te voegen. Zet spamherkenning op een kanaal uit om daar alleen gelijste bots te blokkeren.",
     "_ai": true
   },
   "spam_channels_missing": {
@@ -24188,6 +24250,10 @@
   },
   "spam_channels_drop_bots": {
     "value": "Gelijste bots hier blokkeren (voegt een regel toe voor botlijsten met Doorsturen blokkeren aan)",
+    "_ai": true
+  },
+  "spam_channels_detect": {
+    "value": "Spam hier herkennen (duplicaten, stortvloeden, verzonnen namen). Uit: hier worden alleen gelijste bots geblokkeerd",
     "_ai": true
   },
   "spam_channels_share_key_confirm": {
@@ -25051,11 +25117,11 @@
     "_ai": true
   },
   "spam_set_malformed_signal_help": {
-    "value": "Een bericht met willekeurige tekens, of van een afzender met een nooit ingestelde klok, wordt als spam gemarkeerd en telt als verzonnen naam. Dat telt mee als bewijs tegen de repeater waarlangs het kwam. De regel is dezelfde als achter Misvormde verbergen in de chat.",
+    "value": "Een bericht met willekeurige tekens, of van een afzender met een nooit ingestelde of voorlopende klok, wordt als spam gemarkeerd en telt als verzonnen naam. Dat telt mee als bewijs tegen de repeater waarlangs het kwam. De regel is dezelfde als achter Misvormde verbergen in de chat.",
     "_ai": true
   },
   "spam_set_malformed_signal_risk": {
-    "value": "Een echte node waarvan de klok nog niet is ingesteld wordt ook gemarkeerd, en telt mee tegen zijn repeater, totdat de klok is ingesteld.",
+    "value": "Een echte node waarvan de klok nog niet is ingesteld, of meer dan de limiet in Instellingen → Radio-app-beheer voorloopt, wordt ook gemarkeerd, en telt mee tegen zijn repeater, totdat de klok klopt.",
     "_ai": true
   },
   "spam_set_detect_unreadable_label": {
@@ -28679,6 +28745,235 @@
   },
   "contact_radio_openhop_note": {
     "value": "OpenHop beheert zijn eigen radio-instellingen, dus wisselen staat uit. Opgeslagen instellingen blijven bewaard voor als er een companion verbonden is.",
+    "_ai": true
+  },
+  "antenna_test_tab_path": {
+    "value": "Pad-trace",
+    "_ai": true
+  },
+  "antenna_test_tab_antenna": {
+    "value": "Antennetest",
+    "_ai": true
+  },
+  "antenna_test_intro": {
+    "value": "Vergelijk antennes op deze radio. Een run stuurt directe traces naar repeaters en roomservers in de buurt en legt vast hoe goed zij jou hoorden (TX) en hoe goed jij hen hoorde (RX). Wissel de antenne, draai opnieuw met dezelfde nodes en vergelijk de runs.",
+    "_ai": true
+  },
+  "antenna_test_setup_heading": {
+    "value": "Nieuwe run",
+    "_ai": true
+  },
+  "antenna_test_antenna_label": {
+    "value": "Antenne",
+    "_ai": true
+  },
+  "antenna_test_antenna_placeholder": {
+    "value": "bijv. 5,8 dBi collineair op het dak",
+    "_ai": true
+  },
+  "antenna_test_notes_label": {
+    "value": "Notities (optioneel)",
+    "_ai": true
+  },
+  "antenna_test_traces_label": null,
+  "antenna_test_gap_label": {
+    "value": "Pauze tussen traces (s)",
+    "_ai": true
+  },
+  "antenna_test_nodes_heading": {
+    "value": "Nodes ({selected} geselecteerd)",
+    "_ai": true
+  },
+  "antenna_test_nodes_description": {
+    "value": "Repeaters en roomservers die je radio direct hoorde zijn geselecteerd. Gebruik dezelfde nodes voor elke antenne die je vergelijkt.",
+    "_ai": true
+  },
+  "antenna_test_select_direct": {
+    "value": "Direct gehoorde selecteren",
+    "_ai": true
+  },
+  "antenna_test_select_none": {
+    "value": "Wissen",
+    "_ai": true
+  },
+  "antenna_test_search_placeholder": {
+    "value": "Zoek op naam of sleutel",
+    "_ai": true
+  },
+  "antenna_test_search_aria": {
+    "value": "Nodes zoeken",
+    "_ai": true
+  },
+  "antenna_test_hops_direct": null,
+  "antenna_test_hops_count": null,
+  "antenna_test_hops_unknown": {
+    "value": "Geen advert",
+    "_ai": true
+  },
+  "antenna_test_no_candidates": {
+    "value": "Nog geen repeaters of roomservers bekend.",
+    "_ai": true
+  },
+  "antenna_test_no_match": {
+    "value": "Geen nodes gevonden voor deze zoekopdracht.",
+    "_ai": true
+  },
+  "antenna_test_more_hidden": {
+    "value": "Nog {count}, verfijn de zoekopdracht om ze te zien",
+    "_ai": true
+  },
+  "antenna_test_estimate": {
+    "value": "{traces} traces, hooguit ongeveer {minutes} min",
+    "_ai": true
+  },
+  "antenna_test_rf_warning": {
+    "value": "Dit verstuurt een directe trace naar elke geselecteerde node. Als je de Trace-pagina verlaat, stopt de run.",
+    "_ai": true
+  },
+  "antenna_test_not_connected": {
+    "value": "Verbind een radio om een test te draaien.",
+    "_ai": true
+  },
+  "antenna_test_start": {
+    "value": "Test starten",
+    "_ai": true
+  },
+  "antenna_test_cancel": {
+    "value": "Annuleren",
+    "_ai": true
+  },
+  "antenna_test_running": {
+    "value": "Trace naar {name} ({done} van {total})",
+    "_ai": true
+  },
+  "antenna_test_cancelled": {
+    "value": "Run geannuleerd na {done} traces.",
+    "_ai": true
+  },
+  "antenna_test_failed": {
+    "value": "Run gestopt: {error}",
+    "_ai": true
+  },
+  "antenna_test_save_partial": {
+    "value": "Opslaan wat er liep",
+    "_ai": true
+  },
+  "antenna_test_discard": {
+    "value": "Weggooien",
+    "_ai": true
+  },
+  "antenna_test_saved_toast": {
+    "value": "Antennetest opgeslagen",
+    "_ai": true
+  },
+  "antenna_test_save_failed": {
+    "value": "Antennetest kon niet worden opgeslagen: {error}",
+    "_ai": true
+  },
+  "antenna_test_load_failed": {
+    "value": "Antennetests konden niet worden geladen: {error}",
+    "_ai": true
+  },
+  "antenna_test_delete_failed": {
+    "value": "Run kon niet worden verwijderd: {error}",
+    "_ai": true
+  },
+  "antenna_test_delete_confirm": {
+    "value": "De run voor {antenna} verwijderen?",
+    "_ai": true
+  },
+  "antenna_test_need_antenna": {
+    "value": "Vul eerst de naam van de antenne in.",
+    "_ai": true
+  },
+  "antenna_test_need_nodes": {
+    "value": "Selecteer minstens één node.",
+    "_ai": true
+  },
+  "antenna_test_history_heading": {
+    "value": "Opgeslagen runs",
+    "_ai": true
+  },
+  "antenna_test_history_empty": {
+    "value": "Nog geen runs opgeslagen.",
+    "_ai": true
+  },
+  "antenna_test_history_snr": null,
+  "antenna_test_compare_hint": {
+    "value": "Vink twee of meer runs aan om ze te vergelijken.",
+    "_ai": true
+  },
+  "antenna_test_compare_aria": {
+    "value": "{antenna} vergelijken",
+    "_ai": true
+  },
+  "antenna_test_open_report_aria": {
+    "value": "Rapport voor {antenna} openen",
+    "_ai": true
+  },
+  "antenna_test_delete_aria": {
+    "value": "Run voor {antenna} verwijderen",
+    "_ai": true
+  },
+  "antenna_test_report_heading": {
+    "value": "Rapport: {antenna}",
+    "_ai": true
+  },
+  "antenna_test_run_meta": {
+    "plural": {
+      "one": "{date} op {radio}, {count} trace per node",
+      "other": "{date} op {radio}, {count} traces per node"
+    },
+    "_ai": true
+  },
+  "antenna_test_close": {
+    "value": "Sluiten",
+    "_ai": true
+  },
+  "antenna_test_tile_nodes": {
+    "value": "Nodes die antwoordden",
+    "_ai": true
+  },
+  "antenna_test_tile_reply_rate": {
+    "value": "Antwoordpercentage",
+    "_ai": true
+  },
+  "antenna_test_tile_tx": {
+    "value": "Gemiddelde TX-SNR",
+    "_ai": true
+  },
+  "antenna_test_tile_rx": {
+    "value": "Gemiddelde RX-SNR",
+    "_ai": true
+  },
+  "antenna_test_col_node": null,
+  "antenna_test_col_distance": {
+    "value": "Afstand",
+    "_ai": true
+  },
+  "antenna_test_col_replies": {
+    "value": "Antwoorden",
+    "_ai": true
+  },
+  "antenna_test_col_tx": {
+    "value": "TX (zij hoorden jou)",
+    "_ai": true
+  },
+  "antenna_test_col_rx": {
+    "value": "RX (jij hoorde hen)",
+    "_ai": true
+  },
+  "antenna_test_replies_value": null,
+  "antenna_test_compare_heading": {
+    "value": "Vergelijking",
+    "_ai": true
+  },
+  "antenna_test_compare_note": {
+    "value": "De beste waarde per rij is gemarkeerd. Een streepje betekent dat de node in die run niet is getraced.",
+    "_ai": true
+  },
+  "antenna_test_compare_all": {
+    "value": "Alle nodes",
     "_ai": true
   }
 }

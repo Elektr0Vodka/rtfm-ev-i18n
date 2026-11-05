@@ -4255,7 +4255,7 @@
     "_ai": true
   },
   "chat_filter_malformed_hint": {
-    "value": "Spam aus zufälligen Zeichen und Absender mit nie gestellter Uhr.",
+    "value": "Spam aus zufälligen Zeichen, und Absender mit nie gestellter oder vorgehender Uhr.",
     "_ai": true
   },
   "chat_filter_hide_name_filtered": {
@@ -10762,6 +10762,34 @@
     "value": "Namensfilter konnte nicht gespeichert werden",
     "_ai": true
   },
+  "settings_malformed_clock_heading": {
+    "value": "Fehlerhaft: Uhr des Absenders geht vor",
+    "_ai": true
+  },
+  "settings_malformed_clock_desc": {
+    "value": "Eine Kanalnachricht, deren Zeitstempel weiter vor der Empfangszeit liegt als dies, wird als fehlerhaft markiert, sodass Fehlerhafte ausblenden sie ausblendet (und Spam Guard sie mitzählt, wenn diese Option an ist). Gespeicherte Nachrichten werden beim Speichern erneut geprüft.",
+    "_ai": true
+  },
+  "settings_malformed_clock_label": {
+    "value": "Minuten voraus",
+    "_ai": true
+  },
+  "settings_malformed_clock_hint": {
+    "value": "0-10080, 0 = aus. Standard 60.",
+    "_ai": true
+  },
+  "settings_malformed_clock_save": {
+    "value": "Uhrgrenze speichern",
+    "_ai": true
+  },
+  "settings_malformed_clock_saved": {
+    "value": "Uhrgrenze gespeichert",
+    "_ai": true
+  },
+  "settings_malformed_clock_save_failed": {
+    "value": "Uhrgrenze konnte nicht gespeichert werden",
+    "_ai": true
+  },
   "settings_radioapp_blocked_names_label": {
     "value": "Blockierte Namen",
     "_ai": true
@@ -13109,7 +13137,7 @@
     "_ai": true
   },
   "packet_hide_malformed_description": {
-    "value": "Kanalnachrichten aus zufälligen Zeichen oder von einem Absender mit nie gestellter Uhr ausblenden. Wird in diesem Browser gemerkt.",
+    "value": "Kanalnachrichten aus zufälligen Zeichen oder von einem Absender mit nie gestellter oder vorgehender Uhr ausblenden. Wird in diesem Browser gemerkt.",
     "_ai": true
   },
   "packet_show_damaged_label": {
@@ -18135,6 +18163,40 @@
     "value": "Nachrichtenstatus",
     "_ai": true
   },
+  "message_details_title": null,
+  "message_details_sent": {
+    "value": "Gesendet",
+    "_ai": true
+  },
+  "message_details_sent_title": {
+    "value": "Die eigene Uhr des Absenders, wie gestempelt. RTFM-EV korrigiert sie nicht.",
+    "_ai": true
+  },
+  "message_details_received": {
+    "value": "Empfangen",
+    "_ai": true
+  },
+  "message_details_clock_ahead": {
+    "value": "Uhr des Absenders {offset} vor",
+    "_ai": true
+  },
+  "message_details_clock_behind": {
+    "value": "{offset} vor dem Empfang",
+    "_ai": true
+  },
+  "message_details_hops": null,
+  "message_details_path_hash": {
+    "value": "Pfad-Hash",
+    "_ai": true
+  },
+  "message_details_bytes": {
+    "plural": {
+      "one": "{count} Byte",
+      "other": "{count} Bytes"
+    },
+    "_ai": true
+  },
+  "message_details_region": null,
   "path_modal_no_echoes": {
     "value": "Noch keine Echos gehört. Echos erscheinen, wenn Repeater deine Nachricht erneut aussenden.",
     "_ai": true
@@ -21670,7 +21732,7 @@
     "_ai": true
   },
   "settings_host_repeater_filter_age_desc": {
-    "value": "Gruppennachrichten verwerfen, deren Zeitstempel mehr als so viele Minuten zurückliegt (1-10080, 0 = aus). Nur Public und beobachtete Kanäle sind lesbar. Lass Spielraum für Absender mit nachgehender Uhr.",
+    "value": "Gruppennachrichten verwerfen, deren Zeitstempel mehr als so viele Minuten zurückliegt oder in der Zukunft liegt (1-10080, 0 = aus). Nur Public und beobachtete Kanäle sind lesbar. Lass Spielraum für Absender mit nach- oder vorgehender Uhr.",
     "_ai": true
   },
   "settings_host_repeater_filter_paths_heading": {
@@ -24133,7 +24195,7 @@
     "_ai": true
   },
   "spam_channels_desc": {
-    "value": "Spam Guard liest nur die Kanäle in dieser Liste. Suche einen Kanal, um ihn hinzuzufügen.",
+    "value": "Spam Guard liest die Kanäle in dieser Liste. Suche einen Kanal, um ihn hinzuzufügen. Schalte die Spamerkennung für einen Kanal aus, um dort nur gelistete Bots zu blockieren.",
     "_ai": true
   },
   "spam_channels_missing": {
@@ -24146,6 +24208,10 @@
   },
   "spam_channels_drop_bots": {
     "value": "Gelistete Bots hier blockieren (fügt eine Regel für Bot-Listen mit Weiterleitung blockieren hinzu)",
+    "_ai": true
+  },
+  "spam_channels_detect": {
+    "value": "Spam hier erkennen (Duplikate, Fluten, erfundene Namen). Aus: hier werden nur gelistete Bots blockiert",
     "_ai": true
   },
   "spam_channels_share_key_confirm": {
@@ -25009,11 +25075,11 @@
     "_ai": true
   },
   "spam_set_malformed_signal_help": {
-    "value": "Eine Nachricht aus zufälligen Zeichen oder von einem Absender mit nie gestellter Uhr wird als Spam markiert und zählt als erfundener Name. Das zählt als Beleg gegen den Repeater, über den sie kam. Die Regel ist dieselbe wie hinter Fehlerhafte ausblenden im Chat.",
+    "value": "Eine Nachricht aus zufälligen Zeichen oder von einem Absender mit nie gestellter oder vorgehender Uhr wird als Spam markiert und zählt als erfundener Name. Das zählt als Beleg gegen den Repeater, über den sie kam. Die Regel ist dieselbe wie hinter Fehlerhafte ausblenden im Chat.",
     "_ai": true
   },
   "spam_set_malformed_signal_risk": {
-    "value": "Ein echter Knoten, dessen Uhr noch nicht gestellt ist, wird ebenfalls markiert und zählt gegen seinen Repeater, bis die Uhr gestellt ist.",
+    "value": "Ein echter Knoten, dessen Uhr noch nicht gestellt ist oder mehr als die Grenze in Einstellungen → Radio-App-Verwaltung vorgeht, wird ebenfalls markiert und zählt gegen seinen Repeater, bis die Uhr stimmt.",
     "_ai": true
   },
   "spam_set_detect_unreadable_label": {
@@ -28679,6 +28745,247 @@
   },
   "contact_radio_openhop_note": {
     "value": "OpenHop verwaltet seine eigenen Funkeinstellungen, daher ist das Wechseln aus. Gespeicherte Einstellungen bleiben für einen verbundenen Companion erhalten.",
+    "_ai": true
+  },
+  "antenna_test_tab_path": {
+    "value": "Pfad-Trace",
+    "_ai": true
+  },
+  "antenna_test_tab_antenna": {
+    "value": "Antennentest",
+    "_ai": true
+  },
+  "antenna_test_intro": {
+    "value": "Vergleiche Antennen an diesem Funkgerät. Ein Lauf sendet direkte Traces an Repeater und Room-Server in der Nähe und hält fest, wie gut sie dich gehört haben (TX) und wie gut du sie gehört hast (RX). Tausche die Antenne, starte erneut mit denselben Nodes und vergleiche die Läufe.",
+    "_ai": true
+  },
+  "antenna_test_setup_heading": {
+    "value": "Neuer Lauf",
+    "_ai": true
+  },
+  "antenna_test_antenna_label": {
+    "value": "Antenne",
+    "_ai": true
+  },
+  "antenna_test_antenna_placeholder": {
+    "value": "z. B. 5,8 dBi Kollinear auf dem Dach",
+    "_ai": true
+  },
+  "antenna_test_notes_label": {
+    "value": "Notizen (optional)",
+    "_ai": true
+  },
+  "antenna_test_traces_label": {
+    "value": "Traces pro Node",
+    "_ai": true
+  },
+  "antenna_test_gap_label": {
+    "value": "Pause zwischen Traces (s)",
+    "_ai": true
+  },
+  "antenna_test_nodes_heading": {
+    "value": "Nodes ({selected} ausgewählt)",
+    "_ai": true
+  },
+  "antenna_test_nodes_description": {
+    "value": "Repeater und Room-Server, die dein Funkgerät direkt gehört hat, sind ausgewählt. Nutze für jede Antenne, die du vergleichst, dieselben Nodes.",
+    "_ai": true
+  },
+  "antenna_test_select_direct": {
+    "value": "Direkt gehörte auswählen",
+    "_ai": true
+  },
+  "antenna_test_select_none": {
+    "value": "Leeren",
+    "_ai": true
+  },
+  "antenna_test_search_placeholder": {
+    "value": "Name oder Schlüssel suchen",
+    "_ai": true
+  },
+  "antenna_test_search_aria": {
+    "value": "Nodes suchen",
+    "_ai": true
+  },
+  "antenna_test_hops_direct": {
+    "value": "Direkt",
+    "_ai": true
+  },
+  "antenna_test_hops_count": {
+    "plural": {
+      "one": "{count} Hop",
+      "other": "{count} Hops"
+    },
+    "_ai": true
+  },
+  "antenna_test_hops_unknown": {
+    "value": "Kein Advert",
+    "_ai": true
+  },
+  "antenna_test_no_candidates": {
+    "value": "Noch keine Repeater oder Room-Server bekannt.",
+    "_ai": true
+  },
+  "antenna_test_no_match": {
+    "value": "Keine Nodes passen zu dieser Suche.",
+    "_ai": true
+  },
+  "antenna_test_more_hidden": {
+    "value": "{count} weitere, verfeinere die Suche, um sie zu sehen",
+    "_ai": true
+  },
+  "antenna_test_estimate": {
+    "value": "{traces} Traces, höchstens etwa {minutes} Min.",
+    "_ai": true
+  },
+  "antenna_test_rf_warning": {
+    "value": "Dies sendet einen direkten Trace an jeden ausgewählten Node. Wenn du die Trace-Seite verlässt, stoppt der Lauf.",
+    "_ai": true
+  },
+  "antenna_test_not_connected": {
+    "value": "Verbinde ein Funkgerät, um einen Test zu starten.",
+    "_ai": true
+  },
+  "antenna_test_start": {
+    "value": "Test starten",
+    "_ai": true
+  },
+  "antenna_test_cancel": {
+    "value": "Abbrechen",
+    "_ai": true
+  },
+  "antenna_test_running": {
+    "value": "Trace an {name} ({done} von {total})",
+    "_ai": true
+  },
+  "antenna_test_cancelled": {
+    "value": "Lauf nach {done} Traces abgebrochen.",
+    "_ai": true
+  },
+  "antenna_test_failed": {
+    "value": "Lauf gestoppt: {error}",
+    "_ai": true
+  },
+  "antenna_test_save_partial": {
+    "value": "Bisheriges speichern",
+    "_ai": true
+  },
+  "antenna_test_discard": {
+    "value": "Verwerfen",
+    "_ai": true
+  },
+  "antenna_test_saved_toast": {
+    "value": "Antennentest gespeichert",
+    "_ai": true
+  },
+  "antenna_test_save_failed": {
+    "value": "Antennentest konnte nicht gespeichert werden: {error}",
+    "_ai": true
+  },
+  "antenna_test_load_failed": {
+    "value": "Antennentests konnten nicht geladen werden: {error}",
+    "_ai": true
+  },
+  "antenna_test_delete_failed": {
+    "value": "Lauf konnte nicht gelöscht werden: {error}",
+    "_ai": true
+  },
+  "antenna_test_delete_confirm": {
+    "value": "Den Lauf für {antenna} löschen?",
+    "_ai": true
+  },
+  "antenna_test_need_antenna": {
+    "value": "Gib zuerst den Namen der Antenne ein.",
+    "_ai": true
+  },
+  "antenna_test_need_nodes": {
+    "value": "Wähle mindestens einen Node aus.",
+    "_ai": true
+  },
+  "antenna_test_history_heading": {
+    "value": "Gespeicherte Läufe",
+    "_ai": true
+  },
+  "antenna_test_history_empty": {
+    "value": "Noch keine Läufe gespeichert.",
+    "_ai": true
+  },
+  "antenna_test_history_snr": null,
+  "antenna_test_compare_hint": {
+    "value": "Hake zwei oder mehr Läufe an, um sie zu vergleichen.",
+    "_ai": true
+  },
+  "antenna_test_compare_aria": {
+    "value": "{antenna} vergleichen",
+    "_ai": true
+  },
+  "antenna_test_open_report_aria": {
+    "value": "Bericht für {antenna} öffnen",
+    "_ai": true
+  },
+  "antenna_test_delete_aria": {
+    "value": "Lauf für {antenna} löschen",
+    "_ai": true
+  },
+  "antenna_test_report_heading": {
+    "value": "Bericht: {antenna}",
+    "_ai": true
+  },
+  "antenna_test_run_meta": {
+    "plural": {
+      "one": "{date} auf {radio}, {count} Trace pro Node",
+      "other": "{date} auf {radio}, {count} Traces pro Node"
+    },
+    "_ai": true
+  },
+  "antenna_test_close": {
+    "value": "Schließen",
+    "_ai": true
+  },
+  "antenna_test_tile_nodes": {
+    "value": "Nodes mit Antwort",
+    "_ai": true
+  },
+  "antenna_test_tile_reply_rate": {
+    "value": "Antwortquote",
+    "_ai": true
+  },
+  "antenna_test_tile_tx": {
+    "value": "Durchschnittliche TX-SNR",
+    "_ai": true
+  },
+  "antenna_test_tile_rx": {
+    "value": "Durchschnittliche RX-SNR",
+    "_ai": true
+  },
+  "antenna_test_col_node": null,
+  "antenna_test_col_distance": {
+    "value": "Entfernung",
+    "_ai": true
+  },
+  "antenna_test_col_replies": {
+    "value": "Antworten",
+    "_ai": true
+  },
+  "antenna_test_col_tx": {
+    "value": "TX (sie hörten dich)",
+    "_ai": true
+  },
+  "antenna_test_col_rx": {
+    "value": "RX (du hörtest sie)",
+    "_ai": true
+  },
+  "antenna_test_replies_value": null,
+  "antenna_test_compare_heading": {
+    "value": "Vergleich",
+    "_ai": true
+  },
+  "antenna_test_compare_note": {
+    "value": "Der beste Wert pro Zeile ist hervorgehoben. Ein Strich bedeutet, dass der Node in diesem Lauf nicht getraced wurde.",
+    "_ai": true
+  },
+  "antenna_test_compare_all": {
+    "value": "Alle Nodes",
     "_ai": true
   }
 }
