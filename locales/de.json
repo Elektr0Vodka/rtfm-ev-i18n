@@ -22912,6 +22912,14 @@
     "value": "Nachrichten, die Spam Guard als Spam markiert hat.",
     "_ai": true
   },
+  "chat_filter_hide_duplicates": {
+    "value": "Duplikate ausblenden",
+    "_ai": true
+  },
+  "chat_filter_duplicates_hint": {
+    "value": "Wiederholungen, die Spam Guard als Duplikat erfasst hat.",
+    "_ai": true
+  },
   "chat_mark_spam_action": {
     "value": "Das ist Spam",
     "_ai": true
@@ -24255,6 +24263,10 @@
     "value": "Tage",
     "_ai": true
   },
+  "spam_unit_hours": {
+    "value": "Stunden",
+    "_ai": true
+  },
   "spam_unit_percent": {
     "value": "%",
     "_ai": true,
@@ -24475,7 +24487,39 @@
     "_ai": true
   },
   "spam_exceptions_senders_help": {
-    "value": "Gelten nie als zufällig und kommen immer durch die Sperren, die Personen zurückhalten. Namen lassen sich fälschen.",
+    "value": "Gelten nie als zufällig und kommen immer durch die Sperren, die Personen zurückhalten. Namen lassen sich fälschen. Diese Liste gehört dir: Sie bleibt, wenn du die Einstellungen oder das Gelernte zurücksetzt.",
+    "_ai": true
+  },
+  "spam_contacts_title": {
+    "value": "Vertraute Kontakte",
+    "_ai": true
+  },
+  "spam_contacts_switch": {
+    "value": "Namen gespeicherter Kontakte vertrauen",
+    "_ai": true
+  },
+  "spam_contacts_help": {
+    "value": "Jeder Client-Kontakt, der per Advert gehört wurde, gilt als vertrauter Name, derzeit {count}. Die Liste folgt deinen Kontakten von selbst und übersteht jeden Reset.",
+    "_ai": true
+  },
+  "spam_contacts_risk": {
+    "value": "Achtung: Jeder kann ein Advert unter jedem Namen senden. Setze einen unerwünschten Namen auf Nie vertraute Namen.",
+    "_ai": true
+  },
+  "spam_contacts_show": {
+    "value": "Namen zeigen ({count})",
+    "_ai": true
+  },
+  "spam_contacts_search": {
+    "value": "Kontakt suchen",
+    "_ai": true
+  },
+  "spam_exceptions_denied": {
+    "value": "Nie vertraute Namen",
+    "_ai": true
+  },
+  "spam_exceptions_denied_help": {
+    "value": "Werden nie als bekannter Name gelernt und nie vertraut, auch nicht als Kontakt. Der Name kommt also nicht auf die Liste Bekannte Personen und zählt immer als neu. Er wird nicht gesperrt.",
     "_ai": true
   },
   "spam_exceptions_hops": {
@@ -25142,15 +25186,15 @@
     "value": "Länger hält neue Personen hinter diesem Repeater länger zurück. Kürzer lässt einen zurückkehrenden Spammer zuerst ein paar Kopien durchbringen.",
     "_ai": true
   },
-  "spam_set_spam_text_days_label": {
+  "spam_set_spam_text_hours_label": {
     "value": "Spamtexte merken für",
     "_ai": true
   },
-  "spam_set_spam_text_days_help": {
-    "value": "Textsperren für Kampagnen unter erfundenen Namen bleiben so viele Tage bestehen, sodass ein zurückkehrender Text ab der ersten Kopie gestoppt wird. 0 nutzt die normale Sperrdauer.",
+  "spam_set_spam_text_hours_help": {
+    "value": "Textsperren für Kampagnen unter erfundenen Namen bleiben so viele Stunden bestehen (168 ist eine Woche), sodass ein zurückkehrender Text ab der ersten Kopie gestoppt wird. 0 nutzt die normale Sperrdauer, und alles Kürzere ebenfalls.",
     "_ai": true
   },
-  "spam_set_spam_text_days_risk": {
+  "spam_set_spam_text_hours_risk": {
     "value": "Jeder, der genau diesen Text zitiert, wird gesperrt, bis sie endet. Du kannst die Sperre von Hand entfernen.",
     "_ai": true
   },
@@ -25291,11 +25335,11 @@
     "_ai": true
   },
   "spam_reset_settings_help": {
-    "value": "Wie bei einer neuen Installation: Modus Beobachten, nur der Kanal Public, Empfindlichkeit Ausgewogen, keine geänderten Einstellungen und leere Ausnahmelisten. Gelerntes bleibt.",
+    "value": "Wie bei einer neuen Installation: Modus Beobachten, nur der Kanal Public, Empfindlichkeit Ausgewogen, keine geänderten Einstellungen und leere Ausnahmelisten. Vertraute und nie vertraute Namen bleiben. Das Gelernte bleibt.",
     "_ai": true
   },
   "spam_reset_settings_confirm": {
-    "value": "Alle Einstellungen von Spam Guard auf den Standard zurücksetzen? Geschützte Kanäle, geänderte Einstellungen und Ausnahmen gehen verloren. Das lässt sich nicht rückgängig machen.",
+    "value": "Alle Einstellungen von Spam Guard auf die Standardwerte zurücksetzen? Geschützte Kanäle, geänderte Einstellungen und Ausnahmen gehen verloren, außer den vertrauten und nie vertrauten Namen. Das lässt sich nicht rückgängig machen.",
     "_ai": true
   },
   "spam_activity_reset_learned": {
@@ -25315,7 +25359,7 @@
     "_ai": true
   },
   "spam_known_desc": {
-    "value": "Namen, die Spam Guard aus echten Nachrichten gelernt hat. Ein Name gilt nach {count} davon als bekannt und kommt dann durch die Sperren, die Personen zurückhalten. Vertrauen behält einen Namen dauerhaft; Vergessen lässt jemanden wieder als neu zählen. Nur Namen, nie Nachrichten.",
+    "value": "Namen, die Spam Guard aus echten Nachrichten gelernt hat. Ein Name gilt nach {count} davon als bekannt und kommt dann durch die Sperren, die Personen zurückhalten. Zu Vertrauenswürdige Namen hinzufügen setzt einen Namen auf diese Liste in den Einstellungen; Nie vertrauen hält ihn dauerhaft von dieser Liste fern; Vergessen lässt jemanden wieder als neu zählen. Nur Namen, nie Nachrichten.",
     "_ai": true
   },
   "spam_known_search": {
@@ -25330,8 +25374,8 @@
     "value": "Noch keine Namen.",
     "_ai": true
   },
-  "spam_known_trusted": {
-    "value": "Vertraut",
+  "spam_known_contact": {
+    "value": "als Kontakt vertraut",
     "_ai": true
   },
   "spam_known_known": {
@@ -25347,7 +25391,11 @@
     "_ai": true
   },
   "spam_known_trust": {
-    "value": "Vertrauen",
+    "value": "Zu Vertrauenswürdige Namen hinzufügen",
+    "_ai": true
+  },
+  "spam_known_never": {
+    "value": "Nie vertrauen",
     "_ai": true
   },
   "spam_known_forget": {
@@ -25360,6 +25408,10 @@
   },
   "spam_activity_known_forgotten": {
     "value": "{sender} zählt wieder als neu",
+    "_ai": true
+  },
+  "spam_activity_sender_denied": {
+    "value": "{sender} wird ab jetzt nie vertraut",
     "_ai": true
   },
   "spam_activity_auto_protect": {
