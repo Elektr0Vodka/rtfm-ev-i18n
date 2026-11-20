@@ -6356,6 +6356,8 @@
   },
   "settings_db_backup_desc": null,
   "settings_db_backup_download": null,
+  "settings_db_upstream_export_download": null,
+  "settings_db_upstream_export_desc": null,
   "settings_db_backup_server_toggle": null,
   "settings_db_backup_path_label": null,
   "settings_db_backup_path_placeholder": null,

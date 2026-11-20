@@ -19042,6 +19042,14 @@
     "value": "Back-up downloaden",
     "_ai": true
   },
+  "settings_db_upstream_export_download": {
+    "value": "Downloaden voor originele Remote Terminal",
+    "_ai": true
+  },
+  "settings_db_upstream_export_desc": {
+    "value": "Een kopie in het formaat van de originele Remote Terminal for MeshCore 3.17.1, om daar naar terug te stappen. Alleen gegevens die de originele app kent blijven behouden; gegevens en instellingen die alleen in RTFM-EV bestaan vallen weg. Berichten die hier verborgen zijn (misvormd, Spam Guard, dubbel) worden daar als gewone berichten getoond.",
+    "_ai": true
+  },
   "settings_db_backup_server_toggle": {
     "value": "Back-ups ook opslaan in een serverpad",
     "_ai": true

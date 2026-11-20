@@ -19006,6 +19006,14 @@
     "value": "Sicherung herunterladen",
     "_ai": true
   },
+  "settings_db_upstream_export_download": {
+    "value": "Für originales Remote Terminal herunterladen",
+    "_ai": true
+  },
+  "settings_db_upstream_export_desc": {
+    "value": "Eine Kopie im Format des originalen Remote Terminal for MeshCore 3.17.1, um dorthin zurückzuwechseln. Nur Daten, die die originale App kennt, bleiben erhalten; Daten und Einstellungen, die es nur in RTFM-EV gibt, entfallen. Hier ausgeblendete Nachrichten (fehlerhaft, Spam Guard, Duplikate) erscheinen dort als normale Nachrichten.",
+    "_ai": true
+  },
   "settings_db_backup_server_toggle": {
     "value": "Sicherungen auch in einem Serverpfad speichern",
     "_ai": true
