@@ -19156,6 +19156,58 @@
     "value": "sonstige",
     "_ai": true
   },
+  "settings_ha_import_heading": {
+    "value": "Aus RemoteTerm importieren (Home Assistant)",
+    "_ai": true
+  },
+  "settings_ha_import_desc": {
+    "value": "Daten aus dem RemoteTerm Add-on übernehmen: wähle ein Home Assistant Backup mit dem RemoteTerm Add-on oder lass RTFM-EV eines erstellen. Der Import ersetzt diese Datenbank beim Neustart des Add-ons. Die aktuelle Datenbank wird vorher gesichert.",
+    "_ai": true
+  },
+  "settings_ha_import_confirm": {
+    "value": "Diese Datenbank beim Neustart des Add-ons durch die RemoteTerm Daten aus {name} ersetzen? Die aktuelle Datenbank wird vorher gesichert.",
+    "_ai": true
+  },
+  "settings_ha_import_staged": {
+    "value": "Import vorbereitet. Starte das Add-on neu, um ihn anzuwenden.",
+    "_ai": true
+  },
+  "settings_ha_import_restart": {
+    "value": "Add-on jetzt neu starten",
+    "_ai": true
+  },
+  "settings_ha_import_installed": {
+    "value": "Installiert gefunden: {name}",
+    "_ai": true
+  },
+  "settings_ha_import_make_backup": {
+    "value": "Jetzt ein Backup erstellen",
+    "_ai": true
+  },
+  "settings_ha_import_none": {
+    "value": "Noch keine Home Assistant Backups mit dem RemoteTerm Add-on.",
+    "_ai": true
+  },
+  "settings_ha_import_encrypted": {
+    "value": "Verschlüsseltes Backup: erstelle eines ohne Passwort, um es zu importieren.",
+    "_ai": true
+  },
+  "settings_ha_import_import": {
+    "value": "Importieren",
+    "_ai": true
+  },
+  "ha_import_banner_text": {
+    "value": "Kommst du von RemoteTerm? Du kannst Kontakte, Kanäle und Nachrichten importieren.",
+    "_ai": true
+  },
+  "ha_import_banner_open": {
+    "value": "Import öffnen",
+    "_ai": true
+  },
+  "ha_import_banner_dismiss": {
+    "value": "Schließen",
+    "_ai": true
+  },
   "settings_radio_show_mention_ticker_label": {
     "value": "Erwähnungsticker anzeigen",
     "_ai": true
@@ -24762,6 +24814,10 @@
     "value": "Alle",
     "_ai": true
   },
+  "spam_choice_dedupe_scope_except_known": {
+    "value": "Alle außer Bekannten und vertrauten Namen",
+    "_ai": true
+  },
   "spam_set_enable_hop_rules_label": {
     "value": "Spam am Quellrepeater sperren",
     "_ai": true
@@ -24971,7 +25027,7 @@
     "_ai": true
   },
   "spam_set_dedupe_scope_help": {
-    "value": "Wessen Wiederholungen zurückgehalten werden, nachdem eine Nachricht gesehen wurde: andere Namen mit demselben Text, derselbe Name, der sich wiederholt, oder alle.",
+    "value": "Wessen Wiederholungen zurückgehalten werden, nachdem eine Nachricht gesehen wurde: andere Namen mit demselben Text, derselbe Name, der sich wiederholt, alle, oder alle außer Bekannten und vertrauten Namen (ihre Kopien erzeugen keine Regel, und die Regel lässt sie durch).",
     "_ai": true
   },
   "spam_set_dedupe_scope_risk": {

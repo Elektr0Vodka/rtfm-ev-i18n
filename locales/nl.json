@@ -19193,6 +19193,58 @@
     "value": "overig",
     "_ai": true
   },
+  "settings_ha_import_heading": {
+    "value": "Importeren uit RemoteTerm (Home Assistant)",
+    "_ai": true
+  },
+  "settings_ha_import_desc": {
+    "value": "Neem je gegevens uit de RemoteTerm add-on mee: kies een Home Assistant back-up met de RemoteTerm add-on, of laat RTFM-EV er een maken. De import vervangt deze database bij de herstart van de add-on. De huidige database wordt eerst bewaard.",
+    "_ai": true
+  },
+  "settings_ha_import_confirm": {
+    "value": "Deze database vervangen door de RemoteTerm gegevens uit {name} bij de herstart van de add-on? De huidige database wordt eerst bewaard.",
+    "_ai": true
+  },
+  "settings_ha_import_staged": {
+    "value": "Import klaargezet. Herstart de add-on om hem toe te passen.",
+    "_ai": true
+  },
+  "settings_ha_import_restart": {
+    "value": "Add-on nu herstarten",
+    "_ai": true
+  },
+  "settings_ha_import_installed": {
+    "value": "Geïnstalleerd gevonden: {name}",
+    "_ai": true
+  },
+  "settings_ha_import_make_backup": {
+    "value": "Nu een back-up maken",
+    "_ai": true
+  },
+  "settings_ha_import_none": {
+    "value": "Nog geen Home Assistant back-ups met de RemoteTerm add-on.",
+    "_ai": true
+  },
+  "settings_ha_import_encrypted": {
+    "value": "Versleutelde back-up: maak er een zonder wachtwoord om te importeren.",
+    "_ai": true
+  },
+  "settings_ha_import_import": {
+    "value": "Importeren",
+    "_ai": true
+  },
+  "ha_import_banner_text": {
+    "value": "Kom je van RemoteTerm? Je kunt de contacten, kanalen en berichten importeren.",
+    "_ai": true
+  },
+  "ha_import_banner_open": {
+    "value": "Import openen",
+    "_ai": true
+  },
+  "ha_import_banner_dismiss": {
+    "value": "Sluiten",
+    "_ai": true
+  },
   "settings_radio_show_mention_ticker_label": {
     "value": "Vermeldingsticker Tonen",
     "_ai": true
@@ -24804,6 +24856,10 @@
     "value": "Iedereen",
     "_ai": true
   },
+  "spam_choice_dedupe_scope_except_known": {
+    "value": "Iedereen behalve bekenden en vertrouwde namen",
+    "_ai": true
+  },
   "spam_set_enable_hop_rules_label": {
     "value": "Spam blokkeren bij de bronrepeater",
     "_ai": true
@@ -25013,7 +25069,7 @@
     "_ai": true
   },
   "spam_set_dedupe_scope_help": {
-    "value": "Wiens herhalingen worden tegengehouden nadat een bericht is gezien: andere namen die dezelfde tekst sturen, dezelfde naam die zichzelf herhaalt, of iedereen.",
+    "value": "Wiens herhalingen worden tegengehouden nadat een bericht is gezien: andere namen die dezelfde tekst sturen, dezelfde naam die zichzelf herhaalt, iedereen, of iedereen behalve bekenden en vertrouwde namen (hun kopieën maken geen regel, en de regel laat hen door).",
     "_ai": true
   },
   "spam_set_dedupe_scope_risk": {
