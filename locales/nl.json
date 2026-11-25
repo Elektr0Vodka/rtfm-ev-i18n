@@ -546,6 +546,76 @@
     "value": "Vermeldingen",
     "_ai": true
   },
+  "nav_bookmarks": {
+    "value": "Bladwijzers",
+    "_ai": true
+  },
+  "buddy_tip_bookmarks": {
+    "value": "Berichten met een bladwijzer, nieuwste eerst. Klik erop om ernaartoe te springen, voeg een notitie toe of exporteer ze allemaal.",
+    "_ai": true
+  },
+  "bookmarks_refresh": {
+    "value": "Bladwijzers vernieuwen",
+    "_ai": true
+  },
+  "bookmarks_empty": {
+    "value": "Nog geen bladwijzers. Gebruik de bladwijzerknop bij een bericht om er een toe te voegen.",
+    "_ai": true
+  },
+  "bookmarks_empty_chat": {
+    "value": "Geen bladwijzers in deze chat.",
+    "_ai": true
+  },
+  "bookmarks_sender_you": {
+    "value": "Jij",
+    "_ai": true
+  },
+  "bookmarks_export_md": {
+    "value": "Alle bladwijzers exporteren als Markdown",
+    "_ai": true
+  },
+  "bookmarks_export_md_short": null,
+  "bookmarks_export_csv": {
+    "value": "Alle bladwijzers exporteren als CSV",
+    "_ai": true
+  },
+  "bookmarks_export_csv_short": null,
+  "chat_bookmark_action": {
+    "value": "Bladwijzer toevoegen",
+    "_ai": true
+  },
+  "chat_remove_bookmark_action": {
+    "value": "Bladwijzer verwijderen",
+    "_ai": true
+  },
+  "chat_bookmark_note_action": {
+    "value": "Notitie bij bladwijzer",
+    "_ai": true
+  },
+  "chat_bookmark_note_label": {
+    "value": "Notitie",
+    "_ai": true
+  },
+  "chat_bookmark_note_placeholder": {
+    "value": "Waarom je dit bewaart (optioneel)",
+    "_ai": true
+  },
+  "chat_bookmark_note_save": {
+    "value": "Opslaan",
+    "_ai": true
+  },
+  "chat_bookmarked_title": {
+    "value": "Bladwijzer",
+    "_ai": true
+  },
+  "chat_filter_bookmarked_only": {
+    "value": "Alleen bladwijzers",
+    "_ai": true
+  },
+  "chat_filter_bookmarked_only_hint": {
+    "value": "Toont de bladwijzers van deze chat. Klik erop om ernaartoe te springen.",
+    "_ai": true
+  },
   "mentions_refresh": {
     "value": "Vermeldingen vernieuwen",
     "_ai": true
@@ -4133,6 +4203,19 @@
     "value": "meshcore-open-afbeelding, id {id}, {chunks} deel/delen. Afbeeldingen worden niet gedecodeerd door RTFM-EV.",
     "_ai": true
   },
+  "chat_mcoimg_alt": {
+    "value": "Afbeelding uit de mesh ({width}×{height})",
+    "_ai": true
+  },
+  "chat_mcoimg_detail": null,
+  "chat_mcoimg_undecodable": {
+    "value": "Afbeelding (niet te decoderen)",
+    "_ai": true
+  },
+  "chat_mcoimg_undecodable_detail": {
+    "value": "MCOimg v3-afbeelding, {bytes} bytes. De gegevens konden niet worden gedecodeerd.",
+    "_ai": true
+  },
   "chat_group_data_placeholder": {
     "value": "Data (niet ondersteund)",
     "_ai": true
@@ -4702,7 +4785,7 @@
     "_ai": true
   },
   "companion_bridge_read_only": {
-    "value": "Verzenden vanuit apps staat uit (MESHCORE_COMPANION_BRIDGE_ALLOW_SEND=false): ze kunnen lezen, niet verzenden.",
+    "value": "Verzenden vanuit apps staat uit (MESHCORE_COMPANION_BRIDGE_ALLOW_SEND=false): ze kunnen lezen, maar niets verzenden of wijzigen.",
     "_ai": true
   },
   "companion_bridge_client_named": {
@@ -4714,7 +4797,7 @@
     "_ai": true
   },
   "companion_bridge_help": {
-    "value": "Verbind in de MeshCore-app via TCP / wifi met het adres en de poort van deze server. De app ziet je radio, de contacten en kanalen van RTFM-EV en de berichten die RTFM-EV ontvangt, en verzendt via RTFM-EV. Radio-instellingen, sleutels en CLI blijven buiten bereik.",
+    "value": "Verbind in de MeshCore-app via TCP / wifi met het adres en de poort van deze server. De app ziet je radio, de contacten en kanalen van RTFM-EV en de berichten die RTFM-EV ontvangt, en RTFM-EV voert zijn opdrachten uit, ook radio-instellingen, CLI, sleutel exporteren en importeren, herstarten en fabrieksreset. Geen wachtwoord: alleen op een vertrouwd netwerk.",
     "_ai": true
   },
   "tak_stream_title": {
@@ -7604,6 +7687,18 @@
     "value": "Toon een kleine kaart onder gedeelde locatieberichten. Laadt kaarttegels van internet en staat daarom standaard uit.",
     "_ai": true
   },
+  "chat_smaz_indicator_title": {
+    "value": "SMAZ-gecomprimeerd ontvangen",
+    "_ai": true
+  },
+  "settings_smaz_indicator_label": {
+    "value": "Compressie-indicator tonen",
+    "_ai": true
+  },
+  "settings_smaz_indicator_desc": {
+    "value": "Toon een klein icoon bij ontvangen berichten die SMAZ-gecomprimeerd binnenkwamen (gecomprimeerd verstuurd door MeshCore Open). Berichten die voor deze versie zijn opgeslagen krijgen geen markering. Standaard uit.",
+    "_ai": true
+  },
   "settings_path_hop_width_label": {
     "value": "Padhopbreedte tonen",
     "_ai": true
@@ -9107,8 +9202,8 @@
   },
   "settings_retention_messages_confirm": {
     "plural": {
-      "one": "{count} bericht ouder dan {days} dagen wordt bij de volgende opruimrun definitief verwijderd, samen met het ruwe pakket. Doorgaan?",
-      "other": "{count} berichten ouder dan {days} dagen worden bij de volgende opruimrun definitief verwijderd, samen met hun ruwe pakketten. Doorgaan?"
+      "one": "{count} bericht ouder dan {days} dagen wordt bij de volgende opruimrun definitief verwijderd, samen met het ruwe pakket. Berichten met een bladwijzer blijven bewaard. Doorgaan?",
+      "other": "{count} berichten ouder dan {days} dagen worden bij de volgende opruimrun definitief verwijderd, samen met hun ruwe pakketten. Berichten met een bladwijzer blijven bewaard. Doorgaan?"
     },
     "_ai": true
   },
@@ -18278,6 +18373,30 @@
     "value": "Route op kaart",
     "_ai": true
   },
+  "path_modal_copy_reverse_button": {
+    "value": "Omgekeerd pad kopiëren",
+    "_ai": true
+  },
+  "path_modal_copy_reverse_title": {
+    "value": "Kopieer de route terug naar de afzender ({route}) om als route-override te gebruiken",
+    "_ai": true
+  },
+  "path_modal_copy_reverse_disabled_direct": {
+    "value": "Direct pad: er zijn geen hops om om te keren",
+    "_ai": true
+  },
+  "path_modal_copy_reverse_disabled_width": {
+    "value": "De hopgrootte van dit pad is onbekend, dus het kan niet veilig worden omgekeerd",
+    "_ai": true
+  },
+  "path_modal_copy_reverse_copied": {
+    "value": "Omgekeerd pad gekopieerd: {route}",
+    "_ai": true
+  },
+  "path_modal_copy_reverse_failed": {
+    "value": "Kopiëren naar het klembord is mislukt",
+    "_ai": true
+  },
   "path_modal_map_all_routes_button": {
     "value": "Alle {count} routes op kaart",
     "_ai": true
@@ -18356,6 +18475,13 @@
     "plural": {
       "one": "(en {count} meer)",
       "other": "(en {count} meer)"
+    },
+    "_ai": true
+  },
+  "path_modal_ignored_far_matches": {
+    "plural": {
+      "one": "{count} andere match genegeerd: te ver weg voor deze hop",
+      "other": "{count} andere matches genegeerd: te ver weg voor deze hop"
     },
     "_ai": true
   },
@@ -21284,7 +21410,7 @@
     "_ai": true
   },
   "mesh_filter_bots_none_enabled": {
-    "value": "Geen botlijst aan (Instellingen, Botlijsten)",
+    "value": "Geen botlijst aan (Spam Guard, Botlijsten)",
     "_ai": true
   },
   "mesh_filter_bots_flagged_sub": {
@@ -23111,6 +23237,14 @@
     "value": "Botlijsten",
     "_ai": true
   },
+  "settings_bot_lists_open": {
+    "value": "Botlijsten openen",
+    "_ai": true
+  },
+  "settings_bot_lists_moved": {
+    "value": "Botlijsten, Bots verbergen in chat en de namen die nooit een bot zijn staan nu op een eigen tabblad van de Spam Guard-pagina. Ze werken ook als Spam Guard uit staat.",
+    "_ai": true
+  },
   "settings_bot_lists_desc": {
     "value": "Lijsten met bekende bots. Een ingeschakelde lijst markeert de afzenders in de chat. Namen worden exact vergeleken, dus iemand met dezelfde naam wordt ook gemarkeerd.",
     "_ai": true
@@ -23264,7 +23398,7 @@
     "_ai": true
   },
   "spam_bot_forward_where": {
-    "value": "Beheer ze in Instellingen > Lokale configuratie > Botlijsten.",
+    "value": "Beheer ze op het tabblad Botlijsten.",
     "_ai": true
   },
   "settings_bot_lists_source_local": {
@@ -23529,6 +23663,10 @@
     "value": "Spambronnen",
     "_ai": true
   },
+  "spam_tab_bot_lists": {
+    "value": "Botlijsten",
+    "_ai": true
+  },
   "spam_tab_settings": {
     "value": "Instellingen",
     "_ai": true
@@ -23546,7 +23684,7 @@
     "_ai": true
   },
   "spam_disabled_notice": {
-    "value": "Spam Guard staat uit. Zet het aan in Instellingen, onder Spambescherming.",
+    "value": "Spam Guard staat uit, dus hier staat alleen Botlijsten: botlijsten werken ook zonder. Zet Spam Guard aan in Instellingen, onder Spambescherming, voor de andere tabbladen.",
     "_ai": true
   },
   "spam_mode_label": {
@@ -24590,6 +24728,14 @@
   },
   "spam_exceptions_senders_help": {
     "value": "Tellen nooit als willekeurig en komen altijd door de blokkades die mensen tegenhouden. Namen kunnen worden nagemaakt. Deze lijst is van jou: hij blijft staan als je de instellingen of het geleerde reset.",
+    "_ai": true
+  },
+  "spam_senders_switch": {
+    "value": "De lijst Vertrouwde namen gebruiken",
+    "_ai": true
+  },
+  "spam_senders_off": {
+    "value": "Uit: de namen op deze lijst worden niet vertrouwd, dus een spammer die een van die namen nadoet komt er niet door. De lijst blijft staan: zet hem weer aan en de namen worden weer vertrouwd.",
     "_ai": true
   },
   "spam_contacts_title": {

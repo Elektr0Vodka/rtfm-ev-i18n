@@ -546,6 +546,76 @@
     "value": "Erwähnungen",
     "_ai": true
   },
+  "nav_bookmarks": {
+    "value": "Lesezeichen",
+    "_ai": true
+  },
+  "buddy_tip_bookmarks": {
+    "value": "Nachrichten mit Lesezeichen, neueste zuerst. Klicke darauf, um dorthin zu springen, füge eine Notiz hinzu oder exportiere alle.",
+    "_ai": true
+  },
+  "bookmarks_refresh": {
+    "value": "Lesezeichen aktualisieren",
+    "_ai": true
+  },
+  "bookmarks_empty": {
+    "value": "Noch keine Lesezeichen. Nutze die Lesezeichen-Schaltfläche an einer Nachricht, um eines hinzuzufügen.",
+    "_ai": true
+  },
+  "bookmarks_empty_chat": {
+    "value": "Keine Lesezeichen in diesem Chat.",
+    "_ai": true
+  },
+  "bookmarks_sender_you": {
+    "value": "Du",
+    "_ai": true
+  },
+  "bookmarks_export_md": {
+    "value": "Alle Lesezeichen als Markdown exportieren",
+    "_ai": true
+  },
+  "bookmarks_export_md_short": null,
+  "bookmarks_export_csv": {
+    "value": "Alle Lesezeichen als CSV exportieren",
+    "_ai": true
+  },
+  "bookmarks_export_csv_short": null,
+  "chat_bookmark_action": {
+    "value": "Lesezeichen setzen",
+    "_ai": true
+  },
+  "chat_remove_bookmark_action": {
+    "value": "Lesezeichen entfernen",
+    "_ai": true
+  },
+  "chat_bookmark_note_action": {
+    "value": "Notiz zum Lesezeichen",
+    "_ai": true
+  },
+  "chat_bookmark_note_label": {
+    "value": "Notiz",
+    "_ai": true
+  },
+  "chat_bookmark_note_placeholder": {
+    "value": "Warum du dir das merkst (optional)",
+    "_ai": true
+  },
+  "chat_bookmark_note_save": {
+    "value": "Speichern",
+    "_ai": true
+  },
+  "chat_bookmarked_title": {
+    "value": "Lesezeichen",
+    "_ai": true
+  },
+  "chat_filter_bookmarked_only": {
+    "value": "Nur Lesezeichen",
+    "_ai": true
+  },
+  "chat_filter_bookmarked_only_hint": {
+    "value": "Zeigt die Lesezeichen dieses Chats. Klicke darauf, um dorthin zu springen.",
+    "_ai": true
+  },
   "mentions_refresh": {
     "value": "Erwähnungen aktualisieren",
     "_ai": true
@@ -4114,6 +4184,22 @@
     "value": "meshcore-open-Bild, ID {id}, {chunks} Teil(e). Bilder werden von RTFM-EV nicht dekodiert.",
     "_ai": true
   },
+  "chat_mcoimg_alt": {
+    "value": "Bild aus dem Mesh ({width}×{height})",
+    "_ai": true
+  },
+  "chat_mcoimg_detail": {
+    "value": "MCOimg v3, {width}×{height} px, {bytes} Bytes",
+    "_ai": true
+  },
+  "chat_mcoimg_undecodable": {
+    "value": "Bild (nicht dekodierbar)",
+    "_ai": true
+  },
+  "chat_mcoimg_undecodable_detail": {
+    "value": "MCOimg-v3-Bild, {bytes} Bytes. Die Daten ließen sich nicht dekodieren.",
+    "_ai": true
+  },
   "chat_group_data_placeholder": {
     "value": "Daten (nicht unterstützt)",
     "_ai": true
@@ -4673,7 +4759,7 @@
     "_ai": true
   },
   "companion_bridge_read_only": {
-    "value": "Senden aus Apps ist aus (MESHCORE_COMPANION_BRIDGE_ALLOW_SEND=false): sie können lesen, nicht senden.",
+    "value": "Senden aus Apps ist aus (MESHCORE_COMPANION_BRIDGE_ALLOW_SEND=false): sie können lesen, aber nichts senden oder ändern.",
     "_ai": true
   },
   "companion_bridge_client_named": {
@@ -4685,7 +4771,7 @@
     "_ai": true
   },
   "companion_bridge_help": {
-    "value": "Verbinde dich in der MeshCore-App per TCP / WLAN mit Adresse und Port dieses Servers. Die App sieht dein Funkgerät, die Kontakte und Kanäle von RTFM-EV und die Nachrichten, die RTFM-EV empfängt, und sendet über RTFM-EV. Funkeinstellungen, Schlüssel und CLI bleiben außer Reichweite.",
+    "value": "Verbinde dich in der MeshCore-App per TCP / WLAN mit Adresse und Port dieses Servers. Die App sieht dein Funkgerät, die Kontakte und Kanäle von RTFM-EV und die Nachrichten, die RTFM-EV empfängt, und RTFM-EV führt ihre Befehle aus, auch Funkeinstellungen, CLI, Schlüssel-Export und -Import, Neustart und Werksreset. Kein Passwort: nur im vertrauenswürdigen Netz.",
     "_ai": true
   },
   "tak_stream_title": {
@@ -7567,6 +7653,18 @@
     "value": "Zeigt eine kleine Karte unter geteilten Standortnachrichten. Lädt Kartenkacheln aus dem Internet und ist daher standardmäßig aus.",
     "_ai": true
   },
+  "chat_smaz_indicator_title": {
+    "value": "SMAZ-komprimiert empfangen",
+    "_ai": true
+  },
+  "settings_smaz_indicator_label": {
+    "value": "Komprimierungsanzeige einblenden",
+    "_ai": true
+  },
+  "settings_smaz_indicator_desc": {
+    "value": "Zeigt ein kleines Symbol bei empfangenen Nachrichten, die SMAZ-komprimiert ankamen (von MeshCore Open komprimiert gesendet). Nachrichten, die vor dieser Version gespeichert wurden, werden nicht markiert. Standardmäßig deaktiviert.",
+    "_ai": true
+  },
   "settings_path_hop_width_label": {
     "value": "Pfad-Hop-Breite anzeigen",
     "_ai": true
@@ -9108,8 +9206,8 @@
   },
   "settings_retention_messages_confirm": {
     "plural": {
-      "one": "{count} Nachricht älter als {days} Tage wird beim nächsten Bereinigungslauf endgültig gelöscht, zusammen mit ihrem Rohpaket. Fortfahren?",
-      "other": "{count} Nachrichten älter als {days} Tage werden beim nächsten Bereinigungslauf endgültig gelöscht, zusammen mit ihren Rohpaketen. Fortfahren?"
+      "one": "{count} Nachricht älter als {days} Tage wird beim nächsten Bereinigungslauf endgültig gelöscht, zusammen mit ihrem Rohpaket. Nachrichten mit Lesezeichen bleiben erhalten. Fortfahren?",
+      "other": "{count} Nachrichten älter als {days} Tage werden beim nächsten Bereinigungslauf endgültig gelöscht, zusammen mit ihren Rohpaketen. Nachrichten mit Lesezeichen bleiben erhalten. Fortfahren?"
     },
     "_ai": true
   },
@@ -18248,6 +18346,30 @@
     "value": "Route auf Karte",
     "_ai": true
   },
+  "path_modal_copy_reverse_button": {
+    "value": "Umgekehrten Pfad kopieren",
+    "_ai": true
+  },
+  "path_modal_copy_reverse_title": {
+    "value": "Route zurück zum Absender ({route}) als Routing-Override kopieren",
+    "_ai": true
+  },
+  "path_modal_copy_reverse_disabled_direct": {
+    "value": "Direkter Pfad: keine Hops zum Umkehren",
+    "_ai": true
+  },
+  "path_modal_copy_reverse_disabled_width": {
+    "value": "Die Hop-Größe dieses Pfads ist unbekannt, daher kann er nicht sicher umgekehrt werden",
+    "_ai": true
+  },
+  "path_modal_copy_reverse_copied": {
+    "value": "Umgekehrter Pfad kopiert: {route}",
+    "_ai": true
+  },
+  "path_modal_copy_reverse_failed": {
+    "value": "Kopieren in die Zwischenablage fehlgeschlagen",
+    "_ai": true
+  },
   "path_modal_map_all_routes_button": {
     "value": "Alle {count} Routen auf Karte",
     "_ai": true
@@ -18325,6 +18447,13 @@
     "plural": {
       "one": "(und {count} weitere)",
       "other": "(und {count} weitere)"
+    },
+    "_ai": true
+  },
+  "path_modal_ignored_far_matches": {
+    "plural": {
+      "one": "{count} weiterer Treffer ignoriert: zu weit entfernt für diesen Hop",
+      "other": "{count} weitere Treffer ignoriert: zu weit entfernt für diesen Hop"
     },
     "_ai": true
   },
@@ -21251,7 +21380,7 @@
     "_ai": true
   },
   "mesh_filter_bots_none_enabled": {
-    "value": "Keine Botliste aktiv (Einstellungen, Botlisten)",
+    "value": "Keine Botliste aktiv (Spam Guard, Botlisten)",
     "_ai": true
   },
   "mesh_filter_bots_flagged_sub": {
@@ -23066,6 +23195,14 @@
     "value": "Botlisten",
     "_ai": true
   },
+  "settings_bot_lists_open": {
+    "value": "Botlisten öffnen",
+    "_ai": true
+  },
+  "settings_bot_lists_moved": {
+    "value": "Botlisten, Bots im Chat ausblenden und die Namen, die nie ein Bot sind, haben jetzt einen eigenen Tab auf der Spam-Guard-Seite. Sie funktionieren auch bei ausgeschaltetem Spam Guard.",
+    "_ai": true
+  },
   "settings_bot_lists_desc": {
     "value": "Listen bekannter Bots. Eine aktivierte Liste markiert ihre Absender im Chat. Namen werden exakt verglichen, daher wird auch eine Person mit demselben Namen markiert.",
     "_ai": true
@@ -23219,7 +23356,7 @@
     "_ai": true
   },
   "spam_bot_forward_where": {
-    "value": "Verwalte sie unter Einstellungen > Lokale Konfiguration > Botlisten.",
+    "value": "Verwalte sie im Tab Botlisten.",
     "_ai": true
   },
   "settings_bot_lists_source_local": {
@@ -23484,6 +23621,10 @@
     "value": "Spamquellen",
     "_ai": true
   },
+  "spam_tab_bot_lists": {
+    "value": "Botlisten",
+    "_ai": true
+  },
   "spam_tab_settings": {
     "value": "Einstellungen",
     "_ai": true
@@ -23501,7 +23642,7 @@
     "_ai": true
   },
   "spam_disabled_notice": {
-    "value": "Spam Guard ist ausgeschaltet. Schalte es in den Einstellungen unter Spamschutz ein.",
+    "value": "Spam Guard ist ausgeschaltet, daher wird hier nur Botlisten angezeigt: Botlisten funktionieren auch ohne. Schalte Spam Guard in den Einstellungen unter Spamschutz ein, um die anderen Tabs zu sehen.",
     "_ai": true
   },
   "spam_mode_label": {
@@ -24548,6 +24689,14 @@
   },
   "spam_exceptions_senders_help": {
     "value": "Gelten nie als zufällig und kommen immer durch die Sperren, die Personen zurückhalten. Namen lassen sich fälschen. Diese Liste gehört dir: Sie bleibt, wenn du die Einstellungen oder das Gelernte zurücksetzt.",
+    "_ai": true
+  },
+  "spam_senders_switch": {
+    "value": "Die Liste Vertrauenswürdige Namen verwenden",
+    "_ai": true
+  },
+  "spam_senders_off": {
+    "value": "Aus: Den Namen auf dieser Liste wird nicht vertraut, ein Spammer, der einen davon nachahmt, kommt also nicht durch. Die Liste bleibt: Schalte sie wieder ein, und den Namen wird wieder vertraut.",
     "_ai": true
   },
   "spam_contacts_title": {
