@@ -8734,6 +8734,18 @@
     "value": "Kleuren liggen {offset} dB naast de gemeten waarde (kalibratie en verzwakker)",
     "_ai": true
   },
+  "wardrive_page_hud_trend_warmer": {
+    "value": "Warmer: {delta} dB sterker dan de drie metingen ervoor",
+    "_ai": true
+  },
+  "wardrive_page_hud_trend_colder": {
+    "value": "Kouder: {delta} dB zwakker dan de drie metingen ervoor",
+    "_ai": true
+  },
+  "wardrive_page_hud_trend_steady": {
+    "value": "Gelijk: minder dan {band} dB verschil met de drie metingen ervoor",
+    "_ai": true
+  },
   "wardrive_page_attenuator_heading": {
     "value": "Verzwakker",
     "_ai": true

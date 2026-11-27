@@ -8717,6 +8717,18 @@
     "value": "Farben liegen {offset} dB neben dem gemessenen Wert (Kalibrierung und Dämpfungsglied)",
     "_ai": true
   },
+  "wardrive_page_hud_trend_warmer": {
+    "value": "Wärmer: {delta} dB stärker als die drei Messungen davor",
+    "_ai": true
+  },
+  "wardrive_page_hud_trend_colder": {
+    "value": "Kälter: {delta} dB schwächer als die drei Messungen davor",
+    "_ai": true
+  },
+  "wardrive_page_hud_trend_steady": {
+    "value": "Gleich: weniger als {band} dB Unterschied zu den drei Messungen davor",
+    "_ai": true
+  },
   "wardrive_page_attenuator_heading": {
     "value": "Dämpfungsglied",
     "_ai": true
